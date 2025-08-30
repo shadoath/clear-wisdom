@@ -1,5 +1,35 @@
 [
   {
+    "id": "2019-08-29-ideas-1",
+    "quote": "\"You know yourself mostly by your thoughts.\n\nEveryone else in the world knows you only by your actions.\n\nRemember this when you feel misunderstood. You have to do or say something for others to know how you feel.\"",
+    "intro": "On being misunderstood",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-29-2019",
+    "author": "James Clear",
+    "date": "2019-08-29",
+    "section": "Ideas",
+    "explanation": "A reminder that internal thoughts are invisible to others - communication through actions and words is essential for understanding"
+  },
+  {
+    "id": "2019-08-29-ideas-2",
+    "quote": "\"A strategy for thinking clearly: Rather than trying to be right, assume you are wrong and try to be less wrong.\n\nTrying to be right has a tendency to devolve into protecting your beliefs.\n\nTrying to be less wrong has a tendency to prompt more questions and intellectual humility.\"",
+    "intro": "On intellectual humility",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-29-2019",
+    "author": "James Clear",
+    "date": "2019-08-29",
+    "section": "Ideas",
+    "explanation": "A mental model that encourages continuous learning and questioning rather than defending fixed positions"
+  },
+  {
+    "id": "2019-08-29-ideas-3",
+    "quote": "\"Habits will form whether you want them or not.\n\nWhatever you repeat, you reinforce.\"",
+    "intro": "On habit formation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-29-2019",
+    "author": "James Clear",
+    "date": "2019-08-29",
+    "section": "Ideas",
+    "explanation": "A fundamental truth about habits - they form automatically through repetition, whether intentional or not"
+  },
+  {
     "id": "2019-08-22-ideas-1",
     "quote": "\"Qualities that lead to increasing intelligence:\n\n1. The curiosity to experiment and explore.\n2. The honesty to observe the world as it is, not as you wish it to be.\n3. The humility to kill your favorite ideas when you learn something new.\n4. The consistency to repeat this cycle for life.\"",
     "intro": "On increasing intelligence",
@@ -67,7 +97,6 @@
     "author": "James Clear",
     "date": "2019-08-08",
     "section": "Ideas",
-    "explanation": "A reflection on how we inherit collective wisdom from all who came before us"
   },
   {
     "id": "2019-08-08-ideas-2",
