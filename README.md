@@ -32,8 +32,45 @@ A Chrome extension that displays wisdom quotes from James Clear's 3-2-1 newslett
 All quotes are sourced from James Clear's 3-2-1 newsletter, which features:
 
 - 3 ideas from James Clear
+  ```js
+  {
+    "id": "2019-08-08-ideas-1",
+    "quote": "...",
+    "intro": "...",
+    "newsletter_link": "...",
+    "author": "...",
+    "date": "...",
+    "section": "...",
+    "explanation": "..."
+  }
+  ```
 - 2 quotes from others
+  ```js
+  {
+    "id": "2019-08-08-quotes-1",
+    "quote": "...",
+    "intro": "...",
+    "newsletter_link": "...",
+    "source_link": "...",
+    "author": "...",
+    "date": "...",
+    "section": "...",
+    "explanation": "..."
+  }
+  ```
 - 1 question to consider
+  ```js
+  {
+    "id": "2019-08-08-question",
+    "quote": "...",
+    "intro": "...",
+    "newsletter_link": "...",
+    "author": "...",
+    "date": "...",
+    "section": "...",
+    "explanation": "..."
+  }
+  ```
 
 ## License
 
