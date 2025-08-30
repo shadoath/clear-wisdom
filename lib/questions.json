@@ -1,12 +1,29 @@
 [
   {
+    "id": "2019-08-22-question",
+    "quote": "Can my current habits carry me to my desired future?",
+    "intro": "On habits and future outcomes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-22-2019",
+    "author": "James Clear",
+    "date": "2019-08-22",
+    "section": "Questions"
+  },
+  {
+    "id": "2019-08-15-question",
+    "quote": "What are the most likely sources of pain in my life over the next year? How can I prepare for or prevent them?",
+    "intro": "On anticipating future challenges",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-15-2019",
+    "author": "James Clear",
+    "date": "2019-08-15",
+    "section": "Questions"
+  },
+  {
     "id": "2019-08-08-question",
-    "quote": "Finally, here's a tough question to consider this week:\n\nHow long will you put off what you are capable of doing just to continue what you are comfortable doing?",
+    "quote": "How long will you put off what you are capable of doing just to continue what you are comfortable doing?",
     "intro": "On comfort vs. capability",
     "newsletter_link": "https://jamesclear.com/3-2-1/august-8-2019",
     "author": "James Clear",
     "date": "2019-08-08",
-    "section": "Questions",
-    "explanation": "A challenging question about the cost of staying in your comfort zone"
+    "section": "Questions"
   }
 ]

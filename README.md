@@ -68,7 +68,6 @@ All quotes are sourced from James Clear's 3-2-1 newsletter, which features:
     "author": "...",
     "date": "...",
     "section": "...",
-    "explanation": "..."
   }
   ```
 
