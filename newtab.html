@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>New Clear Wisdom</title>
+    <link rel="stylesheet" href="newtab.css">
+
+    <script type="text/javascript" src="/lib/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <div id="text-container">
+      <div id="search-container">
+        <span id="search-icon">
+          <img src="./images/search.svg" alt="" />
+        </span>
+        <div id="search-and-exchange">
+          <input id="search-wisdom-quotes" placeholder="Search wisdom quotes" autocomplete="off"></input>
+        </div>
+        <div id="quote" alt="quote"></div>
+        <div id="author" alt="author"></div>
+        <div id="explanation" alt="explanation"></div>
+      </div>
+      <div class="change">
+        <div id="refresh" class="refresh">
+          <img src="./images/refresh.png" alt="refresh button" />
+        </div>
+      </div>
+      <div class="switch-mode">
+        <div id="ideasSelect" class="mode">
+          <span class="refresh-type">Ideas</span>
+        </div>
+        <div id="quotesSelect" class="mode">
+          <span class="refresh-type">Quotes</span>
+        </div>
+        <div id="questionsSelect" class="mode">
+          <span class="refresh-type">Questions</span>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="current-options">
+        <div id="count" title="Number of times viewed"></div>
+        <div id="favorite">
+          <img class="heart-light" src="./images/heart-light.svg" alt="" />
+          <img class="heart-solid" src="./images/heart-solid.svg" alt="" />
+        </div>
+      </div>
+      <div class="authors">
+        <div id="creator">
+          Content by <a href="https://jamesclear.com/3-2-1" target="none">James Clear</a>
+        </div>
+        <div class="developer">
+          Developed by <a href="https://github.com/shadoath" target="none">Shadoath</a>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="newtab.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>
