@@ -1,5 +1,25 @@
 [
   {
+    "id": "2019-11-07-quotes-1",
+    "quote": "**Scott Adams**, author and creator of the Dilbert comic strip, on the price of success:\n\n\"If you want to be successful, find out what the price is and then pay it.\"",
+    "intro": "On the price of success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-7-2019",
+    "author": "Scott Adams",
+    "date": "2019-11-07",
+    "section": "Quotes",
+    "explanation": "Scott Adams' straightforward advice that success requires understanding and accepting the necessary costs, rather than trying to avoid them"
+  },
+  {
+    "id": "2019-11-07-quotes-2",
+    "quote": "Writer **Rudyard Kipling** also on the price of success:\n\n\"If you don't get what you want, it's a sign either that you did not seriously want it, or that you tried to bargain over the price.\"",
+    "intro": "On wanting vs. paying the price",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-7-2019",
+    "author": "Rudyard Kipling",
+    "date": "2019-11-07",
+    "section": "Quotes",
+    "explanation": "Rudyard Kipling's insight that failure to achieve goals often stems from either insufficient desire or unwillingness to pay the full price required"
+  },
+  {
     "id": "2019-10-31-quotes-1",
     "quote": "Widely-respected investor **Charlie Munger** on how to avoid falling victim to intense ideology and unclear thinking:\n\n\"I have what I call an 'iron prescription' that helps me keep sane when I drift toward preferring one intense ideology over another. I feel that I'm not entitled to have an opinion unless I can state the arguments against my position better than the people who are in opposition. I think that I'm qualified to speak only when I've reached that state…\n\n\"That is probably too tough for most people, although I hope it won't ever become too tough for me… This business of not drifting into extreme ideology is very, very important in life. If you want to end up wise, heavy ideology is very likely to prevent that outcome.\"",
     "intro": "On avoiding extreme ideology",
