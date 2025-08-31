@@ -1,5 +1,25 @@
 [
   {
+    "id": "2019-10-24-quotes-1",
+    "quote": "Entrepreneur and investor **Sam Altman** on the importance of focus:\n\n\"Focus is a force multiplier on work. Almost everyone I've ever met would be well-served by spending more time thinking about what to focus on. It is much more important to work on the right thing than it is to work many hours. Most people waste most of their time on stuff that doesn't matter.\n\n\"Once you have figured out what to do, be unstoppable about getting your small handful of priorities accomplished quickly. I have yet to meet a slow-moving person who is very successful.\"",
+    "intro": "On the importance of focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-24-2019",
+    "author": "Sam Altman",
+    "date": "2019-10-24",
+    "section": "Quotes",
+    "explanation": "Sam Altman's insight that focus acts as a force multiplier, emphasizing that working on the right things is more important than working long hours, and that speed of execution matters"
+  },
+  {
+    "id": "2019-10-24-quotes-2",
+    "quote": "A quote from Japanese author and Buddhist monk **Yoshida Kenko** way back in 1330(!) on the value of reading books:\n\n\"It is a most wonderful comfort to sit alone beneath a lamp, book spread before you, and commune with someone from the past whom you have never met.\"",
+    "intro": "On the value of reading books",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-24-2019",
+    "author": "Yoshida Kenko",
+    "date": "2019-10-24",
+    "section": "Quotes",
+    "explanation": "Yoshida Kenko's timeless observation about the intimate connection readers can form with authors across centuries, highlighting the enduring power of books to bridge time and space"
+  },
+  {
     "id": "2019-10-17-quotes-1",
     "quote": "The first comes from French-Swiss film director **Jean-Luc Godard:**\n\n\"He who jumps into the void owes no explanation to those who stand and watch.\"",
     "intro": "On taking risks",
