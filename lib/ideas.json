@@ -1,5 +1,35 @@
 [
   {
+    "id": "2019-11-14-ideas-1",
+    "quote": "\"The surest way to prevent yourself from learning a topic is to believe you already know it.\"",
+    "intro": "On beginner's mind",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-14-2019",
+    "author": "James Clear",
+    "date": "2019-11-14",
+    "section": "Ideas",
+    "explanation": "A concise reminder about the importance of maintaining a beginner's mindset, showing how overconfidence can be the biggest barrier to continued learning and growth"
+  },
+  {
+    "id": "2019-11-14-ideas-2",
+    "quote": "\"The longer I live, the more I notice how valuable it is to do one simple thing: be kind.\n\n– When someone does a good job, tell them.\n– When someone makes a mistake, forgive them.\n– When someone tells you their problems, listen.\n\nBeing kind barely costs a thing. You'll hardly remember you did it, but the other person may never forget that you did.\"",
+    "intro": "On the value of kindness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-14-2019",
+    "author": "James Clear",
+    "date": "2019-11-14",
+    "section": "Ideas",
+    "explanation": "A reflection on how simple acts of kindness have disproportionate impact, with specific examples of recognition, forgiveness, and listening that cost little but mean much to others"
+  },
+  {
+    "id": "2019-11-14-ideas-3",
+    "quote": "For my final thought, a quote from _Atomic Habits_:\n\n\"It doesn't matter how successful or unsuccessful you are right now. What matters is whether your habits are putting you on the path toward success. You should be far more concerned with your current trajectory than with your current results. If you're a millionaire but you spend more than you earn each month, then you're on a bad trajectory; if your spending habits don't change, it's not going to end well. Conversely, if you're broke, but you save more than you spend every month, then you're on the path toward financial freedom—even if you're moving slower than you'd like.\"",
+    "intro": "On trajectory vs. current results",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-14-2019",
+    "author": "James Clear",
+    "date": "2019-11-14",
+    "section": "Ideas",
+    "explanation": "A core principle from Atomic Habits emphasizing that current trajectory matters more than current results, with concrete examples showing how habits determine long-term outcomes regardless of present circumstances"
+  },
+  {
     "id": "2019-11-07-ideas-1",
     "quote": "\"If you want to take something more seriously, do it publicly.\n\nPublishing an article pressures you to think clearly. Competing in a race pressures you to train consistently. Presenting on any topic pressures you to learn it.\n\nSocial pressure forces you to up your game.\"",
     "intro": "On using social pressure to improve",
