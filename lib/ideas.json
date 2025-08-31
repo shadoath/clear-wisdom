@@ -1,5 +1,35 @@
 [
   {
+    "id": "2019-12-19-ideas-1",
+    "quote": "\"The hardest part of solving a problem is accurately defining it.\"",
+    "intro": "On problem definition",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-19-2019",
+    "author": "James Clear",
+    "date": "2019-12-19",
+    "section": "Ideas",
+    "explanation": "A concise insight about problem-solving that emphasizes how crucial it is to correctly identify what the problem actually is before attempting to solve it"
+  },
+  {
+    "id": "2019-12-19-ideas-2",
+    "quote": "\"Before you dream about the view from the summit, ask yourself if you're willing to keep your head down, focus on the path, and spend your life walking up the side of a very big hill.\n\nIt takes years of walking to earn a minute at the top.\"",
+    "intro": "On the reality of long-term goals",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-19-2019",
+    "author": "James Clear",
+    "date": "2019-12-19",
+    "section": "Ideas",
+    "explanation": "A reality check about long-term goals, emphasizing that the journey requires years of focused effort for brief moments of achievement, requiring honest assessment of commitment"
+  },
+  {
+    "id": "2019-12-19-ideas-3",
+    "quote": "\"Hard work is not always something you can see. It is not always physical effort.\n\nIn fact, the most powerful form of hard work is thinking clearly. Designing a winning strategy may not look very active, but make no mistake: it is very hard work.\n\nStrategy often beats sweat.\"",
+    "intro": "On strategy vs. sweat",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-19-2019",
+    "author": "James Clear",
+    "date": "2019-12-19",
+    "section": "Ideas",
+    "explanation": "A reframing of hard work that emphasizes the value of strategic thinking and clear reasoning over visible physical effort, showing that mental work can be more powerful than manual labor"
+  },
+  {
     "id": "2019-12-12-ideas-1",
     "quote": "\"Your actions are your real priorities.\"",
     "intro": "On actions revealing priorities",
