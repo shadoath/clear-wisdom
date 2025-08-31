@@ -67,10 +67,11 @@ body {
   margin: 0 auto var(--spacing-xxxl) auto;
 }
 
-.mode-switcher {
+.search-category-filters {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: var(--spacing-xxxl);
+  text-align: center;
 }
 
 .page-footer {
@@ -344,20 +345,7 @@ body {
   box-shadow: 0 4px 12px var(--primary-shadow);
 }
 
-.mode-option {
-  color: #686868;
-  padding: 3px;
-  cursor: pointer;
-}
-
-.mode-option.selected {
-  color: var(--primary-color);
-  font-weight: bold;
-}
-
-.mode-option .refresh-type {
-  display: inline;
-}
+/* Removed unused mode-option styles */
 
 .content-actions {
   padding-top: var(--spacing-xxxl);

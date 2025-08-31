@@ -8,12 +8,10 @@
 const ideas = []
 const quotes = []
 const questions = []
-let currently = 'ideas'
+// Removed currently variable - now using active filters
 let search
 let refresh
-let ideasSelect
-let quotesSelect
-let questionsSelect
+// Removed old mode switching elements - now using category filters
 
 // Category filter state
 const activeFilters = {
@@ -66,11 +64,9 @@ function loadClickListeners() {
       search_for(search_text)
     } else if (search_text.length === 0) {
       // If search is cleared, restore the current display
-      $('#search-category-filters').hide()
       refreshDisplay()
     } else if (search_text.length === 1 || search_text.length === 2) {
       // Show helpful message for 1-2 characters
-      $('#search-category-filters').hide()
       showSearchHint(search_text.length)
     }
   })
@@ -87,41 +83,53 @@ function loadClickListeners() {
   })
 
   $('#favorite').click(() => {
-    is_favoriting(
-      currently,
-      mainContent.html(),
-      !$('#favorite').hasClass('liked')
-    )
+    // Get the current content ID from the displayed content
+    const currentContentId = mainContent.attr('data-content-id') || ''
+    if (currentContentId) {
+      // Determine category from the current content
+      const category = getCurrentContentCategory()
+      is_favoriting(
+        category,
+        currentContentId,
+        !$('#favorite').hasClass('liked')
+      )
+    }
   })
 
   // Category filter button handlers
   $('#filter-ideas').click(() => {
     activeFilters.ideas = !activeFilters.ideas
     $('#filter-ideas').toggleClass('active', activeFilters.ideas)
-    // Re-run search if there's active search text
+    // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
     if (searchText.length >= 3) {
       search_for(searchText)
+    } else {
+      refreshDisplay()
     }
   })
 
   $('#filter-quotes').click(() => {
     activeFilters.quotes = !activeFilters.quotes
     $('#filter-quotes').toggleClass('active', activeFilters.quotes)
-    // Re-run search if there's active search text
+    // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
     if (searchText.length >= 3) {
       search_for(searchText)
+    } else {
+      refreshDisplay()
     }
   })
 
   $('#filter-questions').click(() => {
     activeFilters.questions = !activeFilters.questions
     $('#filter-questions').toggleClass('active', activeFilters.questions)
-    // Re-run search if there's active search text
+    // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
     if (searchText.length >= 3) {
       search_for(searchText)
+    } else {
+      refreshDisplay()
     }
   })
 }
@@ -176,9 +184,6 @@ function search_for(search_text) {
 function displaySearchResults(results) {
   // Clear current display
   clearContentDisplay()
-
-  // Show category filters when there are results
-  $('#search-category-filters').show()
 
   // Hide elements that aren't needed for search results
   explanationBox.hide()
@@ -285,9 +290,7 @@ function newTab() {
   // Initialize DOM element references
   search = $('#search-wisdom-quotes')
   refresh = $('#refresh')
-  ideasSelect = $('#ideasSelect')
-  quotesSelect = $('#quotesSelect')
-  questionsSelect = $('#questionsSelect')
+  // Removed old mode switching element references
 
   // Initialize content display elements
   introHeading = $('#intro-heading')
@@ -299,18 +302,7 @@ function newTab() {
 
   // Load saved preferences
   chrome.storage.sync.get(['default'], (result) => {
-    if (result.default) {
-      currently = result.default
-    }
-
-    // Set initial mode selection
-    if (currently === 'ideas') {
-      ideasSelect.addClass('selected-mode')
-    } else if (currently === 'quotes') {
-      quotesSelect.addClass('selected-mode')
-    } else if (currently === 'questions') {
-      questionsSelect.addClass('selected-mode')
-    }
+    // Note: default preference is no longer used since we use category filters
 
     setSearchPlaceholder()
     hideCount = false
@@ -322,21 +314,6 @@ function newTab() {
     refreshDisplay()
 
     refresh.click(refreshDisplay)
-    ideasSelect.click(() => {
-      if (currently !== 'ideas') {
-        setIdeas()
-      }
-    })
-    quotesSelect.click(() => {
-      if (currently !== 'quotes') {
-        setQuotes()
-      }
-    })
-    questionsSelect.click(() => {
-      if (currently !== 'questions') {
-        setQuestions()
-      }
-    })
   })
 }
 
@@ -345,11 +322,17 @@ function newTab() {
  */
 function refreshDisplay() {
   log('refreshDisplay')
-  const filteredQuotes = getQuotesBySection(currently)
-  if (filteredQuotes.length > 0) {
-    displayContent(getRandomFromArray(filteredQuotes))
+
+  // Build content array based on active filters
+  const allContent = []
+  if (activeFilters.ideas) allContent.push(...ideas)
+  if (activeFilters.quotes) allContent.push(...quotes)
+  if (activeFilters.questions) allContent.push(...questions)
+
+  if (allContent.length > 0) {
+    displayContent(getRandomFromArray(allContent))
   } else {
-    // Fall back to all quotes if none found in current section
+    // Fall back to all content if no filters are active
     const allQuotes = [...ideas, ...quotes, ...questions]
     if (allQuotes.length > 0) {
       displayContent(getRandomFromArray(allQuotes))
@@ -364,55 +347,11 @@ function refreshDisplay() {
   fadeIn(newsletterLink)
 }
 
-function getQuotesBySection(section) {
-  if (section === 'ideas') {
-    return ideas.filter((q) => q.section === 'Ideas')
-  }
-  if (section === 'quotes') {
-    return quotes.filter((q) => q.section === 'Quotes')
-  }
-  if (section === 'questions') {
-    return questions.filter((q) => q.section === 'Questions')
-  }
-  return [...ideas, ...quotes, ...questions]
-}
+// Removed getQuotesBySection function - now using active filters directly
 
-function setIdeas() {
-  log('setIdeas')
-  setCurrently('ideas')
-  chrome.storage.sync.set({ default: 'ideas' })
-  resetModeSelection()
-  ideasSelect.toggleClass('selected-mode')
-  refreshDisplay()
-}
+// Removed old mode switching functions - now using category filters
 
-function setQuotes() {
-  log('setQuotes')
-  setCurrently('quotes')
-  chrome.storage.sync.set({ default: 'quotes' })
-  resetModeSelection()
-  quotesSelect.toggleClass('selected-mode')
-  refreshDisplay()
-}
-
-function setQuestions() {
-  log('setQuestions')
-  setCurrently('questions')
-  chrome.storage.sync.set({ default: 'questions' })
-  resetModeSelection()
-  questionsSelect.toggleClass('selected-mode')
-  refreshDisplay()
-}
-
-function resetModeSelection() {
-  ideasSelect.removeClass('selected-mode')
-  quotesSelect.removeClass('selected-mode')
-  questionsSelect.removeClass('selected-mode')
-}
-
-function setCurrently(newCurrently) {
-  currently = newCurrently
-}
+// Removed setCurrently function - no longer needed
 
 function setSearchPlaceholder() {
   $('#search-wisdom-quotes').attr('placeholder', 'Search all wisdom content')
@@ -423,6 +362,13 @@ function displayContent(contentData) {
 
   // Clear all content elements
   clearContentDisplay()
+
+  // Store content ID and category for favorites functionality
+  mainContent.attr('data-content-id', contentData.id)
+  mainContent.attr(
+    'data-content-category',
+    contentData.section?.toLowerCase() || 'ideas'
+  )
 
   // Show elements that might have been hidden during search
   explanationBox.show()
@@ -484,8 +430,14 @@ function displayContent(contentData) {
   }
 
   setSearchPlaceholder()
-  viewed(currently, contentData.id)
-  check_favorite(currently, contentData.id)
+  // Determine category from content section for favorites and viewed tracking
+  const category = contentData.section?.toLowerCase() || 'ideas'
+  viewed(category, contentData.id)
+  check_favorite(category, contentData.id)
+}
+
+function getCurrentContentCategory() {
+  return mainContent.attr('data-content-category') || 'ideas'
 }
 
 function showSearchHint(charCount) {

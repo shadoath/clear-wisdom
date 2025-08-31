@@ -34,16 +34,30 @@
           <div id="newsletter-link" class="content-cta"></div>
         </div>
 
-        <!-- Mode switching -->
-        <div id="switch-mode" class="mode-switcher">
-          <div id="ideasSelect" class="mode-option">
-            <span class="refresh-type">Ideas</span>
-          </div>
-          <div id="quotesSelect" class="mode-option">
-            <span class="refresh-type">Quotes</span>
-          </div>
-          <div id="questionsSelect" class="mode-option">
-            <span class="refresh-type">Questions</span>
+        <!-- Category filters - always visible -->
+        <div id="search-category-filters" class="search-category-filters">
+          <div class="category-filter">
+            <button
+              id="filter-ideas"
+              class="filter-btn active"
+              data-category="ideas"
+            >
+              Ideas
+            </button>
+            <button
+              id="filter-quotes"
+              class="filter-btn active"
+              data-category="quotes"
+            >
+              Quotes
+            </button>
+            <button
+              id="filter-questions"
+              class="filter-btn active"
+              data-category="questions"
+            >
+              Questions
+            </button>
           </div>
         </div>
       </div>
@@ -72,36 +86,6 @@
             placeholder="Search"
             autocomplete="off"
           />
-          <!-- Category filters - only visible when search is active -->
-          <div
-            id="search-category-filters"
-            class="search-category-filters"
-            style="display: none"
-          >
-            <div class="category-filter">
-              <button
-                id="filter-ideas"
-                class="filter-btn active"
-                data-category="ideas"
-              >
-                Ideas
-              </button>
-              <button
-                id="filter-quotes"
-                class="filter-btn active"
-                data-category="quotes"
-              >
-                Quotes
-              </button>
-              <button
-                id="filter-questions"
-                class="filter-btn active"
-                data-category="questions"
-              >
-                Questions
-              </button>
-            </div>
-          </div>
         </div>
       </div>
       
