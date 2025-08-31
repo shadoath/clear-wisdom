@@ -302,24 +302,12 @@ function displayQuote(quoteData) {
   quote.html('')
 
   // Display the intro prominently
-  quote.append(`<div class="quote-intro">${quoteData.intro}</div>`)
-
-  // Only show explanation for Quotes section, positioned after intro
-  if (quoteData.section === 'Quotes') {
-    quote.append(
-      `<div class="quote-explanation">${quoteData.explanation}</div>`
-    )
+  if (quoteData.intro?.trim()) {
+    quote.append(`<div class="quote-intro">${quoteData.intro}</div>`)
   }
 
-  // Display the main quote content with markdown parsing
-  const formattedQuote = parseMarkdown(quoteData.quote)
-  quote.append(`<div class="quote-content">${formattedQuote}</div>`)
-
-  // Display author
-  author.html(quoteData.author)
-
-  // Display newsletter link with date on its own line
-  if (quoteData.newsletter_link) {
+  // Display the date prominently
+  if (quoteData.date?.trim()) {
     const [year, month, day] = quoteData.date.split('-')
     const monthNames = [
       'January',
@@ -335,11 +323,36 @@ function displayQuote(quoteData) {
       'November',
       'December',
     ]
-    const date = `${monthNames[Number.parseInt(month) - 1]} ${Number.parseInt(
-      day
-    )}, ${year}`
+    const formattedDate = `${
+      monthNames[Number.parseInt(month) - 1]
+    } ${Number.parseInt(day)}, ${year}`
+    quote.append(`<div class="quote-date">${formattedDate}</div>`)
+  }
+
+  // Show explanation for all sections if it exists
+  if (quoteData.explanation?.trim()) {
+    quote.append(
+      `<div class="quote-explanation">${quoteData.explanation}</div>`
+    )
+  }
+
+  // Display the main quote content with markdown parsing
+  if (quoteData.quote?.trim()) {
+    const formattedQuote = parseMarkdown(quoteData.quote)
+    quote.append(`<div class="quote-content">${formattedQuote}</div>`)
+  }
+
+  // Display author only for Quotes section (Ideas and Questions are always by James Clear)
+  if (quoteData.section === 'Quotes' && quoteData.author?.trim()) {
+    author.html(quoteData.author)
+  } else {
+    author.html('')
+  }
+
+  // Display newsletter link
+  if (quoteData.newsletter_link?.trim()) {
     explanation.html(
-      `<div class="newsletter-link"><a href="${quoteData.newsletter_link}" target="_blank">Newsletter • ${date}</a></div>`
+      `<div class="newsletter-link"><a href="${quoteData.newsletter_link}" target="_blank">Read Full Newsletter →</a></div>`
     )
   } else {
     explanation.html('')
