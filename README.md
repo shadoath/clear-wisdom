@@ -67,6 +67,7 @@ All quotes are sourced from James Clear's 3-2-1 newsletter, which features:
     "author": "...",
     "date": "...",
     "section": "...",
+    "explanation": "..."
   }
   ```
 
@@ -75,6 +76,7 @@ All quotes are sourced from James Clear's 3-2-1 newsletter, which features:
 This project includes GitHub Actions automation for updating newsletter content:
 
 ### Manual Update via GitHub Actions
+
 1. Go to the Actions tab in your GitHub repository
 2. Select "Update Newsletter Content" workflow
 3. Click "Run workflow"
@@ -82,12 +84,14 @@ This project includes GitHub Actions automation for updating newsletter content:
 5. The workflow will extract content and create a PR with the updates
 
 ### Automatic Weekly Check
+
 - The workflow runs every Thursday at 10 AM UTC
 - Checks for the 5 most recent newsletters
 - Automatically adds any new content found
 - Creates a PR for review
 
 ### Local Usage
+
 You can also run the extraction script locally:
 
 ```bash

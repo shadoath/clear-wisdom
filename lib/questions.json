@@ -6,7 +6,8 @@
     "newsletter_link": "https://jamesclear.com/3-2-1/september-12-2019",
     "author": "James Clear",
     "date": "2019-09-12",
-    "section": "Questions"
+    "section": "Questions",
+    "explanation": "A question that challenges the common tendency to overthink and over-plan, encouraging readers to distinguish between productive reflection and procrastination through analysis paralysis"
   },
   {
     "id": "2019-09-05-question",
@@ -15,7 +16,8 @@
     "newsletter_link": "https://jamesclear.com/3-2-1/september-5-2019",
     "author": "James Clear",
     "date": "2019-09-05",
-    "section": "Questions"
+    "section": "Questions",
+    "explanation": "A filtering question that helps readers practice essentialism by questioning whether each task truly contributes to their most important goals, rather than just being busy work"
   },
   {
     "id": "2019-08-29-question",
@@ -24,7 +26,8 @@
     "newsletter_link": "https://jamesclear.com/3-2-1/august-29-2019",
     "author": "James Clear",
     "date": "2019-08-29",
-    "section": "Questions"
+    "section": "Questions",
+    "explanation": "A strategic question that encourages long-term thinking about personal development and lifestyle choices, helping readers align their daily actions with decade-level aspirations"
   },
   {
     "id": "2019-08-22-question",
@@ -33,7 +36,8 @@
     "newsletter_link": "https://jamesclear.com/3-2-1/august-22-2019",
     "author": "James Clear",
     "date": "2019-08-22",
-    "section": "Questions"
+    "section": "Questions",
+    "explanation": "A habit audit question that helps readers evaluate whether their daily routines and behaviors are actually moving them toward their long-term goals or keeping them stuck"
   },
   {
     "id": "2019-08-15-question",
@@ -42,7 +46,8 @@
     "newsletter_link": "https://jamesclear.com/3-2-1/august-15-2019",
     "author": "James Clear",
     "date": "2019-08-15",
-    "section": "Questions"
+    "section": "Questions",
+    "explanation": "A proactive planning question that encourages readers to think ahead about potential challenges and develop strategies to minimize suffering through preparation and prevention"
   },
   {
     "id": "2019-08-08-question",
@@ -51,6 +56,7 @@
     "newsletter_link": "https://jamesclear.com/3-2-1/august-8-2019",
     "author": "James Clear",
     "date": "2019-08-08",
-    "section": "Questions"
+    "section": "Questions",
+    "explanation": "A challenging question that confronts the human tendency to choose comfort over growth, pushing readers to recognize when they're settling for less than their potential"
   }
 ]
