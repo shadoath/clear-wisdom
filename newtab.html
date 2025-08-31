@@ -1,57 +1,132 @@
 <html>
   <head>
     <title>New Clear Wisdom</title>
-    <link rel="stylesheet" href="newtab.css">
-
+    <link rel="stylesheet" href="newtab.css" />
     <script type="text/javascript" src="/lib/jquery-3.7.1.min.js"></script>
   </head>
   <body>
     <!-- Refresh button positioned at top right -->
-    <div id="refresh" class="refresh">
+    <div id="refresh" class="refresh-button">
       <img src="./images/refresh.png" alt="refresh button" />
     </div>
-    
-    <div id="text-container">
-      <div id="search-container">
-        <span id="search-icon">
-          <img src="./images/search.svg" alt="" />
-        </span>
-        <div id="search-and-exchange">
-          <input id="search-wisdom-quotes" placeholder="Search wisdom quotes" autocomplete="off"></input>
+
+    <div id="text-container" class="page-container">
+
+
+        <!-- Main content display -->
+        <div id="content-display" class="content-section">
+          <!-- Intro heading -->
+          <div id="intro-heading" class="content-heading"></div>
+
+          <!-- Date display -->
+          <div id="date-display" class="content-meta"></div>
+
+          <!-- Main quote/content -->
+          <div id="main-content" class="content-body"></div>
+
+          <!-- Explanation box -->
+          <div id="explanation-box" class="content-highlight"></div>
+
+          <!-- Author attribution -->
+          <div id="author-attribution" class="content-attribution"></div>
+
+          <!-- Newsletter link -->
+          <div id="newsletter-link" class="content-cta"></div>
         </div>
-        <div id="quote" alt="quote"></div>
-        <div id="author" alt="author"></div>
-        <div id="explanation" alt="explanation"></div>
-      </div>
-      <div class="switch-mode">
-        <div id="ideasSelect" class="mode">
-          <span class="refresh-type">Ideas</span>
-        </div>
-        <div id="quotesSelect" class="mode">
-          <span class="refresh-type">Quotes</span>
-        </div>
-        <div id="questionsSelect" class="mode">
-          <span class="refresh-type">Questions</span>
+
+        <!-- Mode switching -->
+        <div id="switch-mode" class="mode-switcher">
+          <div id="ideasSelect" class="mode-option">
+            <span class="refresh-type">Ideas</span>
+          </div>
+          <div id="quotesSelect" class="mode-option">
+            <span class="refresh-type">Quotes</span>
+          </div>
+          <div id="questionsSelect" class="mode-option">
+            <span class="refresh-type">Questions</span>
+          </div>
         </div>
       </div>
     </div>
-    <div id="footer">
-      <div class="current-options">
-        <div id="count" title="Number of times viewed"></div>
-        <div id="favorite">
+
+    <!-- Footer -->
+    <div id="footer" class="page-footer">
+      <div id="current-options" class="footer-left">
+        <div
+          id="count"
+          class="action-counter"
+          title="Number of times viewed"
+        ></div>
+        <div id="favorite" class="action-favorite">
           <img class="heart-light" src="./images/heart-light.svg" alt="" />
           <img class="heart-solid" src="./images/heart-solid.svg" alt="" />
         </div>
       </div>
-      <div class="authors">
-        <div id="creator">
-          Content by <a href="https://jamesclear.com/3-2-1" target="none">James Clear</a>
+      
+      <!-- Search interface moved to footer center -->
+      <div id="search-container" class="search-section">
+        <div id="search-and-exchange" class="search-wrapper">
+          <input
+            id="search-wisdom-quotes"
+            class="search-input"
+            placeholder="Search"
+            autocomplete="off"
+          />
+          <!-- Category filters - only visible when search is active -->
+          <div
+            id="search-category-filters"
+            class="search-category-filters"
+            style="display: none"
+          >
+            <div class="category-filter">
+              <button
+                id="filter-ideas"
+                class="filter-btn active"
+                data-category="ideas"
+              >
+                Ideas
+              </button>
+              <button
+                id="filter-quotes"
+                class="filter-btn active"
+                data-category="quotes"
+              >
+                Quotes
+              </button>
+              <button
+                id="filter-questions"
+                class="filter-btn active"
+                data-category="questions"
+              >
+                Questions
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="developer">
-          Developed by <a href="https://github.com/shadoath" target="none">Shadoath</a>
+      </div>
+      
+      <div id="authors" class="footer-right">
+        <div id="creator" class="footer-author">
+          Content by
+          <a
+            href="https://jamesclear.com/3-2-1"
+            target="none"
+            class="footer-link"
+            >James Clear</a
+          >
+        </div>
+        <div id="developer" class="footer-developer">
+          Developed by
+          <a
+            href="https://github.com/shadoath"
+            target="none"
+            class="footer-link"
+            >Shadoath</a
+          >
         </div>
       </div>
     </div>
+
     <script type="module" src="newtab.js"></script>
     <script src="options.js"></script>
   </body>

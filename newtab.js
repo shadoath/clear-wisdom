@@ -9,15 +9,27 @@ const ideas = []
 const quotes = []
 const questions = []
 let currently = 'ideas'
-let options = ''
 let search
 let refresh
 let ideasSelect
 let quotesSelect
 let questionsSelect
-let quote
-let author
-let explanation
+
+// Category filter state
+const activeFilters = {
+  ideas: true,
+  quotes: true,
+  questions: true,
+}
+
+// Content display elements
+let introHeading
+let dateDisplay
+let explanationBox
+let mainContent
+let authorAttribution
+let newsletterLink
+
 let hideCount
 
 import { viewed } from './src/viewed.js'
@@ -48,21 +60,18 @@ $(() => {
 })
 
 function loadClickListeners() {
-  $('#search-icon').click(() => {
-    $('#search-icon').hide()
-    $('#search-and-exchange').slideDown(() => {
-      $('#search-wisdom-quotes').focus()
-      console.log('Search interface opened')
-    })
-  })
-
   $('#search-wisdom-quotes').keyup(() => {
     const search_text = $('#search-wisdom-quotes').val().trim().toLowerCase()
-    if (search_text.length > 0) {
+    if (search_text.length >= 3) {
       search_for(search_text)
-    } else {
+    } else if (search_text.length === 0) {
       // If search is cleared, restore the current display
+      $('#search-category-filters').hide()
       refreshDisplay()
+    } else if (search_text.length === 1 || search_text.length === 2) {
+      // Show helpful message for 1-2 characters
+      $('#search-category-filters').hide()
+      showSearchHint(search_text.length)
     }
   })
 
@@ -76,120 +85,235 @@ function loadClickListeners() {
       }
     }
   })
+
   $('#favorite').click(() => {
-    is_favoriting(currently, quote.html(), !$('#favorite').hasClass('liked'))
+    is_favoriting(
+      currently,
+      mainContent.html(),
+      !$('#favorite').hasClass('liked')
+    )
   })
+
+  // Category filter button handlers
+  $('#filter-ideas').click(() => {
+    activeFilters.ideas = !activeFilters.ideas
+    $('#filter-ideas').toggleClass('active', activeFilters.ideas)
+    // Re-run search if there's active search text
+    const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
+    if (searchText.length >= 3) {
+      search_for(searchText)
+    }
+  })
+
+  $('#filter-quotes').click(() => {
+    activeFilters.quotes = !activeFilters.quotes
+    $('#filter-quotes').toggleClass('active', activeFilters.quotes)
+    // Re-run search if there's active search text
+    const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
+    if (searchText.length >= 3) {
+      search_for(searchText)
+    }
+  })
+
+  $('#filter-questions').click(() => {
+    activeFilters.questions = !activeFilters.questions
+    $('#filter-questions').toggleClass('active', activeFilters.questions)
+    // Re-run search if there's active search text
+    const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
+    if (searchText.length >= 3) {
+      search_for(searchText)
+    }
+  })
+}
+
+function hasActiveFilters() {
+  return activeFilters.ideas || activeFilters.quotes || activeFilters.questions
 }
 
 function search_for(search_text) {
   const result = []
 
-  // Get quotes for the current mode
-  let currentQuotes = getQuotesBySection(currently)
-
-  console.log(
-    `Searching for "${search_text}" in ${currently} mode. Found ${currentQuotes.length} quotes in this section.`
-  )
-
-  // Safety check - if no quotes found for current section, fall back to all quotes
-  if (currentQuotes.length === 0) {
-    console.warn(
-      `No quotes found for section '${currently}', falling back to all quotes`
-    )
-    currentQuotes = [...ideas, ...quotes, ...questions]
+  // Check if any filters are active
+  if (!hasActiveFilters()) {
+    // No filters active, show message
+    displayNoFiltersMessage()
+    return
   }
 
-  // Search across multiple fields within the current mode
-  for (const quote of currentQuotes) {
-    try {
-      const searchableText = [
-        quote.intro ? quote.intro.toLowerCase() : '',
-        quote.quote ? markdownToPlainText(quote.quote).toLowerCase() : '',
-        quote.author ? quote.author.toLowerCase() : '',
-        quote.explanation ? quote.explanation.toLowerCase() : '',
-      ].join(' ')
+  // Build content array based on active filters
+  const allContent = []
+  if (activeFilters.ideas) allContent.push(...ideas)
+  if (activeFilters.quotes) allContent.push(...quotes)
+  if (activeFilters.questions) allContent.push(...questions)
 
-      if (searchableText.includes(search_text)) {
-        result.push(quote)
-      }
-    } catch (error) {
-      console.warn('Error processing quote for search:', error, quote)
+  console.log(
+    `Searching for "${search_text}" in active categories. Found ${allContent.length} total items.`
+  )
+
+  // Search through filtered content
+  for (const item of allContent) {
+    const searchableText = [
+      item.intro?.toLowerCase() || '',
+      item.quote?.toLowerCase() || '',
+      item.explanation?.toLowerCase() || '',
+      item.author?.toLowerCase() || '',
+    ].join(' ')
+
+    if (searchableText.includes(search_text)) {
+      result.push(item)
     }
   }
 
   if (result.length > 0) {
-    console.log(`Found ${result.length} search results`)
-    if (result.length > 1) {
-      pushResults(result)
-    } else if (result.length === 1) {
-      displayQuote(result[0])
-    }
+    // Display search results
+    displaySearchResults(result)
   } else {
-    console.log('No search results found')
-    quote.html('No search matches, try different keywords')
-    explanation.html('')
+    // No results found
+    displayNoResults(search_text)
   }
 }
 
-function pushResults(results) {
-  options = []
-  $(results).each((index, value) => {
-    options.push(`<a href='#' class='load-quote'>${value.intro}</a>`)
-  })
-  quote.html(options.join(''))
-  author.html('')
-  explanation.html('')
-  loadQuoteListener()
-}
+function displaySearchResults(results) {
+  // Clear current display
+  clearContentDisplay()
 
-function loadQuoteListener() {
-  $('.load-quote').click((selected_search) => {
-    const selectedIntro = $(selected_search.target).text()
-    const result = [...ideas, ...quotes, ...questions].find(
-      (quote) => quote.intro === selectedIntro
+  // Show category filters when there are results
+  $('#search-category-filters').show()
+
+  // Hide elements that aren't needed for search results
+  explanationBox.hide()
+  authorAttribution.hide()
+  newsletterLink.hide()
+
+  // Show search results header
+  introHeading.html(
+    `Found ${results.length} result${results.length > 1 ? 's' : ''} for "${$(
+      '#search-wisdom-quotes'
     )
+      .val()
+      .trim()}"`
+  )
 
-    if (result) {
-      displayQuote(result)
-    }
+  // Display all results in a list format with category labels
+  let resultsHtml = '<div class="search-results">'
 
-    $('#search-icon').show()
-    $('#search-and-exchange').hide()
-    $('#search-wisdom-quotes').val('')
-    console.log('Search interface closed')
+  results.forEach((item, index) => {
+    const category = getCategoryLabel(item)
+    const previewText = getPreviewText(item)
+
+    resultsHtml += `
+      <div class="search-result-item" data-index="${index}">
+        <div class="search-result-category">${category}</div>
+        <div class="search-result-content">
+          <div class="search-result-intro">${item.intro || ''}</div>
+          <div class="search-result-preview">${previewText}</div>
+        </div>
+      </div>
+    `
+  })
+
+  resultsHtml += '</div>'
+
+  mainContent.html(resultsHtml)
+
+  // Add click listeners to search result items
+  $('.search-result-item').click(function () {
+    const index = Number.parseInt($(this).data('index'))
+    const selectedItem = results[index]
+    displayContent(selectedItem)
   })
 }
 
-/**
- * Once a new tab is open initalize
- */
+function getCategoryLabel(item) {
+  if (item.section === 'Ideas') return 'Idea'
+  if (item.section === 'Quotes') return 'Quote'
+  if (item.section === 'Questions') return 'Question'
+  return 'Content'
+}
+
+function getPreviewText(item) {
+  // Get a preview of the main content
+  if (item.quote) {
+    return item.quote.length > 100
+      ? `${item.quote.substring(0, 100)}...`
+      : item.quote
+  }
+  if (item.explanation) {
+    return item.explanation.length > 100
+      ? `${item.explanation.substring(0, 100)}...`
+      : item.explanation
+  }
+  return item.intro || 'No preview available'
+}
+
+function displayNoFiltersMessage() {
+  // Clear current display
+  clearContentDisplay()
+
+  // Hide elements that aren't needed for this message
+  explanationBox.hide()
+  authorAttribution.hide()
+  newsletterLink.hide()
+
+  // Show message
+  introHeading.html('No categories selected')
+  mainContent.html(`
+    <div class="search-hint">
+      <p>Please enable at least one category filter to search.</p>
+    </div>
+  `)
+}
+
+function displayNoResults(searchText) {
+  // Clear current display
+  clearContentDisplay()
+
+  introHeading.html(`No matches found for "${searchText}"`)
+  mainContent.html('Try adjusting your search terms or browse all content.')
+}
+
+function clearContentDisplay() {
+  introHeading.html('')
+  dateDisplay.html('')
+  explanationBox.html('')
+  mainContent.html('')
+  authorAttribution.html('')
+  newsletterLink.html('')
+}
+
 function newTab() {
-  // Initialize refresh and footer element
+  // Initialize DOM element references
   search = $('#search-wisdom-quotes')
   refresh = $('#refresh')
-  quote = $('#quote')
-  author = $('#author')
-  explanation = $('#explanation')
   ideasSelect = $('#ideasSelect')
   quotesSelect = $('#quotesSelect')
   questionsSelect = $('#questionsSelect')
 
-  chrome.storage.sync.get(['default', 'hideCount'], (item) => {
-    if (item.default === 'quotes') {
-      quotesSelect.toggleClass('selected-mode')
-      setCurrently('quotes')
-      setSearchPlaceholder()
-    } else if (item.default === 'questions') {
-      questionsSelect.toggleClass('selected-mode')
-      setCurrently('questions')
-      setSearchPlaceholder()
-    } else {
-      // Default to ideas
-      ideasSelect.toggleClass('selected-mode')
-      setCurrently('ideas')
-      setSearchPlaceholder()
+  // Initialize content display elements
+  introHeading = $('#intro-heading')
+  dateDisplay = $('#date-display')
+  explanationBox = $('#explanation-box')
+  mainContent = $('#main-content')
+  authorAttribution = $('#author-attribution')
+  newsletterLink = $('#newsletter-link')
+
+  // Load saved preferences
+  chrome.storage.sync.get(['default'], (result) => {
+    if (result.default) {
+      currently = result.default
     }
-    hideCount = item.hideCount || false
+
+    // Set initial mode selection
+    if (currently === 'ideas') {
+      ideasSelect.addClass('selected-mode')
+    } else if (currently === 'quotes') {
+      quotesSelect.addClass('selected-mode')
+    } else if (currently === 'questions') {
+      questionsSelect.addClass('selected-mode')
+    }
+
+    setSearchPlaceholder()
+    hideCount = false
     if (hideCount) {
       $('#count').hide()
     }
@@ -223,16 +347,21 @@ function refreshDisplay() {
   log('refreshDisplay')
   const filteredQuotes = getQuotesBySection(currently)
   if (filteredQuotes.length > 0) {
-    displayQuote(getRandomFromArray(filteredQuotes))
+    displayContent(getRandomFromArray(filteredQuotes))
   } else {
     // Fall back to all quotes if none found in current section
     const allQuotes = [...ideas, ...quotes, ...questions]
     if (allQuotes.length > 0) {
-      displayQuote(getRandomFromArray(allQuotes))
+      displayContent(getRandomFromArray(allQuotes))
     }
   }
-  fadeIn(author)
-  fadeIn(explanation)
+
+  // Fade in content elements (author will be shown/hidden by displayContent)
+  fadeIn(introHeading)
+  fadeIn(dateDisplay)
+  fadeIn(explanationBox)
+  fadeIn(mainContent)
+  fadeIn(newsletterLink)
 }
 
 function getQuotesBySection(section) {
@@ -286,29 +415,28 @@ function setCurrently(newCurrently) {
 }
 
 function setSearchPlaceholder() {
-  const modeText =
-    currently === 'ideas'
-      ? 'ideas'
-      : currently === 'quotes'
-      ? 'quotes'
-      : 'questions'
-  $('#search-wisdom-quotes').attr('placeholder', `Search ${modeText}`)
+  $('#search-wisdom-quotes').attr('placeholder', 'Search all wisdom content')
 }
 
-function displayQuote(quoteData) {
-  log('displayQuote')
+function displayContent(contentData) {
+  log('displayContent')
 
-  // Clear the quote container
-  quote.html('')
+  // Clear all content elements
+  clearContentDisplay()
 
-  // Display the intro prominently
-  if (quoteData.intro?.trim()) {
-    quote.append(`<div class="quote-intro">${quoteData.intro}</div>`)
+  // Show elements that might have been hidden during search
+  explanationBox.show()
+  authorAttribution.show()
+  newsletterLink.show()
+
+  // Display intro heading
+  if (contentData.intro?.trim()) {
+    introHeading.html(contentData.intro)
   }
 
-  // Display the date prominently
-  if (quoteData.date?.trim()) {
-    const [year, month, day] = quoteData.date.split('-')
+  // Display date
+  if (contentData.date?.trim()) {
+    const [year, month, day] = contentData.date.split('-')
     const monthNames = [
       'January',
       'February',
@@ -326,39 +454,55 @@ function displayQuote(quoteData) {
     const formattedDate = `${
       monthNames[Number.parseInt(month) - 1]
     } ${Number.parseInt(day)}, ${year}`
-    quote.append(`<div class="quote-date">${formattedDate}</div>`)
+    dateDisplay.html(formattedDate)
   }
 
-  // Show explanation for all sections if it exists
-  if (quoteData.explanation?.trim()) {
-    quote.append(
-      `<div class="quote-explanation">${quoteData.explanation}</div>`
-    )
+  // Display explanation for all content types
+  if (contentData.explanation?.trim()) {
+    explanationBox.html(contentData.explanation)
   }
 
-  // Display the main quote content with markdown parsing
-  if (quoteData.quote?.trim()) {
-    const formattedQuote = parseMarkdown(quoteData.quote)
-    quote.append(`<div class="quote-content">${formattedQuote}</div>`)
+  // Display main content with markdown parsing
+  if (contentData.quote?.trim()) {
+    const formattedContent = parseMarkdown(contentData.quote)
+    mainContent.html(formattedContent)
   }
 
-  // Display author only for Quotes section (Ideas and Questions are always by James Clear)
-  if (quoteData.section === 'Quotes' && quoteData.author?.trim()) {
-    author.html(quoteData.author)
+  // Display author only for Quotes section
+  if (contentData.section === 'Quotes' && contentData.author?.trim()) {
+    authorAttribution.html(contentData.author)
+    authorAttribution.show()
   } else {
-    author.html('')
+    authorAttribution.hide()
   }
 
   // Display newsletter link
-  if (quoteData.newsletter_link?.trim()) {
-    explanation.html(
-      `<div class="newsletter-link"><a href="${quoteData.newsletter_link}" target="_blank">Read Full Newsletter →</a></div>`
+  if (contentData.newsletter_link?.trim()) {
+    newsletterLink.html(
+      `<a href="${contentData.newsletter_link}" target="_blank">Read Full Newsletter →</a>`
     )
-  } else {
-    explanation.html('')
   }
 
   setSearchPlaceholder()
-  viewed(currently, quoteData.id)
-  check_favorite(currently, quoteData.id)
+  viewed(currently, contentData.id)
+  check_favorite(currently, contentData.id)
+}
+
+function showSearchHint(charCount) {
+  // Clear current display
+  clearContentDisplay()
+
+  // Hide elements that aren't needed for search hints
+  explanationBox.hide()
+  authorAttribution.hide()
+  newsletterLink.hide()
+
+  // Show helpful message
+  introHeading.html('Type to search')
+  mainContent.html(`
+    <div class="search-hint">
+      <p>Please type at least 3 characters to search through wisdom content.</p>
+      <p class="search-progress">${charCount}/3 characters</p>
+    </div>
+  `)
 }

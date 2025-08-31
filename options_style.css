@@ -1,110 +1,13 @@
 /*
- ****** RESET STYLES
+ ****** OPTIONS STYLES
+ * Import shared styles and define options-specific styles
  */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
+@import url('./lib/shared.css');
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
+/*
+ ****** OPTIONS-SPECIFIC STYLES
+ */
 
 body {
   text-align: center;
@@ -113,27 +16,59 @@ body {
   width: 150px;
 }
 
-h3,
-h4 {
+/* Typography Classes */
+.options-heading {
   color: #eeeeee;
   margin: 0.5rem;
 }
 
+.options-subheading {
+  color: #eeeeee;
+  margin: 0.5rem;
+}
+
+/* Layout Classes */
 .options-container {
   padding: 0.5rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
-.option {
+
+.option-item {
   display: flex;
   color: #cacaca;
 }
-.notice {
+
+.notice-text {
   color: #aaa;
-  font-size: 14px;
+  font-size: var(--font-size-base);
 }
-#clear-favorites,
-#clear-count {
+
+/* Action Classes */
+.action-button {
   margin-top: 0.5rem;
+  background: var(--primary-color);
+  color: var(--bg-secondary);
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  transition: var(--transition-fast);
+}
+
+.action-button:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+/* Specific ID styles for unique elements */
+#clear-favorites {
+  /* Specific styling for clear favorites button */
+}
+
+#clear-count {
+  /* Specific styling for clear count button */
 }
