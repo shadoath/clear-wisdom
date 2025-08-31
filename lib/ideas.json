@@ -1,5 +1,35 @@
 [
   {
+    "id": "2019-11-21-ideas-1",
+    "quote": "\"Rome wasn't built in a day, but they were laying bricks every hour.\"",
+    "intro": "On consistent progress",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-21-2019",
+    "author": "James Clear",
+    "date": "2019-11-21",
+    "section": "Ideas",
+    "explanation": "A metaphor emphasizing that while grand achievements take time, they are built through consistent, hourly effort rather than occasional bursts of activity"
+  },
+  {
+    "id": "2019-11-21-ideas-2",
+    "quote": "\"How long does it take to build a habit?\n\n21 days? 30 days? 66 days?\n\nThe honest answer is: forever. Because once you stop doing it, it is no longer a habit.\n\nA habit is a lifestyle to be lived, not a finish line to be crossed. Make small, sustainable changes you can stick with.\"",
+    "intro": "On habit formation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-21-2019",
+    "author": "James Clear",
+    "date": "2019-11-21",
+    "section": "Ideas",
+    "explanation": "A reframing of habit formation that dispels the myth of fixed timelines, emphasizing that habits require ongoing commitment and sustainable lifestyle changes"
+  },
+  {
+    "id": "2019-11-21-ideas-3",
+    "quote": "\"The highest level of mastery is simplicity.\n\nMost information is irrelevant and most effort is wasted, but only the expert knows what to ignore.\"",
+    "intro": "On mastery through simplicity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-21-2019",
+    "author": "James Clear",
+    "date": "2019-11-21",
+    "section": "Ideas",
+    "explanation": "An insight about how true expertise involves knowing what to ignore and eliminate, achieving more through focused simplicity than through complexity"
+  },
+  {
     "id": "2019-11-14-ideas-1",
     "quote": "\"The surest way to prevent yourself from learning a topic is to believe you already know it.\"",
     "intro": "On beginner's mind",
