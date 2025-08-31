@@ -1,5 +1,25 @@
 [
   {
+    "id": "2019-10-17-quotes-1",
+    "quote": "The first comes from French-Swiss film director **Jean-Luc Godard:**\n\n\"He who jumps into the void owes no explanation to those who stand and watch.\"",
+    "intro": "On taking risks",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-17-2019",
+    "author": "Jean-Luc Godard",
+    "date": "2019-10-17",
+    "section": "Quotes",
+    "explanation": "Jean-Luc Godard's bold statement about risk-taking, emphasizing that those who take action don't need to justify themselves to passive observers"
+  },
+  {
+    "id": "2019-10-17-quotes-2",
+    "quote": "The second is from **Theodore Roosevelt:**\n\n\"It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.\"",
+    "intro": "On handling criticism",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-17-2019",
+    "author": "Theodore Roosevelt",
+    "date": "2019-10-17",
+    "section": "Quotes",
+    "explanation": "Theodore Roosevelt's famous defense of action over criticism, celebrating those who take risks and make efforts despite the possibility of failure"
+  },
+  {
     "id": "2019-10-10-quotes-1",
     "quote": "**Maya Angelou** on perseverance and defeat:\n\n\"There is, I hope, a thesis in my work: we may encounter many defeats, but we must not be defeated. That sounds goody-two-shoes, I know, but I believe that a diamond is the result of extreme pressure and time. Less time is crystal. Less than that is coal. Less than that is fossilized leaves. Less than that it's just plain dirt. In all my work, in the movies I write, the lyrics, the poetry, the prose, the essays, I am saying that we may encounter many defeats—maybe it's imperative that we encounter the defeats—but we are much stronger than we appear to be and maybe much better than we allow ourselves to be.\"",
     "intro": "On perseverance and defeat",
