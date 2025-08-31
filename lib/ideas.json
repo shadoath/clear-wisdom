@@ -1,5 +1,35 @@
 [
   {
+    "id": "2019-10-03-ideas-1",
+    "quote": "\"The costs of your good habits are in the present.\n\nThe costs of your bad habits are in the future.\"",
+    "intro": "On the timing of habit costs",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-3-2019",
+    "author": "James Clear",
+    "date": "2019-10-03",
+    "section": "Ideas",
+    "explanation": "A simple but powerful insight about the temporal nature of habit costs - good habits require immediate effort while bad habits defer consequences to the future"
+  },
+  {
+    "id": "2019-10-03-ideas-2",
+    "quote": "\"Why focus on the process when the world is outcome driven? Don't results matter?\n\nYes, results do matter. But if you optimize for the outcome, you win one time.\n\nIf you optimize for a process that leads to great outcomes, you can win again and again.\"",
+    "intro": "On process vs. outcome optimization",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-3-2019",
+    "author": "James Clear",
+    "date": "2019-10-03",
+    "section": "Ideas",
+    "explanation": "A strategic perspective showing that while outcomes matter, building sustainable processes creates repeatable success rather than one-time wins"
+  },
+  {
+    "id": "2019-10-03-ideas-3",
+    "quote": "\"Major life changes—moving to a new city, starting a new job, ending a relationship, getting married, having kids, etc.—will often make life harder for the first 100 days before improving.\n\nThis is not always true, but it's a nice reminder that experiencing early struggle doesn't mean it was a bad choice.\"",
+    "intro": "On the 100-day rule of major changes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-3-2019",
+    "author": "James Clear",
+    "date": "2019-10-03",
+    "section": "Ideas",
+    "explanation": "A comforting framework for navigating major life transitions, reminding us that initial difficulty is often part of the adjustment process, not a sign of poor decision-making"
+  },
+  {
     "id": "2019-09-26-ideas-1",
     "quote": "\"Optimists win in the long-run because their miscalculation of how long it will take or how likely it is to succeed motivates them to give it a try.\n\nIf you knew how hard it would be and how long it would take in the beginning then you might not try in the first place.\n\nYou can't guarantee success, but you can guarantee failure: never try.\"",
     "intro": "On the optimism advantage",
