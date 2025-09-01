@@ -81,6 +81,41 @@ function updateFilterButtons() {
 }
 
 function loadClickListeners() {
+  // Search icon click handler
+  $('#search-icon').click(() => {
+    const searchContainer = $('#search-container-top')
+    const searchInput = $('#search-wisdom-quotes')
+
+    if (searchContainer.hasClass('active')) {
+      // If search is already active, hide it
+      searchContainer.removeClass('active')
+      searchInput.val('')
+      // Clear any search results and restore normal display
+      refreshDisplay()
+    } else {
+      // Show search container and focus input
+      searchContainer.addClass('active')
+      // Use setTimeout to ensure the transition completes before focusing
+      setTimeout(() => {
+        searchInput.focus()
+      }, 150)
+    }
+  })
+
+  // Close search when clicking outside
+  $(document).click((e) => {
+    const searchContainer = $('#search-container-top')
+
+    if (
+      !searchContainer.is(e.target) &&
+      searchContainer.has(e.target).length === 0
+    ) {
+      searchContainer.removeClass('active')
+      $('#search-wisdom-quotes').val('')
+      refreshDisplay()
+    }
+  })
+
   $('#search-wisdom-quotes').keyup(() => {
     const search_text = $('#search-wisdom-quotes').val().trim().toLowerCase()
     if (search_text.length >= 3) {
@@ -101,6 +136,18 @@ function loadClickListeners() {
       const search_text = $('#search-wisdom-quotes').val().trim().toLowerCase()
       if (search_text.length > 0) {
         search_for(search_text)
+      }
+    }
+  })
+
+  // Handle Escape key to close search
+  $(document).keydown((e) => {
+    if (e.key === 'Escape') {
+      const searchContainer = $('#search-container-top')
+      if (searchContainer.hasClass('active')) {
+        searchContainer.removeClass('active')
+        $('#search-wisdom-quotes').val('')
+        refreshDisplay()
       }
     }
   })

@@ -40,18 +40,6 @@ body {
   text-align: center;
 }
 
-/* Footer search styles */
-.page-footer .search-section {
-  margin-bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  grid-column: 2;
-}
-
 .search-wrapper {
   display: block;
   max-width: 400px;
@@ -81,8 +69,8 @@ body {
   right: var(--spacing-xl);
   color: #222222;
   text-shadow: none;
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  display: flex;
+  justify-content: space-between;
   align-items: flex-end;
   gap: var(--spacing-xl);
 }
@@ -130,6 +118,85 @@ body {
   filter: drop-shadow(0 1px 2px var(--shadow-medium));
 }
 
+/* Search icon inside container */
+.search-icon-top-left {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: var(--transition-slow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.search-container-top.active .search-icon-top-left {
+  width: 40px;
+  height: 40px;
+}
+
+.search-icon-top-left:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.search-icon-top-left img {
+  width: 24px;
+  height: 24px;
+  -webkit-filter: drop-shadow(0 1px 2px var(--shadow-medium));
+  filter: drop-shadow(0 1px 2px var(--shadow-medium));
+}
+
+/* Search container with icon and input */
+.search-container-top {
+  position: fixed;
+  top: var(--spacing-xl);
+  left: var(--spacing-xl);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  background-color: rgba(249, 248, 244, 0.95);
+  border-radius: var(--radius-full);
+  box-shadow: 0 2px 8px var(--shadow-medium);
+  backdrop-filter: blur(10px);
+  transition: all var(--transition-medium);
+  overflow: hidden;
+}
+
+.search-container-top.active {
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 12px var(--shadow-dark);
+}
+
+.search-input-wrapper {
+  width: 0;
+  opacity: 0;
+  transition: all var(--transition-medium);
+  overflow: hidden;
+}
+
+.search-container-top.active .search-input-wrapper {
+  width: 300px;
+  opacity: 1;
+  padding: 0 var(--spacing-md);
+}
+
+.search-input-top {
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-size: var(--font-size-medium);
+  padding: var(--spacing-md) var(--spacing-lg);
+  width: 100%;
+  text-align: left;
+  outline: none;
+}
+
+.search-input-top::placeholder {
+  color: var(--text-secondary);
+}
+
 .search-input {
   background: transparent;
   border: none;
@@ -142,21 +209,10 @@ body {
   transition: var(--transition-medium);
 }
 
-/* Footer search input styles */
-.page-footer .search-input {
-  width: 300px;
-  font-size: var(--font-size-medium);
-  padding: var(--spacing-md) var(--spacing-lg);
-}
-
 .search-input:focus {
   outline: none;
   border-bottom-color: var(--primary-color);
   width: 350px;
-}
-
-.page-footer .search-input:focus {
-  width: 320px;
 }
 
 .search-icon {
@@ -584,15 +640,8 @@ body {
     font-size: var(--font-size-base);
   }
 
-  /* Footer search responsive */
-  .page-footer .search-input {
-    width: 250px;
-    font-size: var(--font-size-base);
-  }
-
   /* Footer layout responsive */
   .page-footer {
-    grid-template-columns: 1fr auto 1fr;
     gap: var(--spacing-md);
   }
 
@@ -651,15 +700,8 @@ body {
     font-size: var(--font-size-large);
   }
 
-  /* Footer search responsive */
-  .page-footer .search-input {
-    width: 200px;
-    font-size: var(--font-size-small);
-  }
-
   /* Footer layout responsive */
   .page-footer {
-    grid-template-columns: 1fr auto 1fr;
     gap: var(--spacing-sm);
   }
 
@@ -683,6 +725,26 @@ body {
   .refresh-button img {
     width: var(--spacing-xl);
     height: var(--spacing-xl);
+  }
+
+  /* Search icon responsive */
+  .search-icon-top-left {
+    width: 45px;
+    height: 45px;
+  }
+
+  .search-icon-top-left img {
+    width: var(--spacing-xl);
+    height: var(--spacing-xl);
+  }
+
+  .search-container-top.active .search-icon-top-left {
+    width: 35px;
+    height: 35px;
+  }
+
+  .search-container-top.active .search-input-wrapper {
+    width: 200px;
   }
 
   .content-highlight {

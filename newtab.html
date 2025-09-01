@@ -5,6 +5,21 @@
     <script type="text/javascript" src="/lib/jquery-3.7.1.min.js"></script>
   </head>
   <body>
+    <!-- Search icon and input container in top left -->
+    <div id="search-container-top" class="search-container-top">
+      <div id="search-icon" class="search-icon-top-left">
+        <img src="./images/search.svg" alt="search" />
+      </div>
+      <div id="search-input-wrapper" class="search-input-wrapper">
+        <input
+          id="search-wisdom-quotes"
+          class="search-input-top"
+          placeholder="Search"
+          autocomplete="off"
+        />
+      </div>
+    </div>
+
     <!-- Refresh button positioned at top right -->
     <div id="refresh" class="refresh-button">
       <img src="./images/refresh.png" alt="refresh button" />
@@ -15,11 +30,12 @@
 
         <!-- Main content display -->
         <div id="content-display" class="content-section">
-          <!-- Intro heading -->
-          <div id="intro-heading" class="content-heading"></div>
 
           <!-- Date display -->
           <div id="date-display" class="content-meta"></div>
+
+          <!-- Intro heading -->
+          <div id="intro-heading" class="content-heading"></div>
 
           <!-- Main quote/content -->
           <div id="main-content" class="content-body"></div>
@@ -74,18 +90,6 @@
         <div id="favorite" class="action-favorite">
           <img class="heart-light" src="./images/heart-light.svg" alt="" />
           <img class="heart-solid" src="./images/heart-solid.svg" alt="" />
-        </div>
-      </div>
-      
-      <!-- Search interface moved to footer center -->
-      <div id="search-container" class="search-section">
-        <div id="search-and-exchange" class="search-wrapper">
-          <input
-            id="search-wisdom-quotes"
-            class="search-input"
-            placeholder="Search"
-            autocomplete="off"
-          />
         </div>
       </div>
       
