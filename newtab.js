@@ -453,8 +453,19 @@ function displayContent(contentData) {
 
   // Display newsletter link
   if (contentData.newsletter_link?.trim()) {
+    // Get the first three words of the quote for text fragment directive
+    let textFragment = ''
+    if (contentData.quote?.trim()) {
+      const words = contentData.quote.trim().split(/\s+/)
+      const firstThreeWords = words.slice(0, 3).join(' ')
+      if (firstThreeWords) {
+        // Use URL Fragment Text Directives: #:~:text=text_to_highlight
+        textFragment = `#:~:text=${encodeURIComponent(firstThreeWords)}`
+      }
+    }
+
     newsletterLink.html(
-      `<a href="${contentData.newsletter_link}" target="_blank">Read Full Newsletter →</a>`
+      `<a href="${contentData.newsletter_link}${textFragment}" target="_blank">Read Full Newsletter →</a>`
     )
   }
 
