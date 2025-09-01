@@ -13,8 +13,8 @@ let search
 let refresh
 // Removed old mode switching elements - now using category filters
 
-// Category filter state
-const activeFilters = {
+// Category filter state - will be loaded from storage
+let activeFilters = {
   ideas: true,
   quotes: true,
   questions: true,
@@ -56,6 +56,29 @@ $(() => {
   })
   loadClickListeners()
 })
+
+// Load category filters from storage
+function loadCategoryFilters() {
+  chrome.storage.sync.get(['categoryFilters'], (result) => {
+    if (result.categoryFilters) {
+      activeFilters = { ...activeFilters, ...result.categoryFilters }
+    }
+    // Update UI to reflect loaded state
+    updateFilterButtons()
+  })
+}
+
+// Save category filters to storage
+function saveCategoryFilters() {
+  chrome.storage.sync.set({ categoryFilters: activeFilters })
+}
+
+// Update filter button UI to match current state
+function updateFilterButtons() {
+  $('#filter-ideas').toggleClass('active', activeFilters.ideas)
+  $('#filter-quotes').toggleClass('active', activeFilters.quotes)
+  $('#filter-questions').toggleClass('active', activeFilters.questions)
+}
 
 function loadClickListeners() {
   $('#search-wisdom-quotes').keyup(() => {
@@ -100,6 +123,7 @@ function loadClickListeners() {
   $('#filter-ideas').click(() => {
     activeFilters.ideas = !activeFilters.ideas
     $('#filter-ideas').toggleClass('active', activeFilters.ideas)
+    saveCategoryFilters() // Save state to storage
     // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
     if (searchText.length >= 3) {
@@ -112,6 +136,7 @@ function loadClickListeners() {
   $('#filter-quotes').click(() => {
     activeFilters.quotes = !activeFilters.quotes
     $('#filter-quotes').toggleClass('active', activeFilters.quotes)
+    saveCategoryFilters() // Save state to storage
     // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
     if (searchText.length >= 3) {
@@ -124,6 +149,7 @@ function loadClickListeners() {
   $('#filter-questions').click(() => {
     activeFilters.questions = !activeFilters.questions
     $('#filter-questions').toggleClass('active', activeFilters.questions)
+    saveCategoryFilters() // Save state to storage
     // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
     if (searchText.length >= 3) {
@@ -300,7 +326,7 @@ function newTab() {
   authorAttribution = $('#author-attribution')
   newsletterLink = $('#newsletter-link')
 
-  // Load saved preferences
+  // Load saved preferences and category filters
   chrome.storage.sync.get(['default'], (result) => {
     // Note: default preference is no longer used since we use category filters
 
@@ -309,6 +335,9 @@ function newTab() {
     if (hideCount) {
       $('#count').hide()
     }
+
+    // Load category filters from storage
+    loadCategoryFilters()
 
     fadeIn(refresh)
     refreshDisplay()
