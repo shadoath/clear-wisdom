@@ -20,6 +20,12 @@ let activeFilters = {
   questions: true,
 }
 
+// Fuse.js search instance
+let fuseInstance = null
+
+// Debounced search function
+let searchTimeout = null
+
 // Content display elements
 let introHeading
 let dateDisplay
@@ -52,6 +58,7 @@ $(() => {
       questions.push(value)
     })
     // Initialize after all files are loaded
+    initializeFuseSearch()
     newTab()
   })
   loadClickListeners()
@@ -112,14 +119,26 @@ function loadClickListeners() {
     ) {
       searchContainer.removeClass('active')
       $('#search-wisdom-quotes').val('')
-      refreshDisplay()
+      // Only refresh display if we were showing search results
+      if (window.currentSearchResults) {
+        refreshDisplay()
+      }
     }
   })
 
   $('#search-wisdom-quotes').keyup(() => {
-    const search_text = $('#search-wisdom-quotes').val().trim().toLowerCase()
+    const search_text = $('#search-wisdom-quotes').val().trim()
+
+    // Clear previous timeout
+    if (searchTimeout) {
+      clearTimeout(searchTimeout)
+    }
+
     if (search_text.length >= 3) {
-      search_for(search_text)
+      // Debounce search for better performance
+      searchTimeout = setTimeout(() => {
+        search_for(search_text)
+      }, 300)
     } else if (search_text.length === 0) {
       // If search is cleared, restore the current display
       refreshDisplay()
@@ -133,14 +152,14 @@ function loadClickListeners() {
   $('#search-wisdom-quotes').keypress((e) => {
     if (e.which === 13) {
       // Enter key
-      const search_text = $('#search-wisdom-quotes').val().trim().toLowerCase()
+      const search_text = $('#search-wisdom-quotes').val().trim()
       if (search_text.length > 0) {
         search_for(search_text)
       }
     }
   })
 
-  // Handle Escape key to close search
+  // Handle Escape key to close search and arrow keys for navigation
   $(document).keydown((e) => {
     if (e.key === 'Escape') {
       const searchContainer = $('#search-container-top')
@@ -148,6 +167,27 @@ function loadClickListeners() {
         searchContainer.removeClass('active')
         $('#search-wisdom-quotes').val('')
         refreshDisplay()
+      }
+    }
+
+    // Arrow key navigation for search results
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      const searchContainer = $('#search-container-top')
+      if (
+        searchContainer.hasClass('active') &&
+        window.currentSearchResults?.length > 0
+      ) {
+        e.preventDefault()
+        navigateSearchResults(e.key === 'ArrowDown' ? 1 : -1)
+      }
+    }
+
+    // Enter key to select highlighted search result
+    if (e.key === 'Enter' && window.currentSearchResults?.length > 0) {
+      const highlightedResult = $('.search-result-item.highlighted')
+      if (highlightedResult.length > 0) {
+        e.preventDefault()
+        highlightedResult.click()
       }
     }
   })
@@ -171,8 +211,10 @@ function loadClickListeners() {
     activeFilters.ideas = !activeFilters.ideas
     $('#filter-ideas').toggleClass('active', activeFilters.ideas)
     saveCategoryFilters() // Save state to storage
+    // Reinitialize Fuse.js with new filter state
+    fuseInstance = null
     // Re-run search if there's active search text, otherwise refresh display
-    const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
+    const searchText = $('#search-wisdom-quotes').val().trim()
     if (searchText.length >= 3) {
       search_for(searchText)
     } else {
@@ -184,8 +226,10 @@ function loadClickListeners() {
     activeFilters.quotes = !activeFilters.quotes
     $('#filter-quotes').toggleClass('active', activeFilters.quotes)
     saveCategoryFilters() // Save state to storage
+    // Reinitialize Fuse.js with new filter state
+    fuseInstance = null
     // Re-run search if there's active search text, otherwise refresh display
-    const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
+    const searchText = $('#search-wisdom-quotes').val().trim()
     if (searchText.length >= 3) {
       search_for(searchText)
     } else {
@@ -197,8 +241,10 @@ function loadClickListeners() {
     activeFilters.questions = !activeFilters.questions
     $('#filter-questions').toggleClass('active', activeFilters.questions)
     saveCategoryFilters() // Save state to storage
+    // Reinitialize Fuse.js with new filter state
+    fuseInstance = null
     // Re-run search if there's active search text, otherwise refresh display
-    const searchText = $('#search-wisdom-quotes').val().trim().toLowerCase()
+    const searchText = $('#search-wisdom-quotes').val().trim()
     if (searchText.length >= 3) {
       search_for(searchText)
     } else {
@@ -207,13 +253,39 @@ function loadClickListeners() {
   })
 }
 
+function initializeFuseSearch() {
+  // Build content array based on active filters
+  const allContent = []
+  if (activeFilters.ideas) allContent.push(...ideas)
+  if (activeFilters.quotes) allContent.push(...quotes)
+  if (activeFilters.questions) allContent.push(...questions)
+
+  // Configure Fuse.js options for better search
+  const fuseOptions = {
+    keys: [
+      { name: 'quote', weight: 0.5 },
+      { name: 'author', weight: 0.4 },
+      { name: 'intro', weight: 0.3 },
+      { name: 'explanation', weight: 0.2 },
+    ],
+    threshold: 0.3, // Lower threshold = more strict matching
+    distance: 100, // Allow for more distance between characters
+    includeScore: true, // Include relevance scores
+    includeMatches: true, // Include match information for highlighting
+    minMatchCharLength: 3, // Minimum characters to match
+    shouldSort: true, // Sort by relevance
+  }
+
+  // Initialize Fuse.js instance
+  fuseInstance = new Fuse(allContent, fuseOptions)
+  console.log('Fuse.js initialized with', allContent.length, 'items')
+}
+
 function hasActiveFilters() {
   return activeFilters.ideas || activeFilters.quotes || activeFilters.questions
 }
 
 function search_for(search_text) {
-  const result = []
-
   // Check if any filters are active
   if (!hasActiveFilters()) {
     // No filters active, show message
@@ -221,31 +293,32 @@ function search_for(search_text) {
     return
   }
 
-  // Build content array based on active filters
-  const allContent = []
-  if (activeFilters.ideas) allContent.push(...ideas)
-  if (activeFilters.quotes) allContent.push(...quotes)
-  if (activeFilters.questions) allContent.push(...questions)
-
-  console.log(
-    `Searching for "${search_text}" in active categories. Found ${allContent.length} total items.`
-  )
-
-  // Search through filtered content
-  for (const item of allContent) {
-    const searchableText = [
-      item.intro?.toLowerCase() || '',
-      item.quote?.toLowerCase() || '',
-      item.explanation?.toLowerCase() || '',
-      item.author?.toLowerCase() || '',
-    ].join(' ')
-
-    if (searchableText.includes(search_text)) {
-      result.push(item)
-    }
+  // Initialize Fuse.js if not already done
+  if (!fuseInstance) {
+    initializeFuseSearch()
   }
 
+  if (!fuseInstance) {
+    console.error('Fuse.js not initialized')
+    return
+  }
+
+  console.log(`Searching for "${search_text}" using Fuse.js`)
+
+  // Perform fuzzy search
+  const searchResults = fuseInstance.search(search_text, {
+    limit: 20, // Limit results for better performance
+  })
+
+  console.log('Fuse.js search results:', searchResults)
+
+  // Extract the actual items from Fuse.js results
+  const result = searchResults.map((item) => item.item)
+
+  console.log('Extracted items:', result)
+
   if (result.length > 0) {
+    console.log(`Found ${result.length} results with Fuse.js`)
     // Display search results
     displaySearchResults(result)
   } else {
@@ -278,13 +351,19 @@ function displaySearchResults(results) {
   results.forEach((item, index) => {
     const category = getCategoryLabel(item)
     const previewText = getPreviewText(item)
+    const searchTerm = $('#search-wisdom-quotes').val().trim()
+
+    // Highlight search terms in preview text
+    const highlightedPreview = highlightSearchTerms(previewText, searchTerm)
 
     resultsHtml += `
-      <div class="search-result-item" data-index="${index}">
+      <div class="search-result-item" data-index="${index}" data-item-id="${
+      item.id || ''
+    }" data-item-section="${item.section || ''}">
         <div class="search-result-category">${category}</div>
         <div class="search-result-content">
           <div class="search-result-intro">${item.intro || ''}</div>
-          <div class="search-result-preview">${previewText}</div>
+          <div class="search-result-preview">${highlightedPreview}</div>
         </div>
       </div>
     `
@@ -294,11 +373,52 @@ function displaySearchResults(results) {
 
   mainContent.html(resultsHtml)
 
-  // Add click listeners to search result items
-  $('.search-result-item').click(function () {
+  // Store results in a global variable for click handlers to access
+  window.currentSearchResults = results
+  console.log('Stored search results:', window.currentSearchResults)
+
+  // Add click listeners to search result items with improved error handling
+  $('.search-result-item').click(function (e) {
+    // Prevent event bubbling to avoid triggering the "click outside" handler
+    e.stopPropagation()
+
     const index = Number.parseInt($(this).data('index'))
-    const selectedItem = results[index]
-    displayContent(selectedItem)
+    const itemId = $(this).data('item-id')
+    const itemSection = $(this).data('item-section')
+
+    console.log('Search result clicked:', { index, itemId, itemSection })
+
+    // First try to get from global variable
+    if (window.currentSearchResults?.[index]) {
+      const selectedItem = window.currentSearchResults[index]
+      console.log('Selected item from global:', selectedItem)
+
+      if (selectedItem?.id) {
+        displayContent(selectedItem)
+        $('#search-container-top').removeClass('active')
+        $('#search-wisdom-quotes').val('')
+        return
+      }
+    }
+
+    // Fallback: find by ID in original arrays
+    if (itemId) {
+      const foundItem = findItemById(itemId)
+      if (foundItem) {
+        console.log('Found item by ID:', foundItem)
+        displayContent(foundItem)
+        $('#search-container-top').removeClass('active')
+        $('#search-wisdom-quotes').val('')
+        return
+      }
+    }
+
+    // Last resort: find by section and index
+    console.error('Could not find item by any method:', {
+      index,
+      itemId,
+      itemSection,
+    })
   })
 }
 
@@ -322,6 +442,52 @@ function getPreviewText(item) {
       : item.explanation
   }
   return item.intro || 'No preview available'
+}
+
+function highlightSearchTerms(text, searchTerm) {
+  if (!searchTerm || !text) return text
+
+  // Create a case-insensitive regex to match search terms
+  const regex = new RegExp(
+    `(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`,
+    'gi'
+  )
+
+  // Replace matches with highlighted version
+  return text.replace(regex, '<mark class="search-highlight">$1</mark>')
+}
+
+function navigateSearchResults(direction) {
+  const currentHighlighted = $('.search-result-item.highlighted')
+  const allResults = $('.search-result-item')
+
+  if (allResults.length === 0) return
+
+  let nextIndex = 0
+
+  if (currentHighlighted.length > 0) {
+    const currentIndex = allResults.index(currentHighlighted)
+    nextIndex =
+      (currentIndex + direction + allResults.length) % allResults.length
+  }
+
+  // Remove current highlight and add to new item
+  currentHighlighted.removeClass('highlighted')
+  allResults.eq(nextIndex).addClass('highlighted')
+
+  // Scroll to highlighted item
+  const highlightedItem = allResults.eq(nextIndex)
+  const container = $('.search-results')
+  const itemTop = highlightedItem.position().top
+  const containerHeight = container.height()
+
+  container.scrollTop(container.scrollTop() + itemTop - containerHeight / 2)
+}
+
+function findItemById(itemId) {
+  // Search through all content arrays to find the item by ID
+  const allItems = [...ideas, ...quotes, ...questions]
+  return allItems.find((item) => item.id === itemId)
 }
 
 function displayNoFiltersMessage() {
@@ -420,7 +586,6 @@ function refreshDisplay() {
   fadeIn(dateDisplay)
   fadeIn(explanationBox)
   fadeIn(mainContent)
-  fadeIn(newsletterLink)
 }
 
 // Removed getQuotesBySection function - now using active filters directly
@@ -435,6 +600,7 @@ function setSearchPlaceholder() {
 
 function displayContent(contentData) {
   log('displayContent')
+  console.log('Displaying content:', contentData)
 
   // Clear all content elements
   clearContentDisplay()
@@ -451,9 +617,36 @@ function displayContent(contentData) {
   authorAttribution.show()
   newsletterLink.show()
 
-  // Display intro heading
+  // Display intro heading with newsletter link if available
   if (contentData.intro?.trim()) {
-    introHeading.html(contentData.intro)
+    let introContent = contentData.intro
+
+    // Make the entire intro text a link if newsletter link is available
+    if (contentData.newsletter_link?.trim()) {
+      // Get the first three words of the quote for text fragment directive
+      let textFragment = ''
+      if (contentData.quote?.trim()) {
+        // Convert markdown to plain text first
+        const plainTextQuote = markdownToPlainText(contentData.quote)
+        const words = plainTextQuote.trim().split(/\s+/)
+        const firstThreeWords = words.slice(0, 3).join(' ')
+        if (firstThreeWords) {
+          // Use URL Fragment Text Directives: #:~:text=text_to_highlight
+          textFragment = `#:~:text=${encodeURIComponent(firstThreeWords)}`
+        }
+      }
+
+      introContent = `<a href="${contentData.newsletter_link}${textFragment}" target="_blank" class="newsletter-link-inline">${introContent}</a>`
+    }
+
+    introHeading.html(introContent)
+
+    // Add event handler for newsletter links to prevent bubbling
+    if (contentData.newsletter_link?.trim()) {
+      introHeading.find('.newsletter-link-inline').click((e) => {
+        e.stopPropagation()
+      })
+    }
   }
 
   // Display date
@@ -488,33 +681,23 @@ function displayContent(contentData) {
   if (contentData.quote?.trim()) {
     const formattedContent = parseMarkdown(contentData.quote)
     mainContent.html(formattedContent)
+
+    // Check if content is scrollable after rendering
+    setTimeout(() => {
+      checkContentScrollable()
+    }, 100)
   }
 
-  // Display author only for Quotes section
+  // Display author only for Quotes section (compact version)
   if (contentData.section === 'Quotes' && contentData.author?.trim()) {
-    authorAttribution.html(contentData.author)
+    authorAttribution.html(`— ${contentData.author}`)
     authorAttribution.show()
   } else {
     authorAttribution.hide()
   }
 
-  // Display newsletter link
-  if (contentData.newsletter_link?.trim()) {
-    // Get the first three words of the quote for text fragment directive
-    let textFragment = ''
-    if (contentData.quote?.trim()) {
-      const words = contentData.quote.trim().split(/\s+/)
-      const firstThreeWords = words.slice(0, 3).join(' ')
-      if (firstThreeWords) {
-        // Use URL Fragment Text Directives: #:~:text=text_to_highlight
-        textFragment = `#:~:text=${encodeURIComponent(firstThreeWords)}`
-      }
-    }
-
-    newsletterLink.html(
-      `<a href="${contentData.newsletter_link}${textFragment}" target="_blank">Read Full Newsletter →</a>`
-    )
-  }
+  // Hide newsletter link since it's now in the intro heading
+  newsletterLink.hide()
 
   setSearchPlaceholder()
   // Determine category from content section for favorites and viewed tracking
@@ -527,6 +710,19 @@ function getCurrentContentCategory() {
   return mainContent.attr('data-content-category') || 'ideas'
 }
 
+function checkContentScrollable() {
+  const contentElement = mainContent[0]
+  if (contentElement) {
+    const isScrollable =
+      contentElement.scrollHeight > contentElement.clientHeight
+    if (isScrollable) {
+      mainContent.addClass('scrollable')
+    } else {
+      mainContent.removeClass('scrollable')
+    }
+  }
+}
+
 function showSearchHint(charCount) {
   // Clear current display
   clearContentDisplay()
@@ -536,12 +732,45 @@ function showSearchHint(charCount) {
   authorAttribution.hide()
   newsletterLink.hide()
 
-  // Show helpful message
+  // Show helpful message with search suggestions
   introHeading.html('Type to search')
+
+  const suggestions = [
+    'habits',
+    'goals',
+    'productivity',
+    'mindset',
+    'success',
+    'motivation',
+    'learning',
+    'growth',
+    'focus',
+    'discipline',
+  ]
+
+  const suggestionsHtml = suggestions
+    .slice(0, 5)
+    .map((suggestion) => `<span class="search-suggestion">${suggestion}</span>`)
+    .join('')
+
   mainContent.html(`
     <div class="search-hint">
       <p>Please type at least 3 characters to search through wisdom content.</p>
       <p class="search-progress">${charCount}/3 characters</p>
+      <div class="search-suggestions">
+        <p>Try searching for:</p>
+        <div class="suggestion-tags">${suggestionsHtml}</div>
+      </div>
     </div>
   `)
+
+  // Add click handlers to suggestions
+  $('.search-suggestion').click(function (e) {
+    // Prevent event bubbling
+    e.stopPropagation()
+
+    const suggestion = $(this).text()
+    $('#search-wisdom-quotes').val(suggestion)
+    search_for(suggestion)
+  })
 }
