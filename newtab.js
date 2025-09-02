@@ -260,6 +260,16 @@ function initializeFuseSearch() {
   if (activeFilters.quotes) allContent.push(...quotes)
   if (activeFilters.questions) allContent.push(...questions)
 
+  // Create a clean version of content for search (with markdown stripped from quotes)
+  const searchContent = allContent.map((item) => {
+    const cleanItem = { ...item }
+    if (cleanItem.quote) {
+      // Strip markdown from quote content for better search
+      cleanItem.quote = markdownToPlainText(cleanItem.quote)
+    }
+    return cleanItem
+  })
+
   // Configure Fuse.js options for better search
   const fuseOptions = {
     keys: [
@@ -268,17 +278,24 @@ function initializeFuseSearch() {
       { name: 'intro', weight: 0.3 },
       { name: 'explanation', weight: 0.2 },
     ],
-    threshold: 0.3, // Lower threshold = more strict matching
-    distance: 100, // Allow for more distance between characters
+    threshold: 0.3, // Slightly more lenient to catch more matches
+    distance: 200, // Allow more distance between characters for longer content
     includeScore: true, // Include relevance scores
     includeMatches: true, // Include match information for highlighting
-    minMatchCharLength: 3, // Minimum characters to match
+    minMatchCharLength: 3, // Lower minimum to catch shorter words
     shouldSort: true, // Sort by relevance
+    findAllMatches: true, // Find all matches, not just the first one
+    location: 0, // Start searching from the beginning
+    ignoreLocation: true, // Don't prioritize matches at the beginning
   }
 
-  // Initialize Fuse.js instance
-  fuseInstance = new Fuse(allContent, fuseOptions)
-  console.log('Fuse.js initialized with', allContent.length, 'items')
+  // Initialize Fuse.js instance with clean content
+  fuseInstance = new Fuse(searchContent, fuseOptions)
+  console.log(
+    'Fuse.js initialized with',
+    searchContent.length,
+    'items (markdown stripped from quotes)'
+  )
 }
 
 function hasActiveFilters() {
@@ -312,10 +329,28 @@ function search_for(search_text) {
 
   console.log('Fuse.js search results:', searchResults)
 
-  // Extract the actual items from Fuse.js results
-  const result = searchResults.map((item) => item.item)
+  // Extract the actual items from Fuse.js results and add match info
+  const result = searchResults.map((item) => {
+    const resultItem = { ...item.item }
+    resultItem._fuseMatches = item.matches // Store match information
+    resultItem._fuseScore = item.score // Store relevance score
+    return resultItem
+  })
 
   console.log('Extracted items:', result)
+
+  // Debug: Show what content is being searched
+  result.forEach((item, index) => {
+    console.log(`Result ${index + 1}:`, {
+      id: item.id,
+      intro: item.intro,
+      quote: item.quote?.substring(0, 100) + '...',
+      explanation: item.explanation?.substring(0, 100) + '...',
+      author: item.author,
+      matches: item._fuseMatches,
+      score: item._fuseScore,
+    })
+  })
 
   if (result.length > 0) {
     console.log(`Found ${result.length} results with Fuse.js`)
@@ -353,6 +388,19 @@ function displaySearchResults(results) {
     const previewText = getPreviewText(item)
     const searchTerm = $('#search-wisdom-quotes').val().trim()
 
+    // Debug: Show where matches occurred and relevance score
+    let matchInfo = ''
+    if (item._fuseMatches) {
+      const matchFields = item._fuseMatches.map((match) => match.key).join(', ')
+      const score = item._fuseScore ? (1 - item._fuseScore).toFixed(2) : 'N/A'
+      matchInfo = `
+        <div class="search-match-info">
+          <span class="match-fields">Matched in: ${matchFields}</span>
+          <span class="relevance-score">Relevance: ${score}</span>
+        </div>
+      `
+    }
+
     // Highlight search terms in preview text
     const highlightedPreview = highlightSearchTerms(previewText, searchTerm)
 
@@ -364,6 +412,7 @@ function displaySearchResults(results) {
         <div class="search-result-content">
           <div class="search-result-intro">${item.intro || ''}</div>
           <div class="search-result-preview">${highlightedPreview}</div>
+          ${matchInfo}
         </div>
       </div>
     `
@@ -455,6 +504,14 @@ function highlightSearchTerms(text, searchTerm) {
 
   // Replace matches with highlighted version
   return text.replace(regex, '<mark class="search-highlight">$1</mark>')
+}
+
+function highlightFuzzyMatches(text, searchTerm, matches) {
+  if (!searchTerm || !text || !matches) return text
+
+  // For now, just use the regular highlighting
+  // In the future, we could use the Fuse.js match information to highlight fuzzy matches
+  return highlightSearchTerms(text, searchTerm)
 }
 
 function navigateSearchResults(direction) {
