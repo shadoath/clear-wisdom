@@ -295,6 +295,7 @@ function initializeFuseSearch() {
       { name: 'quote', weight: 0.8 },
       { name: 'author', weight: 0.6 },
       { name: 'intro', weight: 0.4 },
+      { name: 'date', weight: 0.2 },
       { name: 'explanation', weight: 0.1 },
     ],
     threshold: 0.2,
@@ -742,7 +743,15 @@ function displayContent(contentData) {
     const formattedDate = `${
       monthNames[Number.parseInt(month) - 1]
     } ${Number.parseInt(day)}, ${year}`
-    dateDisplay.html(formattedDate)
+
+    // Make date link to newsletter if newsletter link exists
+    if (contentData.newsletter_link?.trim()) {
+      dateDisplay.html(
+        `<a href="${contentData.newsletter_link}" target="_blank" class="newsletter-link-inline">${formattedDate}</a>`
+      )
+    } else {
+      dateDisplay.html(formattedDate)
+    }
   }
 
   // Display explanation for all content types
