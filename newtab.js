@@ -34,8 +34,6 @@ let mainContent
 let authorAttribution
 let newsletterLink
 
-let hideCount
-
 import { viewed } from './src/viewed.js'
 import { check_favorite, is_favoriting } from './src/favorites.js'
 import { getRandomFromArray, fadeIn, log, matchRuleShort } from './src/util.js'
@@ -79,6 +77,7 @@ function loadCategoryFilters() {
     }
     // Update UI to reflect loaded state
     updateFilterButtons()
+    setSearchPlaceholder() // Update placeholder based on loaded filter state
   })
 }
 
@@ -139,7 +138,7 @@ function loadClickListeners() {
       $('#search-wisdom-quotes').val('')
       // Only refresh display if we were showing search results
       if (window.currentSearchResults) {
-        refreshDisplay()
+        // refreshDisplay()
       }
     }
   })
@@ -229,6 +228,7 @@ function loadClickListeners() {
     activeFilters.ideas = !activeFilters.ideas
     $('#filter-ideas').toggleClass('active', activeFilters.ideas)
     saveCategoryFilters() // Save state to storage
+    setSearchPlaceholder() // Update placeholder based on new filter state
     // Reinitialize Fuse.js with new filter state
     fuseInstance = null
     // Re-run search if there's active search text, otherwise refresh display
@@ -244,6 +244,7 @@ function loadClickListeners() {
     activeFilters.quotes = !activeFilters.quotes
     $('#filter-quotes').toggleClass('active', activeFilters.quotes)
     saveCategoryFilters() // Save state to storage
+    setSearchPlaceholder() // Update placeholder based on new filter state
     // Reinitialize Fuse.js with new filter state
     fuseInstance = null
     // Re-run search if there's active search text, otherwise refresh display
@@ -259,6 +260,7 @@ function loadClickListeners() {
     activeFilters.questions = !activeFilters.questions
     $('#filter-questions').toggleClass('active', activeFilters.questions)
     saveCategoryFilters() // Save state to storage
+    setSearchPlaceholder() // Update placeholder based on new filter state
     // Reinitialize Fuse.js with new filter state
     fuseInstance = null
     // Re-run search if there's active search text, otherwise refresh display
@@ -310,11 +312,6 @@ function initializeFuseSearch() {
 
   // Initialize Fuse.js instance with clean content
   fuseInstance = new Fuse(searchContent, fuseOptions)
-  console.log(
-    'Fuse.js initialized with',
-    searchContent.length,
-    'items (markdown stripped from quotes)'
-  )
 }
 
 function hasActiveFilters() {
@@ -339,14 +336,10 @@ function search_for(search_text) {
     return
   }
 
-  console.log(`Searching for "${search_text}" using Fuse.js`)
-
   // Perform fuzzy search
   const searchResults = fuseInstance.search(search_text, {
     limit: 20, // Limit results for better performance
   })
-
-  console.log('Fuse.js search results:', searchResults)
 
   // Extract the actual items from Fuse.js results and add match info
   const result = searchResults.map((item) => {
@@ -356,23 +349,7 @@ function search_for(search_text) {
     return resultItem
   })
 
-  console.log('Extracted items:', result)
-
-  // Debug: Show what content is being searched
-  result.forEach((item, index) => {
-    console.log(`Result ${index + 1}:`, {
-      id: item.id,
-      intro: item.intro,
-      quote: item.quote?.substring(0, 100) + '...',
-      explanation: item.explanation?.substring(0, 100) + '...',
-      author: item.author,
-      matches: item._fuseMatches,
-      score: item._fuseScore,
-    })
-  })
-
   if (result.length > 0) {
-    console.log(`Found ${result.length} results with Fuse.js`)
     // Display search results
     displaySearchResults(result)
   } else {
@@ -443,7 +420,6 @@ function displaySearchResults(results) {
 
   // Store results in a global variable for click handlers to access
   window.currentSearchResults = results
-  console.log('Stored search results:', window.currentSearchResults)
 
   // Add click listeners to search result items with improved error handling
   $('.search-result-item').click(function (e) {
@@ -454,12 +430,9 @@ function displaySearchResults(results) {
     const itemId = $(this).data('item-id')
     const itemSection = $(this).data('item-section')
 
-    console.log('Search result clicked:', { index, itemId, itemSection })
-
     // First try to get from global variable
     if (window.currentSearchResults?.[index]) {
       const selectedItem = window.currentSearchResults[index]
-      console.log('Selected item from global:', selectedItem)
 
       if (selectedItem?.id) {
         displayContent(selectedItem)
@@ -473,20 +446,12 @@ function displaySearchResults(results) {
     if (itemId) {
       const foundItem = findItemById(itemId)
       if (foundItem) {
-        console.log('Found item by ID:', foundItem)
         displayContent(foundItem)
         $('#search-container-top').removeClass('active')
         $('#search-wisdom-quotes').val('')
         return
       }
     }
-
-    // Last resort: find by section and index
-    console.error('Could not find item by any method:', {
-      index,
-      itemId,
-      itemSection,
-    })
   })
 }
 
@@ -669,12 +634,28 @@ function refreshDisplay() {
 // Removed setCurrently function - no longer needed
 
 function setSearchPlaceholder() {
-  $('#search-wisdom-quotes').attr('placeholder', 'Search all wisdom content')
+  // Build placeholder text based on active filters
+  const activeCategories = []
+  if (activeFilters.ideas) activeCategories.push('ideas')
+  if (activeFilters.quotes) activeCategories.push('quotes')
+  if (activeFilters.questions) activeCategories.push('questions')
+
+  let placeholder = 'Search '
+  if (activeCategories.length === 0) {
+    placeholder += 'all wisdom content'
+  } else if (activeCategories.length === 3) {
+    placeholder += 'all wisdom content'
+  } else if (activeCategories.length === 1) {
+    placeholder += activeCategories[0]
+  } else {
+    placeholder += activeCategories.join(' and ')
+  }
+
+  $('#search-wisdom-quotes').attr('placeholder', placeholder)
 }
 
 function displayContent(contentData) {
   log('displayContent')
-  console.log('Displaying content:', contentData)
 
   // Clear all content elements
   clearContentDisplay()

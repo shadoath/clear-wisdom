@@ -31,7 +31,7 @@ body {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  min-height: 100vh;
+  max-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,11 +61,7 @@ body {
 }
 
 .search-category-filters {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: var(--spacing-sm);
   text-align: center;
-  margin-top: var(--spacing-xl);
   text-align: center;
 }
 
@@ -79,17 +75,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: var(--spacing-xl);
-}
-
-.footer-left {
-  text-align: left;
-  justify-self: start;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-right {
   text-align: right;
-  justify-self: end;
 }
 
 /* Component Classes */
