@@ -62,6 +62,13 @@ $(() => {
     newTab()
   })
   loadClickListeners()
+
+  // Listen for storage changes to update count visibility
+  chrome.storage.onChanged.addListener((changes, namespace) => {
+    if (namespace === 'sync' && changes.hideCount) {
+      updateCountVisibility()
+    }
+  })
 })
 
 // Load category filters from storage
@@ -85,6 +92,17 @@ function updateFilterButtons() {
   $('#filter-ideas').toggleClass('active', activeFilters.ideas)
   $('#filter-quotes').toggleClass('active', activeFilters.quotes)
   $('#filter-questions').toggleClass('active', activeFilters.questions)
+}
+
+// Update count visibility based on hideCount setting
+function updateCountVisibility() {
+  chrome.storage.sync.get(['hideCount'], (result) => {
+    if (result.hideCount) {
+      $('#count').hide()
+    } else {
+      $('#count').show()
+    }
+  })
 }
 
 function loadClickListeners() {
@@ -597,14 +615,12 @@ function newTab() {
   newsletterLink = $('#newsletter-link')
 
   // Load saved preferences and category filters
-  chrome.storage.sync.get(['default'], (result) => {
+  chrome.storage.sync.get(['default', 'hideCount'], (result) => {
     // Note: default preference is no longer used since we use category filters
 
     setSearchPlaceholder()
-    hideCount = false
-    if (hideCount) {
-      $('#count').hide()
-    }
+    hideCount = result.hideCount || false
+    updateCountVisibility()
 
     // Load category filters from storage
     loadCategoryFilters()
