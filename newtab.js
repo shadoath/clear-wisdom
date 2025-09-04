@@ -289,22 +289,22 @@ function initializeFuseSearch() {
   })
 
   // Configure Fuse.js options for better search
+  // https://www.fusejs.io/api/options.html#fuzzy-matching-options
   const fuseOptions = {
     keys: [
-      { name: 'quote', weight: 0.5 },
-      { name: 'author', weight: 0.4 },
-      { name: 'intro', weight: 0.3 },
-      { name: 'explanation', weight: 0.2 },
+      { name: 'quote', weight: 0.8 },
+      { name: 'author', weight: 0.6 },
+      { name: 'intro', weight: 0.4 },
+      { name: 'explanation', weight: 0.1 },
     ],
-    threshold: 0.3, // Slightly more lenient to catch more matches
-    distance: 200, // Allow more distance between characters for longer content
-    includeScore: true, // Include relevance scores
-    includeMatches: true, // Include match information for highlighting
-    minMatchCharLength: 3, // Lower minimum to catch shorter words
-    shouldSort: true, // Sort by relevance
-    findAllMatches: true, // Find all matches, not just the first one
-    location: 0, // Start searching from the beginning
-    ignoreLocation: true, // Don't prioritize matches at the beginning
+    threshold: 0.2,
+    minMatchCharLength: 3,
+    includeScore: true,
+    includeMatches: true,
+    shouldSort: true,
+    findAllMatches: true,
+    ignoreLocation: true,
+    ignoreDiacritics: true,
   }
 
   // Initialize Fuse.js instance with clean content
