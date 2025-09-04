@@ -10,65 +10,174 @@
  */
 
 body {
-  text-align: center;
-  color: white;
-  background: url(./images/mask.png) #242424 repeat center;
-  width: 150px;
+  background: var(--bg-primary);
+  font-family: var(--font-family);
+  color: var(--text-primary);
+  margin: 0;
+  padding: var(--spacing-lg);
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: auto;
 }
 
 /* Typography Classes */
 .options-heading {
-  color: #eeeeee;
-  margin: 0.5rem;
+  font-family: var(--font-family);
+  font-size: var(--font-size-medium);
+  font-weight: 600;
+  color: var(--primary-color);
+  text-align: center;
+  line-height: 1.3;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  margin: 0 0 var(--spacing-md) 0;
+  padding: 0;
+  text-shadow: 0 1px 2px var(--primary-bg);
 }
 
 .options-subheading {
-  color: #eeeeee;
-  margin: 0.5rem;
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 0.5pt;
+  margin: var(--spacing-md) 0 var(--spacing-sm) 0;
+  padding: 0;
 }
 
 /* Layout Classes */
 .options-container {
-  padding: 0.5rem;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+  box-shadow: 0 1px 4px var(--shadow-light);
+  transition: var(--transition-fast);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.options-container:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 2px 6px var(--primary-bg);
 }
 
 .option-item {
   display: flex;
-  color: #cacaca;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-secondary);
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  line-height: 1.4;
+  padding: var(--spacing-sm) 0;
+  transition: var(--transition-fast);
+}
+
+.option-item label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.option-item input[type='checkbox'] {
+  width: 14px;
+  height: 14px;
+  accent-color: var(--primary-color);
+  cursor: pointer;
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-sm);
+  transition: var(--transition-fast);
+}
+
+.option-item input[type='checkbox']:checked {
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+}
+
+.option-item input[type='checkbox']:hover {
+  border-color: var(--primary-color);
+  transform: scale(1.05);
 }
 
 .notice-text {
-  color: #aaa;
-  font-size: var(--font-size-base);
+  color: var(--text-muted);
+  font-size: var(--font-size-small);
+  font-style: italic;
+  text-align: center;
+  background: var(--bg-filter);
+  border-radius: var(--radius-sm);
 }
 
 /* Action Classes */
 .action-button {
-  margin-top: 0.5rem;
   background: var(--primary-color);
   color: var(--bg-secondary);
-  border: none;
+  border: 1px solid var(--primary-color);
   padding: var(--spacing-sm) var(--spacing-md);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-lg);
   cursor: pointer;
   font-family: var(--font-family);
   font-size: var(--font-size-small);
+  font-weight: 600;
+  letter-spacing: 0.3pt;
   transition: var(--transition-fast);
+  margin: var(--spacing-xs);
+  min-width: 60px;
+  text-transform: uppercase;
 }
 
 .action-button:hover {
   background: var(--primary-hover);
+  border-color: var(--primary-hover);
   transform: translateY(-1px);
+  box-shadow: 0 2px 6px var(--primary-shadow);
+}
+
+.action-button:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 3px var(--primary-shadow);
+}
+
+/* Divider styling */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--border-medium),
+    transparent
+  );
+  margin: var(--spacing-md) 0;
+  width: 100%;
 }
 
 /* Specific ID styles for unique elements */
 #clear-favorites {
-  /* Specific styling for clear favorites button */
+  background: var(--primary-color);
+}
+
+#clear-favorites:hover {
+  background: var(--primary-hover);
 }
 
 #clear-count {
-  /* Specific styling for clear count button */
+  background: #dc3545;
+  border-color: #dc3545;
+}
+
+#clear-count:hover {
+  background: #c82333;
+  border-color: #c82333;
+  box-shadow: 0 2px 6px rgba(220, 53, 69, 0.3);
 }
