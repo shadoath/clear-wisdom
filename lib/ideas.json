@@ -1,5 +1,155 @@
 [
   {
+    "id": "2020-04-30-ideas-1",
+    "quote": "\"Not taking things personally is a superpower.\"",
+    "intro": "On emotional resilience",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-30-2020",
+    "author": "James Clear",
+    "date": "2020-04-30",
+    "section": "Ideas",
+    "explanation": "A powerful insight about emotional resilience, emphasizing that not internalizing external events or others' actions gives you significant psychological advantage"
+  },
+  {
+    "id": "2020-04-30-ideas-2",
+    "quote": "\"How to 80/20 your work:\n\n(1) Make a list of the 10 things you spend the most time on.\n\n(2) Circle the two that truly drive your results. Do more of those.\n\n(3) Look at the others. Eliminate ruthlessly. Automate or outsource what you can. Press pause on the rest.\n\n(4) Repeat.\"",
+    "intro": "On the 80/20 principle",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-30-2020",
+    "author": "James Clear",
+    "date": "2020-04-30",
+    "section": "Ideas",
+    "explanation": "A practical framework for applying the Pareto principle to work, focusing on the vital few activities that produce most results"
+  },
+  {
+    "id": "2020-04-30-ideas-3",
+    "quote": "\"The first mistake is never the one that ruins you. It's the spiral of repeated mistakes that follows.\n\nThe problem is not slipping up; the problem is thinking that if you cannot do something perfectly, then you shouldn't do it at all...\"",
+    "intro": "On mistake spirals",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-30-2020",
+    "author": "James Clear",
+    "date": "2020-04-30",
+    "section": "Ideas",
+    "explanation": "An insight about the psychology of mistakes, showing that perfectionism and all-or-nothing thinking create more problems than the initial error"
+  },
+  {
+    "id": "2020-04-23-ideas-1",
+    "quote": "\"The best way to get the attention and respect of exceptional people is to do exceptional work.\n\nLike attracts like.\"",
+    "intro": "On attracting excellence",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-23-2020",
+    "author": "James Clear",
+    "date": "2020-04-23",
+    "section": "Ideas",
+    "explanation": "A principle about quality attracting quality, emphasizing that exceptional work naturally draws exceptional people and opportunities"
+  },
+  {
+    "id": "2020-04-23-ideas-2",
+    "quote": "\"The paradox of risk:\n\n(1) Don't put all your eggs in one basket. If you lose the basket, you lose it all.\n\n(2) Don't put your eggs in too many baskets. The more baskets you manage, the less energy you can put into each one. It's risky to do things halfway.\n\nDiversified, but focused.\"",
+    "intro": "On the risk paradox",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-23-2020",
+    "author": "James Clear",
+    "date": "2020-04-23",
+    "section": "Ideas",
+    "explanation": "A balanced approach to risk management that avoids both over-concentration and over-diversification, emphasizing focused diversification"
+  },
+  {
+    "id": "2020-04-23-ideas-3",
+    "quote": "\"You choose the future with your actions each day.\"",
+    "intro": "On daily choice",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-23-2020",
+    "author": "James Clear",
+    "date": "2020-04-23",
+    "section": "Ideas",
+    "explanation": "A reminder about the power of daily actions in shaping the future, emphasizing personal agency and responsibility"
+  },
+  {
+    "id": "2020-04-16-ideas-1",
+    "quote": "\"Correct your mistakes before they become your habits.\"",
+    "intro": "On early correction",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-16-2020",
+    "author": "James Clear",
+    "date": "2020-04-16",
+    "section": "Ideas",
+    "explanation": "A preventive approach to habit formation, emphasizing the importance of addressing errors quickly before they become ingrained patterns"
+  },
+  {
+    "id": "2020-04-16-ideas-2",
+    "quote": "\"Balance is timing, not intensity.\n\nIt is not doing multiple tasks at 80%, but developing the skill of turning it on and turning it off.\n\nSleep fully, then work intensely. Focus deeply, then relax completely. Give each phase your full attention.\n\nBalance is 'when to' not 'how to.'\"",
+    "intro": "On true balance",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-16-2020",
+    "author": "James Clear",
+    "date": "2020-04-16",
+    "section": "Ideas",
+    "explanation": "A redefinition of balance as timing and intensity management rather than multitasking, emphasizing full engagement in each activity"
+  },
+  {
+    "id": "2020-04-16-ideas-3",
+    "quote": "\"Concentration produces wealth.\n\nDiversification protects wealth.\"",
+    "intro": "On wealth creation and protection",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-16-2020",
+    "author": "James Clear",
+    "date": "2020-04-16",
+    "section": "Ideas",
+    "explanation": "A strategic framework for wealth management, showing how focused effort creates wealth while diversification preserves it"
+  },
+  {
+    "id": "2020-04-09-ideas-1",
+    "quote": "\"Ultimately, the only way to truly be in control of your life is to be in control of your thoughts.\"",
+    "intro": "On mental control",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-9-2020",
+    "author": "James Clear",
+    "date": "2020-04-09",
+    "section": "Ideas",
+    "explanation": "An insight about the foundation of personal control, emphasizing that mastering one's thoughts is the key to mastering one's life"
+  },
+  {
+    "id": "2020-04-09-ideas-2",
+    "quote": "\"Slow and steady often wins because it keeps you motivated.\n\nTake on manageable challenges and you'll get frequent signals of progress. Bite off more than you can chew and progress stalls.\n\nWhen you make progress, you want to keep going. When you break progress, you want to stop.\"",
+    "intro": "On sustainable progress",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-9-2020",
+    "author": "James Clear",
+    "date": "2020-04-09",
+    "section": "Ideas",
+    "explanation": "A psychological insight about motivation and progress, showing how manageable challenges create momentum while overwhelming challenges create stagnation"
+  },
+  {
+    "id": "2020-04-09-ideas-3",
+    "quote": "\"When you say no, you are only saying no to one option. When you say yes, you are saying no to every other option.\n\nNo is a choice. Yes is a responsibility.\"",
+    "intro": "On the power of yes and no",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-9-2020",
+    "author": "James Clear",
+    "date": "2020-04-09",
+    "section": "Ideas",
+    "explanation": "A perspective on decision-making that shows how saying yes creates commitments and responsibilities, while saying no preserves freedom and focus"
+  },
+  {
+    "id": "2020-04-02-ideas-1",
+    "quote": "\"Before you ask for readers, write the article you wish you could read.\n\nBefore you ask for the sale, create the product you wish you had.\n\nBefore you need support, be the supportive friend. Before you need love, be the loving partner.\n\nAlways give value before you ask for value.\"",
+    "intro": "On giving before asking",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-2-2020",
+    "author": "James Clear",
+    "date": "2020-04-02",
+    "section": "Ideas",
+    "explanation": "A principle of reciprocity that emphasizes creating value and being helpful before expecting anything in return, applicable to business, relationships, and personal growth"
+  },
+  {
+    "id": "2020-04-02-ideas-2",
+    "quote": "\"Each day is a new battle to say no to the things that don't matter.\"",
+    "intro": "On daily focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-2-2020",
+    "author": "James Clear",
+    "date": "2020-04-02",
+    "section": "Ideas",
+    "explanation": "A reminder that focus requires constant vigilance and daily practice of saying no to distractions and non-essential activities"
+  },
+  {
+    "id": "2020-04-02-ideas-3",
+    "quote": "\"Ambition is wanting to achieve something. Happiness is wanting to be something.\"",
+    "intro": "On ambition vs happiness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-2-2020",
+    "author": "James Clear",
+    "date": "2020-04-02",
+    "section": "Ideas",
+    "explanation": "A distinction between external achievement (ambition) and internal fulfillment (happiness), showing how happiness comes from identity rather than accomplishments"
+  },
+  {
     "id": "2020-03-26-ideas-1",
     "quote": "\"Whenever there is a gap between your habits and your goals, your habits will always win.\"",
     "intro": "On habits vs goals",
