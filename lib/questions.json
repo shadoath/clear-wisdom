@@ -1,5 +1,85 @@
 [
   {
+    "id": "2020-09-24-question",
+    "quote": "Who brings out your best qualities? Can you take five minutes right now to schedule time with them?",
+    "intro": "On scheduling time with positive influences",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-24-2020",
+    "author": "James Clear",
+    "date": "2020-09-24",
+    "section": "Questions",
+    "explanation": "A relationship-focused question that helps readers identify and prioritize time with people who positively influence their character and performance"
+  },
+  {
+    "id": "2020-09-17-question",
+    "quote": "If you keep living the way you are, what will your life look like in 20 years?",
+    "intro": "On long-term trajectory",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-17-2020",
+    "author": "James Clear",
+    "date": "2020-09-17",
+    "section": "Questions",
+    "explanation": "A forward-looking question that helps readers evaluate their current trajectory and consider whether their present actions align with their long-term goals"
+  },
+  {
+    "id": "2020-09-10-question",
+    "quote": "Is there a better way? Is there a kinder way?",
+    "intro": "On improvement and kindness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-10-2020",
+    "author": "James Clear",
+    "date": "2020-09-10",
+    "section": "Questions",
+    "explanation": "A dual-purpose question that encourages readers to consider both efficiency improvements and compassionate approaches in their actions"
+  },
+  {
+    "id": "2020-09-03-question",
+    "quote": "What are the 1-2 things that if you get them done today, you'll go to bed content?",
+    "intro": "On daily contentment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-3-2020",
+    "author": "James Clear",
+    "date": "2020-09-03",
+    "section": "Questions",
+    "explanation": "A daily planning question that helps readers identify the most important tasks that would provide satisfaction and peace of mind"
+  },
+  {
+    "id": "2020-08-27-question",
+    "quote": "What is one thing you can accomplish today that would make this day a success?",
+    "intro": "On daily success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-27-2020",
+    "author": "James Clear",
+    "date": "2020-08-27",
+    "section": "Questions",
+    "explanation": "A daily planning question that helps readers identify one meaningful accomplishment that would make the day feel successful, encouraging focused action"
+  },
+  {
+    "id": "2020-08-20-question",
+    "quote": "What is your personal compounding advantage in your career?",
+    "intro": "On career advantages",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-20-2020",
+    "author": "James Clear",
+    "date": "2020-08-20",
+    "section": "Questions",
+    "explanation": "A strategic career question that helps readers identify their unique strengths and advantages that compound over time, encouraging self-awareness and focus"
+  },
+  {
+    "id": "2020-08-13-question",
+    "quote": "What am I holding on to that I need to let go of?",
+    "intro": "On letting go",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-13-2020",
+    "author": "James Clear",
+    "date": "2020-08-13",
+    "section": "Questions",
+    "explanation": "A self-reflection question that helps readers identify attachments, beliefs, or behaviors that may be holding them back from growth or progress"
+  },
+  {
+    "id": "2020-08-06-question",
+    "quote": "Am I being effective or just busy?",
+    "intro": "On effectiveness vs busyness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-6-2020",
+    "author": "James Clear",
+    "date": "2020-08-06",
+    "section": "Questions",
+    "explanation": "A productivity question that helps readers distinguish between meaningful work that produces results and mere activity that creates the illusion of progress"
+  },
+  {
     "id": "2020-07-30-question",
     "quote": "Which areas of my life are in maintenance mode? Which areas are in growth mode?",
     "intro": "On maintenance vs growth mode",

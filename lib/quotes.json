@@ -1,5 +1,165 @@
 [
   {
+    "id": "2020-09-24-quotes-1",
+    "quote": "**Anne Frank** on how challenge reveals our true character:\n\n\"I've learned one thing: you only really get to know a person after a fight. Only then can you judge their true character!\"",
+    "intro": "On how challenge reveals character",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-24-2020",
+    "author": "Anne Frank",
+    "date": "2020-09-24",
+    "section": "Quotes",
+    "explanation": "Anne Frank's insight about how conflict and challenge reveal authentic character, emphasizing that true nature emerges under pressure"
+  },
+  {
+    "id": "2020-09-24-quotes-2",
+    "quote": "**Christopher Alexander** on the importance of high standards:\n\n\"In my life as an architect, I find that the single thing which inhibits young professionals, new students most severely, is their acceptance of standards that are too low. If I ask a student whether her design is as good as Chartres, she often smiles tolerantly at me as if to say, 'Of course not, that isn't what I am trying to do. ... I could never do that.'\n\nThen, I express my disagreement, and tell her: 'That standard must be our standard. If you are going to be a builder, no other standard is worthwhile. That is what I expect of myself in my own buildings, and it is what I expect of my students.'\n\nGradually, I show the students that they have a right to ask this of themselves, and must ask this of themselves. Once that level of standard is in their minds, they will be able to figure out, for themselves, how to do better, how to make something that is as profound as that.\n\nTwo things emanate from this changed standard. First, the work becomes more fun. It is deeper, it never gets tiresome or boring, because one can never really attain this standard. One's work becomes a lifelong work, and one keeps trying and trying. So it becomes very fulfilling, to live in the light of a goal like this.\n\nBut secondly, it does change what people are trying to do. It takes away from them the everyday, lower-level aspiration that is purely technical in nature, (and which we have come to accept) and replaces it with something deep, which will make a real difference to all of us that inhabit the earth.\"",
+    "intro": "On the importance of high standards",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-24-2020",
+    "author": "Christopher Alexander",
+    "date": "2020-09-24",
+    "section": "Quotes",
+    "explanation": "Christopher Alexander's profound teaching about setting high standards, emphasizing that aspiring to excellence makes work more fulfilling and meaningful"
+  },
+  {
+    "id": "2020-09-17-quotes-1",
+    "quote": "**Kenichi Ohmae** on the difference between being efficient and being effective:\n\n\"Rowing harder doesn't help if the boat is headed in the wrong direction.\"",
+    "intro": "On efficiency vs effectiveness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-17-2020",
+    "author": "Kenichi Ohmae",
+    "date": "2020-09-17",
+    "section": "Quotes",
+    "explanation": "Kenichi Ohmae's metaphor about the importance of direction over effort, emphasizing that efficiency without proper direction is counterproductive"
+  },
+  {
+    "id": "2020-09-17-quotes-2",
+    "quote": "**Niels Bohr** on what it takes to be an expert:\n\n\"An expert is a person who has found out by painful experience all the mistakes that one can make in a very narrow field.\"",
+    "intro": "On what it takes to be an expert",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-17-2020",
+    "author": "Niels Bohr",
+    "date": "2020-09-17",
+    "section": "Quotes",
+    "explanation": "Niels Bohr's definition of expertise, emphasizing that true mastery comes from learning from mistakes within a specific domain"
+  },
+  {
+    "id": "2020-09-10-quotes-1",
+    "quote": "**Morgan Housel** on finding the sensible balance between optimism and pessimism:\n\n\"Optimism is usually defined as a belief that things will go well. But that's incomplete. Sensible optimism is a belief that the odds are in your favor, and over time things will balance out to a good outcome even if what happens in between is filled with misery. And in fact you know it will be filled with misery. You can be optimistic that the long-term growth trajectory is up and to the right, but equally sure that the road between now and then is filled with landmines, and always will be. Those two things are not mutually exclusive.\"\n\nHe also writes:\n\n\"Optimism and pessimism can coexist. If you look hard enough you'll see them next to each other in virtually every successful company and successful career. They seem like opposites, but they work together to keep everything in balance.\"",
+    "intro": "On sensible optimism",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-10-2020",
+    "author": "Morgan Housel",
+    "date": "2020-09-10",
+    "section": "Quotes",
+    "explanation": "Morgan Housel's nuanced perspective on optimism, emphasizing that realistic optimism acknowledges both long-term potential and short-term challenges"
+  },
+  {
+    "id": "2020-09-10-quotes-2",
+    "quote": "**Alfred North Whitehead** on progress:\n\n\"Civilization advances by extending the number of important operations which we can perform without thinking about them.\"",
+    "intro": "On progress",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-10-2020",
+    "author": "Alfred North Whitehead",
+    "date": "2020-09-10",
+    "section": "Quotes",
+    "explanation": "Alfred North Whitehead's insight about how civilization progresses by automating routine tasks, freeing mental capacity for higher-level thinking"
+  },
+  {
+    "id": "2020-09-03-quotes-1",
+    "quote": "**Lucille Clifton** on emphasizing joy over status:\n\n\"One should wish to celebrate more than one wishes to be celebrated.\"",
+    "intro": "On emphasizing joy over status",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-3-2020",
+    "author": "Lucille Clifton",
+    "date": "2020-09-03",
+    "section": "Quotes",
+    "explanation": "Lucille Clifton's wisdom about prioritizing celebration and joy over seeking recognition, emphasizing the value of giving over receiving"
+  },
+  {
+    "id": "2020-09-03-quotes-2",
+    "quote": "**Willard Van Orman Quine and J.S. Ullian** on the difference between being right and having been right:\n\n\"The desire to be right and the desire to have been right are two desires, and the sooner we separate them the better off we are. The desire to be right is the thirst for truth. On all counts, both practical and theoretical, there is nothing but good to be said for it. The desire to have been right, on the other hand, is the pride that goeth before a fall. It stands in the way of our seeing we were wrong, and thus blocks the progress of our knowledge.\"",
+    "intro": "On being right vs having been right",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-3-2020",
+    "author": "Willard Van Orman Quine and J.S. Ullian",
+    "date": "2020-09-03",
+    "section": "Quotes",
+    "explanation": "A philosophical distinction between seeking truth (desire to be right) and protecting ego (desire to have been right), emphasizing that the latter impedes learning"
+  },
+  {
+    "id": "2020-08-27-quotes-1",
+    "quote": "**Bill Ackman** on the link between success and failure:\n\n\"I've always had the view that how successful you are is really a function of how you deal with failure. If you deal with failure well and you persist, you have a high probability of being successful.\"",
+    "intro": "On the link between success and failure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-27-2020",
+    "author": "Bill Ackman",
+    "date": "2020-08-27",
+    "section": "Quotes",
+    "explanation": "Bill Ackman's perspective on resilience as the key differentiator for success, emphasizing that how one handles setbacks determines long-term achievement"
+  },
+  {
+    "id": "2020-08-27-quotes-2",
+    "quote": "**Toni Morrison** shares a lesson from her father:\n\n\"...one day, alone in the kitchen with my father, I let drop a few whines about the job. I gave him details, examples of what troubled me, yet although he listened intently, I saw no sympathy in his eyes. No 'Oh, you poor little thing.'\n\nPerhaps he understood that what I wanted was a solution to the job, not an escape from it. In any case, he put down his cup of coffee and said, 'Listen. You don't live there. You live here. With your people. Go to work. Get your money. And come on home.'\n\nThat was what he said. This was what I heard:\n\n1. Whatever the work is, do it well--not for the boss but for yourself.\n\n2. You make the job; it doesn't make you.\n\n3. Your real life is with us, your family.\n\n4. You are not the work you do; you are the person you are.\n\nI have worked for all sorts of people since then, geniuses and morons, quick-witted and dull, bighearted and narrow. I've had many kinds of jobs, but since that conversation with my father I have never considered the level of labor to be the measure of myself, and I have never placed the security of a job above the value of home.\"",
+    "intro": "On work and identity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-27-2020",
+    "author": "Toni Morrison",
+    "date": "2020-08-27",
+    "section": "Quotes",
+    "explanation": "Toni Morrison's reflection on her father's wisdom about maintaining perspective on work, emphasizing that job performance doesn't define personal worth and family relationships matter more than professional security"
+  },
+  {
+    "id": "2020-08-20-quotes-1",
+    "quote": "**Antoine de Saint-Exupéry** on motivating others:\n\n\"If you want to build a ship, don't drum up the people to gather wood, divide the work, and give orders. Instead, teach them to yearn for the vast endless sea.\"",
+    "intro": "On motivating others",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-20-2020",
+    "author": "Antoine de Saint-Exupéry",
+    "date": "2020-08-20",
+    "section": "Quotes",
+    "explanation": "Antoine de Saint-Exupéry's insight about inspiring others through vision rather than command, emphasizing that motivation comes from shared purpose rather than directives"
+  },
+  {
+    "id": "2020-08-20-quotes-2",
+    "quote": "**Patrick Collison** on the value of reading:\n\n\"You could try to pound your head against the wall and think of original ideas or you can cheat by reading them in books.\"",
+    "intro": "On the value of reading",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-20-2020",
+    "author": "Patrick Collison",
+    "date": "2020-08-20",
+    "section": "Quotes",
+    "explanation": "Patrick Collison's perspective on reading as a shortcut to wisdom, emphasizing that books contain accumulated knowledge that can accelerate learning and innovation"
+  },
+  {
+    "id": "2020-08-13-quotes-1",
+    "quote": "**Wilma Rudolph** on how to lose:\n\n\"Winning is great, sure, but if you are really going to do something in life, the secret is learning how to lose. Nobody goes undefeated all the time. If you can pick up after a crushing defeat, and go on to win again, you are going to be a champion someday.\"",
+    "intro": "On how to lose",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-13-2020",
+    "author": "Wilma Rudolph",
+    "date": "2020-08-13",
+    "section": "Quotes",
+    "explanation": "Wilma Rudolph's wisdom about resilience and recovery from failure, emphasizing that learning to bounce back from defeats is essential for long-term success"
+  },
+  {
+    "id": "2020-08-13-quotes-2",
+    "quote": "**Cindy Gallop** on how to build a successful business:\n\n\"There is a formula for success in business, and it goes like this: You set out to find the very best talent in the marketplace, and then give them a compelling and inspirational vision of what you want them to achieve for you and the company. Then you empower them to achieve those goals using their own skills and talents in any way they choose. If, at the same time, you demonstrate how enormously you value them, not just through compensation, but also verbally, every single day, and if you enable that talent to share in the profit that they help create for you, you'll be successful. It's so simple, and virtually nobody does it, because it requires a high-trust working environment, and most business environments are low-trust. In order to own the future of your business, you have to design it around trust.\"",
+    "intro": "On building a successful business",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-13-2020",
+    "author": "Cindy Gallop",
+    "date": "2020-08-13",
+    "section": "Quotes",
+    "explanation": "Cindy Gallop's comprehensive framework for business success based on talent, vision, empowerment, recognition, and profit-sharing, emphasizing trust as the foundation"
+  },
+  {
+    "id": "2020-08-06-quotes-1",
+    "quote": "**Agnes Martin** on the one thing you have to know in life:\n\n\"There are so many people who don't know what they want. And I think that, in this world, that's the only thing you have to know -- exactly what you want.\"",
+    "intro": "On knowing what you want",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-6-2020",
+    "author": "Agnes Martin",
+    "date": "2020-08-06",
+    "section": "Quotes",
+    "explanation": "Agnes Martin's simple but profound insight about clarity of purpose, emphasizing that knowing exactly what you want is the most important knowledge for navigating life"
+  },
+  {
+    "id": "2020-08-06-quotes-2",
+    "quote": "**Audre Lorde** on facing our challenges:\n\n\"Sometimes we are blessed with being able to choose the time, and the arena, and the manner of our revolution, but more usually we must do battle where we are standing.\"",
+    "intro": "On facing challenges",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-6-2020",
+    "author": "Audre Lorde",
+    "date": "2020-08-06",
+    "section": "Quotes",
+    "explanation": "Audre Lorde's perspective on engaging with challenges and change, emphasizing that we often must act in our current circumstances rather than waiting for ideal conditions"
+  },
+  {
     "id": "2020-07-30-quotes-1",
     "quote": "**Howard Thurman** on passion:\n\n\"Don't ask what the world needs. Ask what makes you come alive, and go do it. Because what the world needs is people who have come alive.\"",
     "intro": "On passion",
