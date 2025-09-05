@@ -1,5 +1,85 @@
 [
   {
+    "id": "2020-03-26-quotes-1",
+    "quote": "**Eugene Schwartz** on writing a good ad:\n\n\"The power, the force, the overwhelming urge to own that makes advertising work, comes from the market itself and not from the copy... This is the copywriter's task: not to create this mass desire — but to channel and direct it.\"",
+    "intro": "On effective advertising",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-26-2020",
+    "author": "Eugene Schwartz",
+    "date": "2020-03-26",
+    "section": "Quotes",
+    "explanation": "Eugene Schwartz's insight about advertising effectiveness, emphasizing that successful ads channel existing desires rather than creating new ones"
+  },
+  {
+    "id": "2020-03-26-quotes-2",
+    "quote": "**Esther Perel** on love:\n\n\"[Love] is a verb. It's an active engagement with all kinds of feelings—positive ones and primitive ones and loathsome ones. But it's a very active verb... It's not a permanent state of enthusiasm.\"",
+    "intro": "On love as action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-26-2020",
+    "author": "Esther Perel",
+    "date": "2020-03-26",
+    "section": "Quotes",
+    "explanation": "Esther Perel's definition of love as an active verb rather than a passive feeling, emphasizing engagement with all emotions rather than constant happiness"
+  },
+  {
+    "id": "2020-03-19-quotes-1",
+    "quote": "**Mary Pickford** on failure:\n\n\"You may have a fresh start any moment you choose, for this thing that we call 'failure' is not the falling down, but the staying down.\"",
+    "intro": "On failure and fresh starts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-19-2020",
+    "author": "Mary Pickford",
+    "date": "2020-03-19",
+    "section": "Quotes",
+    "explanation": "Mary Pickford's empowering perspective on failure, emphasizing that failure is a choice to stay down rather than an inevitable outcome"
+  },
+  {
+    "id": "2020-03-19-quotes-2",
+    "quote": "**Jack London** on misfortune:\n\n\"Life is not always a matter of holding good cards, but sometimes, playing a poor hand well.\"",
+    "intro": "On playing with what you have",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-19-2020",
+    "author": "Jack London",
+    "date": "2020-03-19",
+    "section": "Quotes",
+    "explanation": "Jack London's wisdom about making the best of difficult circumstances, emphasizing skill and strategy over favorable conditions"
+  },
+  {
+    "id": "2020-03-12-quotes-1",
+    "quote": "**Henry David Thoreau** on the cost of things:\n\n\"The cost of a thing is the amount of ... life which is required to be exchanged for it, immediately or in the long run.\"",
+    "intro": "On the true cost of things",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-12-2020",
+    "author": "Henry David Thoreau",
+    "date": "2020-03-12",
+    "section": "Quotes",
+    "explanation": "Henry David Thoreau's profound insight about the real cost of possessions, emphasizing that everything we buy costs us life energy and time"
+  },
+  {
+    "id": "2020-03-12-quotes-2",
+    "quote": "**Sam Altman** on persistence and luck:\n\n\"A big secret is that you can bend the world to your will a surprising percentage of the time... Almost always, the people who say 'I am going to keep going until this works, and no matter what the challenges are I'm going to figure them out', and mean it, go on to succeed.\"",
+    "intro": "On persistence and success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-12-2020",
+    "author": "Sam Altman",
+    "date": "2020-03-12",
+    "section": "Quotes",
+    "explanation": "Sam Altman's insight about the power of genuine persistence, showing how unwavering commitment to solving problems leads to success"
+  },
+  {
+    "id": "2020-03-05-quotes-1",
+    "quote": "**Anne Lamott** on the benefits of rest:\n\n\"Almost everything will work again if you unplug it for a few minutes, including you.\"",
+    "intro": "On the benefits of rest",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-5-2020",
+    "author": "Anne Lamott",
+    "date": "2020-03-05",
+    "section": "Quotes",
+    "explanation": "Anne Lamott's simple but profound insight about the restorative power of rest, comparing human recovery to electronic devices that work better after being unplugged"
+  },
+  {
+    "id": "2020-03-05-quotes-2",
+    "quote": "**Daniel Chambliss** on top performers' attitude towards hard work:\n\n\"At the higher levels of competitive swimming, something like an inversion of attitude takes place. The very features of the sport that the 'C' swimmer finds unpleasant, the top level swimmer enjoys... They like it.\"",
+    "intro": "On enjoying hard work",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-5-2020",
+    "author": "Daniel Chambliss",
+    "date": "2020-03-05",
+    "section": "Quotes",
+    "explanation": "Daniel Chambliss's observation about how elite performers develop a different relationship with difficulty, finding enjoyment in aspects that others find unpleasant"
+  },
+  {
     "id": "2020-02-27-quotes-1",
     "quote": "The author and generally hilarious human, **Bill Bryson**, on the remarkable odds of your existence:\n\n\"Not one of your pertinent ancestors was squashed, devoured, drowned, starved, stranded, stuck fast, untimely wounded, or otherwise deflected from its life's quest of delivering a tiny charge of genetic material to the right partner at the right moment in order to perpetuate the only possible sequence of hereditary combinations that could result — eventually, astoundingly, and all too briefly — in you.\"",
     "intro": "On the miracle of existence",

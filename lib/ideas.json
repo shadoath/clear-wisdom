@@ -1,5 +1,125 @@
 [
   {
+    "id": "2020-03-26-ideas-1",
+    "quote": "\"Whenever there is a gap between your habits and your goals, your habits will always win.\"",
+    "intro": "On habits vs goals",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-26-2020",
+    "author": "James Clear",
+    "date": "2020-03-26",
+    "section": "Ideas",
+    "explanation": "A fundamental insight about the power of habits over goals, emphasizing that daily behaviors determine outcomes more than intentions or aspirations"
+  },
+  {
+    "id": "2020-03-26-ideas-2",
+    "quote": "\"Anticipate, but don't expect. Anticipation: You're excited for what the future holds, but you don't try to control it. Expectation: You try to predict the future and restrict your happiness to one outcome. Always be excited about the possibilities. Never be entitled to them.\"",
+    "intro": "On anticipation vs expectation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-26-2020",
+    "author": "James Clear",
+    "date": "2020-03-26",
+    "section": "Ideas",
+    "explanation": "A nuanced distinction between healthy anticipation and rigid expectations, showing how anticipation maintains openness while expectations create attachment to specific outcomes"
+  },
+  {
+    "id": "2020-03-26-ideas-3",
+    "quote": "\"Study as if you know nothing. Work as if you can solve anything.\"",
+    "intro": "On learning and confidence",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-26-2020",
+    "author": "James Clear",
+    "date": "2020-03-26",
+    "section": "Ideas",
+    "explanation": "A balanced approach to learning and problem-solving, combining intellectual humility in study with confident action in execution"
+  },
+  {
+    "id": "2020-03-19-ideas-1",
+    "quote": "\"In a world where information is abundant and easy to access, the real advantage is knowing where to focus.\"",
+    "intro": "On focus in the information age",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-19-2020",
+    "author": "James Clear",
+    "date": "2020-03-19",
+    "section": "Ideas",
+    "explanation": "An insight about the shift from information scarcity to abundance, emphasizing that focus becomes the key competitive advantage when information is readily available"
+  },
+  {
+    "id": "2020-03-19-ideas-2",
+    "quote": "\"The most useful form of patience is persistence. Patience implies waiting for things to improve on their own. Persistence implies keeping your head down and continuing to work when things take longer than you expect.\"",
+    "intro": "On patience vs persistence",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-19-2020",
+    "author": "James Clear",
+    "date": "2020-03-19",
+    "section": "Ideas",
+    "explanation": "A distinction between passive patience and active persistence, showing that persistence involves continued effort while patience involves waiting"
+  },
+  {
+    "id": "2020-03-19-ideas-3",
+    "quote": "\"Win the moment in front of you right now.\"",
+    "intro": "On present moment focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-19-2020",
+    "author": "James Clear",
+    "date": "2020-03-19",
+    "section": "Ideas",
+    "explanation": "A simple but powerful reminder to focus on the immediate task at hand rather than getting overwhelmed by future concerns or past regrets"
+  },
+  {
+    "id": "2020-03-12-ideas-1",
+    "quote": "\"Your actions are a consequence of your thoughts. Your thoughts are a consequence of what you consume. And in the modern age, what you consume is largely a consequence of how you select and refine your social media feed. Choose better inputs. Get better outputs.\"",
+    "intro": "On input quality",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-12-2020",
+    "author": "James Clear",
+    "date": "2020-03-12",
+    "section": "Ideas",
+    "explanation": "A chain of causation showing how media consumption shapes thoughts, which shape actions, emphasizing the importance of curating high-quality inputs for better outcomes"
+  },
+  {
+    "id": "2020-03-12-ideas-2",
+    "quote": "\"Your current habits are perfectly designed to deliver your current results.\"",
+    "intro": "On habit-results alignment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-12-2020",
+    "author": "James Clear",
+    "date": "2020-03-12",
+    "section": "Ideas",
+    "explanation": "A direct insight about the relationship between habits and results, showing that current outcomes are the natural consequence of current behaviors"
+  },
+  {
+    "id": "2020-03-12-ideas-3",
+    "quote": "\"Needless commitments are more wasteful than needless possessions. Possessions can be ignored, but commitments are a recurring debt that must be paid for with your time and attention.\"",
+    "intro": "On commitments vs possessions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-12-2020",
+    "author": "James Clear",
+    "date": "2020-03-12",
+    "section": "Ideas",
+    "explanation": "A comparison between material possessions and commitments, emphasizing that commitments create ongoing obligations that consume precious time and attention"
+  },
+  {
+    "id": "2020-03-05-ideas-1",
+    "quote": "\"Every action is a vote for the type of person you wish to become.\"",
+    "intro": "On identity and actions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-5-2020",
+    "author": "James Clear",
+    "date": "2020-03-05",
+    "section": "Ideas",
+    "explanation": "A powerful insight about how daily actions shape identity, emphasizing that each choice is a vote for the person we're becoming"
+  },
+  {
+    "id": "2020-03-05-ideas-2",
+    "quote": "\"Your success depends on the risks you take. Your survival depends on the risks you avoid.\"",
+    "intro": "On risk management",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-5-2020",
+    "author": "James Clear",
+    "date": "2020-03-05",
+    "section": "Ideas",
+    "explanation": "A balanced perspective on risk-taking, showing that calculated risks drive success while avoiding unnecessary risks ensures survival"
+  },
+  {
+    "id": "2020-03-05-ideas-3",
+    "quote": "\"The way to attract good luck is to be reliable in a valuable area. The more you repeatedly deliver value, the more people seek you out for that value. Your reputation is a magnet. Once you become known for something, relevant opportunities come to you with no extra work.\"",
+    "intro": "On attracting opportunities",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-5-2020",
+    "author": "James Clear",
+    "date": "2020-03-05",
+    "section": "Ideas",
+    "explanation": "An insight about how consistency and reliability create a reputation that naturally attracts opportunities, making 'luck' a result of sustained value delivery"
+  },
+  {
     "id": "2020-02-27-ideas-1",
     "quote": "\"Aim to be great in 10 years.\n\nBuild health habits today that lead to a great body in 10 years.\nBuild social habits today that lead to great relationships in 10 years.\nBuild learning habits today that lead to great knowledge in 10 years.\n\nLong-term thinking is a secret weapon.\"",
     "intro": "On long-term thinking",

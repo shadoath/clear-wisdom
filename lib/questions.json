@@ -1,5 +1,45 @@
 [
   {
+    "id": "2020-03-26-question",
+    "quote": "Who is your biggest fan? How can you thank them today?",
+    "intro": "On gratitude and supporters",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-26-2020",
+    "author": "James Clear",
+    "date": "2020-03-26",
+    "section": "Questions",
+    "explanation": "A gratitude-focused question that encourages readers to identify and appreciate their supporters, promoting both reflection and action"
+  },
+  {
+    "id": "2020-03-19-question",
+    "quote": "How can I make the most of this?",
+    "intro": "On maximizing opportunities",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-19-2020",
+    "author": "James Clear",
+    "date": "2020-03-19",
+    "section": "Questions",
+    "explanation": "A simple but powerful question that encourages readers to find ways to extract maximum value from any situation, whether positive or challenging"
+  },
+  {
+    "id": "2020-03-12-question",
+    "quote": "Which projects give me energy? Which projects take it away? Which people give me energy? Which people take it away?",
+    "intro": "On energy management",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-12-2020",
+    "author": "James Clear",
+    "date": "2020-03-12",
+    "section": "Questions",
+    "explanation": "A comprehensive energy audit question that helps readers identify what energizes them versus what drains them, both in work and relationships"
+  },
+  {
+    "id": "2020-03-05-question",
+    "quote": "How would I know if my beliefs are wrong?",
+    "intro": "On belief testing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-5-2020",
+    "author": "James Clear",
+    "date": "2020-03-05",
+    "section": "Questions",
+    "explanation": "A meta-cognitive question that encourages readers to examine their own beliefs critically and consider how they would recognize if their assumptions were incorrect"
+  },
+  {
     "id": "2020-02-27-question",
     "quote": "What would 10-year-old me say? What would 80-year-old me say?",
     "intro": "On perspective across time",
