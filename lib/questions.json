@@ -1,5 +1,45 @@
 [
   {
+    "id": "2020-02-27-question",
+    "quote": "What would 10-year-old me say? What would 80-year-old me say?",
+    "intro": "On perspective across time",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-27-2020",
+    "author": "James Clear",
+    "date": "2020-02-27",
+    "section": "Questions",
+    "explanation": "A powerful reflection question that helps readers gain perspective by considering how their younger and older selves would view current decisions and priorities"
+  },
+  {
+    "id": "2020-02-20-question",
+    "quote": "Whose expectations am I trying to fulfill? My own or those of someone else?",
+    "intro": "On personal vs external expectations",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-20-2020",
+    "author": "James Clear",
+    "date": "2020-02-20",
+    "section": "Questions",
+    "explanation": "A self-reflection question that helps readers examine whether they're pursuing their own goals or trying to meet others' expectations, promoting authentic decision-making"
+  },
+  {
+    "id": "2020-02-13-question",
+    "quote": "Will this cost me time in the future or save me time in the future?",
+    "intro": "On time investment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-13-2020",
+    "author": "James Clear",
+    "date": "2020-02-13",
+    "section": "Questions",
+    "explanation": "A practical decision-making question that helps readers evaluate whether current actions will create future time savings or time costs"
+  },
+  {
+    "id": "2020-02-06-question",
+    "quote": "What are the minority of my actions that drive the majority of my results?",
+    "intro": "On the 80/20 principle",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-6-2020",
+    "author": "James Clear",
+    "date": "2020-02-06",
+    "section": "Questions",
+    "explanation": "A strategic question that helps readers identify their most impactful activities using the Pareto principle, focusing on the vital few actions that produce most results"
+  },
+  {
     "id": "2020-01-30-question",
     "quote": "Will this matter in six months?",
     "intro": "On long-term perspective",

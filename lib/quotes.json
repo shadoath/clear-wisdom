@@ -1,5 +1,85 @@
 [
   {
+    "id": "2020-02-27-quotes-1",
+    "quote": "The author and generally hilarious human, **Bill Bryson**, on the remarkable odds of your existence:\n\n\"Not one of your pertinent ancestors was squashed, devoured, drowned, starved, stranded, stuck fast, untimely wounded, or otherwise deflected from its life's quest of delivering a tiny charge of genetic material to the right partner at the right moment in order to perpetuate the only possible sequence of hereditary combinations that could result — eventually, astoundingly, and all too briefly — in you.\"",
+    "intro": "On the miracle of existence",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-27-2020",
+    "author": "Bill Bryson",
+    "date": "2020-02-27",
+    "section": "Quotes",
+    "explanation": "Bill Bryson's profound reflection on the astronomical improbability of our existence, emphasizing how every ancestor had to survive countless dangers for us to be here today"
+  },
+  {
+    "id": "2020-02-27-quotes-2",
+    "quote": "The poet and Pulitzer Prize winner **Mary Oliver** with some suggestions for your one precious life:\n\n\"Instructions for living a life: Pay attention. Be astonished. Tell about it.\"",
+    "intro": "On living fully",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-27-2020",
+    "author": "Mary Oliver",
+    "date": "2020-02-27",
+    "section": "Quotes",
+    "explanation": "Mary Oliver's simple but profound guidance for a meaningful life, emphasizing mindfulness, wonder, and sharing our experiences with others"
+  },
+  {
+    "id": "2020-02-20-quotes-1",
+    "quote": "The Chinese inventor and author, **Lin Yutang**, on focus:\n\n\"Besides the noble art of getting things done, there is the noble art of leaving things undone. The wisdom of life consists in the elimination of non-essentials.\"",
+    "intro": "On focus and priorities",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-20-2020",
+    "author": "Lin Yutang",
+    "date": "2020-02-20",
+    "section": "Quotes",
+    "explanation": "Lin Yutang's wisdom about the importance of saying no and eliminating non-essential activities, emphasizing that focus requires both doing and not doing"
+  },
+  {
+    "id": "2020-02-20-quotes-2",
+    "quote": "The brilliant physicist and Nobel Prize winner, **Richard Feynman**, on dealing with the expectations of others:\n\n\"You have no responsibility to live up to what other people think you ought to accomplish.\n\nI have no responsibility to be like they expect me to be. It's their mistake, not my failing.\"",
+    "intro": "On external expectations",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-20-2020",
+    "author": "Richard Feynman",
+    "date": "2020-02-20",
+    "section": "Quotes",
+    "explanation": "Richard Feynman's liberating perspective on external expectations, emphasizing personal autonomy and the freedom from others' assumptions about what we should achieve"
+  },
+  {
+    "id": "2020-02-13-quotes-1",
+    "quote": "**John Gardner**, a politician and a recipient of the 1964 Presidential Medal of Freedom, on how to live a meaningful life:\n\n\"There's a myth that learning is for young people. But as the proverb says, 'It's what you learn after you know it all that counts.' The middle years are great, great learning years. Even the years past the middle years. I took on a new job after my 77th birthday – and I'm still learning. Learn all your life. Learn from your failures. Learn from your successes, When you hit a spell of trouble, ask 'What is it trying to teach me?' The lessons aren't always happy ones, but they keep coming.\"",
+    "intro": "On lifelong learning",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-13-2020",
+    "author": "John Gardner",
+    "date": "2020-02-13",
+    "section": "Quotes",
+    "explanation": "John Gardner's wisdom about continuous learning throughout life, emphasizing that education doesn't end with youth and that every experience offers lessons"
+  },
+  {
+    "id": "2020-02-13-quotes-2",
+    "quote": "The Japanese writer **Haruki Murakami** on love:\n\n\"If you remember me, then I don't care if everyone else forgets.\"",
+    "intro": "On love and memory",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-13-2020",
+    "author": "Haruki Murakami",
+    "date": "2020-02-13",
+    "section": "Quotes",
+    "explanation": "Haruki Murakami's poignant insight about the power of personal connection and memory, showing how love transcends broader recognition"
+  },
+  {
+    "id": "2020-02-06-quotes-1",
+    "quote": "**E.O. Wilson**, a sociobiologist and Pulitzer Prize-winning author, on the promise and peril of the future:\n\n\"The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology.\"",
+    "intro": "On humanity's challenges",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-6-2020",
+    "author": "E.O. Wilson",
+    "date": "2020-02-06",
+    "section": "Quotes",
+    "explanation": "E.O. Wilson's insightful observation about the mismatch between our ancient emotional responses, outdated social structures, and modern technological capabilities"
+  },
+  {
+    "id": "2020-02-06-quotes-2",
+    "quote": "An **Indian proverb** on kindness and mortality:\n\n\"Never postpone a good deed which you can do now, because death does not choose whether you have or haven't done the things you should have done. Death waits for nobody and nothing. It has neither enemies, nor friends.\"",
+    "intro": "On acting now",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-6-2020",
+    "author": "Indian proverb",
+    "date": "2020-02-06",
+    "section": "Quotes",
+    "explanation": "An ancient Indian proverb emphasizing the urgency of doing good deeds immediately, as death is impartial and doesn't wait for us to complete our intentions"
+  },
+  {
     "id": "2020-01-30-quotes-1",
     "quote": "Japanese writer **Haruki Murakami** on kindness and disagreement:\n\n\"Always remember that to argue, and win, is to break down the reality of the person you are arguing against. It is painful to lose your reality, so be kind, even if you are right.\"",
     "intro": "On kindness in disagreement",
