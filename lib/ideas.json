@@ -1,5 +1,125 @@
 [
   {
+    "id": "2020-06-25-ideas-1",
+    "quote": "\"Where you spend your attention is where you spend your life.\"",
+    "intro": "On attention and life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-25-2020",
+    "author": "James Clear",
+    "date": "2020-06-25",
+    "section": "Ideas",
+    "explanation": "A powerful insight about the relationship between attention and life experience, emphasizing that our focus determines how we spend our most precious resource"
+  },
+  {
+    "id": "2020-06-25-ideas-2",
+    "quote": "\"You always hold the rights to your effort, but never to your results.\n\nResults are entitled to no one. At best, they are on loan and must be renewed each day.\n\nAll you own is the right to try.\"",
+    "intro": "On effort vs results",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-25-2020",
+    "author": "James Clear",
+    "date": "2020-06-25",
+    "section": "Ideas",
+    "explanation": "A profound distinction between what we can control (effort) and what we cannot (results), emphasizing that outcomes are temporary and must be continuously earned"
+  },
+  {
+    "id": "2020-06-25-ideas-3",
+    "quote": "\"Some of the major drivers of human behavior...\n  * Safety: Does it provide peace of mind or reduce risk?\n  * Sex: Does it help them find love or make love?\n  * Convenience: Does it save time or energy?\n  * Social norms: Does it help them get along with others?\n  * Status: Does it improve their standing or help them gain approval?\n\n...which all fit into the larger category of self-interest: How does it serve the person?\"",
+    "intro": "On drivers of human behavior",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-25-2020",
+    "author": "James Clear",
+    "date": "2020-06-25",
+    "section": "Ideas",
+    "explanation": "A comprehensive framework for understanding human motivation, showing how various psychological drivers all serve the fundamental human need for self-interest and personal benefit"
+  },
+  {
+    "id": "2020-06-18-ideas-1",
+    "quote": "\"The Paradox of Freedom:\n\nThe way to expand your freedom is to narrow your focus.\n\nStay focused on saving to achieve financial freedom.\nStay focused on training to achieve physical freedom.\nStay focused on learning to achieve intellectual freedom.\"",
+    "intro": "On the paradox of freedom",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-18-2020",
+    "author": "James Clear",
+    "date": "2020-06-18",
+    "section": "Ideas",
+    "explanation": "A counterintuitive insight about how focused effort in specific areas creates broader freedom and autonomy in life"
+  },
+  {
+    "id": "2020-06-18-ideas-2",
+    "quote": "\"Mental toughness is persistence not intensity.\"",
+    "intro": "On mental toughness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-18-2020",
+    "author": "James Clear",
+    "date": "2020-06-18",
+    "section": "Ideas",
+    "explanation": "A distinction between mental toughness as sustained effort over time rather than short bursts of intense activity"
+  },
+  {
+    "id": "2020-06-18-ideas-3",
+    "quote": "\"The Cycle of Improvement:\n\n1. Awareness - identify what you need to improve.\n\n2. Deliberate practice - focus your conscious effort on the specific area you want to improve.\n\n3. Habit - with practice, the effortful becomes automatic.\n\n4. Repeat - begin again.\"",
+    "intro": "On the cycle of improvement",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-18-2020",
+    "author": "James Clear",
+    "date": "2020-06-18",
+    "section": "Ideas",
+    "explanation": "A systematic framework for continuous improvement that moves from conscious awareness through deliberate practice to automatic habit formation"
+  },
+  {
+    "id": "2020-06-11-ideas-1",
+    "quote": "\"In times of uncertainty, your habits can ground you.\n\nWhen you feel overwhelmed, practice 1 minute of mindfulness.\nWhen you feel restless, do a 1-minute workout.\nWhen the world seems uncontrollable, focus on what you can control.\"",
+    "intro": "On habits in uncertainty",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-11-2020",
+    "author": "James Clear",
+    "date": "2020-06-11",
+    "section": "Ideas",
+    "explanation": "Practical advice for using small, manageable habits as anchors during chaotic times, emphasizing control over controllable elements"
+  },
+  {
+    "id": "2020-06-11-ideas-2",
+    "quote": "\"The two skills of modern business: Storytelling and spreadsheets.\n\nKnow the numbers. Craft the narrative.\"",
+    "intro": "On modern business skills",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-11-2020",
+    "author": "James Clear",
+    "date": "2020-06-11",
+    "section": "Ideas",
+    "explanation": "A concise framework for business success combining analytical rigor (spreadsheets) with persuasive communication (storytelling)"
+  },
+  {
+    "id": "2020-06-11-ideas-3",
+    "quote": "\"People keep reading self-help and revisiting the same ideas because that's precisely what we need: to be reminded.\n\nThe problem is not that information is unhelpful, but that attention is fleeting.\n\nNobody focuses on one idea every minute of the day. Good books refocus the mind.\"",
+    "intro": "On the value of reminders",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-11-2020",
+    "author": "James Clear",
+    "date": "2020-06-11",
+    "section": "Ideas",
+    "explanation": "An insight about why people repeatedly consume self-help content, emphasizing that reminders are necessary because sustained attention is difficult"
+  },
+  {
+    "id": "2020-06-04-ideas-1",
+    "quote": "\"Motion does not equal action. Busyness does not equal effectiveness.\"",
+    "intro": "On motion vs action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-4-2020",
+    "author": "James Clear",
+    "date": "2020-06-04",
+    "section": "Ideas",
+    "explanation": "A distinction between activity and productivity, emphasizing that being busy doesn't necessarily mean being effective"
+  },
+  {
+    "id": "2020-06-04-ideas-2",
+    "quote": "\"When people say they don't want to change what they really mean is they don't have an incentive to change.\n\nChange the incentives and the behavior follows suit.\"",
+    "intro": "On incentives and change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-4-2020",
+    "author": "James Clear",
+    "date": "2020-06-04",
+    "section": "Ideas",
+    "explanation": "An insight about human motivation, showing that resistance to change is often about lack of proper incentives rather than unwillingness to change"
+  },
+  {
+    "id": "2020-06-04-ideas-3",
+    "quote": "\"Every action you take is a vote for the type of person you wish to become.\n\nNo single instance will transform your beliefs, but as the votes build up, so does the evidence of your identity.\n\nThis is why habits are crucial. They cast repeated votes for being a certain type of person.\"",
+    "intro": "On identity and habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-4-2020",
+    "author": "James Clear",
+    "date": "2020-06-04",
+    "section": "Ideas",
+    "explanation": "A powerful metaphor about how daily actions gradually shape identity, emphasizing that habits are the mechanism for casting repeated votes for who we want to become"
+  },
+  {
     "id": "2020-05-28-ideas-1",
     "quote": "\"If you have good habits, time becomes your ally. All you need is patience.\"",
     "intro": "On habits and time",

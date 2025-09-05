@@ -1,5 +1,45 @@
 [
   {
+    "id": "2020-06-25-question",
+    "quote": "What can you work on today that will continue working for you years from now?",
+    "intro": "On long-term thinking",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-25-2020",
+    "author": "James Clear",
+    "date": "2020-06-25",
+    "section": "Questions",
+    "explanation": "A strategic question that encourages readers to focus on activities with compound effects and long-term benefits rather than short-term gains"
+  },
+  {
+    "id": "2020-06-18-question",
+    "quote": "What are you preventing yourself from feeling?",
+    "intro": "On emotional awareness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-18-2020",
+    "author": "James Clear",
+    "date": "2020-06-18",
+    "section": "Questions",
+    "explanation": "A reflective question that encourages readers to examine what emotions they might be avoiding or suppressing, promoting emotional awareness and authenticity"
+  },
+  {
+    "id": "2020-06-11-question",
+    "quote": "Which of my current habits serves me most? Which serves me least?",
+    "intro": "On habit evaluation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-11-2020",
+    "author": "James Clear",
+    "date": "2020-06-11",
+    "section": "Questions",
+    "explanation": "A practical self-assessment question that helps readers identify their most and least beneficial habits, encouraging conscious evaluation of daily routines"
+  },
+  {
+    "id": "2020-06-04-question",
+    "quote": "What is the biggest small thing I could do today?",
+    "intro": "On small actions with big impact",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-4-2020",
+    "author": "James Clear",
+    "date": "2020-06-04",
+    "section": "Questions",
+    "explanation": "A question that encourages readers to identify small actions that can have disproportionately large positive effects, emphasizing leverage and efficiency"
+  },
+  {
     "id": "2020-05-28-question",
     "quote": "If someone could only see my actions and not hear my words, what would they say are my priorities?",
     "intro": "On actions revealing priorities",

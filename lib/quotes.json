@@ -1,5 +1,85 @@
 [
   {
+    "id": "2020-06-25-quotes-1",
+    "quote": "**Jennifer Egan** on reading as fuel:\n\n\"Reading is the nourishment that lets you do interesting work.\"",
+    "intro": "On reading as fuel",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-25-2020",
+    "author": "Jennifer Egan",
+    "date": "2020-06-25",
+    "section": "Quotes",
+    "explanation": "Jennifer Egan's insight about how reading provides the intellectual nourishment necessary for creative and meaningful work"
+  },
+  {
+    "id": "2020-06-25-quotes-2",
+    "quote": "**Thomas Edison** on focus:\n\n\"You do something all day long, don't you? Every one does. If you get up at seven o'clock and go to bed at eleven, you have put in sixteen good hours, and it is certain with most people, that they have been doing something all the time. They have been either walking, or reading, or writing, or thinking. The only trouble is that they do it about a great many things and I do it about one. If they took the time in question and applied it in one direction, to one object, they would succeed. Success is sure to follow such application. The trouble lies in the fact that people do not have an object, one thing, to which they stick, letting all else go. Success is the product of the severest kind of mental and physical application.\"",
+    "intro": "On focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-25-2020",
+    "author": "Thomas Edison",
+    "date": "2020-06-25",
+    "section": "Quotes",
+    "explanation": "Thomas Edison's profound insight about the power of focused application versus scattered effort, emphasizing that success comes from sustained concentration on a single objective"
+  },
+  {
+    "id": "2020-06-18-quotes-1",
+    "quote": "**Michael Jordan** on self-doubt:\n\n\"Why would I think about missing a shot that I haven't taken yet?\"",
+    "intro": "On self-doubt",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-18-2020",
+    "author": "Michael Jordan",
+    "date": "2020-06-18",
+    "section": "Quotes",
+    "explanation": "Michael Jordan's powerful mindset about not dwelling on negative outcomes before taking action, emphasizing confidence and present-moment focus"
+  },
+  {
+    "id": "2020-06-18-quotes-2",
+    "quote": "**Anna Quindlen** on building a spirit:\n\n\"There are thousands of people out there with the same degree you have; when you get a job, there will be thousands of people doing what you want to do for a living. But you are the only person alive who has sole custody of your life. Your particular life. Your entire life. Not just your life at a desk, or your life on the bus, or in the car, or at the computer. Not just the life of your mind, but the life of your heart. Not just your bank account, but your soul.\n\nPeople don't talk about the soul very much anymore. It's so much easier to write a r�sum� than to craft a spirit. But a r�sum� is cold comfort on a winter night, or when you're sad, or broke, or lonely, or when you've gotten back the chest X ray and it doesn't look so good, or when the doctor writes 'prognosis, poor.'\n\n... You cannot be really first-rate at your work if your work is all you are.\"",
+    "intro": "On building a spirit",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-18-2020",
+    "author": "Anna Quindlen",
+    "date": "2020-06-18",
+    "section": "Quotes",
+    "explanation": "Anna Quindlen's profound reflection on the importance of developing inner character and spiritual depth beyond professional achievements, emphasizing that true excellence requires holistic personal development"
+  },
+  {
+    "id": "2020-06-11-quotes-1",
+    "quote": "**Damian Lillard** on hard work:\n\n\"If you want to look good in front of thousands, you have to outwork thousands in front of nobody.\"",
+    "intro": "On hard work",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-11-2020",
+    "author": "Damian Lillard",
+    "date": "2020-06-11",
+    "section": "Quotes",
+    "explanation": "Damian Lillard's insight about the relationship between public success and private effort, emphasizing that visible achievements require invisible dedication"
+  },
+  {
+    "id": "2020-06-11-quotes-2",
+    "quote": "**Arthur Ashe** on change:\n\n\"Most people resist change, even when it promises to be for the better. But change will come, and if you acknowledge this simple but indisputable fact of life, and understand that you must adjust to all change, then you will have a head start.\"",
+    "intro": "On change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-11-2020",
+    "author": "Arthur Ashe",
+    "date": "2020-06-11",
+    "section": "Quotes",
+    "explanation": "Arthur Ashe's wisdom about accepting change as inevitable and using that acceptance as an advantage, emphasizing adaptability over resistance"
+  },
+  {
+    "id": "2020-06-04-quotes-1",
+    "quote": "**Mae Jemison** on belonging:\n\n\"Once I got into space, I was feeling very comfortable in the universe. I felt like I had a right to be anywhere in this universe, that I belonged here as much as any speck of stardust, any comet, any planet.\"",
+    "intro": "On belonging",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-4-2020",
+    "author": "Mae Jemison",
+    "date": "2020-06-04",
+    "section": "Quotes",
+    "explanation": "Mae Jemison's profound sense of cosmic belonging and universal citizenship, emphasizing that we all have an inherent right to exist and thrive in the universe"
+  },
+  {
+    "id": "2020-06-04-quotes-2",
+    "quote": "**James Baldwin** on change:\n\n\"Not everything that is faced can be changed, but nothing can be changed until it is faced.\"",
+    "intro": "On change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-4-2020",
+    "author": "James Baldwin",
+    "date": "2020-06-04",
+    "section": "Quotes",
+    "explanation": "James Baldwin's powerful insight about the prerequisite of facing reality before any meaningful change can occur, emphasizing courage and honesty as the foundation of transformation"
+  },
+  {
     "id": "2020-05-28-quotes-1",
     "quote": "The scientist, astronomer, and author, **Carl Sagan**, on the magic of books:\n\n\"What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.\"",
     "intro": "On the magic of books",
