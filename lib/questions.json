@@ -1,5 +1,55 @@
 [
   {
+    "id": "2020-07-30-question",
+    "quote": "Which areas of my life are in maintenance mode? Which areas are in growth mode?",
+    "intro": "On maintenance vs growth mode",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-30-2020",
+    "author": "James Clear",
+    "date": "2020-07-30",
+    "section": "Questions",
+    "explanation": "A strategic question that helps readers evaluate which areas of their life are being maintained versus actively developed, encouraging conscious allocation of energy and resources"
+  },
+  {
+    "id": "2020-07-23-question",
+    "quote": "Imagine each day is only 12 hours long. What would you cut out?",
+    "intro": "On time constraints and priorities",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-23-2020",
+    "author": "James Clear",
+    "date": "2020-07-23",
+    "section": "Questions",
+    "explanation": "A constraint-based question that forces readers to identify their least important activities by imagining severe time limitations, helping clarify true priorities"
+  },
+  {
+    "id": "2020-07-16-question",
+    "quote": "Assume that more than one path exists to achieve your ideal life. What would some of the alternative routes look like?",
+    "intro": "On alternative paths",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-16-2020",
+    "author": "James Clear",
+    "date": "2020-07-16",
+    "section": "Questions",
+    "explanation": "A creative question that encourages readers to explore multiple pathways to their goals, promoting flexibility and reducing attachment to single solutions"
+  },
+  {
+    "id": "2020-07-09-question",
+    "quote": "What am I avoiding just because the desired outcome would take longer than I'd like?",
+    "intro": "On patience and avoidance",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-9-2020",
+    "author": "James Clear",
+    "date": "2020-07-09",
+    "section": "Questions",
+    "explanation": "A self-reflection question that helps readers identify valuable activities they're avoiding due to impatience, encouraging long-term thinking"
+  },
+  {
+    "id": "2020-07-02-question",
+    "quote": "Am I being good to myself?",
+    "intro": "On self-care",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-2-2020",
+    "author": "James Clear",
+    "date": "2020-07-02",
+    "section": "Questions",
+    "explanation": "A simple but powerful self-compassion question that encourages readers to evaluate whether they're treating themselves with kindness and care"
+  },
+  {
     "id": "2020-06-25-question",
     "quote": "What can you work on today that will continue working for you years from now?",
     "intro": "On long-term thinking",

@@ -1,5 +1,155 @@
 [
   {
+    "id": "2020-07-30-ideas-1",
+    "quote": "\"Take a simple idea and take it seriously.\" --Charlie Munger\n\nDoing a few sets of pushups each day is a simple idea.\n\nSaving at least 10% of your income is a simple idea.\n\nSending Thank You notes is a simple idea.\n\n...but most people don't take simple ideas seriously.",
+    "intro": "On taking simple ideas seriously",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-30-2020",
+    "author": "James Clear",
+    "date": "2020-07-30",
+    "section": "Ideas",
+    "explanation": "A powerful insight about the gap between knowing simple solutions and actually implementing them consistently, emphasizing that most people underestimate the value of basic practices"
+  },
+  {
+    "id": "2020-07-30-ideas-2",
+    "quote": "\"What looks like a talent gap is often a focus gap.\n\nThe 'all star' is often an average to above average performer who spends more time working on what is important and less time on distractions.\n\nThe talent is staying focused.\"",
+    "intro": "On focus vs talent",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-30-2020",
+    "author": "James Clear",
+    "date": "2020-07-30",
+    "section": "Ideas",
+    "explanation": "A reframing of what creates exceptional performance, showing that sustained focus on important work often matters more than raw talent"
+  },
+  {
+    "id": "2020-07-30-ideas-3",
+    "quote": "\"Procrastinating on something important is choosing to delay a better future.\"",
+    "intro": "On procrastination",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-30-2020",
+    "author": "James Clear",
+    "date": "2020-07-30",
+    "section": "Ideas",
+    "explanation": "A direct insight about the true cost of procrastination, emphasizing that delay on important tasks is a choice to postpone improvement"
+  },
+  {
+    "id": "2020-07-23-ideas-1",
+    "quote": "\"Progress requires unlearning.\"",
+    "intro": "On progress and unlearning",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-23-2020",
+    "author": "James Clear",
+    "date": "2020-07-23",
+    "section": "Ideas",
+    "explanation": "A concise insight about the necessity of letting go of outdated knowledge and approaches to make room for new understanding and growth"
+  },
+  {
+    "id": "2020-07-23-ideas-2",
+    "quote": "\"Live with a bias toward action.\n\nIronically, this will teach you patience. When you take action each day, you learn the value of accumulating small improvements over time. You understand how daily habits compound.\n\nBe impatient with your actions. Be patient with your results.\"",
+    "intro": "On action bias and patience",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-23-2020",
+    "author": "James Clear",
+    "date": "2020-07-23",
+    "section": "Ideas",
+    "explanation": "A paradoxical insight about how consistent action teaches patience, emphasizing the difference between urgency in daily effort and patience with long-term outcomes"
+  },
+  {
+    "id": "2020-07-23-ideas-3",
+    "quote": "\"If a decision is reversible, the biggest risk is moving too slow.\n\nIf a decision is irreversible, the biggest risk is moving too fast.\"",
+    "intro": "On decision-making speed",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-23-2020",
+    "author": "James Clear",
+    "date": "2020-07-23",
+    "section": "Ideas",
+    "explanation": "A framework for decision-making that emphasizes speed for reversible decisions and caution for irreversible ones, helping optimize risk management"
+  },
+  {
+    "id": "2020-07-16-ideas-1",
+    "quote": "\"It is better to start as a fool and learn from your mistakes than to fake being a genius and ignore your errors.\"",
+    "intro": "On learning from mistakes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-16-2020",
+    "author": "James Clear",
+    "date": "2020-07-16",
+    "section": "Ideas",
+    "explanation": "An insight about the value of intellectual humility and honest self-assessment over false confidence, emphasizing that acknowledging ignorance enables learning"
+  },
+  {
+    "id": "2020-07-16-ideas-2",
+    "quote": "\"Be forgiving with your past self.\n\nBe strict with your present self.\n\nBe flexible with your future self.\"",
+    "intro": "On self-compassion and discipline",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-16-2020",
+    "author": "James Clear",
+    "date": "2020-07-16",
+    "section": "Ideas",
+    "explanation": "A balanced approach to self-relationship that combines compassion for past mistakes with discipline in the present and openness to future growth"
+  },
+  {
+    "id": "2020-07-16-ideas-3",
+    "quote": "\"Action forces prioritization.\n\nIf you're stuck deciding between options, force yourself to act. You can only act on one thing at a time, which means you will have to make something the top priority.\n\nEven if you pick wrong, you'll learn something.\"",
+    "intro": "On action forcing prioritization",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-16-2020",
+    "author": "James Clear",
+    "date": "2020-07-16",
+    "section": "Ideas",
+    "explanation": "A practical approach to decision-making that uses action as a tool for clarity, emphasizing that movement creates learning even from imperfect choices"
+  },
+  {
+    "id": "2020-07-09-ideas-1",
+    "quote": "\"Time spent working hard is often better spent identifying where the bottleneck is located.\n\nWorking hard on the wrong thing leads to frustration, not progress.\"",
+    "intro": "On identifying bottlenecks",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-9-2020",
+    "author": "James Clear",
+    "date": "2020-07-09",
+    "section": "Ideas",
+    "explanation": "An insight about the importance of strategic thinking over pure effort, emphasizing that identifying constraints is more valuable than working hard on non-constraints"
+  },
+  {
+    "id": "2020-07-09-ideas-2",
+    "quote": "\"3 things that help habits stick:\n\n1) Repetition. Habits form based on frequency, not time.\n\n2) Stable context. If the context is always changing, so is the behavior. You need a reliable environment.\n\n3) Positive emotions. If it feels good, you'll want to repeat it.\"",
+    "intro": "On what helps habits stick",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-9-2020",
+    "author": "James Clear",
+    "date": "2020-07-09",
+    "section": "Ideas",
+    "explanation": "A practical framework for habit formation emphasizing frequency over duration, environmental consistency, and positive emotional associations"
+  },
+  {
+    "id": "2020-07-09-ideas-3",
+    "quote": "\"When you lose track of time, you are either living your best life or wasting it.\"",
+    "intro": "On losing track of time",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-9-2020",
+    "author": "James Clear",
+    "date": "2020-07-09",
+    "section": "Ideas",
+    "explanation": "A perspective on flow states and time perception, emphasizing that losing track of time can indicate either deep engagement or mindless distraction"
+  },
+  {
+    "id": "2020-07-02-ideas-1",
+    "quote": "\"Stop worrying about how long it will take and get started. Time will pass either way.\"",
+    "intro": "On getting started",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-2-2020",
+    "author": "James Clear",
+    "date": "2020-07-02",
+    "section": "Ideas",
+    "explanation": "A reminder about the inevitability of time passing, emphasizing that starting is better than waiting, regardless of how long the journey might take"
+  },
+  {
+    "id": "2020-07-02-ideas-2",
+    "quote": "\"What is the real goal?\n\nThe real goal is not to 'beat the market.' The goal is to build wealth.\n\nThe real goal is not to read more books. The goal is to understand what you read.\n\nDon't let a proxy become the target. Don't optimize for the wrong outcome.\"",
+    "intro": "On identifying real goals",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-2-2020",
+    "author": "James Clear",
+    "date": "2020-07-02",
+    "section": "Ideas",
+    "explanation": "A framework for distinguishing between true objectives and proxy metrics, emphasizing the importance of optimizing for actual outcomes rather than intermediate measures"
+  },
+  {
+    "id": "2020-07-02-ideas-3",
+    "quote": "\"Without hard work, a great strategy remains a dream.\n\nWithout a great strategy, hard work becomes a nightmare.\"",
+    "intro": "On strategy and hard work",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-2-2020",
+    "author": "James Clear",
+    "date": "2020-07-02",
+    "section": "Ideas",
+    "explanation": "A balanced perspective on the relationship between strategy and execution, showing that both are necessary and neither alone is sufficient for success"
+  },
+  {
     "id": "2020-06-25-ideas-1",
     "quote": "\"Where you spend your attention is where you spend your life.\"",
     "intro": "On attention and life",
