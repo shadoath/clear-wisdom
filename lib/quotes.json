@@ -1,5 +1,185 @@
 [
   {
+    "id": "2020-11-26-quotes-1",
+    "quote": "**John F. Kennedy** on gratitude:\n\n\"As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them.\"",
+    "intro": "On gratitude",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-26-2020",
+    "author": "John F. Kennedy",
+    "date": "2020-11-26",
+    "section": "Quotes",
+    "explanation": "John F. Kennedy's perspective on gratitude, emphasizing that true appreciation is demonstrated through actions rather than words"
+  },
+  {
+    "id": "2020-11-26-quotes-2",
+    "quote": "**Kevin Kelly** on making life count:\n\n\"I am now 55 years old. Like a lot of people in middle age my late-night thoughts bend to contemplations about how short my remaining time is. Even with increasing longevity there is not enough time to do all that I want. Nowhere close. My friend Stewart Brand, who is now 69, has been arranging his life in blocks of 5 years. Five years is what he says any project worth doing will take. From moment of inception to the last good-riddance, a book, a campaign, a new job, a start-up will take 5 years to play through. So, he asks himself, how many 5 years do I have left? He can count them on one hand even if he is lucky. So this clarifies his choices. If he has less than 5 big things he can do, what will they be?\"",
+    "intro": "On making life count",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-26-2020",
+    "author": "Kevin Kelly",
+    "date": "2020-11-26",
+    "section": "Quotes",
+    "explanation": "Kevin Kelly's reflection on time scarcity and project prioritization, emphasizing the importance of choosing meaningful endeavors given limited time"
+  },
+  {
+    "id": "2020-11-19-quotes-1",
+    "quote": "**Balthasar Gracian** on friendship:\n\n\"To keep is more important than to make friends. Select those that will wear well; if they are new at first, it is some consolation they will become old...\n\nThere is no desert like living without friends. Friendship multiplies the good of life and divides the evil. It is the sole remedy against misfortune, the very ventilation of the soul.\"",
+    "intro": "On friendship",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-19-2020",
+    "author": "Balthasar Gracian",
+    "date": "2020-11-19",
+    "section": "Quotes",
+    "explanation": "Balthasar Gracian's wisdom about the value of deep, lasting friendships, emphasizing that quality relationships are essential for a fulfilling life"
+  },
+  {
+    "id": "2020-11-19-quotes-2",
+    "quote": "**Natalie Goldberg** on how to improve your writing (or anything else):\n\n\"In order to improve your writing, you have to practice just like any other sport. But don't be dutiful and make it into a blind routine. 'Yes, I have written an hour today and I wrote an hour yesterday and an hour the day before.' Don't just put in your time. That is not enough. You have to make great effort. Be willing to put your whole life on the line when you sit down for writing practice. Otherwise you are just mechanically pushing the pen across the page and intermittently looking at the clock to see if your time is up.\n\nSome people hear the rule 'Write every day' and do it and don't improve. They are just being dutiful. That is the way of the Goody Two-shoes. It is a waste of energy because it takes tremendous effort to just follow the rules if your heart isn't into it. If you find that this is your basic attitude, then stop writing. Stay away from it for a week or a year. Wait until you are hungry to say something, until there is an aching in you to speak. Then come back.\"",
+    "intro": "On improving your writing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-19-2020",
+    "author": "Natalie Goldberg",
+    "date": "2020-11-19",
+    "section": "Quotes",
+    "explanation": "Natalie Goldberg's perspective on authentic practice, emphasizing that improvement requires genuine engagement rather than mechanical routine"
+  },
+  {
+    "id": "2020-11-12-quotes-1",
+    "quote": "**Seth Godin** on having good ideas:\n\n\"People who have trouble coming up with good ideas, if they're telling you the truth, will tell you they don't have very many bad ideas. But people who have plenty of good ideas, if they're telling you the truth, will say they have even more bad ideas. So the goal isn't to get good ideas; the goal is to get bad ideas. Because once you get enough bad ideas, then some good ones have to show up.\"",
+    "intro": "On having good ideas",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-12-2020",
+    "author": "Seth Godin",
+    "date": "2020-11-12",
+    "section": "Quotes",
+    "explanation": "Seth Godin's insight about idea generation, emphasizing that producing many bad ideas is a prerequisite for having good ones"
+  },
+  {
+    "id": "2020-11-12-quotes-2",
+    "quote": "**Audre Lorde** on acting in the face of fear:\n\n\"We can learn to work and speak when we are afraid in the same way we have learned to work and speak when we are tired. For we have been socialized to respect fear more than our own needs ... and while we wait in silence for that final luxury of fearlessness, the weight of that silence will choke us.\"",
+    "intro": "On acting in the face of fear",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-12-2020",
+    "author": "Audre Lorde",
+    "date": "2020-11-12",
+    "section": "Quotes",
+    "explanation": "Audre Lorde's perspective on courage, emphasizing that waiting for fearlessness is counterproductive and that action despite fear is necessary"
+  },
+  {
+    "id": "2020-11-05-quotes-1",
+    "quote": "**Trevor Kletz** on how he accomplished so much in his career:\n\n\"If one asked permission there was a 50% chance it would be refused. If one just got on with it, 19 times out of 20 nothing was said.\"",
+    "intro": "On asking permission",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-5-2020",
+    "author": "Trevor Kletz",
+    "date": "2020-11-05",
+    "section": "Quotes",
+    "explanation": "Trevor Kletz's insight about initiative and permission, emphasizing that taking action often succeeds where asking permission fails"
+  },
+  {
+    "id": "2020-11-05-quotes-2",
+    "quote": "**Lin Yutang** on the magic of reading:\n\n\"Compare the difference between the life of a man who does no reading and that of a man who does. The man who has not the habit of reading is imprisoned in his immediate world, in respect to time and space. His life falls into a set routine; he is limited to contact and conversation with a few friends and acquaintances, and he sees only what happens in his immediate neighborhood. From this prison there is no escape.\n\nBut the moment he takes up a book, he immediately enters a different world, and if it is a good book, he is immediately put in touch with one of the best talkers of the world. This talker leads him on and carries him into a different country or a different age, or unburdens to him some of his personal regrets, or discusses with him some special line or aspect of life that the reader knows nothing about. An ancient author puts him in communion with a dead spirit of long ago, and as he reads along, he begins to imagine what that ancient author looked like and what type of person he was...\n\nNow to be able to live two hours out of twelve in a different world and take one's thoughts off the claims of the immediate present is, of course, a privilege to be envied by people shut up in their bodily prison.\"",
+    "intro": "On the magic of reading",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-5-2020",
+    "author": "Lin Yutang",
+    "date": "2020-11-05",
+    "section": "Quotes",
+    "explanation": "Lin Yutang's profound reflection on reading as liberation, emphasizing how books expand consciousness beyond immediate physical and temporal constraints"
+  },
+  {
+    "id": "2020-10-29-quotes-1",
+    "quote": "**Anais Nin** on how to unlock a bigger, fuller life:\n\n\"Life shrinks or expands in proportion to one's courage.\"",
+    "intro": "On courage and life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-29-2020",
+    "author": "Anais Nin",
+    "date": "2020-10-29",
+    "section": "Quotes",
+    "explanation": "Anais Nin's insight about the relationship between courage and life experience, emphasizing that boldness determines the scope of one's existence"
+  },
+  {
+    "id": "2020-10-29-quotes-2",
+    "quote": "**George Bernard Shaw** on living a life that burns bright:\n\n\"This is the true joy in life:\n\nbeing used for a purpose recognized by yourself as a mighty one;\n\nbeing a force of nature instead of a feverish, selfish little clod of ailments and grievances complaining that the world will not devote itself to making you happy.\n\nI am of the opinion that my life belongs to the whole community, and as long as I live it is my privilege to do for it whatever I can. I want to be thoroughly used up when I die, for the harder I work the more I live.\n\nI rejoice in life for its own sake. Life is no 'brief candle' for me. It is a sort of splendid torch which I have got hold of for the moment, and I want to make it burn as brightly as possible before handing it on to future generations.\"",
+    "intro": "On living a life that burns bright",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-29-2020",
+    "author": "George Bernard Shaw",
+    "date": "2020-10-29",
+    "section": "Quotes",
+    "explanation": "George Bernard Shaw's philosophy of purposeful living, emphasizing service to community and the desire to be fully utilized in meaningful work"
+  },
+  {
+    "id": "2020-10-22-quotes-1",
+    "quote": "**Vernon Jordan** on the collaborative nature of life:\n\n\"You are where you are today because you stand on somebody's shoulders. And wherever you are heading, you cannot get there by yourself. If you stand on the shoulders of others, you have a reciprocal responsibility to live your life so that others may stand on your shoulders. It's the quid pro quo of life. We exist temporarily through what we take, but we live forever through what we give.\"",
+    "intro": "On the collaborative nature of life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-22-2020",
+    "author": "Vernon Jordan",
+    "date": "2020-10-22",
+    "section": "Quotes",
+    "explanation": "Vernon Jordan's perspective on interdependence and legacy, emphasizing the responsibility to support others as we have been supported"
+  },
+  {
+    "id": "2020-10-22-quotes-2",
+    "quote": "**Nike's early internal memo** (rumored to be written by Rob Strasser in 1977):\n\n\"1. Our business is change.\n\n2. We're on offense. All the time.\n\n3. Perfect results count -- not a perfect process. Break the rules: fight the law.\n\n4. This is as much about battle as about business.\n\n5. Assume nothing. Make sure people keep their promises. Push yourselves push others. Stretch the possible.\n\n6. Live off the land.\n\n7. Your job isn't done until the job is done.\n\n8. Dangers:\n- Bureaucracy\n- Personal ambition\n- Energy takers vs. energy givers\n- Knowing our weaknesses\n- Don't get too many things on the platter\n\n9. It won't be pretty.\n\n10. If we do the right things we'll make money damn near automatic.\"",
+    "intro": "On Nike's early principles",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-22-2020",
+    "author": "Nike (Rob Strasser)",
+    "date": "2020-10-22",
+    "section": "Quotes",
+    "explanation": "Nike's foundational principles emphasizing aggressive action, results over process, and avoiding bureaucratic pitfalls"
+  },
+  {
+    "id": "2020-10-15-quotes-1",
+    "quote": "**Viola Davis** on handling criticism:\n\n\"I don't have any time to stay up all night worrying about what someone who doesn't love me has to say about me.\"",
+    "intro": "On handling criticism",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-15-2020",
+    "author": "Viola Davis",
+    "date": "2020-10-15",
+    "section": "Quotes",
+    "explanation": "Viola Davis's perspective on criticism, emphasizing that energy spent on detractors is wasted and should be redirected to meaningful pursuits"
+  },
+  {
+    "id": "2020-10-15-quotes-2",
+    "quote": "**Sam Altman** on the importance of quality:\n\n\"All companies that grow really big do so in only one way: people recommend the product or service to other people. What this means is that if you want to be a great company some day, you have to eventually build something so good that people will recommend it to their friends--in fact, so good that they want to be the first one to recommend it to their friends for the implied good taste. No growth hack, brilliant marketing idea, or sales team can save you long term if you don't have a sufficiently good product.\"",
+    "intro": "On the importance of quality",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-15-2020",
+    "author": "Sam Altman",
+    "date": "2020-10-15",
+    "section": "Quotes",
+    "explanation": "Sam Altman's insight about sustainable growth, emphasizing that word-of-mouth recommendations are the only path to significant scale"
+  },
+  {
+    "id": "2020-10-08-quotes-1",
+    "quote": "**Gabby Reece** on the power of going first:\n\n\"I always say that I'll go first...\n\nThat means if I'm checking out at the store, I'll say hello first.\n\nIf I'm coming across somebody and make eye contact, I'll smile first.\n\n[I wish] people would experiment with that in their life a little bit. Be first, because - not all times, but most times - it comes in your favor.\"",
+    "intro": "On the power of going first",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-8-2020",
+    "author": "Gabby Reece",
+    "date": "2020-10-08",
+    "section": "Quotes",
+    "explanation": "Gabby Reece's approach to social interaction, emphasizing that taking initiative in small gestures often leads to positive outcomes"
+  },
+  {
+    "id": "2020-10-08-quotes-2",
+    "quote": "**Hugh Walpole** on being a generalist and a specialist:\n\n\"The whole secret of life is to be interested in one thing profoundly and a thousand other things well.\"",
+    "intro": "On being a generalist and specialist",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-8-2020",
+    "author": "Hugh Walpole",
+    "date": "2020-10-08",
+    "section": "Quotes",
+    "explanation": "Hugh Walpole's philosophy on knowledge and interests, emphasizing the value of deep expertise in one area combined with broad knowledge in many others"
+  },
+  {
+    "id": "2020-10-01-quotes-1",
+    "quote": "**Janna Levin** on obstacles:\n\n\"I used to resent obstacles along the path, thinking, 'If only that hadn't happened life would be so good.' Then I suddenly realized, life is the obstacles. There is no underlying path.\"",
+    "intro": "On obstacles",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-1-2020",
+    "author": "Janna Levin",
+    "date": "2020-10-01",
+    "section": "Quotes",
+    "explanation": "Janna Levin's insight about the nature of life's challenges, emphasizing that obstacles are not interruptions but integral parts of the journey"
+  },
+  {
+    "id": "2020-10-01-quotes-2",
+    "quote": "**Derek Sivers** on finding time to do what matters:\n\n\"When you experience someone else's genius work, a little part of you feels, 'That's what I could have, would have, and should have done!'\n\nSomeone else did it. You didn't. They fought the resistance. You gave in to distractions. They made it top priority. You said you'd get to it some day. They took the time. You meant to.\n\nWhen this happens, you can take it two ways: You could let that part of you give up. 'Oh well. Now I don't need to make that anymore.' Or you could do something about that jealous pain. Shut off your phone, kill the distractions, make it top priority, and spend the time.\n\nIt takes many hours to make what you want to make. The hours don't suddenly appear. You have to steal them from comfort.\"",
+    "intro": "On finding time to do what matters",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-1-2020",
+    "author": "Derek Sivers",
+    "date": "2020-10-01",
+    "section": "Quotes",
+    "explanation": "Derek Sivers's perspective on creative work and time management, emphasizing that meaningful projects require stealing time from comfort"
+  },
+  {
     "id": "2020-09-24-quotes-1",
     "quote": "**Anne Frank** on how challenge reveals our true character:\n\n\"I've learned one thing: you only really get to know a person after a fight. Only then can you judge their true character!\"",
     "intro": "On how challenge reveals character",

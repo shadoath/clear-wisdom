@@ -1,5 +1,275 @@
 [
   {
+    "id": "2020-11-26-ideas-1",
+    "quote": "\"If you genuinely care about the goal, you'll focus on the system.\"",
+    "intro": "On focusing on systems",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-26-2020",
+    "author": "James Clear",
+    "date": "2020-11-26",
+    "section": "Ideas",
+    "explanation": "A principle about goal achievement, emphasizing that genuine commitment to outcomes naturally leads to systematic approaches"
+  },
+  {
+    "id": "2020-11-26-ideas-2",
+    "quote": "\"Successes are revised mistakes.\"",
+    "intro": "On successes and mistakes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-26-2020",
+    "author": "James Clear",
+    "date": "2020-11-26",
+    "section": "Ideas",
+    "explanation": "A perspective on the relationship between failure and success, emphasizing that achievements often emerge from learning from mistakes"
+  },
+  {
+    "id": "2020-11-26-ideas-3",
+    "quote": "\"Amazing social skills are a superpower.\n\nThe ability to deliver bad news in a good way is a superpower.\n\nThe ability to de-escalate a tense situation into a calm one is a superpower.\n\nThe ability to transform a lose/win situation into a win/win situation is a superpower.\"",
+    "intro": "On social skills as superpowers",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-26-2020",
+    "author": "James Clear",
+    "date": "2020-11-26",
+    "section": "Ideas",
+    "explanation": "A framework for understanding interpersonal skills as powerful abilities that can transform difficult situations into positive outcomes"
+  },
+  {
+    "id": "2020-11-19-ideas-1",
+    "quote": "\"The feeling of progress is one of the best feelings of all. This is true even when progress is small.\"",
+    "intro": "On the feeling of progress",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-19-2020",
+    "author": "James Clear",
+    "date": "2020-11-19",
+    "section": "Ideas",
+    "explanation": "An insight about motivation and satisfaction, emphasizing that the psychological reward of progress is powerful regardless of scale"
+  },
+  {
+    "id": "2020-11-19-ideas-2",
+    "quote": "\"Many people work hard, but few people work on the highest and best thing.\n\nUsually, it takes no more effort to work on high leverage tasks than it does to work on low leverage ones.\n\nIt's just a matter of directing your energy.\"",
+    "intro": "On working on high leverage tasks",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-19-2020",
+    "author": "James Clear",
+    "date": "2020-11-19",
+    "section": "Ideas",
+    "explanation": "A perspective on effort allocation, emphasizing that choosing high-impact work is often a matter of focus rather than additional effort"
+  },
+  {
+    "id": "2020-11-19-ideas-3",
+    "quote": "\"Not enough is said about the power of thinking about one topic for a long period of time.\n\nIf you revisit a topic continually for a few years, most problems (and many solutions) will occur to you at some point.\n\nExpertise can be the gradual accumulation of many modest insights.\"",
+    "intro": "On sustained thinking",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-19-2020",
+    "author": "James Clear",
+    "date": "2020-11-19",
+    "section": "Ideas",
+    "explanation": "An insight about expertise development, emphasizing that sustained attention to a topic over time naturally generates insights and solutions"
+  },
+  {
+    "id": "2020-11-12-ideas-1",
+    "quote": "\"Writing is the antidote to confusion.\"",
+    "intro": "On writing as clarity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-12-2020",
+    "author": "James Clear",
+    "date": "2020-11-12",
+    "section": "Ideas",
+    "explanation": "A principle about the clarifying power of writing, emphasizing that putting thoughts into words helps resolve mental confusion"
+  },
+  {
+    "id": "2020-11-12-ideas-2",
+    "quote": "\"When reading books or listening to podcasts or taking advice, remember that everyone is biased to their personal history.\n\nThe world is complex and there is no single path to a success. Look for patterns that are repeated across many successful people, not single stories.\"",
+    "intro": "On recognizing bias in advice",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-12-2020",
+    "author": "James Clear",
+    "date": "2020-11-12",
+    "section": "Ideas",
+    "explanation": "A framework for evaluating advice and learning, emphasizing the importance of looking for patterns rather than following individual stories"
+  },
+  {
+    "id": "2020-11-12-ideas-3",
+    "quote": "\"Beginner = ignorant simplicity\n\nIntermediate = functional complexity\n\nAdvanced = profound simplicity\"",
+    "intro": "On the stages of mastery",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-12-2020",
+    "author": "James Clear",
+    "date": "2020-11-12",
+    "section": "Ideas",
+    "explanation": "A framework for understanding skill development, showing how mastery progresses from simple to complex and back to simple"
+  },
+  {
+    "id": "2020-11-05-ideas-1",
+    "quote": "\"You can borrow knowledge, but not action.\"",
+    "intro": "On knowledge vs action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-5-2020",
+    "author": "James Clear",
+    "date": "2020-11-05",
+    "section": "Ideas",
+    "explanation": "A distinction between learning and doing, emphasizing that while knowledge can be shared, action must be personally taken"
+  },
+  {
+    "id": "2020-11-05-ideas-2",
+    "quote": "\"The trick to writing well is to...\n\n- take long sentences and make them short\n\n- take confusing ideas and make them clear\n\n- take unrelated concepts and make them related\n\n...without losing the main idea in the process.\"",
+    "intro": "On the trick to writing well",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-5-2020",
+    "author": "James Clear",
+    "date": "2020-11-05",
+    "section": "Ideas",
+    "explanation": "A practical framework for effective writing, emphasizing clarity, conciseness, and connection while preserving core meaning"
+  },
+  {
+    "id": "2020-11-05-ideas-3",
+    "quote": "\"Successful outcomes are never the result of a single choice. They are built up through good choices over time.\n\nA profitable business is never a choice, it is a series of choices.\n\nA fit body is never a choice, it is a series of choices.\n\nA strong relationship is never a choice, it is a series of choices.\"",
+    "intro": "On successful outcomes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-5-2020",
+    "author": "James Clear",
+    "date": "2020-11-05",
+    "section": "Ideas",
+    "explanation": "A perspective on achievement, emphasizing that significant results emerge from consistent good decisions rather than single choices"
+  },
+  {
+    "id": "2020-10-29-ideas-1",
+    "quote": "\"Be \"selectively ignorant.\"\n\nIgnore topics that drain your attention.\n\nUnfollow people that drain your energy.\n\nAbandon projects that drain your time.\n\nDo not keep up with it all. The more selectively ignorant you become, the more broadly knowledgeable you can be.\"",
+    "intro": "On selective ignorance",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-29-2020",
+    "author": "James Clear",
+    "date": "2020-10-29",
+    "section": "Ideas",
+    "explanation": "A strategy for focused learning, emphasizing that intentionally ignoring certain topics allows deeper engagement with others"
+  },
+  {
+    "id": "2020-10-29-ideas-2",
+    "quote": "\"Reading can teach you the best of what others already know.\n\nReflection can teach you the best of what only you can know.\"",
+    "intro": "On reading vs reflection",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-29-2020",
+    "author": "James Clear",
+    "date": "2020-10-29",
+    "section": "Ideas",
+    "explanation": "A distinction between external and internal learning, emphasizing that both reading and reflection are essential for comprehensive knowledge"
+  },
+  {
+    "id": "2020-10-29-ideas-3",
+    "quote": "\"The math of success...\n\nResults = (Hard Work*Time)^Strategy\n\nWorking hard is important, but working on the right thing is more important. A great strategy can deliver exponential results.\n\nOf course, the best strategy is worth nothing if you never get to work. Zero to the millionth power is still zero.\"",
+    "intro": "On the math of success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-29-2020",
+    "author": "James Clear",
+    "date": "2020-10-29",
+    "section": "Ideas",
+    "explanation": "A formula for success that emphasizes the exponential power of strategy while acknowledging that execution is still necessary"
+  },
+  {
+    "id": "2020-10-22-ideas-1",
+    "quote": "\"Be radically proactive about any behavior that pays off in 10 years.\"",
+    "intro": "On long-term behaviors",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-22-2020",
+    "author": "James Clear",
+    "date": "2020-10-22",
+    "section": "Ideas",
+    "explanation": "A principle about prioritizing long-term investments, emphasizing that behaviors with decade-long payoffs deserve aggressive attention"
+  },
+  {
+    "id": "2020-10-22-ideas-2",
+    "quote": "\"To simplify before you understand the details is ignorance.\n\nTo simplify after you understand the details is genius.\"",
+    "intro": "On simplification",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-22-2020",
+    "author": "James Clear",
+    "date": "2020-10-22",
+    "section": "Ideas",
+    "explanation": "A distinction between premature and mature simplification, emphasizing that true simplification requires deep understanding first"
+  },
+  {
+    "id": "2020-10-22-ideas-3",
+    "quote": "\"A 5-step process for nearly anything:\n\n1) Explore widely. Find out what is possible.\n\n2) Test cheaply. Run small, quick experiments. Sample things.\n\n3) Edit ruthlessly. Focus on the best. Cut everything else.\n\n4) Repeat what works. Don't quit on a good idea.\n\n5) Return to 1.\"",
+    "intro": "On a 5-step process",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-22-2020",
+    "author": "James Clear",
+    "date": "2020-10-22",
+    "section": "Ideas",
+    "explanation": "A universal framework for learning and improvement that emphasizes exploration, experimentation, selection, repetition, and iteration"
+  },
+  {
+    "id": "2020-10-15-ideas-1",
+    "quote": "\"I'd estimate at least half of my frustrations with others are actually frustrations with myself for failing to set clear boundaries and stand by them.\"",
+    "intro": "On boundaries and frustrations",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-15-2020",
+    "author": "James Clear",
+    "date": "2020-10-15",
+    "section": "Ideas",
+    "explanation": "A self-reflection about interpersonal conflicts, emphasizing that many frustrations stem from poor boundary management rather than others' behavior"
+  },
+  {
+    "id": "2020-10-15-ideas-2",
+    "quote": "\"Read books that are relevant to what you want to achieve and reading will never seem boring.\"",
+    "intro": "On relevant reading",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-15-2020",
+    "author": "James Clear",
+    "date": "2020-10-15",
+    "section": "Ideas",
+    "explanation": "A principle about reading motivation, emphasizing that relevance to personal goals makes reading inherently engaging"
+  },
+  {
+    "id": "2020-10-15-ideas-3",
+    "quote": "\"The fastest way to improve is to learn from others.\n* Read good books\n* Talk to people who have done it\n* Soak up the lessons of the past\n\nLearn from the experiments history has already run and you can start the race halfway finished.\"",
+    "intro": "On learning from others",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-15-2020",
+    "author": "James Clear",
+    "date": "2020-10-15",
+    "section": "Ideas",
+    "explanation": "A strategy for accelerated learning, emphasizing that leveraging others' experiences provides a significant head start"
+  },
+  {
+    "id": "2020-10-08-ideas-1",
+    "quote": "\"Do the most important thing first each day and you'll never have an unproductive day.\"",
+    "intro": "On doing the most important thing first",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-8-2020",
+    "author": "James Clear",
+    "date": "2020-10-08",
+    "section": "Ideas",
+    "explanation": "A daily productivity principle, emphasizing that prioritizing the most important task ensures meaningful progress"
+  },
+  {
+    "id": "2020-10-08-ideas-2",
+    "quote": "\"Lack of confidence kills more dreams than lack of ability.\n\nTalent matters--especially at elite levels--but people talk themselves out of giving their best effort long before talent becomes the limiting factor.\n\nYou're capable of more than you know. Don't be your own bottleneck.\"",
+    "intro": "On confidence vs ability",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-8-2020",
+    "author": "James Clear",
+    "date": "2020-10-08",
+    "section": "Ideas",
+    "explanation": "A perspective on self-limiting beliefs, emphasizing that confidence issues often prevent people from reaching their potential"
+  },
+  {
+    "id": "2020-10-08-ideas-3",
+    "quote": "\"Entrepreneur's mind.\nAthlete's body.\nArtist's soul.\"",
+    "intro": "On the ideal combination",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-8-2020",
+    "author": "James Clear",
+    "date": "2020-10-08",
+    "section": "Ideas",
+    "explanation": "A vision of ideal personal development, combining strategic thinking, physical capability, and creative expression"
+  },
+  {
+    "id": "2020-10-01-ideas-1",
+    "quote": "\"When talent is lacking, habit will often suffice.\"",
+    "intro": "On habits vs talent",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-1-2020",
+    "author": "James Clear",
+    "date": "2020-10-01",
+    "section": "Ideas",
+    "explanation": "A perspective on skill development, emphasizing that consistent habits can compensate for natural talent limitations"
+  },
+  {
+    "id": "2020-10-01-ideas-2",
+    "quote": "\"Go smaller.\n\nCan't learn an exercise? Reduce the range of motion.\n\nStruggling to grasp a new concept? Break it down.\n\nFailing to stick with a habit? Make it easy.\n\nMaster stage one, then advance.\"",
+    "intro": "On going smaller",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-1-2020",
+    "author": "James Clear",
+    "date": "2020-10-01",
+    "section": "Ideas",
+    "explanation": "A strategy for overcoming learning obstacles, emphasizing that reducing complexity enables mastery of fundamentals"
+  },
+  {
+    "id": "2020-10-01-ideas-3",
+    "quote": "\"'You're probably right' has become one of my favorite phrases.\n\nWhenever someone disagrees with you on a small matter (read: most things), you can shrug, say 'you're probably right' and move on.\n\nNot caring about winning trivial arguments saves so much time and energy.\"",
+    "intro": "On trivial arguments",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-1-2020",
+    "author": "James Clear",
+    "date": "2020-10-01",
+    "section": "Ideas",
+    "explanation": "A strategy for conserving mental energy, emphasizing that conceding minor disagreements preserves resources for important matters"
+  },
+  {
     "id": "2020-09-24-ideas-1",
     "quote": "\"Feel compliments as deeply as you feel insults.\"",
     "intro": "On feeling compliments deeply",

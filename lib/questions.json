@@ -1,5 +1,95 @@
 [
   {
+    "id": "2020-11-26-question",
+    "quote": "Some questions to consider before you speak:\n\nDoes this need to be said?\n\nDoes this need to be said by me?\n\nDoes this need to be said by me right now?",
+    "intro": "On thoughtful communication",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-26-2020",
+    "author": "James Clear",
+    "date": "2020-11-26",
+    "section": "Questions",
+    "explanation": "A three-part filter for communication that helps readers evaluate the necessity, appropriateness, and timing of their words"
+  },
+  {
+    "id": "2020-11-19-question",
+    "quote": "What would your closest friend tell you to do?",
+    "intro": "On seeking trusted advice",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-19-2020",
+    "author": "James Clear",
+    "date": "2020-11-19",
+    "section": "Questions",
+    "explanation": "A perspective-taking question that helps readers access unbiased advice by imagining what a trusted friend would recommend"
+  },
+  {
+    "id": "2020-11-12-question",
+    "quote": "What is one repeating problem you can automate or eliminate today?",
+    "intro": "On automation and elimination",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-12-2020",
+    "author": "James Clear",
+    "date": "2020-11-12",
+    "section": "Questions",
+    "explanation": "A productivity question that helps readers identify recurring issues that can be solved through automation or elimination"
+  },
+  {
+    "id": "2020-11-05-question",
+    "quote": "What part of this situation is under my control?",
+    "intro": "On focusing on what's controllable",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-5-2020",
+    "author": "James Clear",
+    "date": "2020-11-05",
+    "section": "Questions",
+    "explanation": "A Stoic-inspired question that helps readers focus their energy on aspects of situations they can actually influence"
+  },
+  {
+    "id": "2020-10-29-question",
+    "quote": "Who can I collaborate with to make this easier?",
+    "intro": "On collaboration",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-29-2020",
+    "author": "James Clear",
+    "date": "2020-10-29",
+    "section": "Questions",
+    "explanation": "A collaboration-focused question that helps readers identify potential partners to make challenging tasks more manageable"
+  },
+  {
+    "id": "2020-10-22-question",
+    "quote": "What is the little bit of extra work that has huge upside?",
+    "intro": "On high-leverage effort",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-22-2020",
+    "author": "James Clear",
+    "date": "2020-10-22",
+    "section": "Questions",
+    "explanation": "A leverage-focused question that helps readers identify small additional efforts that could produce disproportionately large results"
+  },
+  {
+    "id": "2020-10-15-question",
+    "quote": "Momentum is a double-edged sword. It can propel you to new heights or keep you locked into previous choices and old habits.\n\nWhere do I have healthy momentum right now? Where do I have unhealthy momentum?",
+    "intro": "On healthy vs unhealthy momentum",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-15-2020",
+    "author": "James Clear",
+    "date": "2020-10-15",
+    "section": "Questions",
+    "explanation": "A self-assessment question that helps readers evaluate whether their current momentum is serving their goals or holding them back"
+  },
+  {
+    "id": "2020-10-08-question",
+    "quote": "What am I reinforcing each day?",
+    "intro": "On daily reinforcement",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-8-2020",
+    "author": "James Clear",
+    "date": "2020-10-08",
+    "section": "Questions",
+    "explanation": "A habit-awareness question that helps readers examine what behaviors, thoughts, or patterns they are strengthening through daily repetition"
+  },
+  {
+    "id": "2020-10-01-question",
+    "quote": "What are the important problems in your field? And if you're not working on them, why not?",
+    "intro": "On working on important problems",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-1-2020",
+    "author": "James Clear",
+    "date": "2020-10-01",
+    "section": "Questions",
+    "explanation": "A career-focused question inspired by Richard Hamming that helps readers evaluate whether they're working on truly significant challenges"
+  },
+  {
     "id": "2020-09-24-question",
     "quote": "Who brings out your best qualities? Can you take five minutes right now to schedule time with them?",
     "intro": "On scheduling time with positive influences",
