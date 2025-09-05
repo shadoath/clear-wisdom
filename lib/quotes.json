@@ -1,5 +1,85 @@
 [
   {
+    "id": "2020-05-28-quotes-1",
+    "quote": "The scientist, astronomer, and author, **Carl Sagan**, on the magic of books:\n\n\"What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.\"",
+    "intro": "On the magic of books",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-28-2020",
+    "author": "Carl Sagan",
+    "date": "2020-05-28",
+    "section": "Quotes",
+    "explanation": "Carl Sagan's beautiful description of how books create magical connections across time and space, allowing direct communication between minds separated by centuries"
+  },
+  {
+    "id": "2020-05-28-quotes-2",
+    "quote": "The cellist, composer, and conductor, **Pablo Casals**, on being unique:\n\n\"Each second we live in a new and unique moment of the universe, a moment that never was before and will never be again. And what do we teach our children in school? We teach them that two and two make four, and that Paris is the capital of France. When will we also teach them what they are? We should say to each of them: Do you know what you are? You are a marvel. You are unique. In all of the world there is no other child exactly like you. In the millions of years that have passed there has never been another child like you... You may become a Shakespeare, a Michelangelo, a Beethoven. You have the capacity for anything. Yes, you are a marvel. And when you grow up, can you then harm another who is like you, a marvel? You must cherish one another. You must work--we must all work--to make this world worthy of its children.\"",
+    "intro": "On being unique",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-28-2020",
+    "author": "Pablo Casals",
+    "date": "2020-05-28",
+    "section": "Quotes",
+    "explanation": "Pablo Casals's profound message about human uniqueness and potential, emphasizing that recognizing our own marvel should inspire us to cherish others and work for a better world"
+  },
+  {
+    "id": "2020-05-21-quotes-1",
+    "quote": "Poet **Yahia Lababidi** on the power of listening:\n\n\"A good listener is one who helps us overhear ourselves.\"",
+    "intro": "On the power of listening",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-21-2020",
+    "author": "Yahia Lababidi",
+    "date": "2020-05-21",
+    "section": "Quotes",
+    "explanation": "Yahia Lababidi's insight about how good listening creates space for self-discovery, helping people hear their own thoughts and feelings more clearly"
+  },
+  {
+    "id": "2020-05-21-quotes-2",
+    "quote": "Author **Michael Lewis** on the stories we tell ourselves:\n\n\"As I've gotten older--I would say starting in my mid-to-late 20s--I could not help but notice the effect on people of the stories they told about themselves. If you listen to people, if you just sit and listen, you'll find that there are patterns in the way they talk about themselves.\n\nThere's the kind of person who is always the victim in any story that they tell. Always on the receiving end of some injustice. There's the person who's always kind of the hero of every story they tell. There's the smart person; they delivered the clever put down there.\n\nThere are lots of versions of this, and you've got to be very careful about how you tell these stories because it starts to become you. You are--in the way you craft your narrative--kind of crafting your character. And so I did at some point decide, 'I am going to adopt self-consciously as my narrative, that I'm the happiest person anybody knows.' And it is amazing how happy-inducing it is.\"",
+    "intro": "On the stories we tell ourselves",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-21-2020",
+    "author": "Michael Lewis",
+    "date": "2020-05-21",
+    "section": "Quotes",
+    "explanation": "Michael Lewis's insight about how the stories we tell about ourselves shape our identity and reality, emphasizing the power of consciously choosing positive narratives"
+  },
+  {
+    "id": "2020-05-14-quotes-1",
+    "quote": "**Albert Gray**, a life insurance executive at Prudential, discussing the importance of habits in the 1940s:\n\n\"Every single qualification for success is acquired through habit. People form habits and habits form futures. If you do not deliberately form good habits, then unconsciously you will form bad ones. You are the kind of person you are because you have formed the habit of being that kind of person, and the only way you can change is through habit.\"",
+    "intro": "On habits and success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-14-2020",
+    "author": "Albert Gray",
+    "date": "2020-05-14",
+    "section": "Quotes",
+    "explanation": "Albert Gray's comprehensive insight about how habits shape identity and determine success, emphasizing that all qualifications come through habit formation"
+  },
+  {
+    "id": "2020-05-14-quotes-2",
+    "quote": "**George Mallory**, a mountaineer who led early British expeditions to Mount Everest in the 1920s, on the joy of climbing:\n\n\"People ask me, 'What is the use of climbing Mount Everest?' and my answer must at once be, 'It is of no use.' There is not the slightest prospect of any gain whatsoever. Oh, we may learn a little about the behavior of the human body at high altitudes, and possibly medical men may turn our observation to some account for the purposes of aviation. But otherwise nothing will come of it. We shall not bring back a single bit of gold or silver, not a gem, nor any coal or iron... If you cannot understand that there is something in man which responds to the challenge of this mountain and goes out to meet it, that the struggle is the struggle of life itself upward and forever upward, then you won't see why we go. What we get from this adventure is just sheer joy. And joy is, after all, the end of life. We do not live to eat and make money. We eat and make money to be able to live. That is what life means and what life is for.\"",
+    "intro": "On the joy of climbing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-14-2020",
+    "author": "George Mallory",
+    "date": "2020-05-14",
+    "section": "Quotes",
+    "explanation": "George Mallory's profound reflection on the intrinsic value of challenging pursuits, emphasizing that joy and personal growth are the true purposes of life, not material gain"
+  },
+  {
+    "id": "2020-05-07-quotes-1",
+    "quote": "**Albert Einstein** on creativity:\n\n\"Creativity is intelligence having fun.\"",
+    "intro": "On creativity and intelligence",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-7-2020",
+    "author": "Albert Einstein",
+    "date": "2020-05-07",
+    "section": "Quotes",
+    "explanation": "Einstein's insight about creativity being the playful expression of intelligence, emphasizing the joy in creative thinking"
+  },
+  {
+    "id": "2020-05-07-quotes-2",
+    "quote": "**Maya Angelou** on celebration:\n\n\"Life is not measured by the number of breaths we take, but by the moments that take our breath away.\"",
+    "intro": "On meaningful moments",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-7-2020",
+    "author": "Maya Angelou",
+    "date": "2020-05-07",
+    "section": "Quotes",
+    "explanation": "Maya Angelou's perspective on what makes life meaningful, emphasizing quality of experiences over quantity of time"
+  },
+  {
     "id": "2020-04-30-quotes-1",
     "quote": "**Raymond Joseph Teller**, one half of the magic duo Penn & Teller, on the process of mastery:\n\n\"Sometimes magic is just someone spending more time on something than anyone else might reasonably expect.\"",
     "intro": "On mastery through time",

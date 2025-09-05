@@ -1,5 +1,45 @@
 [
   {
+    "id": "2020-05-28-question",
+    "quote": "If someone could only see my actions and not hear my words, what would they say are my priorities?",
+    "intro": "On actions revealing priorities",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-28-2020",
+    "author": "James Clear",
+    "date": "2020-05-28",
+    "section": "Questions",
+    "explanation": "A powerful self-reflection question that helps readers examine the gap between their stated values and actual behavior, encouraging alignment between words and actions"
+  },
+  {
+    "id": "2020-05-21-question",
+    "quote": "Simple question to find work you love:\n\nWhat do you enjoy refining? (It's the areas you can't help yourself from editing and optimizing where you have a long-term advantage.)",
+    "intro": "On finding work you love",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-21-2020",
+    "author": "James Clear",
+    "date": "2020-05-21",
+    "section": "Questions",
+    "explanation": "A practical question for career guidance that identifies natural areas of interest and expertise by focusing on what people instinctively want to improve and perfect"
+  },
+  {
+    "id": "2020-05-14-question",
+    "quote": "Am I doing this for Present Me or Future Me?",
+    "intro": "On present vs future focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-14-2020",
+    "author": "James Clear",
+    "date": "2020-05-14",
+    "section": "Questions",
+    "explanation": "A reflective question that helps readers examine whether their current actions are serving immediate gratification or long-term benefit, encouraging conscious decision-making about time allocation"
+  },
+  {
+    "id": "2020-05-07-question",
+    "quote": "What would I do if I knew I could not fail?",
+    "intro": "On fearless action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-7-2020",
+    "author": "James Clear",
+    "date": "2020-05-07",
+    "section": "Questions",
+    "explanation": "A powerful question that helps readers identify their true desires and ambitions by removing the fear of failure"
+  },
+  {
     "id": "2020-04-30-question",
     "quote": "What does this make possible?",
     "intro": "On finding opportunities",

@@ -1,5 +1,185 @@
 [
   {
+    "id": "2020-05-28-ideas-1",
+    "quote": "\"If you have good habits, time becomes your ally. All you need is patience.\"",
+    "intro": "On habits and time",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-28-2020",
+    "author": "James Clear",
+    "date": "2020-05-28",
+    "section": "Ideas",
+    "explanation": "An insight about how good habits transform time from an enemy into an ally, emphasizing that patience is the key ingredient when habits are working in your favor"
+  },
+  {
+    "id": "2020-05-28-ideas-2",
+    "quote": "\"How to see opportunities others miss:\n\n1) Study a totally different field, then return to the original problem. Apply insights from other domains.\n\n2) Invert the problem. Try to achieve the opposite.\n\n3) Talk to hyper-creative people. Their thinking will rub off.\"",
+    "intro": "On seeing opportunities",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-28-2020",
+    "author": "James Clear",
+    "date": "2020-05-28",
+    "section": "Ideas",
+    "explanation": "A practical framework for developing creative thinking and spotting opportunities through cross-domain learning, inversion thinking, and exposure to creative minds"
+  },
+  {
+    "id": "2020-05-28-ideas-3",
+    "quote": "\"One form of originality is creation. Another form is synthesis.\n\nPeople often focus so much on creating new ideas that they overlook the value of synthesizing ideas from different sources.\n\nInnovation usually mean connecting previously unconnected concepts.\"",
+    "intro": "On originality and synthesis",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-28-2020",
+    "author": "James Clear",
+    "date": "2020-05-28",
+    "section": "Ideas",
+    "explanation": "A reframing of originality that emphasizes synthesis over pure creation, showing how innovation often comes from connecting existing ideas in new ways"
+  },
+  {
+    "id": "2020-05-21-ideas-1",
+    "quote": "\"Knowledge is the compound interest of curiosity.\"",
+    "intro": "On knowledge and curiosity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-21-2020",
+    "author": "James Clear",
+    "date": "2020-05-21",
+    "section": "Ideas",
+    "explanation": "A metaphor comparing knowledge accumulation to compound interest, showing how curiosity compounds over time to create exponential learning"
+  },
+  {
+    "id": "2020-05-21-ideas-2",
+    "quote": "\"A practical definition of opportunity cost:\n\nIf you spend too much time working on good things, then you don't have much time left to work on great things.\n\nUnderstanding opportunity cost means eliminating good uses of time. And that's what makes it hard.\"",
+    "intro": "On opportunity cost",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-21-2020",
+    "author": "James Clear",
+    "date": "2020-05-21",
+    "section": "Ideas",
+    "explanation": "A practical framework for understanding opportunity cost, emphasizing that the real challenge is saying no to good opportunities to make room for great ones"
+  },
+  {
+    "id": "2020-05-21-ideas-3",
+    "quote": "\"There are 3 primary drivers of results in life:\n\n1) Your luck (randomness).\n2) Your strategy (choices).\n3) Your actions (habits).\n\nOnly 2 of the 3 are under your control. But if you master those 2, you can improve the odds that luck will work for you rather than against you.\"",
+    "intro": "On the drivers of results",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-21-2020",
+    "author": "James Clear",
+    "date": "2020-05-21",
+    "section": "Ideas",
+    "explanation": "A framework for understanding what drives life outcomes, emphasizing that while luck is uncontrollable, mastering strategy and actions can influence luck in your favor"
+  },
+  {
+    "id": "2020-05-14-ideas-1",
+    "quote": "\"Entrepreneurship is a personal growth engine disguised as a business pursuit.\"",
+    "intro": "On entrepreneurship as personal growth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-14-2020",
+    "author": "James Clear",
+    "date": "2020-05-14",
+    "section": "Ideas",
+    "explanation": "An insight about how entrepreneurship serves as a vehicle for personal development and self-improvement, with business success being a byproduct of growth"
+  },
+  {
+    "id": "2020-05-14-ideas-2",
+    "quote": "\"The 3 Levels of Employees:\n\nLevel 1 — You do what you are asked to do.\n\nLevel 2 — Level 1 + You think ahead and solve problems before they happen.\n\nLevel 3 — Level 2 + You proactively look for areas of opportunity and growth in the business, and figure out how to tap into them.\"",
+    "intro": "On employee levels",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-14-2020",
+    "author": "James Clear",
+    "date": "2020-05-14",
+    "section": "Ideas",
+    "explanation": "A framework for understanding different levels of employee engagement and initiative, showing progression from reactive to proactive to strategic thinking"
+  },
+  {
+    "id": "2020-05-14-ideas-3",
+    "quote": "\"The more control you have over your attention, the more control you have over your future.\"",
+    "intro": "On attention control",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-14-2020",
+    "author": "James Clear",
+    "date": "2020-05-14",
+    "section": "Ideas",
+    "explanation": "A powerful insight about the relationship between attention management and future outcomes, emphasizing that controlling where you focus determines what you achieve"
+  },
+  {
+    "id": "2020-05-07-ideas-1",
+    "quote": "\"Creative ideas are not born in isolation. They are the result of connecting existing ideas in new ways.\"",
+    "intro": "On creative thinking",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-7-2020",
+    "author": "James Clear",
+    "date": "2020-05-07",
+    "section": "Ideas",
+    "explanation": "An insight about creativity as the art of connecting existing elements in novel ways rather than creating something from nothing"
+  },
+  {
+    "id": "2020-05-07-ideas-2",
+    "quote": "\"Wealth is not about having more money. It's about having more options.\"",
+    "intro": "On true wealth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-7-2020",
+    "author": "James Clear",
+    "date": "2020-05-07",
+    "section": "Ideas",
+    "explanation": "A redefinition of wealth that emphasizes freedom and choice over mere accumulation of money"
+  },
+  {
+    "id": "2020-05-07-ideas-3",
+    "quote": "\"Life is not a problem to be solved, but a celebration to be experienced.\"",
+    "intro": "On life as celebration",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-7-2020",
+    "author": "James Clear",
+    "date": "2020-05-07",
+    "section": "Ideas",
+    "explanation": "A perspective shift from viewing life as a series of problems to embracing it as a joyful experience to be celebrated"
+  },
+  {
+    "id": "2020-05-14-ideas-1",
+    "quote": "\"Entrepreneurship is a personal growth engine disguised as a business pursuit.\"",
+    "intro": "On entrepreneurship as personal growth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-14-2020",
+    "author": "James Clear",
+    "date": "2020-05-14",
+    "section": "Ideas",
+    "explanation": "An insight about how entrepreneurship serves as a vehicle for personal development and self-improvement, with business success being a byproduct of growth"
+  },
+  {
+    "id": "2020-05-14-ideas-2",
+    "quote": "\"The 3 Levels of Employees:\n\nLevel 1 — You do what you are asked to do.\n\nLevel 2 — Level 1 + You think ahead and solve problems before they happen.\n\nLevel 3 — Level 2 + You proactively look for areas of opportunity and growth in the business, and figure out how to tap into them.\"",
+    "intro": "On employee levels",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-14-2020",
+    "author": "James Clear",
+    "date": "2020-05-14",
+    "section": "Ideas",
+    "explanation": "A framework for understanding different levels of employee engagement and initiative, showing progression from reactive to proactive to strategic thinking"
+  },
+  {
+    "id": "2020-05-14-ideas-3",
+    "quote": "\"The more control you have over your attention, the more control you have over your future.\"",
+    "intro": "On attention control",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-14-2020",
+    "author": "James Clear",
+    "date": "2020-05-14",
+    "section": "Ideas",
+    "explanation": "A powerful insight about the relationship between attention management and future outcomes, emphasizing that controlling where you focus determines what you achieve"
+  },
+  {
+    "id": "2020-05-21-ideas-1",
+    "quote": "\"Knowledge is the compound interest of curiosity.\"",
+    "intro": "On knowledge and curiosity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-21-2020",
+    "author": "James Clear",
+    "date": "2020-05-21",
+    "section": "Ideas",
+    "explanation": "A metaphor comparing knowledge accumulation to compound interest, showing how curiosity compounds over time to create exponential learning"
+  },
+  {
+    "id": "2020-05-21-ideas-2",
+    "quote": "\"A practical definition of opportunity cost:\n\nIf you spend too much time working on good things, then you don't have much time left to work on great things.\n\nUnderstanding opportunity cost means eliminating good uses of time. And that's what makes it hard.\"",
+    "intro": "On opportunity cost",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-21-2020",
+    "author": "James Clear",
+    "date": "2020-05-21",
+    "section": "Ideas",
+    "explanation": "A practical framework for understanding opportunity cost, emphasizing that the real challenge is saying no to good opportunities to make room for great ones"
+  },
+  {
+    "id": "2020-05-21-ideas-3",
+    "quote": "\"There are 3 primary drivers of results in life:\n\n1) Your luck (randomness).\n2) Your strategy (choices).\n3) Your actions (habits).\n\nOnly 2 of the 3 are under your control. But if you master those 2, you can improve the odds that luck will work for you rather than against you.\"",
+    "intro": "On the drivers of results",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-21-2020",
+    "author": "James Clear",
+    "date": "2020-05-21",
+    "section": "Ideas",
+    "explanation": "A framework for understanding what drives life outcomes, emphasizing that while luck is uncontrollable, mastering strategy and actions can influence luck in your favor"
+  },
+  {
     "id": "2020-04-30-ideas-1",
     "quote": "\"Not taking things personally is a superpower.\"",
     "intro": "On emotional resilience",
