@@ -1,5 +1,35 @@
 [
   {
+    "id": "2020-01-23-ideas-1",
+    "quote": "\"Focus is the art of knowing what to ignore.\"",
+    "intro": "On focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-23-2020",
+    "author": "James Clear",
+    "date": "2020-01-23",
+    "section": "Ideas",
+    "explanation": "A concise definition of focus that emphasizes the importance of selective attention and the ability to filter out distractions"
+  },
+  {
+    "id": "2020-01-23-ideas-2",
+    "quote": "\"On minimalism: The goal is not to have the least amount of things, but the optimal amount of things. Two important footnotes: (1) The optimal amount depends on your goals. (2) The optimal amount is almost always less than you think.\"",
+    "intro": "On minimalism",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-23-2020",
+    "author": "James Clear",
+    "date": "2020-01-23",
+    "section": "Ideas",
+    "explanation": "A nuanced perspective on minimalism that emphasizes optimization over reduction, with practical guidance on determining the right amount based on personal goals"
+  },
+  {
+    "id": "2020-01-23-ideas-3",
+    "quote": "\"Reading is like a software update for your brain. Whenever you learn a new concept or idea, the 'software' improves. You download new features and fix old bugs. In this way, reading a good book can give you a new way to view your life experiences. Your past is fixed, but your interpretation of it can change depending on the software you use to analyze it.\"",
+    "intro": "On reading",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-23-2020",
+    "author": "James Clear",
+    "date": "2020-01-23",
+    "section": "Ideas",
+    "explanation": "A powerful metaphor comparing reading to software updates, showing how new knowledge can reframe past experiences and provide new perspectives for understanding life"
+  },
+  {
     "id": "2020-01-16-ideas-1",
     "quote": "\"It's never been a better time for self-motivated people.\n\nAnyone connected to the internet has the education power of a university and the distribution power of a media company at their fingertips.\n\nCuriosity, courage, and persistence are the new gatekeepers.\"",
     "intro": "On the power of self-motivation",
