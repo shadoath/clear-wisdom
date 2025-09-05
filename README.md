@@ -50,4 +50,8 @@ Format:
   }
 ```
 
+### To build for Chrome Web Store
+
+`zip -r clear-wisdom.zip . -x ".*" -x "__MACOSX/*" -x "*.DS_Store" -x "*.zip" -x ".git/*" -x "node_modules/*"`
+
 This project is open source and available under the MIT License.
