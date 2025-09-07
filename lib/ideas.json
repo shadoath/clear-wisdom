@@ -1,5 +1,125 @@
 [
   {
+    "id": "2021-11-25-ideas-1",
+    "quote": "\"Doing it right is hard. Doing it over is harder.\"",
+    "intro": "On doing it right vs doing it over",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-25-2021",
+    "author": "James Clear",
+    "date": "2021-11-25",
+    "section": "Ideas",
+    "explanation": "A principle about quality and efficiency, emphasizing that doing work correctly the first time is easier than having to redo it later"
+  },
+  {
+    "id": "2021-11-25-ideas-2",
+    "quote": "\"Three simple ways to get more of what you want in life:\n\n1) Be kind and pleasant to others.\n\n2) Ask for what you want.\n\n3) Follow up.\"",
+    "intro": "On three ways to get more of what you want",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-25-2021",
+    "author": "James Clear",
+    "date": "2021-11-25",
+    "section": "Ideas",
+    "explanation": "A simple framework for achieving goals, emphasizing the importance of positive relationships, clear communication, and persistent follow-through"
+  },
+  {
+    "id": "2021-11-25-ideas-3",
+    "quote": "\"In the gym, if you experience no stimulus your muscles won't grow. If you step under 10,000 pounds your body will break.\n\nLife is similar.\n\nToo much challenge makes life hard, but so does too little.\"",
+    "intro": "On the right amount of challenge",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-25-2021",
+    "author": "James Clear",
+    "date": "2021-11-25",
+    "section": "Ideas",
+    "explanation": "A principle about optimal challenge, emphasizing that both insufficient and excessive challenge are problematic and that growth requires the right level of difficulty"
+  },
+  {
+    "id": "2021-11-18-ideas-1",
+    "quote": "\"Most lucky events in life are opportunities, not outcomes.\n\nThe value of an opportunity changes depending on how it is treated.\nWithout effort, good luck becomes a missed opportunity. With effort, good luck can become a life-changing event.\n\nYou need luck and hard work. It's not either/or. It's both/and. The result will not walk through the door on its own.\"",
+    "intro": "On lucky events as opportunities",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-18-2021",
+    "author": "James Clear",
+    "date": "2021-11-18",
+    "section": "Ideas",
+    "explanation": "A perspective on luck and opportunity, emphasizing that luck provides chances that require effort to transform into meaningful outcomes"
+  },
+  {
+    "id": "2021-11-18-ideas-2",
+    "quote": "\"When in doubt, just say thank you. There is no downside. Are you honestly worried about showing too much gratitude to the people in your life?\"",
+    "intro": "On saying thank you",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-18-2021",
+    "author": "James Clear",
+    "date": "2021-11-18",
+    "section": "Ideas",
+    "explanation": "A simple principle about gratitude, emphasizing that expressing thanks has no negative consequences and only positive benefits for relationships"
+  },
+  {
+    "id": "2021-11-18-ideas-3",
+    "quote": "\"How much could I lose?\" is not merely a financial question.\n\nIf I make this choice:\n\n- How much time could I lose?\n\n- How much sanity could I lose?\n\n- How much reputation could I lose?\n\n- How much happiness could I lose?\n\nOpportunity cost is about a lot more than money.\"",
+    "intro": "On opportunity cost beyond money",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-18-2021",
+    "author": "James Clear",
+    "date": "2021-11-18",
+    "section": "Ideas",
+    "explanation": "A framework for decision-making, emphasizing that opportunity cost includes time, mental health, reputation, and happiness, not just financial considerations"
+  },
+  {
+    "id": "2021-11-11-ideas-1",
+    "quote": "\"It's better to be alone than to spend time with toxic people.\n\nIt's better to do nothing than to work on something that doesn't matter.\n\nIt's better to rest than to climb the wrong mountain.\"",
+    "intro": "On better choices",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-11-2021",
+    "author": "James Clear",
+    "date": "2021-11-11",
+    "section": "Ideas",
+    "explanation": "A series of principles about quality over quantity, emphasizing that solitude, rest, and inaction are often better than toxic relationships, meaningless work, or wrong goals"
+  },
+  {
+    "id": "2021-11-11-ideas-2",
+    "quote": "\"Mental toughness immediately increases when you find the right subject. You're more likely to stick with things when you're genuinely interested.\"",
+    "intro": "On mental toughness and interest",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-11-2021",
+    "author": "James Clear",
+    "date": "2021-11-11",
+    "section": "Ideas",
+    "explanation": "A principle about persistence and motivation, emphasizing that genuine interest in a subject naturally increases mental toughness and commitment"
+  },
+  {
+    "id": "2021-11-11-ideas-3",
+    "quote": "\"Every great opportunity has many reasons why it could fail. You have to trust your ability to solve problems along the way.\n\nPeople who look for reasons why things won't work, struggle to take action.\n\nPeople who look for reasons why things will work--and solve problems as they arise--make things happen.\"",
+    "intro": "On opportunity and problem-solving",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-11-2021",
+    "author": "James Clear",
+    "date": "2021-11-11",
+    "section": "Ideas",
+    "explanation": "A principle about mindset and action, emphasizing that focusing on solutions rather than problems enables progress and that all opportunities involve risk"
+  },
+  {
+    "id": "2021-11-04-ideas-1",
+    "quote": "\"Most people optimize for the day ahead. A few people optimize for 1-2 years ahead. Almost nobody optimizes for 3-4 years ahead (or longer).\n\nThe person who is willing to delay gratification longer than most reduces competition and gains a decisive advantage.\n\nPatience is power.\"",
+    "intro": "On patience as power",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-4-2021",
+    "author": "James Clear",
+    "date": "2021-11-04",
+    "section": "Ideas",
+    "explanation": "A principle about long-term thinking, emphasizing that extending the time horizon for optimization reduces competition and provides significant advantages"
+  },
+  {
+    "id": "2021-11-04-ideas-2",
+    "quote": "\"The biggest risk to productivity is always the same: working on the wrong thing.\"",
+    "intro": "On the biggest productivity risk",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-4-2021",
+    "author": "James Clear",
+    "date": "2021-11-04",
+    "section": "Ideas",
+    "explanation": "A principle about productivity, emphasizing that the primary threat to effectiveness is misdirected effort rather than lack of effort"
+  },
+  {
+    "id": "2021-11-04-ideas-3",
+    "quote": "\"Being pleasant and having a good attitude is a simple way to become luckier.\n\nOpportunities come through people, and people are more likely to bring opportunities to people they like.\n\nIt's hard to win if your attitude adds friction to every interpersonal experience.\"",
+    "intro": "On being pleasant to become luckier",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-4-2021",
+    "author": "James Clear",
+    "date": "2021-11-04",
+    "section": "Ideas",
+    "explanation": "A principle about social capital and opportunity, emphasizing that positive attitude and likability increase the likelihood of receiving opportunities from others"
+  },
+  {
     "id": "2021-10-28-ideas-1",
     "quote": "\"Your time is better spent championing good ideas than tearing down bad ones.\n\nThe best thing that can happen to a bad idea is that it is forgotten.\nThe best thing that can happen to a good idea is that it is shared.\n\nFeed the good ideas and let bad ideas die of starvation.\"",
     "intro": "On championing good ideas",

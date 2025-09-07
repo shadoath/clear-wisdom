@@ -1,5 +1,45 @@
 [
   {
+    "id": "2021-11-25-question",
+    "quote": "At this time next year, what will you be thankful you spent time on during the next 12 months?",
+    "intro": "On future gratitude",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-25-2021",
+    "author": "James Clear",
+    "date": "2021-11-25",
+    "section": "Questions",
+    "explanation": "A forward-looking gratitude question for identifying valuable investments of time and energy, encouraging reflection on what activities will matter most in retrospect"
+  },
+  {
+    "id": "2021-11-18-question",
+    "quote": "What has been your favorite period of the last decade? How can you recreate some of that magic over the next year?",
+    "intro": "On recreating favorite periods",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-18-2021",
+    "author": "James Clear",
+    "date": "2021-11-18",
+    "section": "Questions",
+    "explanation": "A reflection question for identifying peak experiences and planning to recreate their positive elements, encouraging intentional design of future experiences"
+  },
+  {
+    "id": "2021-11-11-question",
+    "quote": "What is a small thing that bugs me, but I haven't taken the time to fix? Can I fix it today?",
+    "intro": "On fixing small annoyances",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-11-2021",
+    "author": "James Clear",
+    "date": "2021-11-11",
+    "section": "Questions",
+    "explanation": "A practical question for identifying and addressing minor frustrations, encouraging proactive problem-solving and immediate action on small issues"
+  },
+  {
+    "id": "2021-11-04-question",
+    "quote": "Look around the rooms where you spend the most time.\n\nWhat behavior does this space encourage? How can you set things up to make your good habits easier?",
+    "intro": "On designing your environment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-4-2021",
+    "author": "James Clear",
+    "date": "2021-11-04",
+    "section": "Questions",
+    "explanation": "An environmental design question for optimizing spaces to support desired behaviors, encouraging awareness of how physical surroundings influence habits"
+  },
+  {
     "id": "2021-10-28-question",
     "quote": "What is the biggest non-work related contribution you can make today?",
     "intro": "On non-work contributions",

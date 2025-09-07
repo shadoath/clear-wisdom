@@ -1,5 +1,85 @@
 [
   {
+    "id": "2021-11-25-quotes-1",
+    "quote": "Poet and playwright **Oscar Wilde** on being grateful for what you avoid:\n\n\"If you don't get everything you want, think of the things you don't get that you don't want.\"",
+    "intro": "On being grateful for what you avoid",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-25-2021",
+    "author": "Oscar Wilde",
+    "date": "2021-11-25",
+    "section": "Quotes",
+    "explanation": "Oscar Wilde's perspective on gratitude and perspective, emphasizing that not getting unwanted things is also a form of good fortune"
+  },
+  {
+    "id": "2021-11-25-quotes-2",
+    "quote": "Cus D'amato, the legendary boxing trainer of Mike Tyson and other top fighters, on courage:\n\n\"I tell my kids, what is the difference between a hero and a coward? What is the difference between being [cowardly] and being brave? No difference. Only what you do. They both feel the same. They both fear dying and getting hurt. The man who is [cowardly] refuses to face up to what he's got to face. The hero is more disciplined and he fights those feelings off and he does what he has to do. But they both feel the same, the hero and the coward. People who watch you judge you on what you do, not how you feel.\"",
+    "intro": "On courage",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-25-2021",
+    "author": "Cus D'amato",
+    "date": "2021-11-25",
+    "section": "Quotes",
+    "explanation": "Cus D'amato's insight about courage and fear, emphasizing that heroes and cowards feel the same fear but differ in their actions and discipline"
+  },
+  {
+    "id": "2021-11-18-quotes-1",
+    "quote": "Author **Leo Tolstoy** on the importance of being kind--particularly when communicating with others:\n\n\"You should know that when a message you convey to another person is not understood by him, at least one of the following things is true: what you have said is not true, or you have conveyed it without kindness.\"",
+    "intro": "On the importance of being kind",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-18-2021",
+    "author": "Leo Tolstoy",
+    "date": "2021-11-18",
+    "section": "Quotes",
+    "explanation": "Leo Tolstoy's principle about effective communication, emphasizing that misunderstanding often stems from either false information or unkind delivery"
+  },
+  {
+    "id": "2021-11-18-quotes-2",
+    "quote": "Scientist and process improvement expert **Ann Hill** on the value of ignoring some problems in life:\n\n\"Not every problem needs to be overcome, just the ones stopping you from getting where you want to be.\"",
+    "intro": "On the value of ignoring some problems",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-18-2021",
+    "author": "Ann Hill",
+    "date": "2021-11-18",
+    "section": "Quotes",
+    "explanation": "Ann Hill's perspective on selective problem-solving, emphasizing that not all problems require attention and that focus should be on obstacles to goals"
+  },
+  {
+    "id": "2021-11-11-quotes-1",
+    "quote": "The Chinese philosopher **Zhuangzi** on how to approach life:\n\n\"To the most trivial actions, attach the devotion and mindfulness of a hundred monks. To matters of life and death, attach a sense of humor.\"",
+    "intro": "On how to approach life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-11-2021",
+    "author": "Zhuangzi",
+    "date": "2021-11-11",
+    "section": "Quotes",
+    "explanation": "Zhuangzi's wisdom about perspective and approach, emphasizing serious attention to small things and lightness about serious matters"
+  },
+  {
+    "id": "2021-11-11-quotes-2",
+    "quote": "Journalist and author **Derek Thompson** on how to succeed as a writer in the modern world:\n\nINTERVIEWER: \"What advice do you give to a recent college grad who comes up to you and says I'm interested in journalism and writing books?\"\n\nTHOMPSON: \"...there is a paradox to scale, I think. People who want to be big sometimes think, \"I have to immediately reach the largest possible audience.\" But in a weird way, the best way to produce things that take off is to produce small things. To become a small expert. To become the best person on the internet at understanding the application of Medicaid to minority children, or something like that.\n\nAnd the reason why I think this is true I call my Tokyo example. If you go to Tokyo, you'll see there are all sorts of really, really strange shops. There'll be a shop that's only 1970's vinyl and like, 1980's whisky or something. And that doesn't make any sense if it's a shop in a Des Moines suburb, right? In a Des Moines suburb, to exist, you have to be Subway. You have to hit the mass-market immediately.\n\nBut in Tokyo, where there's 30-40 million people within a train ride of a city, then your market is 40 million. And within that 40 million, sure, there's a couple thousand people who love 1970's music and 1980's whisky. The Internet is Tokyo. The Internet allows you to be niche at scale.\n\nNiche at scale is something that I think young people should aspire to.\"",
+    "intro": "On how to succeed as a writer",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-11-2021",
+    "author": "Derek Thompson",
+    "date": "2021-11-11",
+    "section": "Quotes",
+    "explanation": "Derek Thompson's strategy for modern writing success, emphasizing the power of becoming a niche expert in a large market rather than trying to appeal to everyone immediately"
+  },
+  {
+    "id": "2021-11-04-quotes-1",
+    "quote": "Filmmaker **Alanis Obomsawin** on the value of nature:\n\n\"When the last tree is cut, the last fish is caught, and the last river is polluted; when to breathe the air is sickening, you will realize, too late, that wealth is not in bank accounts and that you can't eat money.\"",
+    "intro": "On the value of nature",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-4-2021",
+    "author": "Alanis Obomsawin",
+    "date": "2021-11-04",
+    "section": "Quotes",
+    "explanation": "Alanis Obomsawin's warning about environmental destruction, emphasizing that natural resources are more fundamental to survival than monetary wealth"
+  },
+  {
+    "id": "2021-11-04-quotes-2",
+    "quote": "Writer **David Foster Wallace** on the importance of controlling your attention:\n\n\"Twenty years after my own graduation, I have come gradually to understand that the liberal arts cliché about \"teaching you how to think\" is actually shorthand for a much deeper, more serious idea: Learning how to think really means learning how to exercise some control over how and what you think. It means being conscious and aware enough to choose what you pay attention to and to choose how you construct meaning from experience. Because if you cannot exercise this kind of choice in adult life, you will be totally hosed.\"",
+    "intro": "On the importance of controlling your attention",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-4-2021",
+    "author": "David Foster Wallace",
+    "date": "2021-11-04",
+    "section": "Quotes",
+    "explanation": "David Foster Wallace's insight about the true value of education, emphasizing that learning to think means learning to control attention and meaning-making rather than just acquiring facts"
+  },
+  {
     "id": "2021-10-28-quotes-1",
     "quote": "Inventor and writer **Lin Yutang** on the beauty of autumn:\n\n\"I like spring, but it is too young. I like summer, but it is too proud. So I like best of all autumn, because its leaves are a little yellow, its tone mellower, its colours richer, and it is tinged a little with sorrow and a premonition of death. Its golden richness speaks not of the innocence of spring, nor of the power of summer, but of the mellowness and kindly wisdom of approaching age. It knows the limitations of life and is content. From a knowledge of those limitations and its richness of experience emerges a symphony of colours, richer than all, its green speaking of life and strength, its orange speaking of golden content and its purple of resignation and death.\"",
     "intro": "On the beauty of autumn",
