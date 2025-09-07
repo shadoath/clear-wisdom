@@ -1,5 +1,45 @@
 [
   {
+    "id": "2021-08-26-question",
+    "quote": "Which of my relationships are win-win? Which of my relationships are one-sided?",
+    "intro": "On win-win vs one-sided relationships",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-26-2021",
+    "author": "James Clear",
+    "date": "2021-08-26",
+    "section": "Questions",
+    "explanation": "A relationship evaluation question for identifying mutual benefit versus one-sided dynamics, encouraging assessment of relationship health and balance"
+  },
+  {
+    "id": "2021-08-19-question",
+    "quote": "Six months from now, what you will you wish you had spent time on today?",
+    "intro": "On future perspective",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-19-2021",
+    "author": "James Clear",
+    "date": "2021-08-19",
+    "section": "Questions",
+    "explanation": "A future-oriented question for evaluating current priorities, helping identify what activities will matter most in retrospect"
+  },
+  {
+    "id": "2021-08-12-question",
+    "quote": "What do I have planned for today that energizes me?",
+    "intro": "On daily energy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-12-2021",
+    "author": "James Clear",
+    "date": "2021-08-12",
+    "section": "Questions",
+    "explanation": "A daily planning question for ensuring energy and motivation, encouraging inclusion of activities that provide personal fulfillment"
+  },
+  {
+    "id": "2021-08-05-question",
+    "quote": "Thanks to Bryan Harris for sharing this week's question with me:\n\nIf it fails, where does it fail?",
+    "intro": "On failure analysis",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-5-2021",
+    "author": "Bryan Harris",
+    "date": "2021-08-05",
+    "section": "Questions",
+    "explanation": "Bryan Harris's strategic question for identifying potential failure points, encouraging proactive analysis of where systems or plans might break down"
+  },
+  {
     "id": "2021-07-29-question",
     "quote": "Faster. If I had to go from start to finish in half the time, what would I do?\n\nSlower. If I could afford to spend double the time on it, what would I do?",
     "intro": "On speed vs depth",
