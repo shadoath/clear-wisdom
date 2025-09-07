@@ -1,5 +1,45 @@
 [
   {
+    "id": "2021-01-28-question",
+    "quote": "What are you working on when time fades away?",
+    "intro": "On flow state activities",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-28-2021",
+    "author": "James Clear",
+    "date": "2021-01-28",
+    "section": "Questions",
+    "explanation": "A question that helps readers identify their flow state activities - the work that absorbs them so completely that they lose track of time, often indicating their true passions and strengths"
+  },
+  {
+    "id": "2021-01-21-question",
+    "quote": "Has the most important thing changed? Am I chasing an outdated target?",
+    "intro": "On outdated targets",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-21-2021",
+    "author": "James Clear",
+    "date": "2021-01-21",
+    "section": "Questions",
+    "explanation": "A strategic reflection question that helps readers evaluate whether their current goals and priorities are still relevant or if they're pursuing outdated objectives that no longer serve their best interests"
+  },
+  {
+    "id": "2021-01-14-question",
+    "quote": "A simple question that can deliver powerful results if taken seriously:\n\nWhat is the highest leverage action I can execute on right now?",
+    "intro": "On highest leverage action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-14-2021",
+    "author": "James Clear",
+    "date": "2021-01-14",
+    "section": "Questions",
+    "explanation": "A strategic question that helps readers identify the single action that would produce the most significant impact relative to the effort required, encouraging focus on high-leverage activities"
+  },
+  {
+    "id": "2021-01-07-question",
+    "quote": "If you met someone exactly like yourself …\n\n– same experience\n– same resources\n– same problems\n\n… what advice would you give them?",
+    "intro": "On self-advice",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-7-2021",
+    "author": "James Clear",
+    "date": "2021-01-07",
+    "section": "Questions",
+    "explanation": "A powerful self-reflection question that helps readers gain objectivity by imagining they're advising someone with identical circumstances, often revealing clearer insights than direct self-examination"
+  },
+  {
     "id": "2020-12-31-question",
     "quote": "What is a mistake you seem to repeat each year? What can you do to prevent it this time?",
     "intro": "On preventing recurring mistakes",
