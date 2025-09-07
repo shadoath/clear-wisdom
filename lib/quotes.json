@@ -1,5 +1,85 @@
 [
   {
+    "id": "2022-01-27-quotes-1",
+    "quote": "Buddhist monk, **Thich Nhat Hanh**, on life:\n\n\"When you are a young person, you are like a young creek, and you meet many rocks, many obstacles and difficulties on your way. You hurry to get past these obstacles and get to the ocean.\n\nBut as the creek moves down through the fields, it becomes larges and calmer and it can enjoy the reflection of the sky. It's wonderful. You will arrive at the sea anyway so enjoy the journey. Enjoy the sunshine, the sunset, the moon, the birds, the trees, and the many beauties along the way. Taste every moment of your daily life.\"",
+    "intro": "On life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-27-2022",
+    "author": "Thich Nhat Hanh",
+    "date": "2022-01-27",
+    "section": "Quotes",
+    "explanation": "Thich Nhat Hanh's metaphor about life as a journey, emphasizing the importance of savoring the present moment and finding beauty in the journey rather than rushing to the destination"
+  },
+  {
+    "id": "2022-01-27-quotes-2",
+    "quote": "**Rita Clear**, my grandmother who passed away this week, would share this message of positivity with her children each day as they walked out the door to school:\n\n\"Put a smile on your face for the whole human race.\"",
+    "intro": "On a message of positivity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-27-2022",
+    "author": "Rita Clear",
+    "date": "2022-01-27",
+    "section": "Quotes",
+    "explanation": "Rita Clear's simple daily message about spreading positivity, emphasizing the power of a smile to benefit both the giver and the broader human community"
+  },
+  {
+    "id": "2022-01-20-quotes-1",
+    "quote": "Standup comedian **Cameron Esposito** on success:\n\n\"There is no formula for success--you just begin and then you continue. I'm often asked how to have a career in stand-up and the answer is confoundingly simple: Do the work. Over and over again, just do the work. After you build the courage to get onstage that first time, it's all about repetition.\"",
+    "intro": "On success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-20-2022",
+    "author": "Cameron Esposito",
+    "date": "2022-01-20",
+    "section": "Quotes",
+    "explanation": "Cameron Esposito's perspective on success in creative fields, emphasizing that there's no secret formula beyond starting and continuing to do the work consistently"
+  },
+  {
+    "id": "2022-01-20-quotes-2",
+    "quote": "**Thomas Mitchell**, a farmer, on productivity:\n\n\"It is wonderful how much work can be got through in a day, if we go by the rule--map out our time, divide it off, and take up one thing regularly after another. To drift through our work, or to rush through it in a helter-skelter fashion, ends in comparatively little being done. \"One thing at a time\" will always perform a better day's work than doing two or three things at a time. By following this rule, one person will do more in a day than another does in a week.\"",
+    "intro": "On productivity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-20-2022",
+    "author": "Thomas Mitchell",
+    "date": "2022-01-20",
+    "section": "Quotes",
+    "explanation": "Thomas Mitchell's principle about focused work and time management, emphasizing that systematic, one-thing-at-a-time approaches yield far better results than scattered multitasking"
+  },
+  {
+    "id": "2022-01-13-quotes-1",
+    "quote": "Poet **May Sarton** on remaining a beginner:\n\n\"It is good for a professional to be reminded that his professionalism is only a husk, that the real person must remain an amateur, a lover of the work.\"",
+    "intro": "On remaining a beginner",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-13-2022",
+    "author": "May Sarton",
+    "date": "2022-01-13",
+    "section": "Quotes",
+    "explanation": "May Sarton's insight about maintaining beginner's mind, emphasizing that true professionals retain the amateur's love and passion for their work beneath their expertise"
+  },
+  {
+    "id": "2022-01-13-quotes-2",
+    "quote": "Sports writer **Andy Benoit** on how geniuses work:\n\n\"Most geniuses--especially those who lead others--prosper not by deconstructing intricate complexities but by exploiting unrecognized simplicities.\"",
+    "intro": "On how geniuses work",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-13-2022",
+    "author": "Andy Benoit",
+    "date": "2022-01-13",
+    "section": "Quotes",
+    "explanation": "Andy Benoit's observation about genius and leadership, emphasizing that true genius often lies in recognizing and leveraging simple patterns that others overlook"
+  },
+  {
+    "id": "2022-01-06-quotes-1",
+    "quote": "Prolific writer **Joyce Carol Oates** on motivation following action:\n\n\"One must be pitiless about this matter of \"mood.\" In a sense, the writing will create the mood. ... I have forced my self to begin writing when I've been utterly exhausted, when I've felt my soul as thin as a playing card, when nothing has seemed worth enduring for another five minutes ... and somehow the activity of writing changes everything.\"",
+    "intro": "On motivation following action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-6-2022",
+    "author": "Joyce Carol Oates",
+    "date": "2022-01-06",
+    "section": "Quotes",
+    "explanation": "Joyce Carol Oates' insight about action creating motivation, emphasizing that starting the work can transform mood and energy even when feeling exhausted or unmotivated"
+  },
+  {
+    "id": "2022-01-06-quotes-2",
+    "quote": "Writer **David Chapman** on how to improve your thinking:\n\n\"Learn from fields very different from your own. They each have ways of thinking that can be useful at surprising times. Just learning to think like an anthropologist, a psychologist, and a philosopher will beneficially stretch your mind.\"",
+    "intro": "On how to improve your thinking",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-6-2022",
+    "author": "David Chapman",
+    "date": "2022-01-06",
+    "section": "Quotes",
+    "explanation": "David Chapman's advice about cross-disciplinary learning, emphasizing that studying different fields' thinking methods expands mental flexibility and problem-solving capabilities"
+  },
+  {
     "id": "2021-12-30-quotes-1",
     "quote": "Poet and novelist **May Sarton** on letting go:\n\n\"I think of the trees and how simply they let go, let fall the riches of a season, how without grief (it seems) they can let go and go deep into their roots for renewal and sleep...\n\nImitate the trees. Learn to lose in order to recover, and remember that nothing stays the same for long, not even pain, psychic pain. Sit it out. Let it all pass. Let it go.\"",
     "intro": "On letting go",

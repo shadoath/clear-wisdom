@@ -1,5 +1,45 @@
 [
   {
+    "id": "2022-01-27-question",
+    "quote": "What is the most enjoyable five-minute stretch of your day? And how could you lengthen it to ten minutes?",
+    "intro": "On extending enjoyable moments",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-27-2022",
+    "author": "James Clear",
+    "date": "2022-01-27",
+    "section": "Questions",
+    "explanation": "A question for identifying and expanding positive moments in daily life, encouraging awareness of what brings joy and how to create more of it"
+  },
+  {
+    "id": "2022-01-20-question",
+    "quote": "A question from writer and programmer Simon Sarris:\n\nIf you know what you want, why are you waiting?",
+    "intro": "On why we wait",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-20-2022",
+    "author": "Simon Sarris",
+    "date": "2022-01-20",
+    "section": "Questions",
+    "explanation": "Simon Sarris' direct question about procrastination and action, challenging the gap between knowing what we want and taking steps to achieve it"
+  },
+  {
+    "id": "2022-01-13-question",
+    "quote": "How can I make the next 60 seconds as perfect and as present as possible?",
+    "intro": "On making the next 60 seconds perfect",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-13-2022",
+    "author": "James Clear",
+    "date": "2022-01-13",
+    "section": "Questions",
+    "explanation": "A mindfulness question for focusing on the present moment, encouraging immediate presence and quality in the next minute of experience"
+  },
+  {
+    "id": "2022-01-06-question",
+    "quote": "Habits need to be revised from time to time.\n\nWhich habits do you need to double down on this year? Which habits are no longer serving you and need to be replaced this year?",
+    "intro": "On revising habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-6-2022",
+    "author": "James Clear",
+    "date": "2022-01-06",
+    "section": "Questions",
+    "explanation": "A habit evaluation question for the new year, encouraging assessment of which habits to strengthen and which to replace for better outcomes"
+  },
+  {
     "id": "2021-12-30-question",
     "quote": "What is one lesson you learned (or relearned) this year?",
     "intro": "On lessons from the year",
