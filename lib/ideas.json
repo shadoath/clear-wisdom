@@ -1,5 +1,125 @@
 [
   {
+    "id": "2021-02-04-ideas-1",
+    "quote": "\"It took me...\n200+ articles before I got a book deal.\n250+ articles before I got major media coverage.\n100+ interviews before my book hit the bestseller list.\nYou need a lot of shots on goal. Not everything will work, but some of it will.\nKeep shooting.\"",
+    "intro": "On taking shots on goal",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-4-2021",
+    "author": "James Clear",
+    "date": "2021-02-04",
+    "section": "Ideas",
+    "explanation": "Personal statistics about the volume of work required for success, emphasizing that breakthrough moments are preceded by extensive effort and that persistence through many attempts is necessary"
+  },
+  {
+    "id": "2021-02-04-ideas-2",
+    "quote": "\"The challenge for anyone interested in making progress is to simultaneously have (1) the confidence to go after what you want and (2) the humility to accept who you are right now and (3) the willingness to build skills that bridge the gap between 1 and 2.\"",
+    "intro": "On the progress challenge",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-4-2021",
+    "author": "James Clear",
+    "date": "2021-02-04",
+    "section": "Ideas",
+    "explanation": "A framework for personal development that balances ambition with self-awareness, emphasizing the need for confidence, humility, and skill-building to bridge the gap between current reality and desired future"
+  },
+  {
+    "id": "2021-02-04-ideas-3",
+    "quote": "\"Where to focus:\n\nFor the beginner, execution.\n\nFor the intermediate, strategy.\n\nFor the expert, mindset.\"",
+    "intro": "On focus by skill level",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-4-2021",
+    "author": "James Clear",
+    "date": "2021-02-04",
+    "section": "Ideas",
+    "explanation": "A progression framework showing how focus priorities change with skill level, from basic execution for beginners to strategic thinking for intermediates to mindset work for experts"
+  },
+  {
+    "id": "2021-02-11-ideas-1",
+    "quote": "\"If you never copy best practices, you'll have to repeat all the mistakes yourself.\n\nIf you only copy best practices, you'll always be one step behind the leaders.\"",
+    "intro": "On copying best practices",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-11-2021",
+    "author": "James Clear",
+    "date": "2021-02-11",
+    "section": "Ideas",
+    "explanation": "A balanced perspective on learning from others, showing that while copying best practices prevents mistakes, excessive copying prevents innovation and leadership"
+  },
+  {
+    "id": "2021-02-11-ideas-2",
+    "quote": "\"A brief guide to improvement:\n\n1) Lots of research. Explore widely and see what is possible.\n\n2) Lots of iterations. Focus on one thing, but do it in different ways. Refine your method.\n\n3) Lots of repetitions. Stick with your method until it stops working.\n\nResearch. Iterate. Repeat.\"",
+    "intro": "On improvement process",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-11-2021",
+    "author": "James Clear",
+    "date": "2021-02-11",
+    "section": "Ideas",
+    "explanation": "A systematic approach to improvement that combines exploration, experimentation, and persistence, emphasizing the importance of all three phases"
+  },
+  {
+    "id": "2021-02-11-ideas-3",
+    "quote": "\"Being underestimated is a gift. You don't have to find motivation.\"",
+    "intro": "On being underestimated",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-11-2021",
+    "author": "James Clear",
+    "date": "2021-02-11",
+    "section": "Ideas",
+    "explanation": "A counterintuitive insight about underestimation as a source of motivation, showing how low expectations can fuel determination and effort"
+  },
+  {
+    "id": "2021-02-18-ideas-1",
+    "quote": "\"I rarely have good ideas.\n\nTo overcome this limitation, I think about one topic (like habits) for an unreasonable amount of time. Then, I revise, revise, revise until only the best stuff remains. It's slow, but it works.\n\nYou can either be a genius or you can be patient.\"",
+    "intro": "On being patient vs genius",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-18-2021",
+    "author": "James Clear",
+    "date": "2021-02-18",
+    "section": "Ideas",
+    "explanation": "A personal insight about the trade-off between natural talent and patient persistence, emphasizing that deep thinking and revision can compensate for lack of natural genius"
+  },
+  {
+    "id": "2021-02-18-ideas-2",
+    "quote": "\"You can attract luck simply by sharing your work publicly.\"",
+    "intro": "On attracting luck",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-18-2021",
+    "author": "James Clear",
+    "date": "2021-02-18",
+    "section": "Ideas",
+    "explanation": "A simple principle about how making your work visible increases opportunities and serendipitous connections, turning luck into a skill"
+  },
+  {
+    "id": "2021-02-18-ideas-3",
+    "quote": "\"For a few weeks, I started each morning by writing \"What do I actually want?\" at the top of a blank page.\n\nIt's surprising how useful it is to keep asking the same question. Each time, my answer became more precise.\n\nOnce I knew what I wanted, I turned it into action steps.\"",
+    "intro": "On clarifying desires",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-18-2021",
+    "author": "James Clear",
+    "date": "2021-02-18",
+    "section": "Ideas",
+    "explanation": "A practical technique for gaining clarity through repeated questioning, showing how consistent reflection leads to more precise understanding and actionable plans"
+  },
+  {
+    "id": "2021-02-25-ideas-1",
+    "quote": "\"Rome wasn't built in a day, but they were laying bricks every hour.\n\nYou don't have to do it all today. Just lay a brick.\"",
+    "intro": "On laying bricks",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-25-2021",
+    "author": "James Clear",
+    "date": "2021-02-25",
+    "section": "Ideas",
+    "explanation": "A metaphor about consistent progress, emphasizing that great achievements are built through small, regular actions rather than massive single efforts"
+  },
+  {
+    "id": "2021-02-25-ideas-2",
+    "quote": "\"School requires you to learn about things after the answer has already been decided.\n\nLife requires you to learn about things while the answer is in the process of being decided.\"",
+    "intro": "On learning in school vs life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-25-2021",
+    "author": "James Clear",
+    "date": "2021-02-25",
+    "section": "Ideas",
+    "explanation": "A distinction between academic learning (studying settled knowledge) and real-world learning (navigating uncertainty and ongoing decisions)"
+  },
+  {
+    "id": "2021-02-25-ideas-3",
+    "quote": "\"Clarity is the elimination of mental clutter.\n\nAgility is the elimination of physical clutter.\n\nTranquility is the elimination of spiritual clutter.\"",
+    "intro": "On eliminating clutter",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-25-2021",
+    "author": "James Clear",
+    "date": "2021-02-25",
+    "section": "Ideas",
+    "explanation": "A framework for different types of decluttering, showing how removing various forms of clutter leads to clarity, agility, and tranquility"
+  },
+  {
     "id": "2021-01-28-ideas-1",
     "quote": "\"Instead of working toward retirement, work toward your ideal lifestyle. There is usually a path to get there in a few years instead of a few decades.\"",
     "intro": "On working toward ideal lifestyle",

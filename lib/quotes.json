@@ -1,5 +1,85 @@
 [
   {
+    "id": "2021-02-04-quotes-1",
+    "quote": "The art historian **Gustav Friedrich Waagen** on how to teach so people learn:\n\n\"First delight, then instruct.\"",
+    "intro": "On how to teach so people learn",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-4-2021",
+    "author": "Gustav Friedrich Waagen",
+    "date": "2021-02-04",
+    "section": "Quotes",
+    "explanation": "Gustav Friedrich Waagen's principle for effective teaching, emphasizing that engagement and delight must precede instruction for optimal learning"
+  },
+  {
+    "id": "2021-02-04-quotes-2",
+    "quote": "Aikido instructor **George Leonard** on mastery:\n\n\"How long will it take me to master Aikido?\" a prospective student asks.\n\n\"How long do you expect to live?\" is the only respectable response.\n\nUltimately, practice is the path of mastery. If you stay on it long enough, you'll find it to be a vivid place, with its ups and downs, is challenges and comforts, its surprises, disappointments, and unconditional joys. You'll take your share of bumps and bruises while traveling - bruises of the ego as well as of the body, mind and spirit - but it might well turn out to be the most reliable thing in your life. Then, too, it might eventually make you a winner in your chosen field, if that's what you're looking for, and then people will refer to you as a master. But that's not really the point.\n\nWhat is mastery? At the heart of it, mastery is practice. Mastery is staying on the path.\"",
+    "intro": "On mastery",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-4-2021",
+    "author": "George Leonard",
+    "date": "2021-02-04",
+    "section": "Quotes",
+    "explanation": "George Leonard's profound definition of mastery as a lifelong practice rather than a destination, emphasizing that mastery is about staying on the path rather than reaching a final state"
+  },
+  {
+    "id": "2021-02-11-quotes-1",
+    "quote": "Author **Mary H.K. Choi** on the importance of not waiting:\n\n\"It doesn't get any less scary. All that happens is that you have less life left. It helps if you do your falling early, and it really helps if you do your reaching early.\"",
+    "intro": "On the importance of not waiting",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-11-2021",
+    "author": "Mary H.K. Choi",
+    "date": "2021-02-11",
+    "section": "Quotes",
+    "explanation": "Mary H.K. Choi's insight about the cost of waiting, emphasizing that fear doesn't diminish with time but life does, encouraging early action and risk-taking"
+  },
+  {
+    "id": "2021-02-11-quotes-2",
+    "quote": "**James Baldwin** on the difficulty of change:\n\n\"Nothing is more desirable than to be released from an affliction, but nothing is more frightening than to be divested of a crutch.\"",
+    "intro": "On the difficulty of change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-11-2021",
+    "author": "James Baldwin",
+    "date": "2021-02-11",
+    "section": "Quotes",
+    "explanation": "James Baldwin's profound observation about the paradox of change, showing how we simultaneously desire freedom from problems yet fear losing the coping mechanisms we've developed"
+  },
+  {
+    "id": "2021-02-18-quotes-1",
+    "quote": "Author **John Shedd** on taking risks:\n\n\"A ship is safe in harbor, but that is not what ships are built for.\"",
+    "intro": "On taking risks",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-18-2021",
+    "author": "John Shedd",
+    "date": "2021-02-18",
+    "section": "Quotes",
+    "explanation": "John Shedd's powerful metaphor about the purpose of ships and by extension, people, emphasizing that safety prevents us from fulfilling our potential"
+  },
+  {
+    "id": "2021-02-18-quotes-2",
+    "quote": "A Buddhist saying on the ineffectiveness of anger:\n\n\"Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else -- you are the one who gets burned.\"",
+    "intro": "On the ineffectiveness of anger",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-18-2021",
+    "author": "Buddhist saying",
+    "date": "2021-02-18",
+    "section": "Quotes",
+    "explanation": "A Buddhist teaching about the self-destructive nature of anger, showing how holding onto resentment harms the person holding it more than anyone else"
+  },
+  {
+    "id": "2021-02-25-quotes-1",
+    "quote": "Film director and screenwriter **Krzysztof Kieslowski** on unity:\n\n\"If there is anything worthwhile doing for the sake of culture, then it is touching on subject matters and situations which link people, and not those that divide people. There are too many things in the world which divide people, such as religion, politics, history, and nationalism.\n\nIf culture is capable of anything, then it is finding that which unites us all. And there are so many things which unite people. It doesn't matter who you are or who I am--if your tooth aches or mine, it's still the same pain. Feelings are what link people together, because the word \"love\" has the same meaning for everybody. Or \"fear,\" or \"suffering.\" We all fear the same way ... and we all love in the same way.\n\nThat's why I tell about these things, because in all other things I immediately find division.\"",
+    "intro": "On unity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-25-2021",
+    "author": "Krzysztof Kieslowski",
+    "date": "2021-02-25",
+    "section": "Quotes",
+    "explanation": "Kieslowski's profound perspective on the role of culture in uniting rather than dividing people, emphasizing universal human experiences like love, fear, and suffering that transcend differences"
+  },
+  {
+    "id": "2021-02-25-quotes-2",
+    "quote": "Poet **Diane Ackerman** on reinventing yourself:\n\n\"Living things tend to change unrecognizably as they grow. Who would deduce the dragonfly from the larva, the iris from the bud, the lawyer from the infant?\n\nFlora or fauna, we are all shapeshifters and magical reinventors. Life is really a plural noun, a caravan of selves.\"",
+    "intro": "On reinventing yourself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-25-2021",
+    "author": "Diane Ackerman",
+    "date": "2021-02-25",
+    "section": "Quotes",
+    "explanation": "Diane Ackerman's beautiful metaphor about transformation and reinvention, showing how all living things undergo dramatic changes and that life is a continuous process of becoming"
+  },
+  {
     "id": "2021-01-28-quotes-1",
     "quote": "Poet **Lucille Clifton** on confidence:\n\n\"What they call you is one thing. What you answer to is something else.\"",
     "intro": "On confidence",

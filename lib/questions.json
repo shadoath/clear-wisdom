@@ -1,5 +1,45 @@
 [
   {
+    "id": "2021-02-04-question",
+    "quote": "Today's question comes from the engineer, Richard Hamming:\n\n\"If you do not work on important problems, how can you expect to do important work?\"",
+    "intro": "On working on important problems",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-4-2021",
+    "author": "Richard Hamming",
+    "date": "2021-02-04",
+    "section": "Questions",
+    "explanation": "Richard Hamming's direct challenge about problem selection, emphasizing that the importance of your work is determined by the importance of the problems you choose to tackle"
+  },
+  {
+    "id": "2021-02-11-question",
+    "quote": "Does this activity fill me with energy or drain me of energy?",
+    "intro": "On energy assessment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-11-2021",
+    "author": "James Clear",
+    "date": "2021-02-11",
+    "section": "Questions",
+    "explanation": "A simple but powerful question for evaluating activities and relationships, helping readers identify what energizes them versus what drains them for better life management"
+  },
+  {
+    "id": "2021-02-18-question",
+    "quote": "What do I actually want?",
+    "intro": "On clarifying desires",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-18-2021",
+    "author": "James Clear",
+    "date": "2021-02-18",
+    "section": "Questions",
+    "explanation": "A simple but powerful question for gaining clarity about true desires, encouraging honest self-reflection about what you genuinely want rather than what you think you should want"
+  },
+  {
+    "id": "2021-02-25-question",
+    "quote": "A question from venture capitalist and executive coach, Jerry Colonna:\n\n\"How are you complicit in creating the conditions you say you don't want?\"",
+    "intro": "On personal responsibility",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-25-2021",
+    "author": "Jerry Colonna",
+    "date": "2021-02-25",
+    "section": "Questions",
+    "explanation": "Jerry Colonna's powerful question that challenges readers to examine their own role in creating unwanted circumstances, promoting self-awareness and personal responsibility"
+  },
+  {
     "id": "2021-01-28-question",
     "quote": "What are you working on when time fades away?",
     "intro": "On flow state activities",
