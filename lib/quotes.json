@@ -1,5 +1,85 @@
 [
   {
+    "id": "2022-02-24-quotes-1",
+    "quote": "Rabbi, physician, and philosopher **Moses Maimonides** on thinking clearly:\n\n\"Accept the truth from whatever source it comes.\"",
+    "intro": "On thinking clearly",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-24-2022",
+    "author": "Moses Maimonides",
+    "date": "2022-02-24",
+    "section": "Quotes",
+    "explanation": "Moses Maimonides' principle about intellectual honesty, emphasizing that truth should be accepted regardless of its source and that bias against certain sources can prevent learning"
+  },
+  {
+    "id": "2022-02-24-quotes-2",
+    "quote": "Writer **Ralph Waldo Emerson** on making each day a masterpiece:\n\n\"Finish every day and be done with it. For manners and for wise living it is a vice to remember. You have done what you could; some blunders and absurdities no doubt crept in; forget them as soon as you can. Tomorrow is a new day; you shall begin it well and serenely, and with too high a spirit to be cumbered with your old nonsense. This day for all that is good and fair. It is too dear, with its hopes and invitations, to waste a moment on the rotten yesterdays.\"",
+    "intro": "On making each day a masterpiece",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-24-2022",
+    "author": "Ralph Waldo Emerson",
+    "date": "2022-02-24",
+    "section": "Quotes",
+    "explanation": "Ralph Waldo Emerson's advice about daily renewal, emphasizing that each day should be treated as fresh and valuable, and that dwelling on past mistakes prevents present progress"
+  },
+  {
+    "id": "2022-02-17-quotes-1",
+    "quote": "Singer and songwriter, **Aretha Franklin**, on seeing people as more than just their worst moment:\n\n\"You cannot define a person on just one thing. You can't just forget all these wonderful and good things that a person has done because one thing didn't come off the way you thought it should come off.\"",
+    "intro": "On seeing people as more than their worst moment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-17-2022",
+    "author": "Aretha Franklin",
+    "date": "2022-02-17",
+    "section": "Quotes",
+    "explanation": "Aretha Franklin's perspective on human complexity, emphasizing that people should not be judged solely by their worst moments and that their positive contributions should be remembered"
+  },
+  {
+    "id": "2022-02-17-quotes-2",
+    "quote": "Computer programmer **Ward Cunningham** on the importance of making fast, reversible decisions:\n\n\"I can't tell you how much time is spent worrying about decisions that don't matter. To just be able to make a decision and see what happens is tremendously empowering, but that means you have to set up the situation such that when something does go wrong, you can fix it.\"",
+    "intro": "On making fast, reversible decisions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-17-2022",
+    "author": "Ward Cunningham",
+    "date": "2022-02-17",
+    "section": "Quotes",
+    "explanation": "Ward Cunningham's insight about decision-making efficiency, emphasizing that many decisions are less important than they seem and that creating reversible situations enables faster progress"
+  },
+  {
+    "id": "2022-02-10-quotes-1",
+    "quote": "Writer **Ashley C. Ford** on getting started:\n\n\"Your first step is just that: the first of many steps. For so long I would stand still, afraid to move in any direction because I wasn't sure which was the course I wanted to follow for the rest of my life. Finally, someone explained to me that my first steps did not necessarily determine one path for all my tomorrows. There would be more decisions, and more opportunities to make a shift should I need to do so.\"",
+    "intro": "On getting started",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-10-2022",
+    "author": "Ashley C. Ford",
+    "date": "2022-02-10",
+    "section": "Quotes",
+    "explanation": "Ashley C. Ford's perspective on overcoming perfectionism and analysis paralysis, emphasizing that first steps don't lock in permanent paths and that course corrections are always possible"
+  },
+  {
+    "id": "2022-02-10-quotes-2",
+    "quote": "Biochemistry professor and science fiction author, **Isaac Asimov**, on the unnoticed good in the world:\n\n\"It is important to remember that the viciousness and wrongs of life stick out very plainly but that even at the worst times there is a great deal of goodness, kindness, and day-to-day decency that goes unnoticed and makes no headlines.\"",
+    "intro": "On the unnoticed good in the world",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-10-2022",
+    "author": "Isaac Asimov",
+    "date": "2022-02-10",
+    "section": "Quotes",
+    "explanation": "Isaac Asimov's reminder about perspective and media bias, emphasizing that negative events are more visible while positive, everyday acts of kindness often go unnoticed and unreported"
+  },
+  {
+    "id": "2022-02-03-quotes-1",
+    "quote": "Author **bell hooks** on the importance of knowing how to be alone:\n\n\"Many of us seek community solely to escape the fear of being alone. Knowing how to be solitary is central to the art of loving. When we can be alone, we can be with others without using them as a means of escape.\"",
+    "intro": "On the importance of knowing how to be alone",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-3-2022",
+    "author": "bell hooks",
+    "date": "2022-02-03",
+    "section": "Quotes",
+    "explanation": "bell hooks' insight about solitude and relationships, emphasizing that comfort with being alone is essential for healthy relationships and prevents using others as emotional crutches"
+  },
+  {
+    "id": "2022-02-03-quotes-2",
+    "quote": "Stoic philosopher **Epictetus** on taking action:\n\n\"Now is the time to get serious about living your ideals. How long can you afford to put off who you really want to be? Your nobler self cannot wait any longer.\n\nPut your principles into practice - now. Stop the excuses and the procrastination. This is your life! You aren't a child anymore. The sooner you set yourself to your spiritual program, the happier you will be. The longer you wait, the more you'll be vulnerable to mediocrity and feel filled with shame and regret, because you know you are capable of better.\n\nFrom this instant on, vow to stop disappointing yourself. Separate yourself from the mob. Decide to be extraordinary and do what you need to do - now.\"",
+    "intro": "On taking action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-3-2022",
+    "author": "Epictetus",
+    "date": "2022-02-03",
+    "section": "Quotes",
+    "explanation": "Epictetus' urgent call to action and self-improvement, emphasizing that delaying personal growth leads to regret and that immediate commitment to ideals is essential for fulfillment"
+  },
+  {
     "id": "2022-01-27-quotes-1",
     "quote": "Buddhist monk, **Thich Nhat Hanh**, on life:\n\n\"When you are a young person, you are like a young creek, and you meet many rocks, many obstacles and difficulties on your way. You hurry to get past these obstacles and get to the ocean.\n\nBut as the creek moves down through the fields, it becomes larges and calmer and it can enjoy the reflection of the sky. It's wonderful. You will arrive at the sea anyway so enjoy the journey. Enjoy the sunshine, the sunset, the moon, the birds, the trees, and the many beauties along the way. Taste every moment of your daily life.\"",
     "intro": "On life",

@@ -1,5 +1,125 @@
 [
   {
+    "id": "2022-02-24-ideas-1",
+    "quote": "\"If you'd like to do something bold with your life, you will have to choose to do something bold on a specific day.\n\nThere is no perfect day. There is no right time. For the trajectory to change, there has to be one day when you simply make the choice.\"",
+    "intro": "On choosing to do something bold",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-24-2022",
+    "author": "James Clear",
+    "date": "2022-02-24",
+    "section": "Ideas",
+    "explanation": "A principle about bold action and timing, emphasizing that significant life changes require specific decisions on specific days rather than waiting for perfect conditions"
+  },
+  {
+    "id": "2022-02-24-ideas-2",
+    "quote": "\"If someone has the courage to admit they were wrong, you should have the grace to give them credit for admitting it. Rubbing it in encourages them to never admit being wrong again.\"",
+    "intro": "On giving credit for admitting mistakes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-24-2022",
+    "author": "James Clear",
+    "date": "2022-02-24",
+    "section": "Ideas",
+    "explanation": "A principle about handling others' mistakes, emphasizing that acknowledging someone's courage in admitting error encourages future honesty while rubbing it in discourages it"
+  },
+  {
+    "id": "2022-02-24-ideas-3",
+    "quote": "\"The more precisely you define the problem, the more easily you can find a solution.\n\n\"I feel bad\" can have a million causes.\n\n\"I didn't sleep much last night and I haven't exercised in a week\" has a very straightforward answer.\"",
+    "intro": "On precisely defining problems",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-24-2022",
+    "author": "James Clear",
+    "date": "2022-02-24",
+    "section": "Ideas",
+    "explanation": "A principle about problem-solving, emphasizing that vague problems have unclear solutions while specific problems have clear, actionable solutions"
+  },
+  {
+    "id": "2022-02-17-ideas-1",
+    "quote": "\"Simple is nearly always better. But if it's going to be complicated, then make sure the problem is worth the complexity. A great deal of time is wasted creating complex solutions to relatively unimportant problems.\"",
+    "intro": "On simplicity vs complexity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-17-2022",
+    "author": "James Clear",
+    "date": "2022-02-17",
+    "section": "Ideas",
+    "explanation": "A principle about solution design, emphasizing that simplicity should be preferred unless the problem's importance justifies the complexity required to solve it"
+  },
+  {
+    "id": "2022-02-17-ideas-2",
+    "quote": "\"Many situations in life are similar to going on a hike: the view changes once you start walking.\n\nYou don't need all the answers right now. New paths will reveal themselves if you have the courage to get started.\"",
+    "intro": "On new paths revealing themselves",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-17-2022",
+    "author": "James Clear",
+    "date": "2022-02-17",
+    "section": "Ideas",
+    "explanation": "A principle about action and discovery, emphasizing that starting provides new perspectives and opportunities that aren't visible from the starting point"
+  },
+  {
+    "id": "2022-02-17-ideas-3",
+    "quote": "A simple reminder from Atomic Habits:\n\n\"Time will multiply whatever you feed it. Good habits make time your ally. Bad habits make time your enemy.\"",
+    "intro": "On time multiplying what you feed it",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-17-2022",
+    "author": "James Clear",
+    "date": "2022-02-17",
+    "section": "Ideas",
+    "explanation": "A principle about compound effects, emphasizing that time amplifies whatever patterns you establish, making good habits increasingly beneficial and bad habits increasingly harmful"
+  },
+  {
+    "id": "2022-02-10-ideas-1",
+    "quote": "\"Success unlocks both opportunities and distractions.\"",
+    "intro": "On success unlocking opportunities and distractions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-10-2022",
+    "author": "James Clear",
+    "date": "2022-02-10",
+    "section": "Ideas",
+    "explanation": "A principle about the dual nature of success, emphasizing that achievement brings both new possibilities and new temptations that can derail progress"
+  },
+  {
+    "id": "2022-02-10-ideas-2",
+    "quote": "\"Most things are not as difficult as they seem--if you focus each day.\n\nHowever, giving one topic your full attention for an extended period of time is even harder than it seems.\n\nOver a long timeline, the bottleneck is usually attention not ability.\"",
+    "intro": "On attention vs ability",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-10-2022",
+    "author": "James Clear",
+    "date": "2022-02-10",
+    "section": "Ideas",
+    "explanation": "A principle about sustained focus, emphasizing that most tasks become manageable with daily attention but that maintaining focus over time is the real challenge"
+  },
+  {
+    "id": "2022-02-10-ideas-3",
+    "quote": "\"The greatest rewards in life are often delayed. The financial benefits of work and investing. The emotional benefits of marriage and friendship. The psychological benefits of creating something that matters. Meaningful outcomes take a long time to grow and compound.\n\nFurthermore, most pursuits involve other people: coworkers, spouses, children, peers. If you want your results to continue to grow, then you need relationships that last.\n\nOne of the essential ingredients for success is being pleasant and trustworthy because it allows whatever you are building--a business, a relationship, a project--to continue. Many relationships disintegrate before the rewards accumulate.\"",
+    "intro": "On delayed rewards and lasting relationships",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-10-2022",
+    "author": "James Clear",
+    "date": "2022-02-10",
+    "section": "Ideas",
+    "explanation": "A principle about long-term success, emphasizing that meaningful rewards take time to compound and that being pleasant and trustworthy is essential for maintaining relationships long enough to see those rewards"
+  },
+  {
+    "id": "2022-02-03-ideas-1",
+    "quote": "\"If you added up all the time wasted searching for shortcuts and trying to cheat the process, the hard work could have already been done by now.\"",
+    "intro": "On time wasted searching for shortcuts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-3-2022",
+    "author": "James Clear",
+    "date": "2022-02-03",
+    "section": "Ideas",
+    "explanation": "A principle about efficiency and shortcuts, emphasizing that the time spent looking for ways to avoid work often exceeds the time required to do the work properly"
+  },
+  {
+    "id": "2022-02-03-ideas-2",
+    "quote": "\"Have no single point of failure.\n\nHave no single path to success.\"",
+    "intro": "On avoiding single points of failure and success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-3-2022",
+    "author": "James Clear",
+    "date": "2022-02-03",
+    "section": "Ideas",
+    "explanation": "A principle about resilience and diversification, emphasizing that systems should have multiple backup options and that success should not depend on a single approach"
+  },
+  {
+    "id": "2022-02-03-ideas-3",
+    "quote": "\"In the middle, it feels slow.\n\nIn hindsight, it feels fast.\"",
+    "intro": "On how progress feels in the middle vs hindsight",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-3-2022",
+    "author": "James Clear",
+    "date": "2022-02-03",
+    "section": "Ideas",
+    "explanation": "A principle about perspective on progress, emphasizing that work in progress often feels slow and frustrating while completed work appears to have happened quickly"
+  },
+  {
     "id": "2022-01-27-ideas-1",
     "quote": "\"Competence over credentials.\"",
     "intro": "On competence over credentials",
