@@ -1,5 +1,155 @@
 [
   {
+    "id": "2021-09-30-ideas-1",
+    "quote": "\"You only need to know the direction, not the destination.\n\nThe direction is enough to make the next choice.\"",
+    "intro": "On knowing direction vs destination",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-30-2021",
+    "author": "James Clear",
+    "date": "2021-09-30",
+    "section": "Ideas",
+    "explanation": "A principle about decision-making and progress, emphasizing that having a general direction is sufficient for making immediate choices without needing to know the exact endpoint"
+  },
+  {
+    "id": "2021-09-30-ideas-2",
+    "quote": "\"If you want to find a better path, you have to be willing to explore a different path.\n\nThat sounds simple, but how often do you try something different?\"",
+    "intro": "On exploring different paths",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-30-2021",
+    "author": "James Clear",
+    "date": "2021-09-30",
+    "section": "Ideas",
+    "explanation": "A challenge about experimentation and change, emphasizing that improvement requires willingness to deviate from familiar approaches"
+  },
+  {
+    "id": "2021-09-30-ideas-3",
+    "quote": "\"How to build a career in 7 steps:\n\n1. Do great work.\n\n2. Share it publicly.\n\n3. Cold email people 2 steps ahead of you.\n\n4. Talk about your work and trade ideas.\n\n5. Host events and meet in-person.\n\n6. Become friends.\n\n7. Rise together.\"",
+    "intro": "On building a career in 7 steps",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-30-2021",
+    "author": "James Clear",
+    "date": "2021-09-30",
+    "section": "Ideas",
+    "explanation": "A systematic approach to career development, emphasizing quality work, public sharing, networking, relationship building, and mutual advancement"
+  },
+  {
+    "id": "2021-09-23-ideas-1",
+    "quote": "\"The world rewards you for value provided, not time spent.\"",
+    "intro": "On value vs time",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-23-2021",
+    "author": "James Clear",
+    "date": "2021-09-23",
+    "section": "Ideas",
+    "explanation": "A principle about compensation and recognition, emphasizing that outcomes and value creation matter more than hours worked"
+  },
+  {
+    "id": "2021-09-23-ideas-2",
+    "quote": "\"The important thing is not to keep winning, but to keep reaching.\"",
+    "intro": "On reaching vs winning",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-23-2021",
+    "author": "James Clear",
+    "date": "2021-09-23",
+    "section": "Ideas",
+    "explanation": "A perspective on success and growth, emphasizing that continuous effort and striving matter more than maintaining perfect performance"
+  },
+  {
+    "id": "2021-09-23-ideas-3",
+    "quote": "\"Always leave room for the unexpected. A buffer of time, a little extra money, a reserve of goodwill.\n\nYou won't be maximizing every opportunity or squeezing out every last dollar, but what you lose in reward, you gain in safety.\n\nSurvival is the highest return of all.\"",
+    "intro": "On leaving room for the unexpected",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-23-2021",
+    "author": "James Clear",
+    "date": "2021-09-23",
+    "section": "Ideas",
+    "explanation": "A principle about risk management and sustainability, emphasizing that maintaining buffers and reserves provides security that outweighs marginal optimization"
+  },
+  {
+    "id": "2021-09-16-ideas-1",
+    "quote": "\"Double down on your best relationship.\n\nIt's the investment with the highest return.\"",
+    "intro": "On doubling down on best relationships",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-16-2021",
+    "author": "James Clear",
+    "date": "2021-09-16",
+    "section": "Ideas",
+    "explanation": "A principle about relationship investment, emphasizing that focusing energy on the most valuable relationships yields the greatest benefits"
+  },
+  {
+    "id": "2021-09-16-ideas-2",
+    "quote": "\"People who jump from project to project are always dividing their effort, and producing high quality work becomes difficult without intense effort.\n\nMeanwhile, your average work day can be leisurely, yet also productive, if you return to the same project each day.\n\nDo one thing well and watch it compound.\"",
+    "intro": "On focusing on one project",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-16-2021",
+    "author": "James Clear",
+    "date": "2021-09-16",
+    "section": "Ideas",
+    "explanation": "A principle about focus and consistency, emphasizing that returning to the same project daily enables both quality and efficiency through compounding effects"
+  },
+  {
+    "id": "2021-09-16-ideas-3",
+    "quote": "\"Life is easier when you know what you want--but most people don't take the time to figure out what they want.\n\nIt's not that we are completely lost, but our efforts are often slightly misdirected. People will work for years and ultimately achieve a lifestyle that isn't quite what they were hoping for--often, simply, because they never clearly defined what they wanted.\n\nAn hour of thinking can save you a decade of work.\"",
+    "intro": "On knowing what you want",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-16-2021",
+    "author": "James Clear",
+    "date": "2021-09-16",
+    "section": "Ideas",
+    "explanation": "A principle about clarity and direction, emphasizing that taking time to define goals prevents years of misdirected effort and ensures alignment with desired outcomes"
+  },
+  {
+    "id": "2021-09-09-ideas-1",
+    "quote": "\"Big things start small, but not every small thing can become big.\n\nYou need to be on the right trajectory. Choose the right playing field and success comes more easily.\"",
+    "intro": "On choosing the right trajectory",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-9-2021",
+    "author": "James Clear",
+    "date": "2021-09-09",
+    "section": "Ideas",
+    "explanation": "A principle about strategic positioning, emphasizing that while all big things start small, success requires choosing the right field or trajectory for growth"
+  },
+  {
+    "id": "2021-09-09-ideas-2",
+    "quote": "\"When failure is reversible, act quickly.\n\nWhen failure is irreversible, think carefully.\"",
+    "intro": "On reversible vs irreversible failure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-9-2021",
+    "author": "James Clear",
+    "date": "2021-09-09",
+    "section": "Ideas",
+    "explanation": "A decision-making framework for risk assessment, emphasizing speed for reversible decisions and careful consideration for irreversible ones"
+  },
+  {
+    "id": "2021-09-09-ideas-3",
+    "quote": "\"Friendship happens on the way to something else.\n\nIf you \"try to meet new people\" it feels weird and forced. The more you aim for friendship, the more it eludes you.\n\nBut if you aim to learn or achieve something with others, friendship happens naturally during the shared pursuit.\"",
+    "intro": "On how friendship happens",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-9-2021",
+    "author": "James Clear",
+    "date": "2021-09-09",
+    "section": "Ideas",
+    "explanation": "A principle about natural relationship formation, emphasizing that friendships develop organically through shared activities rather than direct pursuit"
+  },
+  {
+    "id": "2021-09-02-ideas-1",
+    "quote": "\"Many people wish they started sooner. Almost nobody wishes they started later.\"",
+    "intro": "On starting sooner",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-2-2021",
+    "author": "James Clear",
+    "date": "2021-09-02",
+    "section": "Ideas",
+    "explanation": "A perspective on timing and regret, emphasizing that people typically regret delayed action rather than premature action"
+  },
+  {
+    "id": "2021-09-02-ideas-2",
+    "quote": "\"Failure is most useful when you give your best effort.\n\nIf you fail with a lackluster effort, you haven't learned much. Perhaps you could have succeeded with a proper focus.\n\nBut if your best effort fails, you have learned something valuable: this way doesn't work.\"",
+    "intro": "On failure and effort",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-2-2021",
+    "author": "James Clear",
+    "date": "2021-09-02",
+    "section": "Ideas",
+    "explanation": "A principle about learning from failure, emphasizing that maximum effort failure provides valuable information while half-hearted failure offers little insight"
+  },
+  {
+    "id": "2021-09-02-ideas-3",
+    "quote": "\"Nobody is rooting for you to fail.\n\nYou may succeed. You may fail. But, for the most part, nobody cares one way or the other.\n\nThis is good. The world is big and you are small, which means you can chase your dreams with little worry for what people think.\"",
+    "intro": "On nobody rooting for failure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-2-2021",
+    "author": "James Clear",
+    "date": "2021-09-02",
+    "section": "Ideas",
+    "explanation": "A liberating perspective on external judgment, emphasizing that most people are indifferent to individual outcomes, which frees one to pursue goals without excessive concern for others' opinions"
+  },
+  {
     "id": "2021-08-26-ideas-1",
     "quote": "\"Always be prepared to absorb a big hit.\n\nAlways be focused enough to create a big win.\n\nDiversified enough to survive, concentrated enough to matter.\"",
     "intro": "On being prepared and focused",

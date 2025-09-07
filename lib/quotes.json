@@ -1,5 +1,105 @@
 [
   {
+    "id": "2021-09-30-quotes-1",
+    "quote": "Abolitionist, author, and runaway slave **Frederick Douglass** on taking action:\n\n\"I prayed for twenty years but received no answer until I prayed with my legs.\"",
+    "intro": "On taking action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-30-2021",
+    "author": "Frederick Douglass",
+    "date": "2021-09-30",
+    "section": "Quotes",
+    "explanation": "Frederick Douglass's powerful metaphor about the difference between passive prayer and active effort, emphasizing that action is more effective than passive hope"
+  },
+  {
+    "id": "2021-09-30-quotes-2",
+    "quote": "The painter **Bridget Riley** on paying attention to boredom:\n\n\"Boredom is a tremendous indicator. Your energy goes; it caves in on you; you can't do anything. That's very frightening but you must listen because you are being told that whatever it is you are doing is not quite right. It may only need a small adjustment or it may need more drastic treatment.\"",
+    "intro": "On paying attention to boredom",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-30-2021",
+    "author": "Bridget Riley",
+    "date": "2021-09-30",
+    "section": "Quotes",
+    "explanation": "Bridget Riley's insight about boredom as a signal, emphasizing that lack of energy and engagement indicates something needs to change in one's approach or direction"
+  },
+  {
+    "id": "2021-09-23-quotes-1",
+    "quote": "Malaysian politician **Tunku Abdul Rahman** on patience:\n\n\"Some people think that as soon as you plant a tree, it must bear fruit. We must allow it to grow a bit.\"",
+    "intro": "On patience",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-23-2021",
+    "author": "Tunku Abdul Rahman",
+    "date": "2021-09-23",
+    "section": "Quotes",
+    "explanation": "Tunku Abdul Rahman's metaphor about patience and growth, emphasizing that results require time and nurturing rather than immediate expectations"
+  },
+  {
+    "id": "2021-09-23-quotes-2",
+    "quote": "Author **Anne Lamott** on imperfection:\n\n\"Almost everyone is screwed up, broken, clingy, scared, and yet designed for joy. Even (or especially) people who seem to have it more or less together are more like the rest of us than you would believe. I try not to compare my insides to their outsides, because this makes me much worse than I already am, and if I get to know them, they turn out to have plenty of irritability and shadow of their own. Besides, those few people who aren't a mess are probably good for about twenty minutes of dinner conversation.\n\nThis is good news, that almost everyone is petty, narcissistic, secretly insecure, and in it for themselves, because a few of the funny ones may actually long to be friends with you and me. They can be real with us, the greatest relief. As we develop love, appreciation, and forgiveness for others over time, we may accidentally develop those things toward ourselves, too.\"",
+    "intro": "On imperfection",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-23-2021",
+    "author": "Anne Lamott",
+    "date": "2021-09-23",
+    "section": "Quotes",
+    "explanation": "Anne Lamott's compassionate perspective on human imperfection, emphasizing that everyone struggles and that accepting others' flaws can help us accept our own"
+  },
+  {
+    "id": "2021-09-16-quotes-1",
+    "quote": "Novelist **Toni Morrison** on the measure of success:\n\n\"For me, success is not a public thing. It's a private thing. It's when you have fewer and fewer regrets.\"",
+    "intro": "On the measure of success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-16-2021",
+    "author": "Toni Morrison",
+    "date": "2021-09-16",
+    "section": "Quotes",
+    "explanation": "Toni Morrison's personal definition of success, emphasizing internal satisfaction and reduced regret rather than external recognition or achievement"
+  },
+  {
+    "id": "2021-09-16-quotes-2",
+    "quote": "Novelist and art theorist **André Malraux** on courage:\n\n\"Often the difference between a successful person and a failure is not one's better abilities or ideas, but the courage that one has to bet on one's ideas, to take a calculated risk--and to act.\"",
+    "intro": "On courage",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-16-2021",
+    "author": "André Malraux",
+    "date": "2021-09-16",
+    "section": "Quotes",
+    "explanation": "André Malraux's insight about the role of courage in success, emphasizing that willingness to act on ideas often matters more than having superior abilities or ideas"
+  },
+  {
+    "id": "2021-09-09-quotes-1",
+    "quote": "The theologian **Dorothee Sölle** on letting go:\n\n\"If my hands are fully occupied in holding on to something, I can neither give nor receive.\"",
+    "intro": "On letting go",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-9-2021",
+    "author": "Dorothee Sölle",
+    "date": "2021-09-09",
+    "section": "Quotes",
+    "explanation": "Dorothee Sölle's metaphor about the necessity of letting go, emphasizing that holding tightly to something prevents openness to new opportunities and relationships"
+  },
+  {
+    "id": "2021-09-09-quotes-2",
+    "quote": "Entrepreneur and computer scientist **Arthur van Hoff** on revision:\n\n\"Over the years, I've learned that the first idea you have is irrelevant. It's just a catalyst for you to get started. Then you figure out what's wrong with it and you go through phases of denial, panic, regret. And then you finally have a better idea and the second idea is always the important one.\"",
+    "intro": "On revision",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-9-2021",
+    "author": "Arthur van Hoff",
+    "date": "2021-09-09",
+    "section": "Quotes",
+    "explanation": "Arthur van Hoff's perspective on the creative process, emphasizing that initial ideas serve as starting points and that the second iteration is typically the valuable one"
+  },
+  {
+    "id": "2021-09-02-quotes-1",
+    "quote": "Author and anthropologist **Carlos Castaneda** on mindset:\n\n\"The trick is in what one emphasizes. We either make ourselves miserable, or we make ourselves happy. The amount of work is the same.\"",
+    "intro": "On mindset",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-2-2021",
+    "author": "Carlos Castaneda",
+    "date": "2021-09-02",
+    "section": "Quotes",
+    "explanation": "Carlos Castaneda's insight about the power of focus and emphasis, showing how the same mental effort can produce either positive or negative emotional states"
+  },
+  {
+    "id": "2021-09-02-quotes-2",
+    "quote": "The poet **Yung Pueblo** on relationships:\n\n\"Find a partner who is ready to build with you.\n\nIt is not about finding perfection in another person, it is about realizing when you come across an undeniable connection that nourishes your being and matches the type of support you are looking for. Getting lost in the idea of perfection is a hindrance. Being with someone who is committed to going through the ups and downs of life together is truly priceless.\n\nWhen two people embrace their imperfections and commit to growing into better versions of themselves, it will naturally enhance the happiness they share in the relationship.\"",
+    "intro": "On relationships",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-2-2021",
+    "author": "Yung Pueblo",
+    "date": "2021-09-02",
+    "section": "Quotes",
+    "explanation": "Yung Pueblo's perspective on healthy relationships, emphasizing connection over perfection and mutual growth over unrealistic expectations"
+  },
+  {
     "id": "2021-08-26-quotes-1",
     "quote": "A Hindu proverb on the many ways to win:\n\n\"There are hundreds of paths up the mountain, all leading in the same direction, so it doesn't matter which path you take. The only one wasting time is the one who runs around and around the mountain, telling everyone that his or her path is wrong.\"",
     "intro": "On the many ways to win",

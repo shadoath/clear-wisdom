@@ -1,5 +1,55 @@
 [
   {
+    "id": "2021-09-30-question",
+    "quote": "In what areas would you benefit from setting clearer boundaries?",
+    "intro": "On setting boundaries",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-30-2021",
+    "author": "James Clear",
+    "date": "2021-09-30",
+    "section": "Questions",
+    "explanation": "A question for identifying areas where clearer personal or professional boundaries could improve well-being and effectiveness"
+  },
+  {
+    "id": "2021-09-23-question",
+    "quote": "To prioritize the day, think about the decade:\n\nIf I want to be on track to achieve X in 10 years, what do I need to do today?",
+    "intro": "On long-term daily prioritization",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-23-2021",
+    "author": "James Clear",
+    "date": "2021-09-23",
+    "section": "Questions",
+    "explanation": "A strategic question for connecting daily actions to long-term goals, encouraging forward-thinking about decade-long trajectories"
+  },
+  {
+    "id": "2021-09-16-question",
+    "quote": "Was this a productive week? What can you do today to guarantee the answer is yes?",
+    "intro": "On weekly productivity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-16-2021",
+    "author": "James Clear",
+    "date": "2021-09-16",
+    "section": "Questions",
+    "explanation": "A reflection question for evaluating weekly progress and identifying actions that can ensure a productive day"
+  },
+  {
+    "id": "2021-09-09-question",
+    "quote": "What do you need to de-prioritize?",
+    "intro": "On de-prioritization",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-9-2021",
+    "author": "James Clear",
+    "date": "2021-09-09",
+    "section": "Questions",
+    "explanation": "A focus question for identifying activities or commitments that should be reduced or eliminated to create space for more important priorities"
+  },
+  {
+    "id": "2021-09-02-question",
+    "quote": "What's the cost of doing a poor job? What's the cost of doing a mediocre job? What's the cost of doing an exceptional job?\n\nWhich price are you willing to pay?",
+    "intro": "On quality costs",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-2-2021",
+    "author": "James Clear",
+    "date": "2021-09-02",
+    "section": "Questions",
+    "explanation": "A cost-benefit analysis question for evaluating different levels of effort and quality, encouraging conscious choice about investment in work"
+  },
+  {
     "id": "2021-08-26-question",
     "quote": "Which of my relationships are win-win? Which of my relationships are one-sided?",
     "intro": "On win-win vs one-sided relationships",
