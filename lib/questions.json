@@ -1,5 +1,45 @@
 [
   {
+    "id": "2021-06-24-question",
+    "quote": "People will tell stories about you at your funeral. What chapter are you writing today?",
+    "intro": "On writing your life story",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-24-2021",
+    "author": "James Clear",
+    "date": "2021-06-24",
+    "section": "Questions",
+    "explanation": "A perspective-shifting question about legacy and daily choices, encouraging readers to consider how current actions contribute to their life story"
+  },
+  {
+    "id": "2021-06-17-question",
+    "quote": "What is the limiting factor?",
+    "intro": "On identifying constraints",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-17-2021",
+    "author": "James Clear",
+    "date": "2021-06-17",
+    "section": "Questions",
+    "explanation": "A strategic question for identifying the primary constraint or bottleneck that's preventing progress toward a goal"
+  },
+  {
+    "id": "2021-06-10-question",
+    "quote": "What is one action that would make today a success?",
+    "intro": "On daily success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-10-2021",
+    "author": "James Clear",
+    "date": "2021-06-10",
+    "section": "Questions",
+    "explanation": "A focused question for identifying the single most important action that would make the day feel successful and productive"
+  },
+  {
+    "id": "2021-06-03-question",
+    "quote": "Do the people around me act the way I wish to act?",
+    "intro": "On environmental influence",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-3-2021",
+    "author": "James Clear",
+    "date": "2021-06-03",
+    "section": "Questions",
+    "explanation": "A question about environmental design, encouraging readers to evaluate whether their social environment supports their desired behaviors"
+  },
+  {
     "id": "2021-05-27-question",
     "quote": "Am I working at the right level? Do I need to zoom in or zoom out?",
     "intro": "On working at the right level",

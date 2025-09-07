@@ -1,5 +1,85 @@
 [
   {
+    "id": "2021-06-24-quotes-1",
+    "quote": "The economist **John Kenneth Galbraith** on the challenge of being open-minded:\n\n\"Faced with the choice between changing one's mind and proving that there is no need to do so, almost everyone gets busy on the proof.\"",
+    "intro": "On the challenge of being open-minded",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-24-2021",
+    "author": "John Kenneth Galbraith",
+    "date": "2021-06-24",
+    "section": "Quotes",
+    "explanation": "John Kenneth Galbraith's observation about human resistance to changing beliefs, showing how people prefer to defend existing positions rather than consider new information"
+  },
+  {
+    "id": "2021-06-24-quotes-2",
+    "quote": "Computer scientist **Leonard Adleman** on intellectual courage and choosing the right problem to work on:\n\nINTERVIEWER: They say the most creative and challenging part of research is finding the right question to ask. Do you agree with that?\n\nADLEMAN: I wouldn't characterize it as the most challenging thing, but it's of critical importance. Sometimes it's not hard to find the \"right question'. For example the mathematics literature is full of very important unanswered questions. In this case, the real issue is: Has that question's time come? Have we reached a point where developments in the appropriate area of science give us some chance of breaking the problem? For example, I worked on a famous centuries old math problem called \"Fermat's Last Theorem\". I was not `strong' enough to solve it, but I find some solace in the fact that my intuition that its `time had come' was right. The problem was finally solved two years ago by Andrew Wiles of Princeton. It was one of the major events in the history of mathematics.\n\nThe other side is to generate new questions. That's a funny process. The way I seek to generate new questions is to start to look at whole new fields, like biology, immunology or physics. Since I come from a different field, mathematics, I bring an unusual point-of-view that sometimes allows me to generate questions different from the classical questions in those areas. Like the question of DNA computing.\n\nFor the young scientist, this question of choosing the right question to spend your valuable limited intellectual resources on is critical. I often sit for months and do no productive work that anybody can see, because I don't feel I have a good enough question to work on. Rather than take on some lesser question, I would prefer to read a mystery novel. The point is, sometimes it's important to lie fallow for a time waiting for the `right question' to appear, rather than to engage in uninspiring work and miss the important opportunity when in comes.\n\n...\n\nI always tell my students and junior faculty that they are better off following their inspiration and their hearts in what research they do, that they should always try to take on the most interesting and important problems, that they should not waste their time on little problems just to make another line on a vitae.\n\nMy philosophy is that it's important, in a curious way, for scientists to be courageous. Not physically courageous, but courageous in an intellectual way. I believe that by working on extremely hard problems, by being courageous, you may succeed. But even if you fail, you fail gloriously. And you will have learned immense amounts, you will have extended the envelope of what you can do. As a byproduct of failing on a great problem, I have always found that I could solve some lesser but still interesting problems--which then fill your vitae.\"",
+    "intro": "On intellectual courage and choosing the right problem to work on",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-24-2021",
+    "author": "Leonard Adleman",
+    "date": "2021-06-24",
+    "section": "Quotes",
+    "explanation": "Leonard Adleman's philosophy on intellectual courage and problem selection, emphasizing the importance of choosing meaningful problems and being willing to fail gloriously"
+  },
+  {
+    "id": "2021-06-17-quotes-1",
+    "quote": "Philosopher **José Ortega y Gasset** on the power of attention:\n\n\"Tell me what you pay attention to and I will tell you who you are.\"",
+    "intro": "On the power of attention",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-17-2021",
+    "author": "José Ortega y Gasset",
+    "date": "2021-06-17",
+    "section": "Quotes",
+    "explanation": "José Ortega y Gasset's insight about attention as identity, showing how what we focus on reveals and shapes who we are"
+  },
+  {
+    "id": "2021-06-17-quotes-2",
+    "quote": "Marine biologist **Rachel Carson** shares her reflections on life after watching the migration of monarch butterflies:\n\n\"We talked a little about their migration, their life history. Did they return? We thought not; for most, at least, this was the closing journey of their lives.\n\nBut it occurred to me this afternoon, remembering, that it had been a happy spectacle, that we had felt no sadness when we spoke of the fact that there would be no return. And rightly--for when any living thing has come to the end of its life cycle we accept that end as natural.\n\nFor the Monarch, that cycle is measured in a known span of months. For ourselves, the measure is something else, the span of which we cannot know. But the thought is the same: when that intangible cycle has run its course it is a natural and not unhappy thing that a life comes to an end.\"",
+    "intro": "On life cycles and natural endings",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-17-2021",
+    "author": "Rachel Carson",
+    "date": "2021-06-17",
+    "section": "Quotes",
+    "explanation": "Rachel Carson's meditation on natural life cycles, showing how observing nature can provide perspective on acceptance of life's natural endings"
+  },
+  {
+    "id": "2021-06-10-quotes-1",
+    "quote": "Author **Gretchen Rubin** on how to rebound from a mistake:\n\n\"Instead of feeling that you've blown the day and thinking, \"I'll get back on track tomorrow,\" try thinking of each day as a set of four quarters: morning, midday, afternoon, evening. If you blow one quarter, you get back on track for the next quarter.\n\nFail small, not big.\"",
+    "intro": "On how to rebound from a mistake",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-10-2021",
+    "author": "Gretchen Rubin",
+    "date": "2021-06-10",
+    "section": "Quotes",
+    "explanation": "Gretchen Rubin's strategy for recovering from setbacks, emphasizing the importance of quick course correction rather than waiting for a fresh start"
+  },
+  {
+    "id": "2021-06-10-quotes-2",
+    "quote": "Facebook executive **Andrew Bosworth** on how to think outside your constraints:\n\n\"When we are getting close to launching products at Facebook we often move the product team out of our usual open floor plan and into a room so they can coordinate in even tighter loops. As a rapidly growing company, it can sometimes be hard to find the space for these so-called war rooms.\n\nBefore the launch of our games platform we needed to move more people into a war room than could possibly fit in any floor plan. Not to be defeated, the team came in over the weekend and built a loft which could support desks on two levels. This is classic hacking. The team solved a problem on a dimension, quite literally, that was unexpected: when you think of a floor plan you think of width and depth, not height.\n\nNot to be outdone, a few years later when the Messenger team needed to move 15 people into a war room but the largest room we had could only fit 10 people any way you arranged it (including vertically), they cut a hole in the wall and made a bigger room.\n\nThis example isn't illustrative for its cleverness but rather for its power as a metaphor. As humans when we walk into a room we are inclined to perceive the four walls around us as permanent, immovable constraints. Some of them are -- we should avoid demolishing structural walls -- but most of them probably are not.\"",
+    "intro": "On how to think outside your constraints",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-10-2021",
+    "author": "Andrew Bosworth",
+    "date": "2021-06-10",
+    "section": "Quotes",
+    "explanation": "Andrew Bosworth's examples of creative problem-solving, showing how questioning assumed constraints can lead to innovative solutions"
+  },
+  {
+    "id": "2021-06-03-quotes-1",
+    "quote": "Author **Virginia Woolf** on great art evolving with us:\n\n\"There is one peculiarity which real works of art possess in common. At each fresh reading one notices some change in them, as if the sap of life ran in their leaves, and with skies and plants they had the power to alter their shape and colour from season to season. To write down one's impressions of Hamlet as one reads it year after year, would be virtually to record one's own autobiography, for as we know more of life, so Shakespeare comments upon what we know.\"",
+    "intro": "On great art evolving with us",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-3-2021",
+    "author": "Virginia Woolf",
+    "date": "2021-06-03",
+    "section": "Quotes",
+    "explanation": "Virginia Woolf's insight about how great art changes as we change, showing how our evolving life experience allows us to discover new meanings in timeless works"
+  },
+  {
+    "id": "2021-06-03-quotes-2",
+    "quote": "Writer **Jorge Luis Borges** on transforming every experience into a resource:\n\n\"A writer -- and, I believe, generally all persons -- must think that whatever happens to him or her is a resource. All things have been given to us for a purpose, and an artist must feel this more intensely. All that happens to us, including our humiliations, our misfortunes, our embarrassments, all is given to us as raw material, as clay, so that we may shape our art.\"",
+    "intro": "On transforming every experience into a resource",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-3-2021",
+    "author": "Jorge Luis Borges",
+    "date": "2021-06-03",
+    "section": "Quotes",
+    "explanation": "Jorge Luis Borges' perspective on using all experiences as creative material, emphasizing that even difficult experiences can be transformed into art and growth"
+  },
+  {
     "id": "2021-05-27-quotes-1",
     "quote": "French moralist **Joseph Joubert** on dealing with conflict:\n\n\"Never cut what you can untie.\"",
     "intro": "On dealing with conflict",
