@@ -1,5 +1,55 @@
 [
   {
+    "id": "2020-12-31-question",
+    "quote": "What is a mistake you seem to repeat each year? What can you do to prevent it this time?",
+    "intro": "On preventing recurring mistakes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-31-2020",
+    "author": "James Clear",
+    "date": "2020-12-31",
+    "section": "Questions",
+    "explanation": "A year-end reflection question that helps readers identify patterns of recurring mistakes and plan prevention strategies"
+  },
+  {
+    "id": "2020-12-24-question",
+    "quote": "What is best in the short-term? What is best in the long-term?",
+    "intro": "On short-term vs long-term thinking",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-24-2020",
+    "author": "James Clear",
+    "date": "2020-12-24",
+    "section": "Questions",
+    "explanation": "A decision-making question that helps readers evaluate choices from both immediate and long-term perspectives"
+  },
+  {
+    "id": "2020-12-17-question",
+    "quote": "What is one small thing I could do today that would make a meaningful impact on my future?",
+    "intro": "On small actions with big impact",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-17-2020",
+    "author": "James Clear",
+    "date": "2020-12-17",
+    "section": "Questions",
+    "explanation": "A forward-looking question that helps readers identify small daily actions that compound into significant future benefits"
+  },
+  {
+    "id": "2020-12-10-question",
+    "quote": "Imagine the most important goal or project you are working on right now. Fast forward six months. Imagine the project has failed.\n\nWhy did you fail?",
+    "intro": "On pre-mortem analysis",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-10-2020",
+    "author": "James Clear",
+    "date": "2020-12-10",
+    "section": "Questions",
+    "explanation": "A pre-mortem question that helps readers anticipate potential failure points and take preventive action"
+  },
+  {
+    "id": "2020-12-03-question",
+    "quote": "Sometimes you have to pass through the fire. What fire or pain should you seek out in your life over the next year so you can learn its lessons?",
+    "intro": "On seeking growth through challenge",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-3-2020",
+    "author": "James Clear",
+    "date": "2020-12-03",
+    "section": "Questions",
+    "explanation": "A growth-oriented question that encourages readers to proactively seek challenging experiences for personal development"
+  },
+  {
     "id": "2020-11-26-question",
     "quote": "Some questions to consider before you speak:\n\nDoes this need to be said?\n\nDoes this need to be said by me?\n\nDoes this need to be said by me right now?",
     "intro": "On thoughtful communication",

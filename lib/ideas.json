@@ -1,5 +1,155 @@
 [
   {
+    "id": "2020-12-31-ideas-1",
+    "quote": "\"If you genuinely care about the goal, you'll focus on the system.\"",
+    "intro": "On focusing on systems",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-31-2020",
+    "author": "James Clear",
+    "date": "2020-12-31",
+    "section": "Ideas",
+    "explanation": "A principle about goal achievement, emphasizing that genuine commitment to outcomes naturally leads to systematic approaches"
+  },
+  {
+    "id": "2020-12-31-ideas-2",
+    "quote": "\"We often avoid taking action because we think 'I need to learn more,' but the best way to learn is often by taking action.\"",
+    "intro": "On learning through action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-31-2020",
+    "author": "James Clear",
+    "date": "2020-12-31",
+    "section": "Ideas",
+    "explanation": "A perspective on learning and procrastination, emphasizing that action often provides better learning than preparation"
+  },
+  {
+    "id": "2020-12-31-ideas-3",
+    "quote": "A final thought from Atomic Habits as we start the new year:\n\n\"Improvements are only temporary until they become part of who you are.\n\n-The goal is not to read a book, the goal is to become a reader.\n\n-The goal is not to run a marathon, the goal is to become a runner.\n\n-The goal is not to learn an instrument, the goal is to become a musician.\n\nThis year, focus on the identity you want to build.\"",
+    "intro": "On identity-based goals",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-31-2020",
+    "author": "James Clear",
+    "date": "2020-12-31",
+    "section": "Ideas",
+    "explanation": "A core principle from Atomic Habits about identity change, emphasizing that lasting improvement comes from becoming rather than doing"
+  },
+  {
+    "id": "2020-12-24-ideas-1",
+    "quote": "\"Modeling a behavior is stronger than telling someone to act differently.\n\nKids imitate the habits of their parents. Teammates match the competitive energy of one another. Employees learn to manage like their supervisor.\n\nBe the standard and others will raise their standards.\"",
+    "intro": "On modeling behavior",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-24-2020",
+    "author": "James Clear",
+    "date": "2020-12-24",
+    "section": "Ideas",
+    "explanation": "A principle about influence and leadership, emphasizing that example is more powerful than instruction"
+  },
+  {
+    "id": "2020-12-24-ideas-2",
+    "quote": "\"The most important conversation is the conversation you have with yourself each day.\"",
+    "intro": "On self-conversation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-24-2020",
+    "author": "James Clear",
+    "date": "2020-12-24",
+    "section": "Ideas",
+    "explanation": "A perspective on internal dialogue, emphasizing that self-talk shapes thoughts, actions, and outcomes more than external conversations"
+  },
+  {
+    "id": "2020-12-24-ideas-3",
+    "quote": "\"Your favorite athlete's first workout was just as bad as yours.\n\nYour favorite chef's first meal was just as bad as yours.\n\nYour favorite artist's first work was just as bad as yours.\n\nKeep going.\"",
+    "intro": "On persistence",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-24-2020",
+    "author": "James Clear",
+    "date": "2020-12-24",
+    "section": "Ideas",
+    "explanation": "A motivational insight about mastery, emphasizing that everyone starts poorly and improvement comes through persistence"
+  },
+  {
+    "id": "2020-12-17-ideas-1",
+    "quote": "\"Life instantly improves when you don't blame other people and focus on what you can control.\"",
+    "intro": "On blame and control",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-17-2020",
+    "author": "James Clear",
+    "date": "2020-12-17",
+    "section": "Ideas",
+    "explanation": "A Stoic principle about responsibility and agency, emphasizing that focusing on controllable factors improves life quality"
+  },
+  {
+    "id": "2020-12-17-ideas-2",
+    "quote": "\"Broad ideas influence more people.\n\nSpecific ideas influence people more.\"",
+    "intro": "On broad vs specific ideas",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-17-2020",
+    "author": "James Clear",
+    "date": "2020-12-17",
+    "section": "Ideas",
+    "explanation": "A framework for idea communication, showing the trade-off between reach (broad) and impact (specific)"
+  },
+  {
+    "id": "2020-12-17-ideas-3",
+    "quote": "\"When an online course tells you how to make money in real estate remember they are making money by selling online courses.\n\nWhen a conference covers how to build an online business remember they are building an event business.\n\nLearn from what people do as much as what they say.\"",
+    "intro": "On learning from actions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-17-2020",
+    "author": "James Clear",
+    "date": "2020-12-17",
+    "section": "Ideas",
+    "explanation": "A principle about evaluating advice, emphasizing that people's actual business models reveal more than their stated expertise"
+  },
+  {
+    "id": "2020-12-10-ideas-1",
+    "quote": "\"The more disciplined your environment is, the less disciplined you need to be. Don't swim upstream.\"",
+    "intro": "On environmental design",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-10-2020",
+    "author": "James Clear",
+    "date": "2020-12-10",
+    "section": "Ideas",
+    "explanation": "A core principle from Atomic Habits about environment design, emphasizing that good systems reduce the need for willpower"
+  },
+  {
+    "id": "2020-12-10-ideas-2",
+    "quote": "\"Many people delay taking action because they hope to avoid suffering. They keep searching for a path that won't involve tradeoffs.\n\nBut some form of suffering is always inevitable. The process of taking action is the process of choosing your pain.\"",
+    "intro": "On choosing your pain",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-10-2020",
+    "author": "James Clear",
+    "date": "2020-12-10",
+    "section": "Ideas",
+    "explanation": "A perspective on decision-making and action, emphasizing that all paths involve some form of difficulty and the choice is which type"
+  },
+  {
+    "id": "2020-12-10-ideas-3",
+    "quote": "\"Before you begin, think as if you are a lazy person. Imagine the competition will work harder. Your only chance is a better strategy.\n\nAfter you begin, work as if you are a dumb person. Imagine the competition is smarter and more talented. Your only chance is to outwork them.\"",
+    "intro": "On strategy vs execution",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-10-2020",
+    "author": "James Clear",
+    "date": "2020-12-10",
+    "section": "Ideas",
+    "explanation": "A framework for competitive advantage, emphasizing strategic thinking before action and hard work during execution"
+  },
+  {
+    "id": "2020-12-03-ideas-1",
+    "quote": "\"Every skill you have today was once unknown to you.\n\nThe human brain is a learning machine. Stick with it.\"",
+    "intro": "On learning capacity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-3-2020",
+    "author": "James Clear",
+    "date": "2020-12-03",
+    "section": "Ideas",
+    "explanation": "A motivational insight about human potential, emphasizing that all current abilities were once unfamiliar and persistence enables learning"
+  },
+  {
+    "id": "2020-12-03-ideas-2",
+    "quote": "\"The best exercise for gaining strength is not missing workouts.\"",
+    "intro": "On consistency in exercise",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-3-2020",
+    "author": "James Clear",
+    "date": "2020-12-03",
+    "section": "Ideas",
+    "explanation": "A principle about fitness and habit formation, emphasizing that consistency matters more than intensity"
+  },
+  {
+    "id": "2020-12-03-ideas-3",
+    "quote": "\"The secret to winning is learning how to lose.\n\nThat is, learning to bounce back from failure and disappointment--undeterred--and continuing to steadily march toward your potential.\n\nYour response to failure determines your capacity for success.\"",
+    "intro": "On learning to lose",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-3-2020",
+    "author": "James Clear",
+    "date": "2020-12-03",
+    "section": "Ideas",
+    "explanation": "A perspective on resilience and success, emphasizing that how one handles failure determines long-term achievement"
+  },
+  {
     "id": "2020-11-26-ideas-1",
     "quote": "\"If you genuinely care about the goal, you'll focus on the system.\"",
     "intro": "On focusing on systems",
