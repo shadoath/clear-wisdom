@@ -1,5 +1,155 @@
 [
   {
+    "id": "2021-04-29-ideas-1",
+    "quote": "\"How did you accomplish that?\"\n\n\"Same as everything else. Gradually, then all at once.\"",
+    "intro": "On gradual then sudden progress",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-29-2021",
+    "author": "James Clear",
+    "date": "2021-04-29",
+    "section": "Ideas",
+    "explanation": "A pattern of achievement that describes how progress often appears slow and incremental until it suddenly accelerates and becomes visible"
+  },
+  {
+    "id": "2021-04-29-ideas-2",
+    "quote": "\"Books for mindset.\n\nQuiet time to think for strategy.\n\nConversations with successful peers for tactics.\"",
+    "intro": "On learning sources",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-29-2021",
+    "author": "James Clear",
+    "date": "2021-04-29",
+    "section": "Ideas",
+    "explanation": "A framework for different types of learning, showing how books, reflection, and peer conversations serve different purposes in personal development"
+  },
+  {
+    "id": "2021-04-29-ideas-3",
+    "quote": "\"In many cases, the bottleneck to achieving results is simply making the time to do the work.\n\nYou're capable of exercising, but are you making the time?\n\nYou're capable of writing, but are you making the time?\n\nYou're capable of reading, but are you making the time?\"",
+    "intro": "On the bottleneck to results",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-29-2021",
+    "author": "James Clear",
+    "date": "2021-04-29",
+    "section": "Ideas",
+    "explanation": "An insight about the primary constraint to achievement, emphasizing that time allocation rather than ability is often the limiting factor"
+  },
+  {
+    "id": "2021-04-22-ideas-1",
+    "quote": "\"The more you move, the easier it is to keep moving. Maintain the momentum.\"",
+    "intro": "On maintaining momentum",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-22-2021",
+    "author": "James Clear",
+    "date": "2021-04-22",
+    "section": "Ideas",
+    "explanation": "A principle about momentum in action, showing how continued movement creates easier continuation and the importance of not stopping"
+  },
+  {
+    "id": "2021-04-22-ideas-2",
+    "quote": "\"The best properties are rarely for sale.\n\nThe best employees are rarely job hunting.\n\nThe best clients are rarely shopping.\n\nThe best option is usually off the market. Most people think this means you can't have it. What it really means is you have to go find it and sell yourself.\"",
+    "intro": "On the best options being off-market",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-22-2021",
+    "author": "James Clear",
+    "date": "2021-04-22",
+    "section": "Ideas",
+    "explanation": "An insight about high-quality opportunities, emphasizing that the best options require proactive seeking and self-promotion rather than passive waiting"
+  },
+  {
+    "id": "2021-04-22-ideas-3",
+    "quote": "\"The Paradox of Focus:\n\nMake the most of one opportunity and more opportunities will come your way.\n\nMoving boldly in one direction causes more paths to unfold before you.\n\nTo get more, focus on less.\"",
+    "intro": "On the paradox of focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-22-2021",
+    "author": "James Clear",
+    "date": "2021-04-22",
+    "section": "Ideas",
+    "explanation": "A counterintuitive principle about focus, showing how deep commitment to one path creates more opportunities than scattered efforts"
+  },
+  {
+    "id": "2021-04-15-ideas-1",
+    "quote": "\"Whenever you are stuck searching for the optimal plan, remember:\n\nGetting started changes everything.\"",
+    "intro": "On getting started",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-15-2021",
+    "author": "James Clear",
+    "date": "2021-04-15",
+    "section": "Ideas",
+    "explanation": "A reminder about the power of action over planning, emphasizing that starting often reveals the path forward better than endless preparation"
+  },
+  {
+    "id": "2021-04-15-ideas-2",
+    "quote": "\"The desire to improve does not have to come from a place of self-loathing.\"",
+    "intro": "On improvement motivation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-15-2021",
+    "author": "James Clear",
+    "date": "2021-04-15",
+    "section": "Ideas",
+    "explanation": "A reframing of improvement motivation, showing that growth can come from positive sources rather than self-criticism and dissatisfaction"
+  },
+  {
+    "id": "2021-04-15-ideas-3",
+    "quote": "\"The teacher learns more than the student.\n\nThe author learns more than the reader.\n\nThe speaker learns more than the attendee.\n\nThe way to learn is by doing.\"",
+    "intro": "On learning by doing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-15-2021",
+    "author": "James Clear",
+    "date": "2021-04-15",
+    "section": "Ideas",
+    "explanation": "A principle about active learning, showing how teaching, writing, and speaking create deeper understanding than passive consumption"
+  },
+  {
+    "id": "2021-04-08-ideas-1",
+    "quote": "\"A simple rule for life and work:\n\nDon't rush, but don't wait.\n\nThoughtful action.\"",
+    "intro": "On a simple rule for life and work",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-8-2021",
+    "author": "James Clear",
+    "date": "2021-04-08",
+    "section": "Ideas",
+    "explanation": "A balanced approach to decision-making and action, emphasizing thoughtful consideration without procrastination"
+  },
+  {
+    "id": "2021-04-08-ideas-2",
+    "quote": "\"Your life is purchased by where you spend your attention.\"",
+    "intro": "On attention as currency",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-8-2021",
+    "author": "James Clear",
+    "date": "2021-04-08",
+    "section": "Ideas",
+    "explanation": "A metaphor about attention as the currency of life, emphasizing that how you allocate attention determines the quality and direction of your life"
+  },
+  {
+    "id": "2021-04-08-ideas-3",
+    "quote": "\"The Process:\n\n1) Decide what you want to achieve.\n2) Try different ways of achieving it until you find one that works for you.\n3) Do more of what works. Do less of what doesn't.\n4) Don't stop doing it until it stops working.\n5) Repeat.\"",
+    "intro": "On the process",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-8-2021",
+    "author": "James Clear",
+    "date": "2021-04-08",
+    "section": "Ideas",
+    "explanation": "A systematic approach to achievement that emphasizes experimentation, optimization, and persistence through iterative improvement"
+  },
+  {
+    "id": "2021-04-01-ideas-1",
+    "quote": "\"Fear of failure is higher when you're not working on the problem.\n\nIf you are taking action, you are less worried about failure because you realize you can influence the outcome.\"",
+    "intro": "On fear of failure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-1-2021",
+    "author": "James Clear",
+    "date": "2021-04-01",
+    "section": "Ideas",
+    "explanation": "An insight about the relationship between action and fear, showing how taking action reduces anxiety by providing a sense of control"
+  },
+  {
+    "id": "2021-04-01-ideas-2",
+    "quote": "\"You can often learn more from peers who are 2 years ahead of you than mentors who are 20 years ahead of you.\n\nLife evolves and most insights get outdated.\"",
+    "intro": "On learning from peers vs mentors",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-1-2021",
+    "author": "James Clear",
+    "date": "2021-04-01",
+    "section": "Ideas",
+    "explanation": "A perspective on mentorship, emphasizing that recent experience from slightly ahead peers is often more valuable than distant expertise from long-established mentors"
+  },
+  {
+    "id": "2021-04-01-ideas-3",
+    "quote": "\"Maintain a margin of safety--even when it's going well.\n\nRich people go bankrupt chasing even more wealth.\n\nFit people get injured chasing personal records.\n\nProductive people become ineffective taking on too many projects.\n\nDon't let your ambition ruin your position.\"",
+    "intro": "On maintaining margin of safety",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-1-2021",
+    "author": "James Clear",
+    "date": "2021-04-01",
+    "section": "Ideas",
+    "explanation": "A principle about sustainable success, emphasizing the importance of maintaining safety buffers even during good times to prevent overreach and collapse"
+  },
+  {
     "id": "2021-03-25-ideas-1",
     "quote": "\"Italy is known for tomatoes. Thailand for chilies. Germany for sauerkraut.\n\nBut tomatoes originated in Peru. Thailand imported chilies from Central America. Sauerkraut started in China.\n\nEverything is a remix--and the world is better for it. Share what you know. Learn from others.\"",
     "intro": "On everything being a remix",

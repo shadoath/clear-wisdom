@@ -1,5 +1,55 @@
 [
   {
+    "id": "2021-04-29-question",
+    "quote": "How have my bad habits become a crutch I lean on? What stories do I need to let go of so I can walk freely?",
+    "intro": "On bad habits as crutches",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-29-2021",
+    "author": "James Clear",
+    "date": "2021-04-29",
+    "section": "Questions",
+    "explanation": "A dual question for examining how bad habits serve as emotional crutches and identifying limiting stories that prevent personal freedom and growth"
+  },
+  {
+    "id": "2021-04-22-question",
+    "quote": "If I keep doing what I am about to do today for the next five years, will I end up with more of what I want or less of what I want?",
+    "intro": "On long-term consequences",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-22-2021",
+    "author": "James Clear",
+    "date": "2021-04-22",
+    "section": "Questions",
+    "explanation": "A forward-looking question that helps evaluate current actions by projecting their long-term impact on desired outcomes"
+  },
+  {
+    "id": "2021-04-15-question",
+    "quote": "How can I create an environment that will naturally bring about my desired change?",
+    "intro": "On environmental design",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-15-2021",
+    "author": "James Clear",
+    "date": "2021-04-15",
+    "section": "Questions",
+    "explanation": "A strategic question about environmental design, focusing on creating conditions that naturally support desired behaviors and outcomes"
+  },
+  {
+    "id": "2021-04-08-question",
+    "quote": "What do I keep coming back to? What is that telling me?",
+    "intro": "On recurring patterns",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-8-2021",
+    "author": "James Clear",
+    "date": "2021-04-08",
+    "section": "Questions",
+    "explanation": "A reflection question for identifying recurring interests, activities, or thoughts that may reveal deeper values, passions, or calling"
+  },
+  {
+    "id": "2021-04-01-question",
+    "quote": "How am I living with the results of other people's thinking?",
+    "intro": "On living others' thoughts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-1-2021",
+    "author": "James Clear",
+    "date": "2021-04-01",
+    "section": "Questions",
+    "explanation": "A self-awareness question that challenges readers to examine how much of their life is shaped by others' beliefs, values, and decisions rather than their own"
+  },
+  {
     "id": "2021-03-25-question",
     "quote": "Does the amount of time I'm giving this match its true importance?",
     "intro": "On time allocation",
