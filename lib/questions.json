@@ -1,5 +1,45 @@
 [
   {
+    "id": "2021-05-27-question",
+    "quote": "Am I working at the right level? Do I need to zoom in or zoom out?",
+    "intro": "On working at the right level",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-27-2021",
+    "author": "James Clear",
+    "date": "2021-05-27",
+    "section": "Questions",
+    "explanation": "A strategic question about perspective and scope, helping readers evaluate whether they need to focus on details or step back for broader view"
+  },
+  {
+    "id": "2021-05-20-question",
+    "quote": "A question from writer Elizabeth Gilbert:\n\n\"What do you love doing so much that the words failure and success essentially become irrelevant?\"",
+    "intro": "On love transcending success/failure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-20-2021",
+    "author": "Elizabeth Gilbert",
+    "date": "2021-05-20",
+    "section": "Questions",
+    "explanation": "Elizabeth Gilbert's question about finding activities so intrinsically rewarding that external measures of success or failure become meaningless"
+  },
+  {
+    "id": "2021-05-13-question",
+    "quote": "What is a small pleasure that brings me great joy? Can I enjoy it today?",
+    "intro": "On small pleasures",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-13-2021",
+    "author": "James Clear",
+    "date": "2021-05-13",
+    "section": "Questions",
+    "explanation": "A mindfulness question about appreciating simple joys and taking action to experience them, emphasizing the importance of small pleasures in daily life"
+  },
+  {
+    "id": "2021-05-06-question",
+    "quote": "An insightful question from Steph Smith:\n\n\"How much of what you did today was simply due to inertia?\n\nNever get so busy that you forget to actively design your life.\"",
+    "intro": "On inertia vs intentional design",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-6-2021",
+    "author": "Steph Smith",
+    "date": "2021-05-06",
+    "section": "Questions",
+    "explanation": "Steph Smith's question about examining daily actions for mindless repetition versus intentional choice, encouraging active life design over passive momentum"
+  },
+  {
     "id": "2021-04-29-question",
     "quote": "How have my bad habits become a crutch I lean on? What stories do I need to let go of so I can walk freely?",
     "intro": "On bad habits as crutches",

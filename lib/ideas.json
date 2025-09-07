@@ -1,5 +1,125 @@
 [
   {
+    "id": "2021-05-27-ideas-1",
+    "quote": "\"Convincing someone to change their mind is really the process of convincing someone to change their tribe. If they abandon their beliefs, they run the risk of losing social ties. You can't expect someone to change their mind if you take away their community too. You have to give them somewhere to go.\n\nNobody wants their worldview torn apart if loneliness is the outcome.\"",
+    "intro": "On changing minds and tribes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-27-2021",
+    "author": "James Clear",
+    "date": "2021-05-27",
+    "section": "Ideas",
+    "explanation": "An insight about persuasion and belief change, emphasizing that changing minds requires providing alternative community and social connections, not just logical arguments"
+  },
+  {
+    "id": "2021-05-27-ideas-2",
+    "quote": "\"If you think you can learn a lot from reading books, try writing one.\"",
+    "intro": "On writing books",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-27-2021",
+    "author": "James Clear",
+    "date": "2021-05-27",
+    "section": "Ideas",
+    "explanation": "A perspective on the learning benefits of writing, suggesting that the process of creating a book provides deeper understanding than passive reading"
+  },
+  {
+    "id": "2021-05-27-ideas-3",
+    "quote": "\"The list of mistakes you can never recover from is very short.\n\nBut you likely realize your life will not be destroyed if your book doesn't sell or if a potential date turns you down or if your startup goes bust. It's not the failed outcome that paralyzes us. It's the possibility of looking stupid, feeling humiliated, or dealing with embarrassment that prevents us from getting started at all.\n\nThe first step to being courageous is being willing to look foolish.\"",
+    "intro": "On courage and looking foolish",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-27-2021",
+    "author": "James Clear",
+    "date": "2021-05-27",
+    "section": "Ideas",
+    "explanation": "An insight about the real barrier to action, showing that fear of embarrassment rather than fear of failure prevents people from taking risks and being courageous"
+  },
+  {
+    "id": "2021-05-20-ideas-1",
+    "quote": "\"Saying no saves you time in the future. Saying yes costs you time in the future.\n\nNo is like a time credit. You can spend that block of time in the future.\n\nYes is like a time debt. You have to repay that commitment at some point.\n\nNo is a decision. Yes is a responsibility.\"",
+    "intro": "On saying no vs yes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-20-2021",
+    "author": "James Clear",
+    "date": "2021-05-20",
+    "section": "Ideas",
+    "explanation": "A framework for understanding the time implications of decisions, showing how saying no creates future time while saying yes creates future obligations"
+  },
+  {
+    "id": "2021-05-20-ideas-2",
+    "quote": "\"Most of the excuses I made...\n\n- not enough time\n- not enough money\n- not enough knowledge\n- not the right connections\n\n...were just ways to avoid the real bottleneck: Not enough courage.\n\nThere was always a small step I could have taken--if I had the guts to take it.\"",
+    "intro": "On excuses and courage",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-20-2021",
+    "author": "James Clear",
+    "date": "2021-05-20",
+    "section": "Ideas",
+    "explanation": "A personal reflection on common excuses, revealing that most barriers are actually courage barriers rather than resource constraints"
+  },
+  {
+    "id": "2021-05-20-ideas-3",
+    "quote": "\"You can either be judged because you created something or ignored because you left your greatness inside of you. Your call.\"",
+    "intro": "On being judged vs ignored",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-20-2021",
+    "author": "James Clear",
+    "date": "2021-05-20",
+    "section": "Ideas",
+    "explanation": "A choice between two outcomes, emphasizing that creating and sharing work invites judgment but keeping potential hidden leads to being ignored"
+  },
+  {
+    "id": "2021-05-13-ideas-1",
+    "quote": "\"The way someone else perceives what you do is a result of their own experiences (which you can't control), their own preferences (which you can't predict), and their own expectations (which you don't set).\n\nIf your choices don't match their expectations that is their concern, not yours.\"",
+    "intro": "On others' perceptions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-13-2021",
+    "author": "James Clear",
+    "date": "2021-05-13",
+    "section": "Ideas",
+    "explanation": "A perspective on external judgment, emphasizing that others' perceptions are based on their own experiences and expectations rather than your actual choices"
+  },
+  {
+    "id": "2021-05-13-ideas-2",
+    "quote": "\"A recipe for getting more out of what you read:\n\nStart more books. Quit most of them. Read the great ones twice.\"",
+    "intro": "On reading strategy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-13-2021",
+    "author": "James Clear",
+    "date": "2021-05-13",
+    "section": "Ideas",
+    "explanation": "A strategic approach to reading that emphasizes exploration, selective abandonment, and deep re-reading of valuable content"
+  },
+  {
+    "id": "2021-05-13-ideas-3",
+    "quote": "\"The most reliable way to change your life is by not changing your entire life.\n\nIf you try to change everything all at once, you will quickly find yourself pulled back into the same patterns as before. But if you merely focus on changing one specific habit and work on it until it becomes part of your normal day, you will find your life changes naturally as a side effect.\n\nImprove the whole by mastering one thing.\"",
+    "intro": "On changing your life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-13-2021",
+    "author": "James Clear",
+    "date": "2021-05-13",
+    "section": "Ideas",
+    "explanation": "A principle about sustainable change, emphasizing that focusing on one habit creates cascading effects that naturally improve other areas of life"
+  },
+  {
+    "id": "2021-05-06-ideas-1",
+    "quote": "\"More effort is wasted doing things that don't matter than is wasted doing things inefficiently.\n\nElimination is the highest form of optimization.\"",
+    "intro": "On elimination vs optimization",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-6-2021",
+    "author": "James Clear",
+    "date": "2021-05-06",
+    "section": "Ideas",
+    "explanation": "A principle about efficiency, emphasizing that removing unnecessary activities is more valuable than optimizing activities that don't matter"
+  },
+  {
+    "id": "2021-05-06-ideas-2",
+    "quote": "\"We cannot predict the value our work will provide to the world. That's fine. It is not our job to judge our own work. It is our job to create it, to pour ourselves into it, and to master our craft as best we can.\"",
+    "intro": "On judging your own work",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-6-2021",
+    "author": "James Clear",
+    "date": "2021-05-06",
+    "section": "Ideas",
+    "explanation": "A perspective on creative work, emphasizing that creators should focus on mastery and effort rather than trying to predict or judge the value of their output"
+  },
+  {
+    "id": "2021-05-06-ideas-3",
+    "quote": "\"You can increase your surface area for good luck by taking action.\n\nThe forager who explores widely will find lots of useless terrain, but is also more likely to stumble across a bountiful berry patch than the person who stays home.\n\nSimilarly, the person who works hard, pursues opportunity, and tries more things is more likely to stumble across a lucky break than the person who waits.\"",
+    "intro": "On increasing surface area for luck",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-6-2021",
+    "author": "James Clear",
+    "date": "2021-05-06",
+    "section": "Ideas",
+    "explanation": "A principle about creating opportunities, showing how action and exploration increase the chances of encountering fortunate circumstances"
+  },
+  {
     "id": "2021-04-29-ideas-1",
     "quote": "\"How did you accomplish that?\"\n\n\"Same as everything else. Gradually, then all at once.\"",
     "intro": "On gradual then sudden progress",
