@@ -1,5 +1,85 @@
 [
   {
+    "id": "2021-10-28-quotes-1",
+    "quote": "Inventor and writer **Lin Yutang** on the beauty of autumn:\n\n\"I like spring, but it is too young. I like summer, but it is too proud. So I like best of all autumn, because its leaves are a little yellow, its tone mellower, its colours richer, and it is tinged a little with sorrow and a premonition of death. Its golden richness speaks not of the innocence of spring, nor of the power of summer, but of the mellowness and kindly wisdom of approaching age. It knows the limitations of life and is content. From a knowledge of those limitations and its richness of experience emerges a symphony of colours, richer than all, its green speaking of life and strength, its orange speaking of golden content and its purple of resignation and death.\"",
+    "intro": "On the beauty of autumn",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-28-2021",
+    "author": "Lin Yutang",
+    "date": "2021-10-28",
+    "section": "Quotes",
+    "explanation": "Lin Yutang's poetic reflection on autumn as a season of wisdom and acceptance, emphasizing the beauty found in maturity and the acknowledgment of life's limitations"
+  },
+  {
+    "id": "2021-10-28-quotes-2",
+    "quote": "Painter **Arshile Gorky** on the endless nature of craftsmanship:\n\n\"I don't like that word `finish'. When something is finished, that means it's dead, doesn't it? I believe in everlastingness. I never finish a painting - I just stop working on it for a while.\n\nI like painting because it's something I never come to the end of. Sometimes I paint a picture, then I paint it all out. Sometimes I'm working on fifteen or twenty pictures at the same time. I do that because I want to - because I like to change my mind so often.\n\nThe thing to do is always to keep starting to paint, never finishing painting.\"",
+    "intro": "On the endless nature of craftsmanship",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-28-2021",
+    "author": "Arshile Gorky",
+    "date": "2021-10-28",
+    "section": "Quotes",
+    "explanation": "Arshile Gorky's perspective on creative work as an ongoing process, emphasizing that true craftsmanship involves continuous evolution rather than final completion"
+  },
+  {
+    "id": "2021-10-21-quotes-1",
+    "quote": "Military strategist **Sun Tzu** on preparation:\n\n\"The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him; not on the chance of his not attacking, but rather on the fact that we have made our position unassailable.\"",
+    "intro": "On preparation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-21-2021",
+    "author": "Sun Tzu",
+    "date": "2021-10-21",
+    "section": "Quotes",
+    "explanation": "Sun Tzu's principle about proactive preparation, emphasizing that success depends on making oneself strong rather than hoping opponents remain weak"
+  },
+  {
+    "id": "2021-10-21-quotes-2",
+    "quote": "Contemporary artist **Ai Weiwei** on taking action:\n\n\"A small act is worth a million thoughts.\"",
+    "intro": "On taking action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-21-2021",
+    "author": "Ai Weiwei",
+    "date": "2021-10-21",
+    "section": "Quotes",
+    "explanation": "Ai Weiwei's emphasis on the value of action over contemplation, showing that even small actions have more impact than extensive thinking without doing"
+  },
+  {
+    "id": "2021-10-14-quotes-1",
+    "quote": "Writer and essayist **Lu Xun** on the power of collective hope:\n\n\"Hope is like a road in the country; there was never a road, but when many people walk on it, the road comes into existence.\"",
+    "intro": "On the power of collective hope",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-14-2021",
+    "author": "Lu Xun",
+    "date": "2021-10-14",
+    "section": "Quotes",
+    "explanation": "Lu Xun's metaphor about hope as a collective creation, emphasizing that shared belief and action can create possibilities that didn't previously exist"
+  },
+  {
+    "id": "2021-10-14-quotes-2",
+    "quote": "Politician and Noble Peace Prize winner **Aung San Suu Kyi** on corruption:\n\n\"It is not power that corrupts but fear. Fear of losing power corrupts those who wield it and fear of the scourge of power corrupts those who are subject to it.\"",
+    "intro": "On corruption",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-14-2021",
+    "author": "Aung San Suu Kyi",
+    "date": "2021-10-14",
+    "section": "Quotes",
+    "explanation": "Aung San Suu Kyi's insight about the root cause of corruption, emphasizing that fear rather than power itself drives corrupt behavior in both leaders and followers"
+  },
+  {
+    "id": "2021-10-07-quotes-1",
+    "quote": "Mathematician and philosopher **Gian-Carlo Rota** on teaching:\n\n\"A good teacher does not teach facts, he or she teaches enthusiasm, open-mindedness and values.\"",
+    "intro": "On teaching",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-7-2021",
+    "author": "Gian-Carlo Rota",
+    "date": "2021-10-07",
+    "section": "Quotes",
+    "explanation": "Gian-Carlo Rota's perspective on effective teaching, emphasizing that great teachers focus on cultivating attitudes and values rather than just transmitting information"
+  },
+  {
+    "id": "2021-10-07-quotes-2",
+    "quote": "Author **Karen Blixen** on the healing power of story:\n\n\"All sorrows can be borne if you put them into a story or tell a story about them.\"",
+    "intro": "On the healing power of story",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-7-2021",
+    "author": "Karen Blixen",
+    "date": "2021-10-07",
+    "section": "Quotes",
+    "explanation": "Karen Blixen's insight about narrative as a coping mechanism, emphasizing that transforming experiences into stories can provide meaning and healing"
+  },
+  {
     "id": "2021-09-30-quotes-1",
     "quote": "Abolitionist, author, and runaway slave **Frederick Douglass** on taking action:\n\n\"I prayed for twenty years but received no answer until I prayed with my legs.\"",
     "intro": "On taking action",

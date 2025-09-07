@@ -1,5 +1,45 @@
 [
   {
+    "id": "2021-10-28-question",
+    "quote": "What is the biggest non-work related contribution you can make today?",
+    "intro": "On non-work contributions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-28-2021",
+    "author": "James Clear",
+    "date": "2021-10-28",
+    "section": "Questions",
+    "explanation": "A question for identifying meaningful contributions outside of professional work, encouraging focus on personal relationships, community, and other areas of impact"
+  },
+  {
+    "id": "2021-10-21-question",
+    "quote": "How much overlap is there between what you say is important to you and how you spent your attention over the last month?",
+    "intro": "On attention vs stated priorities",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-21-2021",
+    "author": "James Clear",
+    "date": "2021-10-21",
+    "section": "Questions",
+    "explanation": "A reflection question for examining alignment between stated values and actual behavior, encouraging awareness of how attention allocation reflects true priorities"
+  },
+  {
+    "id": "2021-10-14-question",
+    "quote": "How can today feel like play?",
+    "intro": "On making work feel like play",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-14-2021",
+    "author": "James Clear",
+    "date": "2021-10-14",
+    "section": "Questions",
+    "explanation": "A question for infusing joy and lightness into daily activities, encouraging approaches that make work feel more engaging and enjoyable"
+  },
+  {
+    "id": "2021-10-07-question",
+    "quote": "What if you stopped trying to think your way through it and started to act your way through it?",
+    "intro": "On action vs thinking",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-7-2021",
+    "author": "James Clear",
+    "date": "2021-10-07",
+    "section": "Questions",
+    "explanation": "A question for shifting from analysis paralysis to action-oriented problem solving, encouraging experimentation and learning through doing"
+  },
+  {
     "id": "2021-09-30-question",
     "quote": "In what areas would you benefit from setting clearer boundaries?",
     "intro": "On setting boundaries",

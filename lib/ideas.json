@@ -1,5 +1,125 @@
 [
   {
+    "id": "2021-10-28-ideas-1",
+    "quote": "\"Your time is better spent championing good ideas than tearing down bad ones.\n\nThe best thing that can happen to a bad idea is that it is forgotten.\nThe best thing that can happen to a good idea is that it is shared.\n\nFeed the good ideas and let bad ideas die of starvation.\"",
+    "intro": "On championing good ideas",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-28-2021",
+    "author": "James Clear",
+    "date": "2021-10-28",
+    "section": "Ideas",
+    "explanation": "A principle about idea management, emphasizing that energy is better spent promoting valuable ideas rather than attacking poor ones"
+  },
+  {
+    "id": "2021-10-28-ideas-2",
+    "quote": "\"Everything is an oversimplification. Reality is messy and complex.\n\nThe question is whether it is a useful simplification.\n\nKnow the limitations of an idea and you can apply it to great effect--despite the messiness of reality.\"",
+    "intro": "On useful simplifications",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-28-2021",
+    "author": "James Clear",
+    "date": "2021-10-28",
+    "section": "Ideas",
+    "explanation": "A perspective on models and frameworks, emphasizing that all ideas are simplifications but some are useful for understanding and acting in complex reality"
+  },
+  {
+    "id": "2021-10-28-ideas-3",
+    "quote": "\"We often make choices based on immediate outcomes. What can I do to experience a little joy in the next 30 minutes? What can I accomplish in the next hour?\n\nBut if you always expect to get a little bit of reward for a little bit of effort, then you often overlook actions that lead to greater payoffs down the road. The relationship between input and output is rarely linear.\n\nThe course of action that could provide greater happiness, meaning, or satisfaction in the long run may not make you happy in the next 30 minutes.\"",
+    "intro": "On immediate vs long-term rewards",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-28-2021",
+    "author": "James Clear",
+    "date": "2021-10-28",
+    "section": "Ideas",
+    "explanation": "A principle about delayed gratification, emphasizing that the most valuable actions may not provide immediate satisfaction but offer greater long-term benefits"
+  },
+  {
+    "id": "2021-10-21-ideas-1",
+    "quote": "\"One of the only true shortcuts in life is finding an expert and apprenticing under them.\"",
+    "intro": "On apprenticing under experts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-21-2021",
+    "author": "James Clear",
+    "date": "2021-10-21",
+    "section": "Ideas",
+    "explanation": "A principle about accelerated learning, emphasizing that working directly with experts provides the fastest path to skill development and knowledge acquisition"
+  },
+  {
+    "id": "2021-10-21-ideas-2",
+    "quote": "\"Nearly everything in life is unfavorable once it grows to a certain size.\n\nIt is entirely possible to have too many clients, too much work, too much fame, too much free time, and so on.\n\nPay attention to when the thing you're chasing exceeds its usefulness.\"",
+    "intro": "On things exceeding usefulness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-21-2021",
+    "author": "James Clear",
+    "date": "2021-10-21",
+    "section": "Ideas",
+    "explanation": "A principle about optimal scale, emphasizing that most things become problematic when they grow beyond their beneficial size and that awareness of this threshold is crucial"
+  },
+  {
+    "id": "2021-10-21-ideas-3",
+    "quote": "\"The strategies that made you successful in the past will, at some point, reach their limit.\n\nDon't let your previous choices set your future ceiling. The willingness to try new ideas allows you to keep advancing.\"",
+    "intro": "On trying new ideas",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-21-2021",
+    "author": "James Clear",
+    "date": "2021-10-21",
+    "section": "Ideas",
+    "explanation": "A principle about continuous evolution, emphasizing that past success strategies have limits and that ongoing growth requires openness to new approaches"
+  },
+  {
+    "id": "2021-10-14-ideas-1",
+    "quote": "\"The secret to being productive is to work on the right thing--even if it's at a slow pace.\"",
+    "intro": "On the secret to productivity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-14-2021",
+    "author": "James Clear",
+    "date": "2021-10-14",
+    "section": "Ideas",
+    "explanation": "A principle about productivity, emphasizing that working on the right priorities matters more than speed and that slow progress on important work is more valuable than fast progress on unimportant work"
+  },
+  {
+    "id": "2021-10-14-ideas-2",
+    "quote": "\"The best business ideas have yet to be tried. The best books have yet to be written. The best relationships have yet to be formed.\n\nIt's not too late. The space of possibilities is endless. The most interesting terrain remains unexplored.\"",
+    "intro": "On endless possibilities",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-14-2021",
+    "author": "James Clear",
+    "date": "2021-10-14",
+    "section": "Ideas",
+    "explanation": "An optimistic perspective on opportunity, emphasizing that the best work, relationships, and ideas are still ahead and that there's always room for innovation and creation"
+  },
+  {
+    "id": "2021-10-14-ideas-3",
+    "quote": "\"Do less. Keep returning to one thing and continue to refine it.\"",
+    "intro": "On doing less and refining",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-14-2021",
+    "author": "James Clear",
+    "date": "2021-10-14",
+    "section": "Ideas",
+    "explanation": "A principle about focus and mastery, emphasizing that concentrating effort on fewer things and continuously improving them produces better results than spreading effort across many areas"
+  },
+  {
+    "id": "2021-10-07-ideas-1",
+    "quote": "\"There is a difference between moving fast and rushing.\n\nYou can move fast and be thoughtful. When you rush, you sacrifice thoughtfulness.\n\nConversely, when you are thoughtful but not moving fast, you are overthinking it. Procrastination in disguise.\n\nDon't rush, but don't wait.\"",
+    "intro": "On moving fast vs rushing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-7-2021",
+    "author": "James Clear",
+    "date": "2021-10-07",
+    "section": "Ideas",
+    "explanation": "A distinction between speed and haste, emphasizing that effective action combines quick movement with thoughtful consideration while avoiding both rushing and overthinking"
+  },
+  {
+    "id": "2021-10-07-ideas-2",
+    "quote": "\"The more you create, the more powerful you become.\n\nThe more you consume, the more powerful others become.\"",
+    "intro": "On creating vs consuming",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-7-2021",
+    "author": "James Clear",
+    "date": "2021-10-07",
+    "section": "Ideas",
+    "explanation": "A principle about power and agency, emphasizing that creating content and value increases personal power while excessive consumption increases others' influence over you"
+  },
+  {
+    "id": "2021-10-07-ideas-3",
+    "quote": "\"The antidote to a bad day is a good workout.\"",
+    "intro": "On the antidote to a bad day",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-7-2021",
+    "author": "James Clear",
+    "date": "2021-10-07",
+    "section": "Ideas",
+    "explanation": "A simple principle about mood improvement, emphasizing that physical exercise can counteract negative emotions and provide a reset for difficult days"
+  },
+  {
     "id": "2021-09-30-ideas-1",
     "quote": "\"You only need to know the direction, not the destination.\n\nThe direction is enough to make the next choice.\"",
     "intro": "On knowing direction vs destination",
