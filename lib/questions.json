@@ -1,5 +1,55 @@
 [
   {
+    "id": "2021-07-29-question",
+    "quote": "Faster. If I had to go from start to finish in half the time, what would I do?\n\nSlower. If I could afford to spend double the time on it, what would I do?",
+    "intro": "On speed vs depth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-29-2021",
+    "author": "James Clear",
+    "date": "2021-07-29",
+    "section": "Questions",
+    "explanation": "A dual-perspective question for examining approaches to tasks, helping identify what's truly essential versus what could be enhanced with more time"
+  },
+  {
+    "id": "2021-07-22-question",
+    "quote": "Do I actually need more information or do I simply need to act on the information I already have?",
+    "intro": "On information vs action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-22-2021",
+    "author": "James Clear",
+    "date": "2021-07-22",
+    "section": "Questions",
+    "explanation": "A question for distinguishing between genuine need for more information versus procrastination disguised as research"
+  },
+  {
+    "id": "2021-07-15-question",
+    "quote": "What happens if I slow down? What happens if I speed up?",
+    "intro": "On pace and consequences",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-15-2021",
+    "author": "James Clear",
+    "date": "2021-07-15",
+    "section": "Questions",
+    "explanation": "A question for examining the consequences of different paces, helping evaluate whether current speed is optimal for the situation"
+  },
+  {
+    "id": "2021-07-08-question",
+    "quote": "What is the most likely cause of failure?\n\nBefore it happens, how can I prevent it? If it happens, how can I recover?",
+    "intro": "On failure prevention and recovery",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-8-2021",
+    "author": "James Clear",
+    "date": "2021-07-08",
+    "section": "Questions",
+    "explanation": "A strategic question for risk management, encouraging proactive thinking about potential failures and preparation for both prevention and recovery"
+  },
+  {
+    "id": "2021-07-01-question",
+    "quote": "What parts of my story no longer serve me? What stories am I attached to that I need to let go of?",
+    "intro": "On letting go of limiting stories",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-1-2021",
+    "author": "James Clear",
+    "date": "2021-07-01",
+    "section": "Questions",
+    "explanation": "A reflection question about personal narratives, encouraging examination of stories that may be holding back growth and progress"
+  },
+  {
     "id": "2021-06-24-question",
     "quote": "People will tell stories about you at your funeral. What chapter are you writing today?",
     "intro": "On writing your life story",

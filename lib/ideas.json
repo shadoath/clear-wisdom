@@ -1,5 +1,155 @@
 [
   {
+    "id": "2021-07-29-ideas-1",
+    "quote": "\"The Cardinal Rule of Behavior Change:\n\nWhat gets rewarded, gets repeated. What gets punished, gets avoided.\n\nDon't reward behavior you don't want to see repeated.\"",
+    "intro": "On the cardinal rule of behavior change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-29-2021",
+    "author": "James Clear",
+    "date": "2021-07-29",
+    "section": "Ideas",
+    "explanation": "A fundamental principle of behavior modification, emphasizing that reinforcement patterns determine what behaviors persist or disappear"
+  },
+  {
+    "id": "2021-07-29-ideas-2",
+    "quote": "\"The bad days are more important than the good days.\n\nIf you write or exercise or meditate or cook when you don't feel like it, then you maintain the habit.\n\nAnd if you maintain the habit, then all you need is time.\"",
+    "intro": "On the importance of bad days",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-29-2021",
+    "author": "James Clear",
+    "date": "2021-07-29",
+    "section": "Ideas",
+    "explanation": "An insight about habit maintenance, emphasizing that consistency on difficult days is more crucial for long-term success than performance on easy days"
+  },
+  {
+    "id": "2021-07-29-ideas-3",
+    "quote": "\"You can usually accomplish more by giving something your full effort for a few years rather than giving it a lukewarm effort for fifty years.\n\nPick a priority for this season of your life and do it to the best of your ability.\"",
+    "intro": "On focused effort vs lukewarm effort",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-29-2021",
+    "author": "James Clear",
+    "date": "2021-07-29",
+    "section": "Ideas",
+    "explanation": "A principle about intensity versus duration, emphasizing that concentrated effort over shorter periods produces better results than diluted effort over long periods"
+  },
+  {
+    "id": "2021-07-22-ideas-1",
+    "quote": "\"Not being busy is a competitive advantage.\n\nMost people are so strapped for time they can't take advantage of lucky opportunities or quickly resolve unexpected problems.\n\nMaintain a bias toward action, but leave room for the unexpected.\"",
+    "intro": "On not being busy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-22-2021",
+    "author": "James Clear",
+    "date": "2021-07-22",
+    "section": "Ideas",
+    "explanation": "A counterintuitive insight about busyness, showing how maintaining capacity for unexpected opportunities provides strategic advantages"
+  },
+  {
+    "id": "2021-07-22-ideas-2",
+    "quote": "\"Finishing projects is part of what it means to deliver high quality work. It's not high quality if your perfectionism prevents you from finishing.\"",
+    "intro": "On finishing projects",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-22-2021",
+    "author": "James Clear",
+    "date": "2021-07-22",
+    "section": "Ideas",
+    "explanation": "A perspective on quality and completion, emphasizing that true quality includes finishing work rather than endless refinement"
+  },
+  {
+    "id": "2021-07-22-ideas-3",
+    "quote": "\"I can't tell you how many times I don't feel like training and tell myself, \"I'll just do one set and see how I feel.\"\n\nYou would think it would stop working at some point, but I almost always end up doing the whole workout.\n\nJust start. Do a little and see what happens.\"",
+    "intro": "On just starting",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-22-2021",
+    "author": "James Clear",
+    "date": "2021-07-22",
+    "section": "Ideas",
+    "explanation": "A personal strategy for overcoming resistance, showing how committing to a small initial action often leads to completing the full task"
+  },
+  {
+    "id": "2021-07-15-ideas-1",
+    "quote": "\"Strangely, life gets harder when you try to make it easy.\n\nExercising might be hard, but never moving makes life harder.\nUncomfortable conversations are hard, but avoiding every conflict is harder. Mastering your craft is hard, but having no skills is harder.\n\nEasy has a cost.\"",
+    "intro": "On easy having a cost",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-15-2021",
+    "author": "James Clear",
+    "date": "2021-07-15",
+    "section": "Ideas",
+    "explanation": "A paradox about difficulty, showing how avoiding short-term challenges often creates greater long-term problems"
+  },
+  {
+    "id": "2021-07-15-ideas-2",
+    "quote": "\"Unfinished projects can't compound.\"",
+    "intro": "On unfinished projects",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-15-2021",
+    "author": "James Clear",
+    "date": "2021-07-15",
+    "section": "Ideas",
+    "explanation": "A principle about completion and compounding, emphasizing that only finished work can generate ongoing benefits and growth"
+  },
+  {
+    "id": "2021-07-15-ideas-3",
+    "quote": "\"When choosing a new habit many people seem to ask themselves, \"What can I do on my best days?\"\nThe trick is to ask, \"What can I stick to even on my worst days?\"\nStart small. Master the art of showing up. Scale up when you have the time, energy, and interest.\"",
+    "intro": "On choosing habits for worst days",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-15-2021",
+    "author": "James Clear",
+    "date": "2021-07-15",
+    "section": "Ideas",
+    "explanation": "A strategy for sustainable habit formation, emphasizing the importance of designing habits that work during difficult periods rather than optimal conditions"
+  },
+  {
+    "id": "2021-07-08-ideas-1",
+    "quote": "\"You don't need to predict how everything will play out.\n\nJust master the next step and continue moving in the right direction.\"",
+    "intro": "On mastering the next step",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-8-2021",
+    "author": "James Clear",
+    "date": "2021-07-08",
+    "section": "Ideas",
+    "explanation": "A principle about progress and planning, emphasizing that focusing on the immediate next step is more effective than trying to predict the entire journey"
+  },
+  {
+    "id": "2021-07-08-ideas-2",
+    "quote": "\"Prediction depends on events outside your control.\n\nCreation depends on events within your control.\n\nDon't guess about the future. Shape it.\"",
+    "intro": "On prediction vs creation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-8-2021",
+    "author": "James Clear",
+    "date": "2021-07-08",
+    "section": "Ideas",
+    "explanation": "A distinction between passive prediction and active creation, emphasizing the power of shaping outcomes through controllable actions"
+  },
+  {
+    "id": "2021-07-08-ideas-3",
+    "quote": "\"Three steps to exceptional results:\n\n1) Do less. Stop dividing your attention.\n\n2) Do it right now. Once you have identified the essential, go fast.\nMaintain a bias toward action.\n\n3) Do it the right way. Acting quickly doesn't mean acting carelessly.\nGet to work right away, but keep working on it until it's right.\"",
+    "intro": "On three steps to exceptional results",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-8-2021",
+    "author": "James Clear",
+    "date": "2021-07-08",
+    "section": "Ideas",
+    "explanation": "A systematic approach to achieving exceptional results through focus, speed, and quality, emphasizing the importance of all three elements"
+  },
+  {
+    "id": "2021-07-01-ideas-1",
+    "quote": "\"Choosing the priority is as important as working on it.\"",
+    "intro": "On choosing priorities",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-1-2021",
+    "author": "James Clear",
+    "date": "2021-07-01",
+    "section": "Ideas",
+    "explanation": "A principle about the importance of selection, emphasizing that choosing what to focus on is as crucial as the effort put into that focus"
+  },
+  {
+    "id": "2021-07-01-ideas-2",
+    "quote": "\"A surprisingly effective way to get what you want is to not settle for less than what you want.\n\nIt doesn't always work--you can't force the world to be a certain way--and you may need healthy doses of patience and doggedness, but your life bends toward what you accept.\"",
+    "intro": "On not settling",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-1-2021",
+    "author": "James Clear",
+    "date": "2021-07-01",
+    "section": "Ideas",
+    "explanation": "A principle about standards and acceptance, showing how refusing to settle for less than what you want can influence outcomes over time"
+  },
+  {
+    "id": "2021-07-01-ideas-3",
+    "quote": "\"We need to redefine \"hard work\" to include \"hard thinking.\"\n\nThe person who outsmarts you is out working you. The person who finds shortcuts is out working you. The person with a better strategy is out working you.\n\nUsually, the hardest work is thinking of a better way to do it.\"",
+    "intro": "On redefining hard work",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-1-2021",
+    "author": "James Clear",
+    "date": "2021-07-01",
+    "section": "Ideas",
+    "explanation": "A reframing of what constitutes hard work, emphasizing that strategic thinking and optimization are forms of effort that often matter more than physical labor"
+  },
+  {
     "id": "2021-06-24-ideas-1",
     "quote": "\"Starting from zero can be a gift.\n\nIf you don't have much to begin with, you don't have much to lose.\n\nYou can be bold when you aren't trying to protect something.\"",
     "intro": "On starting from zero",
