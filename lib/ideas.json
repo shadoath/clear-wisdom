@@ -1,5 +1,155 @@
 [
   {
+    "id": "2021-12-30-ideas-1",
+    "quote": "\"An expert is someone who, over many years, manages to remain confident enough to keep trying and humble enough to keep learning.\"",
+    "intro": "On what makes an expert",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-30-2021",
+    "author": "James Clear",
+    "date": "2021-12-30",
+    "section": "Ideas",
+    "explanation": "A definition of expertise that balances confidence and humility, emphasizing that true experts maintain both the persistence to keep trying and the openness to keep learning"
+  },
+  {
+    "id": "2021-12-30-ideas-2",
+    "quote": "\"You have no responsibility to live up to someone else's expectation of you.\n\nSpend as little time as possible chasing other people's preferences instead of your own.\"",
+    "intro": "On living up to others' expectations",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-30-2021",
+    "author": "James Clear",
+    "date": "2021-12-30",
+    "section": "Ideas",
+    "explanation": "A principle about personal autonomy and priorities, emphasizing that we should focus on our own values and preferences rather than trying to meet others' expectations"
+  },
+  {
+    "id": "2021-12-30-ideas-3",
+    "quote": "\"Slowing down enables you to act in a high quality way.\n\nKind rather than curt. Polished rather than sloppy.\n\nIt's hard to be thoughtful when you're in a rush.\"",
+    "intro": "On slowing down for quality",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-30-2021",
+    "author": "James Clear",
+    "date": "2021-12-30",
+    "section": "Ideas",
+    "explanation": "A principle about the relationship between speed and quality, emphasizing that slowing down allows for more thoughtful, kind, and polished actions"
+  },
+  {
+    "id": "2021-12-23-ideas-1",
+    "quote": "\"If you're not working hard, ideas don't matter. The best idea is worthless without execution.\n\nIf you're already working hard, ideas are crucial. Most effort is wasted on mediocre ideas.\"",
+    "intro": "On ideas vs execution",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-23-2021",
+    "author": "James Clear",
+    "date": "2021-12-23",
+    "section": "Ideas",
+    "explanation": "A principle about the relationship between ideas and execution, emphasizing that execution matters most when effort is lacking, but idea quality becomes crucial when effort is already high"
+  },
+  {
+    "id": "2021-12-23-ideas-2",
+    "quote": "\"Don't over-improve your weaknesses. If you're not good at something, work on it until it no longer prevents your progress, but the bulk of your time is better spent maximizing your strengths.\"",
+    "intro": "On improving weaknesses vs maximizing strengths",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-23-2021",
+    "author": "James Clear",
+    "date": "2021-12-23",
+    "section": "Ideas",
+    "explanation": "A principle about skill development strategy, emphasizing that weaknesses should be improved only to the point of not hindering progress, while most effort should focus on maximizing strengths"
+  },
+  {
+    "id": "2021-12-23-ideas-3",
+    "quote": "\"Life rarely changes in a positive way without an increase in responsibility.\n\nThat can mean taking ownership of your health or committing to a relationship or starting a business.\n\nWhatever it is, if you want the trajectory to change, the amount of responsibility usually has to change.\"",
+    "intro": "On responsibility and positive change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-23-2021",
+    "author": "James Clear",
+    "date": "2021-12-23",
+    "section": "Ideas",
+    "explanation": "A principle about growth and change, emphasizing that positive life changes typically require taking on more responsibility and ownership in various areas"
+  },
+  {
+    "id": "2021-12-16-ideas-1",
+    "quote": "\"The difference between good and great is often an extra round of revision.\n\nThe person who looks things over a second time will appear smarter or more talented, but actually is just polishing things a bit more.\n\nTake the time to get it right. Revise it one extra time.\"",
+    "intro": "On the difference between good and great",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-16-2021",
+    "author": "James Clear",
+    "date": "2021-12-16",
+    "section": "Ideas",
+    "explanation": "A principle about quality improvement, emphasizing that the gap between good and great work is often just one additional round of revision and refinement"
+  },
+  {
+    "id": "2021-12-16-ideas-2",
+    "quote": "\"One of the best strategies for learning something quickly: corner a nerd.\n\nFind someone who totally geeks out about that topic and ask them every question you can think of.\"",
+    "intro": "On learning quickly from experts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-16-2021",
+    "author": "James Clear",
+    "date": "2021-12-16",
+    "section": "Ideas",
+    "explanation": "A strategy for accelerated learning, emphasizing that finding passionate experts and asking them extensive questions is an efficient way to gain deep knowledge quickly"
+  },
+  {
+    "id": "2021-12-16-ideas-3",
+    "quote": "\"A brief guide to compounding:\n\nIf you don't enjoy something, you won't stick with it.\n\nIf you don't stick with it, it won't compound.\n\nBeing interested precedes the results.\"",
+    "intro": "On compounding and interest",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-16-2021",
+    "author": "James Clear",
+    "date": "2021-12-16",
+    "section": "Ideas",
+    "explanation": "A principle about sustainable progress, emphasizing that enjoyment and interest are prerequisites for long-term commitment, which is necessary for compounding results"
+  },
+  {
+    "id": "2021-12-09-ideas-1",
+    "quote": "\"Think about what you want today and you'll spend your time.\n\nThink about what you want in 5 years and you'll invest your time.\"",
+    "intro": "On spending vs investing time",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-9-2021",
+    "author": "James Clear",
+    "date": "2021-12-09",
+    "section": "Ideas",
+    "explanation": "A distinction between short-term and long-term thinking, emphasizing that immediate desires lead to spending time while future goals lead to investing time"
+  },
+  {
+    "id": "2021-12-09-ideas-2",
+    "quote": "\"Someone else living a good life does not prevent you from living a good life.\n\nThere are many ways to win and plenty of space.\"",
+    "intro": "On abundance vs scarcity mindset",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-9-2021",
+    "author": "James Clear",
+    "date": "2021-12-09",
+    "section": "Ideas",
+    "explanation": "A principle about abundance thinking, emphasizing that others' success doesn't limit our own opportunities and that there are multiple paths to fulfillment"
+  },
+  {
+    "id": "2021-12-09-ideas-3",
+    "quote": "\"You don't need to catch every break if you're willing to keep trying.\n\nEvery winner has an archive of losses, but each attempt creates the chance for a victory.\n\nYou need to be patient, but not passive. Active patience.\"",
+    "intro": "On active patience",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-9-2021",
+    "author": "James Clear",
+    "date": "2021-12-09",
+    "section": "Ideas",
+    "explanation": "A principle about persistence and patience, emphasizing that success doesn't require catching every opportunity but rather continuing to try while maintaining active engagement"
+  },
+  {
+    "id": "2021-12-02-ideas-1",
+    "quote": "\"When considering a new project or opportunity, one of the first questions to ask is, \"How do I want to spend my days?\"\n\nMake as few choices as possible that violate your answer.\n\nMany opportunities seem exciting but actually give you less of the life you want.\"",
+    "intro": "On choosing opportunities based on daily life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-2-2021",
+    "author": "James Clear",
+    "date": "2021-12-02",
+    "section": "Ideas",
+    "explanation": "A decision-making framework for evaluating opportunities, emphasizing that choices should align with desired daily experiences rather than just exciting outcomes"
+  },
+  {
+    "id": "2021-12-02-ideas-2",
+    "quote": "\"Train hard and focus on what you can control.\"",
+    "intro": "On training hard and focusing on controllables",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-2-2021",
+    "author": "James Clear",
+    "date": "2021-12-02",
+    "section": "Ideas",
+    "explanation": "A principle about effort and focus, emphasizing the importance of intense preparation while concentrating energy on factors within one's control"
+  },
+  {
+    "id": "2021-12-02-ideas-3",
+    "quote": "\"Be kind. You should do it simply to be decent, but do it even if you're a ruthless mercenary because you have no idea where people will end up in 10 years. The balance of power is always shifting. People will surprise you.\"",
+    "intro": "On being kind",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-2-2021",
+    "author": "James Clear",
+    "date": "2021-12-02",
+    "section": "Ideas",
+    "explanation": "A principle about kindness and relationships, emphasizing that kindness should be practiced both for moral reasons and strategic ones, since power dynamics change over time"
+  },
+  {
     "id": "2021-11-25-ideas-1",
     "quote": "\"Doing it right is hard. Doing it over is harder.\"",
     "intro": "On doing it right vs doing it over",

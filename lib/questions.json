@@ -1,5 +1,55 @@
 [
   {
+    "id": "2021-12-30-question",
+    "quote": "What is one lesson you learned (or relearned) this year?",
+    "intro": "On lessons from the year",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-30-2021",
+    "author": "James Clear",
+    "date": "2021-12-30",
+    "section": "Questions",
+    "explanation": "A reflection question for identifying key learnings from the past year, encouraging self-awareness and growth through retrospective analysis"
+  },
+  {
+    "id": "2021-12-23-question",
+    "quote": "What is something meaningful you can accomplish in the final week of the year?\n\nThe year isn't over yet. End on a high note.",
+    "intro": "On ending the year on a high note",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-23-2021",
+    "author": "James Clear",
+    "date": "2021-12-23",
+    "section": "Questions",
+    "explanation": "A motivation question for identifying meaningful accomplishments in the final week of the year, encouraging proactive action and positive closure"
+  },
+  {
+    "id": "2021-12-16-question",
+    "quote": "What am I continuing to do out of habit, but is no longer serving me?",
+    "intro": "On habits that no longer serve",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-16-2021",
+    "author": "James Clear",
+    "date": "2021-12-16",
+    "section": "Questions",
+    "explanation": "A self-examination question for identifying outdated habits and behaviors, encouraging conscious evaluation of automatic actions and their current value"
+  },
+  {
+    "id": "2021-12-09-question",
+    "quote": "Are you playing a game worth winning?",
+    "intro": "On playing a game worth winning",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-9-2021",
+    "author": "James Clear",
+    "date": "2021-12-09",
+    "section": "Questions",
+    "explanation": "A strategic question for evaluating the worthiness of current pursuits and goals, encouraging reflection on whether the game being played aligns with values and aspirations"
+  },
+  {
+    "id": "2021-12-02-question",
+    "quote": "A question from Paul Allen, the co-founder of Microsoft:\n\n\"What should exist? To me, that's the most exciting question imaginable. What do we need that we don't have?\"",
+    "intro": "On what should exist",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-2-2021",
+    "author": "Paul Allen",
+    "date": "2021-12-02",
+    "section": "Questions",
+    "explanation": "Paul Allen's innovation question for identifying unmet needs and opportunities, encouraging creative thinking about what could be created or improved in the world"
+  },
+  {
     "id": "2021-11-25-question",
     "quote": "At this time next year, what will you be thankful you spent time on during the next 12 months?",
     "intro": "On future gratitude",
