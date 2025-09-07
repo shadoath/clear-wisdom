@@ -1,5 +1,125 @@
 [
   {
+    "id": "2021-03-25-ideas-1",
+    "quote": "\"Italy is known for tomatoes. Thailand for chilies. Germany for sauerkraut.\n\nBut tomatoes originated in Peru. Thailand imported chilies from Central America. Sauerkraut started in China.\n\nEverything is a remix--and the world is better for it. Share what you know. Learn from others.\"",
+    "intro": "On everything being a remix",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-25-2021",
+    "author": "James Clear",
+    "date": "2021-03-25",
+    "section": "Ideas",
+    "explanation": "An insight about cultural exchange and innovation, showing how ideas and practices spread and evolve across cultures, making the world richer through sharing and learning"
+  },
+  {
+    "id": "2021-03-25-ideas-2",
+    "quote": "A reminder from Atomic Habits:\n\n\"Habits are the compound interest of self-improvement.\n\nA small habit--when repeated consistently--grows into something significant.\"",
+    "intro": "On habits as compound interest",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-25-2021",
+    "author": "James Clear",
+    "date": "2021-03-25",
+    "section": "Ideas",
+    "explanation": "A core principle from Atomic Habits about how small, consistent actions compound over time to create significant results, using the metaphor of compound interest"
+  },
+  {
+    "id": "2021-03-25-ideas-3",
+    "quote": "\"People who excel tend to obsess over the details.\n\nPeople who struggle also tend to obsess over the details.\n\nThe difference is what details they focus on. Minutiae vs polish.\n\nMost things don't matter--but when it does, you want to get the details right.\"",
+    "intro": "On obsessing over details",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-25-2021",
+    "author": "James Clear",
+    "date": "2021-03-25",
+    "section": "Ideas",
+    "explanation": "A distinction between productive and unproductive attention to detail, emphasizing the importance of focusing on the right details rather than getting lost in minutiae"
+  },
+  {
+    "id": "2021-03-18-ideas-1",
+    "quote": "\"New goals don't deliver new results. New lifestyles do.\n\nAnd a lifestyle is a process, not an outcome.\n\nFor this reason, your energy should go into building better habits, not chasing better results.\"",
+    "intro": "On new goals vs new lifestyles",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-18-2021",
+    "author": "James Clear",
+    "date": "2021-03-18",
+    "section": "Ideas",
+    "explanation": "A fundamental distinction between goal-setting and lifestyle change, emphasizing that sustainable results come from building better habits rather than pursuing outcomes"
+  },
+  {
+    "id": "2021-03-18-ideas-2",
+    "quote": "\"Some things are better off ignored than attacked.\n\nAttention is the oxygen of conflict. When you fight a problem, you breathe life into it. When you starve a problem of your attention, you suffocate it.\n\nIn a surprising number of cases, the way to solve a problem is to ignore it.\"",
+    "intro": "On when to ignore a problem",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-18-2021",
+    "author": "James Clear",
+    "date": "2021-03-18",
+    "section": "Ideas",
+    "explanation": "A counterintuitive approach to problem-solving, showing how attention fuels conflicts and how strategic ignoring can be more effective than confrontation"
+  },
+  {
+    "id": "2021-03-18-ideas-3",
+    "quote": "\"The events of your past are fixed. The meaning of your past is not.\n\nThe influence of every experience in your life is determined by the meaning you assign to it.\n\nAssign a more useful meaning to your past and it becomes easier to take a more useful action in the present.\"",
+    "intro": "On the meaning of past events",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-18-2021",
+    "author": "James Clear",
+    "date": "2021-03-18",
+    "section": "Ideas",
+    "explanation": "An insight about the power of interpretation, showing how reframing past experiences can change their impact on present behavior and future possibilities"
+  },
+  {
+    "id": "2021-03-11-ideas-1",
+    "quote": "\"Repetition unlocks value.\n\nThe value of your first workout increases the more you exercise.\n\nThe value of your first article increases the more you write.\n\nThe value of your first conversation increases the longer you stay in the relationship.\n\nDay One continues to compound.\"",
+    "intro": "On repetition unlocking value",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-11-2021",
+    "author": "James Clear",
+    "date": "2021-03-11",
+    "section": "Ideas",
+    "explanation": "A principle about how initial actions gain value through repetition, showing that the first step becomes more valuable as you continue the practice"
+  },
+  {
+    "id": "2021-03-11-ideas-2",
+    "quote": "\"The sooner you make a choice, the sooner you can make an adjustment.\"",
+    "intro": "On making choices early",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-11-2021",
+    "author": "James Clear",
+    "date": "2021-03-11",
+    "section": "Ideas",
+    "explanation": "A simple principle about decision-making and iteration, emphasizing that early choices enable faster learning and course correction"
+  },
+  {
+    "id": "2021-03-11-ideas-3",
+    "quote": "\"Books are more likely to change minds than conversations.\n\nThere is too much happening internally during conversation:\n\nDid that sound stupid?\nWhat do they think of me?\nWill I lose the friendship over this opinion?\n\nBooks can let you chew on an idea without social risk.\"",
+    "intro": "On books vs conversations",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-11-2021",
+    "author": "James Clear",
+    "date": "2021-03-11",
+    "section": "Ideas",
+    "explanation": "A comparison of books and conversations for changing minds, highlighting how books allow for deeper reflection without social pressure and ego concerns"
+  },
+  {
+    "id": "2021-03-04-ideas-1",
+    "quote": "\"Greatness is consistency.\n\nMeditating once is common. Meditating daily is rare.\n\nExercising today is simple. Training every week is simply remarkable.\n\nWriting one essay rarely matters. Write every day and you're practically a hero.\n\nUnheroic days can make for heroic decades.\"",
+    "intro": "On greatness as consistency",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-4-2021",
+    "author": "James Clear",
+    "date": "2021-03-04",
+    "section": "Ideas",
+    "explanation": "A definition of greatness through consistency, showing how ordinary actions become extraordinary when performed regularly over time"
+  },
+  {
+    "id": "2021-03-04-ideas-2",
+    "quote": "\"An approach that has worked well for me: Friendly, but persistent.\"",
+    "intro": "On being friendly but persistent",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-4-2021",
+    "author": "James Clear",
+    "date": "2021-03-04",
+    "section": "Ideas",
+    "explanation": "A personal approach to interactions and negotiations that balances warmth with determination, showing how persistence can be effective when combined with friendliness"
+  },
+  {
+    "id": "2021-03-04-ideas-3",
+    "quote": "\"People generally have more control over their actions than their feelings.\n\nBut we can influence our feelings by taking action.\n\nTake one small step. Move the body first and the mind will follow.\"",
+    "intro": "On influencing feelings through action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-4-2021",
+    "author": "James Clear",
+    "date": "2021-03-04",
+    "section": "Ideas",
+    "explanation": "A principle about emotional regulation through action, showing how physical movement can influence mental state and how actions are more controllable than feelings"
+  },
+  {
     "id": "2021-02-04-ideas-1",
     "quote": "\"It took me...\n200+ articles before I got a book deal.\n250+ articles before I got major media coverage.\n100+ interviews before my book hit the bestseller list.\nYou need a lot of shots on goal. Not everything will work, but some of it will.\nKeep shooting.\"",
     "intro": "On taking shots on goal",

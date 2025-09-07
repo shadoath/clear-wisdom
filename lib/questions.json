@@ -1,5 +1,45 @@
 [
   {
+    "id": "2021-03-25-question",
+    "quote": "Does the amount of time I'm giving this match its true importance?",
+    "intro": "On time allocation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-25-2021",
+    "author": "James Clear",
+    "date": "2021-03-25",
+    "section": "Questions",
+    "explanation": "A question for evaluating whether your time investment aligns with the actual importance of activities, helping prioritize what truly matters"
+  },
+  {
+    "id": "2021-03-18-question",
+    "quote": "What could be improved? What could be removed?",
+    "intro": "On improvement and removal",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-18-2021",
+    "author": "James Clear",
+    "date": "2021-03-18",
+    "section": "Questions",
+    "explanation": "A dual question for optimization, encouraging both enhancement of existing elements and elimination of unnecessary ones"
+  },
+  {
+    "id": "2021-03-11-question",
+    "quote": "What 6-month period of your life was the most energizing and fun?\n\nWhat can you learn from your answer?",
+    "intro": "On energizing periods",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-11-2021",
+    "author": "James Clear",
+    "date": "2021-03-11",
+    "section": "Questions",
+    "explanation": "A reflection question to identify peak life experiences and extract lessons about what conditions create energy and joy"
+  },
+  {
+    "id": "2021-03-04-question",
+    "quote": "What are my actions moving me closer to?",
+    "intro": "On action direction",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-4-2021",
+    "author": "James Clear",
+    "date": "2021-03-04",
+    "section": "Questions",
+    "explanation": "A directional question for evaluating whether current actions align with desired outcomes and goals"
+  },
+  {
     "id": "2021-02-04-question",
     "quote": "Today's question comes from the engineer, Richard Hamming:\n\n\"If you do not work on important problems, how can you expect to do important work?\"",
     "intro": "On working on important problems",

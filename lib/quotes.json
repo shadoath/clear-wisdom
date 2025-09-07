@@ -1,5 +1,85 @@
 [
   {
+    "id": "2021-03-25-quotes-1",
+    "quote": "Psychologist **Adam Grant** on how to elicit feedback:\n\n\"When people hesitate to give honest feedback on an idea, draft, or performance, I ask for a 0-10 score.\n\nNo one ever says 10. Then I ask how I can get closer to a 10.\n\nIt motivates them to start coaching me - and motivates me to be coachable. I want to learn how to close the gap.\"",
+    "intro": "On how to elicit feedback",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-25-2021",
+    "author": "Adam Grant",
+    "date": "2021-03-25",
+    "section": "Quotes",
+    "explanation": "Adam Grant's practical technique for getting honest feedback by using a scoring system that naturally leads to constructive coaching conversations"
+  },
+  {
+    "id": "2021-03-25-quotes-2",
+    "quote": "Linguist and philosopher **Noam Chomsky** on seeking what is significant:\n\n\"You can't expect somebody to become a biologist by giving them access to the Harvard University biology library and saying, \"Just look through it.\" That will give them nothing. The internet is the same, except magnified enormously.\n\n...\n\nThe person who wins the Nobel Prize in biology is not the person who read the most journal articles and took the most notes on them. It's the person who knew what to look for.\n\nCultivating that capacity to seek what's significant, always willing to question whether you're on the right track, that's what education is going to be about, whether it's using computers and internet, or pencil and paper and books.\"",
+    "intro": "On seeking what is significant",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-25-2021",
+    "author": "Noam Chomsky",
+    "date": "2021-03-25",
+    "section": "Quotes",
+    "explanation": "Noam Chomsky's insight about the importance of discernment in learning, emphasizing that knowing what to look for matters more than consuming vast amounts of information"
+  },
+  {
+    "id": "2021-03-18-quotes-1",
+    "quote": "Teacher and novelist **Amelia Barr** on the difference between mediocrity and genius:\n\n\"Everything good needs time. Don't do work in a hurry. Go into details; it pays in every way. Time means power for your work. Mediocrity is always in a rush; but whatever is worth doing at all is worth doing with consideration. For genius is nothing more nor less than doing well what anyone can do badly.\"",
+    "intro": "On the difference between mediocrity and genius",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-18-2021",
+    "author": "Amelia Barr",
+    "date": "2021-03-18",
+    "section": "Quotes",
+    "explanation": "Amelia Barr's definition of genius as doing well what others do badly, emphasizing the importance of time, attention to detail, and thoughtful execution"
+  },
+  {
+    "id": "2021-03-18-quotes-2",
+    "quote": "In her novel, The Painted Drum, writer **Louise Erdrich** discusses taking risks:\n\n\"Life will break you. Nobody can protect you from that, and being alone won't either, for solitude will also break you with its yearning. You have to love. You have to feel. It is the reason you are here on earth. You have to risk your heart. You are here to be swallowed up. And when it happens that you are broken, or betrayed, or left, or hurt, or death brushes too near, let yourself sit by an apple tree and listen to the apples falling all around you in heaps, wasting their sweetness. Tell yourself that you tasted as many as you could.\"",
+    "intro": "On taking risks",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-18-2021",
+    "author": "Louise Erdrich",
+    "date": "2021-03-18",
+    "section": "Quotes",
+    "explanation": "Louise Erdrich's poetic meditation on the necessity of risking your heart despite inevitable pain, emphasizing that love and feeling are the purpose of life"
+  },
+  {
+    "id": "2021-03-11-quotes-1",
+    "quote": "Poet **Mary Oliver** on allowing yourself to be happy and full:\n\n\"If you suddenly and unexpectedly feel joy, don't hesitate. Give in to it.\n\n...whatever it is, don't be afraid of its plenty.\n\nJoy is not made to be a crumb.\"",
+    "intro": "On allowing yourself to be happy and full",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-11-2021",
+    "author": "Mary Oliver",
+    "date": "2021-03-11",
+    "section": "Quotes",
+    "explanation": "Mary Oliver's encouragement to embrace joy fully when it appears, rejecting the tendency to minimize or ration happiness"
+  },
+  {
+    "id": "2021-03-11-quotes-2",
+    "quote": "Philosopher and priest **Franz Brentano** on how small errors compound:\n\n\"What is at first small is often extremely large in the end. And so it happens that whoever deviates only a little from truth in the beginning is led farther and farther afield in the sequel, and to errors which are a thousand times as large.\"",
+    "intro": "On how small errors compound",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-11-2021",
+    "author": "Franz Brentano",
+    "date": "2021-03-11",
+    "section": "Quotes",
+    "explanation": "Franz Brentano's warning about how small deviations from truth compound exponentially, emphasizing the importance of accuracy from the beginning"
+  },
+  {
+    "id": "2021-03-04-quotes-1",
+    "quote": "Writer **James Baldwin** on hate as a defense mechanism:\n\n\"I imagine one of the reasons people cling to their hates so stubbornly is because they sense, once hate is gone, they will be forced to deal with pain.\"",
+    "intro": "On hate as a defense mechanism",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-4-2021",
+    "author": "James Baldwin",
+    "date": "2021-03-04",
+    "section": "Quotes",
+    "explanation": "James Baldwin's psychological insight about hate as a protective mechanism that shields people from confronting underlying pain and vulnerability"
+  },
+  {
+    "id": "2021-03-04-quotes-2",
+    "quote": "Basketball coach **John Wooden**, winner of 10 championships, on giving:\n\n\"There is a wonderful, almost mystical, law of nature that says three of the things we want most--happiness, freedom, and peace of mind--are always attained when we give them to others. Give it away to get it back.\"",
+    "intro": "On giving",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-4-2021",
+    "author": "John Wooden",
+    "date": "2021-03-04",
+    "section": "Quotes",
+    "explanation": "John Wooden's principle about the paradoxical nature of giving, showing how the things we most desire are obtained by giving them away to others"
+  },
+  {
     "id": "2021-02-04-quotes-1",
     "quote": "The art historian **Gustav Friedrich Waagen** on how to teach so people learn:\n\n\"First delight, then instruct.\"",
     "intro": "On how to teach so people learn",
