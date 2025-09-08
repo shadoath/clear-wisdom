@@ -1,5 +1,85 @@
 [
   {
+    "id": "2022-08-25-quotes-1",
+    "quote": "**Fyodor Dostoyevsky**, often considered one of the greatest writers in history, explains the importance of habits:\n\n\"It seems, in fact, as though the second half of a person's life is made up of nothing but the habits they accumulated during the first half.\"",
+    "intro": "On the importance of habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-25-2022",
+    "author": "Fyodor Dostoyevsky",
+    "date": "2022-08-25",
+    "section": "Quotes",
+    "explanation": "Fyodor Dostoyevsky's insight about habit accumulation, emphasizing that the habits formed in early life become the foundation for how the second half of life unfolds"
+  },
+  {
+    "id": "2022-08-25-quotes-2",
+    "quote": "Science fiction author **Ursula K. Le Guin** discusses how art opens our eyes, ears, and souls to the real world:\n\n\"The daily routine of most adults is so heavy and artificial that we are closed off to much of the world. We have to do this in order to get our work done. I think one purpose of art is to get us out of those routines.\n\nWhen we hear music or poetry or stories, the world opens up again. We're drawn in -- or out -- and the windows of our perception are cleansed, as William Blake said. The same thing can happen when we're around young children or adults who have unlearned those habits of shutting the world out.\"",
+    "intro": "On how art opens our eyes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-25-2022",
+    "author": "Ursula K. Le Guin",
+    "date": "2022-08-25",
+    "section": "Quotes",
+    "explanation": "Ursula K. Le Guin's perspective on art and perception, emphasizing that art breaks through routine and artificial barriers to reconnect us with the world's wonder and possibility"
+  },
+  {
+    "id": "2022-08-18-quotes-1",
+    "quote": "Author and futurist **Robert Anton Wilson** on the size of a person:\n\n\"You are precisely as big as what you love and precisely as small as what you allow to annoy you.\"",
+    "intro": "On the size of a person",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-18-2022",
+    "author": "Robert Anton Wilson",
+    "date": "2022-08-18",
+    "section": "Quotes",
+    "explanation": "Robert Anton Wilson's principle about personal scale, emphasizing that our capacity for love determines our greatness while our tolerance for annoyance determines our limitations"
+  },
+  {
+    "id": "2022-08-18-quotes-2",
+    "quote": "Aviator and writer **Anne Morrow Lindbergh** on the importance of mixing suffering with reflection:\n\n\"I do not believe that sheer suffering teaches. If suffering alone taught, all the world would be wise, since everyone suffers. To suffering must be added mourning, understanding, patience, love, openness and the willingness to remain vulnerable. All these and other factors combined, if the circumstances are right, can teach and can lead to rebirth.\"",
+    "intro": "On mixing suffering with reflection",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-18-2022",
+    "author": "Anne Morrow Lindbergh",
+    "date": "2022-08-18",
+    "section": "Quotes",
+    "explanation": "Anne Morrow Lindbergh's insight about suffering and growth, emphasizing that suffering alone doesn't teach but requires additional elements like reflection, love, and vulnerability to become transformative"
+  },
+  {
+    "id": "2022-08-11-quotes-1",
+    "quote": "Insurance executive and entrepreneur **Art Williams** on motivation:\n\n\"Almost everybody can stay excited for 2 or 3 months. A few people can stay excited for 2 or 3 years. But a winner will stay excited for 30 years or however long it takes to win.\"",
+    "intro": "On motivation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-11-2022",
+    "author": "Art Williams",
+    "date": "2022-08-11",
+    "section": "Quotes",
+    "explanation": "Art Williams' principle about sustained motivation, emphasizing that true winners maintain excitement and commitment for decades rather than months or years"
+  },
+  {
+    "id": "2022-08-11-quotes-2",
+    "quote": "Journalist and writer **Oliver Burkeman** shares a strategy for generosity he learned from meditation teacher Joseph Goldstein:\n\n\"Whenever a generous impulse arises in your mind - to give money, check in on a friend, send an email praising someone's work - act on the impulse right away, rather than putting it off until later.\n\nWhen we fail to act on such urges, it's rarely out of mean-spiritedness, or because we have second thoughts about whether the prospective recipient deserves it. More often, it's because of some attitude stemming from our efforts to feel in control of our time. We tell ourselves we'll turn to it when our urgent work is out of the way, or when we have enough spare time to do it really well; or that we ought first to spend a bit longer researching the best recipients for our charitable donations before making any, et cetera.\n\nBut the only donations that count are the ones you actually get around to making. And while your colleague might appreciate a nicely worded message of praise more than a hastily worded one, the latter is vastly preferable to what's truly most likely to happen if you put it off, which is that you'll never get around to sending that message.\"",
+    "intro": "On a strategy for generosity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-11-2022",
+    "author": "Oliver Burkeman",
+    "date": "2022-08-11",
+    "section": "Quotes",
+    "explanation": "Oliver Burkeman's strategy for acting on generous impulses, emphasizing that immediate action on kind intentions is more important than perfect timing or execution"
+  },
+  {
+    "id": "2022-08-04-quotes-1",
+    "quote": "Playwright, poet, and writer, **Samuel Johnson**, on listening and learning:\n\n\"I never desire to converse with a man who has written more than he has read.\"",
+    "intro": "On listening and learning",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-4-2022",
+    "author": "Samuel Johnson",
+    "date": "2022-08-04",
+    "section": "Quotes",
+    "explanation": "Samuel Johnson's preference for learning over output, emphasizing that those who read more than they write are better conversationalists and more valuable to engage with"
+  },
+  {
+    "id": "2022-08-04-quotes-2",
+    "quote": "A poem by **Danusha Laméris** on the value of small kindnesses:\n\n\"I've been thinking about the way, when you walk\n\ndown a crowded aisle, people pull in their legs\n\nto let you by. Or how strangers still say \"bless you\"\n\nwhen someone sneezes, a leftover\n\nfrom the Bubonic plague. \"Don't die,\" we are saying.\n\nAnd sometimes, when you spill lemons\n\nfrom your grocery bag, someone else will help you\n\npick them up. Mostly, we don't want to harm each other.\n\nWe want to be handed our cup of coffee hot,\n\nand to say thank you to the person handing it. To smile\n\nat them and for them to smile back. For the waitress\n\nto call us honey when she sets down the bowl of clam chowder,\n\nand for the driver in the red pick-up truck to let us pass.\n\nWe have so little of each other, now. So far\n\nfrom tribe and fire. Only these brief moments of exchange.\n\nWhat if they are the true dwelling of the holy, these\n\nfleeting temples we make together when we say, \"Here,\n\nhave my seat,\" \"Go ahead -- you first,\" \"I like your hat.\"\"",
+    "intro": "On the value of small kindnesses",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-4-2022",
+    "author": "Danusha Laméris",
+    "date": "2022-08-04",
+    "section": "Quotes",
+    "explanation": "Danusha Laméris' poem about everyday kindness, emphasizing that small acts of consideration and generosity create sacred moments of human connection in an otherwise disconnected world"
+  },
+  {
     "id": "2022-07-28-quotes-1",
     "quote": "Award-winning painter, **Georgia O'Keeffe**, suggests optimizing for your interests rather than your happiness:\n\n\"I do not like the idea of happiness -- it is too momentary. I would say that I was always busy and interested in something -- interest has more meaning to me than the idea of happiness.\"",
     "intro": "On optimizing for your interests",
