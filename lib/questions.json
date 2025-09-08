@@ -1,5 +1,95 @@
 [
   {
+    "id": "2022-06-30-question",
+    "quote": "Is this project pulling me in or am I pushing it forward? Is this relationship pulling me in or am I pushing it forward?\n\nSome of my best outcomes arise when I double down on the things that are naturally pulling me in.",
+    "intro": "On projects and relationships pulling vs pushing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-30-2022",
+    "author": "James Clear",
+    "date": "2022-06-30",
+    "section": "Questions",
+    "explanation": "A flow state question for identifying natural momentum, encouraging focus on activities and relationships that provide intrinsic motivation rather than requiring constant effort"
+  },
+  {
+    "id": "2022-06-23-question",
+    "quote": "Think of the best coach, teacher, or leader you ever had. What can you learn from them?\n\nThink of the worst coach, teacher, or leader you ever had. What can you learn from them?",
+    "intro": "On learning from best and worst leaders",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-23-2022",
+    "author": "James Clear",
+    "date": "2022-06-23",
+    "section": "Questions",
+    "explanation": "A reflection question for extracting wisdom from both positive and negative leadership experiences, encouraging learning from all types of interactions"
+  },
+  {
+    "id": "2022-06-16-question",
+    "quote": "Who (or what) do you need to forgive, so you can move on and live well?",
+    "intro": "On forgiveness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-16-2022",
+    "author": "James Clear",
+    "date": "2022-06-16",
+    "section": "Questions",
+    "explanation": "A healing question for identifying sources of resentment and bitterness, encouraging forgiveness as a path to personal freedom and well-being"
+  },
+  {
+    "id": "2022-06-09-question",
+    "quote": "The generalist becomes more powerful when they develop a specialty where they can apply their broad insight.\n\nThe specialist becomes more powerful when they develop a broader surface area of knowledge to connect with their expertise.\n\nWhich side are you favoring right now? Would you benefit from a broader area to apply your already honed skills? Or do you need deeper skills to unlock your general knowledge?",
+    "intro": "On generalists vs specialists",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-9-2022",
+    "author": "James Clear",
+    "date": "2022-06-09",
+    "section": "Questions",
+    "explanation": "A strategic development question for identifying whether to broaden or deepen expertise, encouraging self-assessment of current knowledge profile and growth direction"
+  },
+  {
+    "id": "2022-06-02-question",
+    "quote": "Sometimes we are too hard on ourselves and criticize our mistakes to an unhelpful degree. Sometimes we are too easy on ourselves and let excuses run our lives.\n\nWhich way are you leaning right now? How can you pull yourself back to center?",
+    "intro": "On self-criticism vs self-compassion",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-2-2022",
+    "author": "James Clear",
+    "date": "2022-06-02",
+    "section": "Questions",
+    "explanation": "A self-awareness question for finding balance between accountability and self-compassion, encouraging honest assessment of current tendencies and course correction"
+  },
+  {
+    "id": "2022-05-26-question",
+    "quote": "How, specifically, do you want your life to be better at this time next year?",
+    "intro": "On specific life improvements",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-26-2022",
+    "author": "James Clear",
+    "date": "2022-05-26",
+    "section": "Questions",
+    "explanation": "A goal-setting question for creating specific, measurable improvements, encouraging concrete vision of desired changes rather than vague aspirations"
+  },
+  {
+    "id": "2022-05-19-question",
+    "quote": "What is an area you'd like to improve over the next decade?\n\nHow are you working toward that outcome today?\n\nThink long-term. Act short-term.",
+    "intro": "On long-term thinking with short-term action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-19-2022",
+    "author": "James Clear",
+    "date": "2022-05-19",
+    "section": "Questions",
+    "explanation": "A strategic planning question for connecting long-term vision with daily actions, encouraging both big-picture thinking and immediate implementation"
+  },
+  {
+    "id": "2022-05-12-question",
+    "quote": "Before you ask, \"What should I do today?\"\n\nAsk yourself, \"What should I remove today?\"\n\nCreate the space you need to succeed.",
+    "intro": "On removing before adding",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-12-2022",
+    "author": "James Clear",
+    "date": "2022-05-12",
+    "section": "Questions",
+    "explanation": "A prioritization question for focusing on elimination over addition, encouraging creation of space and clarity before taking on new tasks"
+  },
+  {
+    "id": "2022-05-05-question",
+    "quote": "How can I accomplish my goals as fast as possible at a high quality?",
+    "intro": "On fast, high-quality goal accomplishment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-5-2022",
+    "author": "James Clear",
+    "date": "2022-05-05",
+    "section": "Questions",
+    "explanation": "A strategic question for optimizing both speed and quality in goal achievement, encouraging efficient approaches without compromising standards"
+  },
+  {
     "id": "2022-04-28-question",
     "quote": "Am I willing to look foolish today so I can learn something that will make me better tomorrow?",
     "intro": "On looking foolish to learn",

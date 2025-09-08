@@ -1,5 +1,275 @@
 [
   {
+    "id": "2022-06-30-ideas-1",
+    "quote": "\"Is your reading and research supplementing your actions or substituting for them? Research is useful until it becomes a form of procrastination.\"",
+    "intro": "On research vs action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-30-2022",
+    "author": "James Clear",
+    "date": "2022-06-30",
+    "section": "Ideas",
+    "explanation": "A principle about the balance between learning and doing, emphasizing that research should support action rather than replace it and that excessive preparation can become avoidance"
+  },
+  {
+    "id": "2022-06-30-ideas-2",
+    "quote": "\"Life rewards courage.\n\nThe person who is brave enough to bet on something or someone--as long as they avoid irreversible mistakes like running out of cash or going to jail--is in a position to win.\"",
+    "intro": "On life rewarding courage",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-30-2022",
+    "author": "James Clear",
+    "date": "2022-06-30",
+    "section": "Ideas",
+    "explanation": "A principle about calculated risk-taking, emphasizing that courage in betting on ideas or people creates opportunities for significant rewards while avoiding catastrophic losses"
+  },
+  {
+    "id": "2022-06-30-ideas-3",
+    "quote": "\"Whether or not something is deemed a \"failure\" is dependent on when performance is measured.\n\nI signed the book deal for Atomic Habits in November 2015 and it was published in October 2018. If you were to measure the performance of the book at any point during those three years, the project would have been deemed a failure. In January 2016? It was incomplete. A failure. In August 2017? Still unfinished. A failure. In February 2018? Again, a failure.\n\nBut after October 2018, it looked like a success. Same project. Different time when the outcome was measured.\n\nThis idea applies in many areas of life. You're not failing. You're just in the middle of succeeding.\"",
+    "intro": "On measuring performance at different times",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-30-2022",
+    "author": "James Clear",
+    "date": "2022-06-30",
+    "section": "Ideas",
+    "explanation": "A principle about timing and evaluation, emphasizing that projects appear to fail during development but succeed upon completion, and that being in progress is not the same as failing"
+  },
+  {
+    "id": "2022-06-23-ideas-1",
+    "quote": "\"Nearly everything awesome takes longer than you think.\n\nGet started and don't worry about the clock.\"",
+    "intro": "On awesome things taking longer",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-23-2022",
+    "author": "James Clear",
+    "date": "2022-06-23",
+    "section": "Ideas",
+    "explanation": "A principle about patience and persistence, emphasizing that valuable achievements require more time than expected and that starting is more important than timing"
+  },
+  {
+    "id": "2022-06-23-ideas-2",
+    "quote": "\"Formal education is not nearly as important as an unquenchable thirst to learn.\"",
+    "intro": "On formal education vs thirst to learn",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-23-2022",
+    "author": "James Clear",
+    "date": "2022-06-23",
+    "section": "Ideas",
+    "explanation": "A principle about learning motivation, emphasizing that intrinsic desire to learn is more valuable than formal educational credentials"
+  },
+  {
+    "id": "2022-06-23-ideas-3",
+    "quote": "\"Mental toughness is often portrayed as determination and persistence, but it can also be flexibility and adaptability.\n\n- I can be happy anywhere.\n\n- I can work with what I have.\n\n- I can have a good day with anyone.\n\nYou are tough when your mood is not dependent on your conditions.\"",
+    "intro": "On mental toughness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-23-2022",
+    "author": "James Clear",
+    "date": "2022-06-23",
+    "section": "Ideas",
+    "explanation": "A principle about resilience and adaptability, emphasizing that true mental toughness involves maintaining positive mood regardless of external circumstances"
+  },
+  {
+    "id": "2022-06-16-ideas-1",
+    "quote": "\"On the ground, a rock is just a rock. But when moving at high speed through the atmosphere, a rock becomes a meteor--alive with fire and burning bright.\n\nPeople are not so different. Without activity, we are lifeless and dull. When moving fast and taking action, we come alive.\"",
+    "intro": "On rocks becoming meteors",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-16-2022",
+    "author": "James Clear",
+    "date": "2022-06-16",
+    "section": "Ideas",
+    "explanation": "A principle about momentum and vitality, emphasizing that action and movement transform people from inert to dynamic, just as speed transforms rocks into meteors"
+  },
+  {
+    "id": "2022-06-16-ideas-2",
+    "quote": "\"Life is a series of tradeoffs, and greater results usually require greater tradeoffs.\n\nThe question is not, \"Do you want to be great at this?\"\n\nThe question is, \"What are you willing to give up in order to be great at this?\"\"",
+    "intro": "On tradeoffs for greatness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-16-2022",
+    "author": "James Clear",
+    "date": "2022-06-16",
+    "section": "Ideas",
+    "explanation": "A principle about excellence and sacrifice, emphasizing that greatness requires conscious tradeoffs and that the key question is about willingness to sacrifice rather than desire for achievement"
+  },
+  {
+    "id": "2022-06-16-ideas-3",
+    "quote": "\"A surefire way to make a bad situation worse is to continue replaying it in your mind.\n\nThe damage is done. The only thing that matters now is making the best choice given your current position.\n\nNext play mentality.\"",
+    "intro": "On next play mentality",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-16-2022",
+    "author": "James Clear",
+    "date": "2022-06-16",
+    "section": "Ideas",
+    "explanation": "A principle about moving forward, emphasizing that dwelling on past mistakes amplifies their damage and that focusing on the next decision is more productive"
+  },
+  {
+    "id": "2022-06-09-ideas-1",
+    "quote": "\"Usually, the better someone does their job, the easier it looks. You rarely realize how hard it is until you try it yourself.\"",
+    "intro": "On how good work looks easy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-9-2022",
+    "author": "James Clear",
+    "date": "2022-06-09",
+    "section": "Ideas",
+    "explanation": "A principle about mastery and perception, emphasizing that expertise makes difficult tasks appear effortless and that true difficulty is only apparent when attempting the work"
+  },
+  {
+    "id": "2022-06-09-ideas-2",
+    "quote": "\"Two of the key questions in life: How do I grow? How do I manage risk?\n\nYou need to do both if you wish to survive and excel.\"",
+    "intro": "On key questions in life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-9-2022",
+    "author": "James Clear",
+    "date": "2022-06-09",
+    "section": "Ideas",
+    "explanation": "A principle about life strategy, emphasizing that success requires balancing growth and risk management, and that both questions must be addressed for long-term achievement"
+  },
+  {
+    "id": "2022-06-09-ideas-3",
+    "quote": "\"Speed is important. Work fast and iterate. People rarely remember the first draft, but everyone remembers the final draft.\n\nSpeed is unimportant. People rarely remember how long it took you to do the job, but everyone remembers how well you did the job.\"",
+    "intro": "On speed being important and unimportant",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-9-2022",
+    "author": "James Clear",
+    "date": "2022-06-09",
+    "section": "Ideas",
+    "explanation": "A principle about speed and quality, emphasizing that speed matters for iteration and improvement but that final quality is what people remember and value"
+  },
+  {
+    "id": "2022-06-02-ideas-1",
+    "quote": "\"It's only work if you would rather be doing something else.\n\nFind a way to carve a career out of what you already want to do.\"",
+    "intro": "On work vs passion",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-2-2022",
+    "author": "James Clear",
+    "date": "2022-06-02",
+    "section": "Ideas",
+    "explanation": "A principle about career satisfaction, emphasizing that work feels like work when it conflicts with natural desires and that aligning career with existing interests eliminates this conflict"
+  },
+  {
+    "id": "2022-06-02-ideas-2",
+    "quote": "\"Build small habits. Make big plans.\n\n1) Keep your daily actions small. Strive to get 1% better every day.\n\n2) Keep your daily mindset big. Think about how you can play a bigger game.\n\nStart small, but never dream small.\"",
+    "intro": "On small habits with big plans",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-2-2022",
+    "author": "James Clear",
+    "date": "2022-06-02",
+    "section": "Ideas",
+    "explanation": "A principle about scaling and vision, emphasizing that daily actions should be manageable while maintaining ambitious long-term thinking and goals"
+  },
+  {
+    "id": "2022-06-02-ideas-3",
+    "quote": "\"Great work resists compression.\n\nGreat explanations are short, but potent.\n\nGreat software delivers the same outcome in fewer clicks.\n\nGreat manufacturing processes create products in less time and with less waste.\n\nThe shape of genius is simplicity.\"",
+    "intro": "On the shape of genius",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-2-2022",
+    "author": "James Clear",
+    "date": "2022-06-02",
+    "section": "Ideas",
+    "explanation": "A principle about excellence and simplicity, emphasizing that genius is characterized by achieving maximum impact with minimum complexity across all domains"
+  },
+  {
+    "id": "2022-05-26-ideas-1",
+    "quote": "\"Before you try to increase your willpower, try to decrease the friction in your environment.\"",
+    "intro": "On decreasing friction before increasing willpower",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-26-2022",
+    "author": "James Clear",
+    "date": "2022-05-26",
+    "section": "Ideas",
+    "explanation": "A principle about environmental design, emphasizing that reducing obstacles is more effective than relying on self-control for behavior change"
+  },
+  {
+    "id": "2022-05-26-ideas-2",
+    "quote": "\"Your habits are how you embody a particular identity.\n\nWhen you make your bed, you embody the identity of someone who is clean and organized. When you study, you embody the identity of someone who is studious.\n\nWhat identity are you embodying today? Who are your habits helping you become?\"",
+    "intro": "On habits as identity embodiment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-26-2022",
+    "author": "James Clear",
+    "date": "2022-05-26",
+    "section": "Ideas",
+    "explanation": "A principle about identity-based habits, emphasizing that actions reflect and reinforce identity and that awareness of this connection enables intentional self-development"
+  },
+  {
+    "id": "2022-05-26-ideas-3",
+    "quote": "\"Most big, deeply satisfying accomplishments in life take at least five years to achieve. This can include building a business, cultivating a loving relationship, writing a book, getting in the best shape of your life, raising a family, and more.\n\nFive years is a long time. It is much slower than most of us would like. If you accept the reality of slow progress, you have every reason to take action today. If you resist the reality of slow progress, five years from now you'll simply be five years older and still looking for a shortcut.\"",
+    "intro": "On accepting the reality of slow progress",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-26-2022",
+    "author": "James Clear",
+    "date": "2022-05-26",
+    "section": "Ideas",
+    "explanation": "A principle about long-term thinking, emphasizing that meaningful achievements require years of effort and that accepting this timeline motivates immediate action rather than seeking shortcuts"
+  },
+  {
+    "id": "2022-05-19-ideas-1",
+    "quote": "\"If an idea is true, criticism will not destroy it, but strengthen it.\"",
+    "intro": "On the effect of criticism",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-19-2022",
+    "author": "James Clear",
+    "date": "2022-05-19",
+    "section": "Ideas",
+    "explanation": "A principle about truth and criticism, emphasizing that valid ideas become stronger when tested and challenged rather than being weakened by opposition"
+  },
+  {
+    "id": "2022-05-19-ideas-2",
+    "quote": "\"You need focus to become exceptional at anything.\n\nMassive amounts of time and energy are wasted optimizing things that should be left undone.\n\nYou have to be great at saying no.\"",
+    "intro": "On the need for focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-19-2022",
+    "author": "James Clear",
+    "date": "2022-05-19",
+    "section": "Ideas",
+    "explanation": "A principle about excellence and focus, emphasizing that exceptional performance requires saying no to many good opportunities to concentrate on what matters most"
+  },
+  {
+    "id": "2022-05-19-ideas-3",
+    "quote": "\"A gift you can give yourself right now:\n\nStop what you're doing. Close your eyes.\n\nFor the next 60 seconds, just breathe.\"",
+    "intro": "On a gift you can give yourself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-19-2022",
+    "author": "James Clear",
+    "date": "2022-05-19",
+    "section": "Ideas",
+    "explanation": "A principle about mindfulness and self-care, emphasizing that simple breathing exercises provide immediate stress relief and mental clarity"
+  },
+  {
+    "id": "2022-05-12-ideas-1",
+    "quote": "\"In the long-run, prioritization beats efficiency.\"",
+    "intro": "On prioritization vs efficiency",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-12-2022",
+    "author": "James Clear",
+    "date": "2022-05-12",
+    "section": "Ideas",
+    "explanation": "A principle about strategic focus, emphasizing that choosing the right tasks is more important than doing tasks efficiently"
+  },
+  {
+    "id": "2022-05-12-ideas-2",
+    "quote": "\"When researching strategies, emphasize patterns over stories. One person succeeding means nothing. 100 people succeeding is a signal.\n\nWhen explaining strategies, emphasize stories over patterns. People forget numbers and charts. Everyone remembers a great story.\"",
+    "intro": "On patterns vs stories",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-12-2022",
+    "author": "James Clear",
+    "date": "2022-05-12",
+    "section": "Ideas",
+    "explanation": "A principle about information processing and communication, emphasizing that patterns reveal truth while stories make truth memorable"
+  },
+  {
+    "id": "2022-05-12-ideas-3",
+    "quote": "\"When determining the size or complexity of a new habit ask yourself, \"What can I stick to--even on my worst day?\"\n\nStart there. Master the art of showing up. Then advance.\"",
+    "intro": "On starting with what you can stick to",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-12-2022",
+    "author": "James Clear",
+    "date": "2022-05-12",
+    "section": "Ideas",
+    "explanation": "A principle about habit formation, emphasizing that consistency requires designing habits for low-energy days and that mastery comes from showing up before advancing"
+  },
+  {
+    "id": "2022-05-05-ideas-1",
+    "quote": "\"The most important battles must be fought anew each day.\n\nExercising today does not render tomorrow's workout unnecessary.\n\nSupporting your spouse today does not mean you can mail it in tomorrow.\n\nLearn to love the endless nature of things and life gets easier.\"",
+    "intro": "On the endless nature of important things",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-5-2022",
+    "author": "James Clear",
+    "date": "2022-05-05",
+    "section": "Ideas",
+    "explanation": "A principle about daily commitment, emphasizing that important activities require ongoing effort and that accepting this reality reduces resistance"
+  },
+  {
+    "id": "2022-05-05-ideas-2",
+    "quote": "\"As far as life philosophies go, \"The right time is right now\" isn't a bad one. Most of us would benefit from a greater bias toward action.\n\nIf you move fast, you can try more things. And if you try more things, you're likely to find something that works for you.\"",
+    "intro": "On moving fast",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-5-2022",
+    "author": "James Clear",
+    "date": "2022-05-05",
+    "section": "Ideas",
+    "explanation": "A principle about action bias, emphasizing that speed enables experimentation and that trying more approaches increases the likelihood of finding effective solutions"
+  },
+  {
+    "id": "2022-05-05-ideas-3",
+    "quote": "\"Remove the branches of a thorn bush today and you'll avoid a scrape this year. But next year, you'll face the same problem again.\n\nRemove the root of the bush today, and the entire plant will die.\n\nAre you solving problems at the branch level or the root level?\"",
+    "intro": "On solving problems at the root level",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-5-2022",
+    "author": "James Clear",
+    "date": "2022-05-05",
+    "section": "Ideas",
+    "explanation": "A principle about problem-solving depth, emphasizing that addressing root causes provides permanent solutions while treating symptoms only provides temporary relief"
+  },
+  {
     "id": "2022-04-28-ideas-1",
     "quote": "\"Just because it didn't work doesn't mean it was the wrong choice.\n\nThe world is full of probabilities, not certainties.\n\nFind a game where the probabilities favor you and keep taking shots.\"",
     "intro": "On probabilities vs certainties",
