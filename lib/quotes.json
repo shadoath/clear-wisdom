@@ -1,5 +1,105 @@
 [
   {
+    "id": "2022-12-29-quotes-1",
+    "quote": "Author **Patricia Digh** on the New Year:\n\n\"At the end of each year, I ask myself two questions:\n\n1) What do I want to create in this New Year?\n\nAnd, perhaps even more importantly,\n\n2) What do I want to let go of?\"",
+    "intro": "On the New Year",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-29-2022",
+    "author": "Patricia Digh",
+    "date": "2022-12-29",
+    "section": "Quotes",
+    "explanation": "Patricia Digh's framework for New Year reflection, emphasizing that creation and release are both essential for meaningful change"
+  },
+  {
+    "id": "2022-12-29-quotes-2",
+    "quote": "Writer **Jeanette Winterson** on second chances:\n\n\"I know now, after fifty years, that the finding/losing, forgetting/remembering, leaving/returning, never stops. The whole of life is about another chance, and while we are alive, till the very end, there is always another chance.\"",
+    "intro": "On second chances",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-29-2022",
+    "author": "Jeanette Winterson",
+    "date": "2022-12-29",
+    "section": "Quotes",
+    "explanation": "Jeanette Winterson's perspective on life's cyclical nature, emphasizing that opportunities for renewal continue throughout our entire existence"
+  },
+  {
+    "id": "2022-12-22-quotes-1",
+    "quote": "Philosopher **Simone Weil** on the value of risk:\n\n\"Risk is an essential need of the soul. The absence of risk produces a kind of boredom which paralyses in a different way from fear, but almost as much.\"",
+    "intro": "On the value of risk",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-22-2022",
+    "author": "Simone Weil",
+    "date": "2022-12-22",
+    "section": "Quotes",
+    "explanation": "Simone Weil's insight about risk necessity, emphasizing that avoiding risk can be as paralyzing as fear itself"
+  },
+  {
+    "id": "2022-12-22-quotes-2",
+    "quote": "Poet **Donald Hall** on the importance of ambition in poetry (and in life):\n\n\"I see no reason to spend your life writing poems unless your goal is to write great poems. An ambitious project--but sensible, I think. ... If our goal is to write poetry, the only way we are likely to be any good is to try to be as great as the best.\"",
+    "intro": "On the importance of ambition in poetry (and in life)",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-22-2022",
+    "author": "Donald Hall",
+    "date": "2022-12-22",
+    "section": "Quotes",
+    "explanation": "Donald Hall's principle about ambitious goals, emphasizing that aiming for greatness is the only path to achieving excellence"
+  },
+  {
+    "id": "2022-12-15-quotes-1",
+    "quote": "Philosopher and author **Albert Camus** on resilience:\n\n\"In the depths of winter, I finally learned that within me there lay an invincible summer.\"",
+    "intro": "On resilience",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-15-2022",
+    "author": "Albert Camus",
+    "date": "2022-12-15",
+    "section": "Quotes",
+    "explanation": "Albert Camus' metaphor about inner strength, emphasizing that resilience comes from discovering our own invincible core"
+  },
+  {
+    "id": "2022-12-15-quotes-2",
+    "quote": "Architect, writer, and inventor **Buckminster Fuller** on creating change:\n\n\"You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.\"",
+    "intro": "On creating change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-15-2022",
+    "author": "Buckminster Fuller",
+    "date": "2022-12-15",
+    "section": "Quotes",
+    "explanation": "Buckminster Fuller's principle about change creation, emphasizing that building better alternatives is more effective than fighting existing systems"
+  },
+  {
+    "id": "2022-12-08-quotes-1",
+    "quote": "Anthropologist **Ashley Montagu** on aging well:\n\n\"The goal of life is to die young -- as late as possible!\"",
+    "intro": "On aging well",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-8-2022",
+    "author": "Ashley Montagu",
+    "date": "2022-12-08",
+    "section": "Quotes",
+    "explanation": "Ashley Montagu's philosophy about aging, emphasizing that maintaining youthful spirit is more important than chronological age"
+  },
+  {
+    "id": "2022-12-08-quotes-2",
+    "quote": "Novelist **Jeanette Winterson** on the value of darkness:\n\n\"I have noticed that when all the lights are on, people tend to talk about what they are doing -- their outer lives. Sitting round in candlelight or firelight, people start to talk about how they are feeling - their inner lives. They speak subjectively, they argue less, there are longer pauses.\n\nTo sit alone without any electric light is curiously creative. I have my best ideas at dawn or at nightfall, but not if I switch on the lights -- then I start thinking about projects, deadlines, demands, and the shadows and shapes of the house become objects, not suggestions, things that need to done, not a background to thought.\"",
+    "intro": "On the value of darkness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-8-2022",
+    "author": "Jeanette Winterson",
+    "date": "2022-12-08",
+    "section": "Quotes",
+    "explanation": "Jeanette Winterson's insight about darkness and creativity, emphasizing that dim lighting encourages deeper conversation and creative thinking"
+  },
+  {
+    "id": "2022-12-01-quotes-1",
+    "quote": "Journalist **Hal Boyle** on certainty:\n\n\"What makes a river so restful to people is that it doesn't have any doubt--it is sure to get where it is going, and it doesn't want to go anywhere else.\"",
+    "intro": "On certainty",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-1-2022",
+    "author": "Hal Boyle",
+    "date": "2022-12-01",
+    "section": "Quotes",
+    "explanation": "Hal Boyle's metaphor about certainty, emphasizing that clear direction and purpose create peace and restfulness"
+  },
+  {
+    "id": "2022-12-01-quotes-2",
+    "quote": "Writer and suffragist **Lucy Mallory** on the power of thoughts:\n\n\"Every thought a person dwells upon, whether he expresses it or not, either damages or improves his life.\"",
+    "intro": "On the power of thoughts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-1-2022",
+    "author": "Lucy Mallory",
+    "date": "2022-12-01",
+    "section": "Quotes",
+    "explanation": "Lucy Mallory's principle about thought impact, emphasizing that our internal mental patterns directly influence our life quality"
+  },
+  {
     "id": "2022-11-24-quotes-1",
     "quote": "**Sister Elizabeth Kenny**--a self-trained nurse who made major contributions to the treatment of polio and provided care during World War I--discusses anger:\n\n\"He who angers you, conquers you.\"",
     "intro": "On anger",

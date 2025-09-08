@@ -1,5 +1,55 @@
 [
   {
+    "id": "2022-12-29-question",
+    "quote": "It's one year from now. December 2023. The habit you were hoping to build during the year didn't stick. What is the most likely reason it failed?",
+    "intro": "On second chances",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-29-2022",
+    "author": "James Clear",
+    "date": "2022-12-29",
+    "section": "Questions",
+    "explanation": "A habit-building question for anticipating failure points, encouraging proactive identification of potential obstacles to success"
+  },
+  {
+    "id": "2022-12-22-question",
+    "quote": "How can I improve the energy of the situations I am involved in today?\n\nYou may not control the outcome, but you can influence it.",
+    "intro": "On the importance of ambition",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-22-2022",
+    "author": "James Clear",
+    "date": "2022-12-22",
+    "section": "Questions",
+    "explanation": "An influence question for improving situational dynamics, encouraging focus on energy contribution rather than outcome control"
+  },
+  {
+    "id": "2022-12-15-question",
+    "quote": "What is your relationship with self-discipline?\n\nWhat is your relationship with self-forgiveness?",
+    "intro": "On creating change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-15-2022",
+    "author": "James Clear",
+    "date": "2022-12-15",
+    "section": "Questions",
+    "explanation": "A self-awareness question for examining personal dynamics, encouraging reflection on the balance between discipline and compassion"
+  },
+  {
+    "id": "2022-12-08-question",
+    "quote": "\"When was a time in the past you successfully adapted and made a change?\n\nWhat is a change you would benefit from making right now?\"",
+    "intro": "On the value of darkness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-8-2022",
+    "author": "James Clear",
+    "date": "2022-12-08",
+    "section": "Questions",
+    "explanation": "A change management question for leveraging past success, encouraging identification of adaptation patterns and current opportunities"
+  },
+  {
+    "id": "2022-12-01-question",
+    "quote": "There is one month left in the year. Most people are ready to coast to the finish line, but one good month can make the whole year feel like a success.\n\nWhat can you do in the next 30 days to build momentum and finish the year on a high note?",
+    "intro": "On certainty",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-1-2022",
+    "author": "James Clear",
+    "date": "2022-12-01",
+    "section": "Questions",
+    "explanation": "A momentum question for year-end optimization, encouraging identification of actions that can transform the entire year's perception"
+  },
+  {
     "id": "2022-11-24-question",
     "quote": "How can I use the negative experiences in my life to drive me? What fuel can I draw from my failures? What lessons can I take from my grief? What insights can I extract from my embarrassments?",
     "intro": "On shaping the world",
