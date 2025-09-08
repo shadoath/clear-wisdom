@@ -1,5 +1,85 @@
 [
   {
+    "id": "2022-07-28-quotes-1",
+    "quote": "Award-winning painter, **Georgia O'Keeffe**, suggests optimizing for your interests rather than your happiness:\n\n\"I do not like the idea of happiness -- it is too momentary. I would say that I was always busy and interested in something -- interest has more meaning to me than the idea of happiness.\"",
+    "intro": "On optimizing for your interests",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-28-2022",
+    "author": "Georgia O'Keeffe",
+    "date": "2022-07-28",
+    "section": "Quotes",
+    "explanation": "Georgia O'Keeffe's perspective on interest vs happiness, emphasizing that sustained interest provides deeper meaning than fleeting happiness"
+  },
+  {
+    "id": "2022-07-28-quotes-2",
+    "quote": "**Marie-Christine Gasingirwa**, a director at the Ministry of Education in Rwanda, reminds us that knowledge is a shared experience:\n\n\"In life there isn't a single person that knows everything and there is no person that knows nothing. It's not too late to learn because you just need to develop that interest, talk to people, share with them what you have and learn from them. There is no breakthrough in this world if you are isolated, you can only make a breakthrough by talking to people.\"",
+    "intro": "On sharing knowledge",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-28-2022",
+    "author": "Marie-Christine Gasingirwa",
+    "date": "2022-07-28",
+    "section": "Quotes",
+    "explanation": "Marie-Christine Gasingirwa's insight about collaborative learning, emphasizing that knowledge is distributed and that breakthroughs require connection and sharing rather than isolation"
+  },
+  {
+    "id": "2022-07-21-quotes-1",
+    "quote": "Music teacher and conductor **Nadia Boulanger**, who trained many of the leading composers and musicians of the 20th century, on focus:\n\n\"Anyone who acts without paying attention to what he is doing is wasting his life. I'd go so far as to say life is denied by lack of attention, whether it be to cleaning windows or trying to write a masterpiece.\"",
+    "intro": "On paying attention",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-21-2022",
+    "author": "Nadia Boulanger",
+    "date": "2022-07-21",
+    "section": "Quotes",
+    "explanation": "Nadia Boulanger's perspective on attention and presence, emphasizing that mindfulness in all activities, from mundane to magnificent, is essential for a meaningful life"
+  },
+  {
+    "id": "2022-07-21-quotes-2",
+    "quote": "Historian and author, **Howard Zinn**, on the importance of what you choose to emphasize:\n\n\"To be hopeful in bad times is not just foolishly romantic. It is based on the fact that human history is a history not only of cruelty, but also of compassion, sacrifice, courage, kindness.\n\nWhat we choose to emphasize in this complex history will determine our lives. If we see only the worst, it destroys our capacity to do something. If we remember those times and places--and there are so many--where people have behaved magnificently, this gives us the energy to act, and at least the possibility of sending this spinning top of a world in a different direction.\n\nAnd if we do act, in however small a way, we don't have to wait for some grand utopian future. The future is an infinite succession of presents, and to live now as we think human beings should live, in defiance of all that is bad around us, is itself a marvelous victory.\"",
+    "intro": "On staying hopeful in bad times",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-21-2022",
+    "author": "Howard Zinn",
+    "date": "2022-07-21",
+    "section": "Quotes",
+    "explanation": "Howard Zinn's perspective on hope and historical emphasis, emphasizing that focusing on human goodness provides energy for action and that living well in the present is itself a victory"
+  },
+  {
+    "id": "2022-07-14-quotes-1",
+    "quote": "**Amelia Earhart**, the first woman to fly solo across the Atlantic Ocean, on preparation and worry:\n\n\"The time to worry is three months before a flight. Decide then whether or not the goal is worth the risks involved. If it is, stop worrying. To worry is to add another hazard.\"",
+    "intro": "On the time to worry",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-14-2022",
+    "author": "Amelia Earhart",
+    "date": "2022-07-14",
+    "section": "Quotes",
+    "explanation": "Amelia Earhart's principle about strategic worry, emphasizing that worry should be used for decision-making before action rather than during execution"
+  },
+  {
+    "id": "2022-07-14-quotes-2",
+    "quote": "Marine biologist and writer, **Rachel Carson**, on parenting, education, and the thirst for knowledge:\n\n\"I sincerely believe that for the child, and for the parent seeking to guide him, it is not half so important to know as to feel.\n\nIf facts are the seeds that later produce knowledge and wisdom, then the emotions and the impressions of the senses are the fertile soil in which the seeds must grow. The years of early childhood are the time to prepare the soil. Once the emotions have been aroused -- a sense of the beautiful, the excitement of the new and the unknown, a feeling of sympathy, pity, admiration or love -- then we wish for knowledge about the subject of our emotional response. Once found, it has lasting meaning.\n\nIt is more important to pave the way for the child to want to know than to put him on a diet of facts he is not ready to assimilate.\"",
+    "intro": "On how to encourage curiosity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-14-2022",
+    "author": "Rachel Carson",
+    "date": "2022-07-14",
+    "section": "Quotes",
+    "explanation": "Rachel Carson's philosophy about emotional learning, emphasizing that feelings and wonder create the foundation for lasting knowledge and that nurturing curiosity is more important than forcing facts"
+  },
+  {
+    "id": "2022-07-07-quotes-1",
+    "quote": "Schoolteacher and suffragist, **Alice Moore Hubbard**, on how people learn:\n\n\"Teaching is successful only as it causes people to think for themselves. What the teacher thinks matters little; what he makes the child think matters much.\"",
+    "intro": "On how people learn",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-7-2022",
+    "author": "Alice Moore Hubbard",
+    "date": "2022-07-07",
+    "section": "Quotes",
+    "explanation": "Alice Moore Hubbard's principle about effective teaching, emphasizing that the goal is to stimulate independent thinking rather than transmit the teacher's own thoughts"
+  },
+  {
+    "id": "2022-07-07-quotes-2",
+    "quote": "Science fiction writer, **Teresa Nielsen Hayden**, offers a theory of life:\n\n\"My own personal theory is that this is the very dawn of the world. We're hardly more than an eyeblink away from the fall of Troy, and scarcely an interglaciation removed from the Altamira cave painters. We live in extremely interesting ancient times.\n\nI like this idea. It encourages us to be earnest and ingenious and brave, as befits ancestral peoples; but keeps us from deciding that because we don't know all the answers, they must be unknowable and thus unprofitable to pursue.\"",
+    "intro": "On a theory of life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-7-2022",
+    "author": "Teresa Nielsen Hayden",
+    "date": "2022-07-07",
+    "section": "Quotes",
+    "explanation": "Teresa Nielsen Hayden's perspective on human history and potential, emphasizing that we live in early times and should approach life with ancestral courage while maintaining curiosity about the unknown"
+  },
+  {
     "id": "2022-06-30-quotes-1",
     "quote": "Professor and author **Neil Postman** on the value of questions:\n\n\"Once you have learned to ask questions - relevant and appropriate and substantial questions - you have learned how to learn and no one can keep you from learning whatever you want or need to know.\"",
     "intro": "On the value of questions",

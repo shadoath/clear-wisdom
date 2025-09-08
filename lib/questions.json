@@ -1,5 +1,45 @@
 [
   {
+    "id": "2022-07-28-question",
+    "quote": "Who is someone you love spending time with, but you haven't seen recently? Can you reach out to them today?",
+    "intro": "On reaching out to loved ones",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-28-2022",
+    "author": "James Clear",
+    "date": "2022-07-28",
+    "section": "Questions",
+    "explanation": "A relationship maintenance question for identifying and reconnecting with important people, encouraging proactive effort to maintain meaningful connections"
+  },
+  {
+    "id": "2022-07-21-question",
+    "quote": "A question from computer programmer Simon Sarris:\n\n\"If you have a ten year plan, what's stopping you from doing it in two?\"",
+    "intro": "On ten year plans",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-21-2022",
+    "author": "Simon Sarris",
+    "date": "2022-07-21",
+    "section": "Questions",
+    "explanation": "Simon Sarris' challenge about timeline compression, encouraging examination of whether long-term goals could be achieved faster with more aggressive action"
+  },
+  {
+    "id": "2022-07-14-question",
+    "quote": "What type of work brings you the most happiness?\n\nWhat type of work brings you the most meaning?\n\nAre they the same or different?",
+    "intro": "On happiness vs meaning in work",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-14-2022",
+    "author": "James Clear",
+    "date": "2022-07-14",
+    "section": "Questions",
+    "explanation": "A career reflection question for examining the relationship between happiness and meaning in work, encouraging awareness of what drives fulfillment"
+  },
+  {
+    "id": "2022-07-07-question",
+    "quote": "What action can you take today that will contribute to something you will be proud of in 10 years?",
+    "intro": "On actions for future pride",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-7-2022",
+    "author": "James Clear",
+    "date": "2022-07-07",
+    "section": "Questions",
+    "explanation": "A long-term thinking question for identifying daily actions that build toward meaningful long-term achievements, encouraging present-moment decisions aligned with future values"
+  },
+  {
     "id": "2022-06-30-question",
     "quote": "Is this project pulling me in or am I pushing it forward? Is this relationship pulling me in or am I pushing it forward?\n\nSome of my best outcomes arise when I double down on the things that are naturally pulling me in.",
     "intro": "On projects and relationships pulling vs pushing",
