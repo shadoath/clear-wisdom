@@ -1,5 +1,105 @@
 [
   {
+    "id": "2022-09-29-quotes-1",
+    "quote": "Poet and author **Annie Dillard** on the value of a schedule:\n\n\"How we spend our days is, of course, how we spend our lives. What we do with this hour, and that one, is what we are doing. A schedule defends from chaos and whim. It is a net for catching days.\"",
+    "intro": "On the value of a schedule",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-29-2022",
+    "author": "Annie Dillard",
+    "date": "2022-09-29",
+    "section": "Quotes",
+    "explanation": "Annie Dillard's perspective on daily structure, emphasizing that schedules protect against chaos and whims while ensuring that time is captured and used meaningfully"
+  },
+  {
+    "id": "2022-09-29-quotes-2",
+    "quote": "Investor and businessman **Charlie Munger** on intellectual humility:\n\n\"A lot of smart people think they're way smarter than they are, and therefore they do worse than dumb people. And it's very common to be utterly brilliant and think you're way the hell smarter than you are.\"",
+    "intro": "On intellectual humility",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-29-2022",
+    "author": "Charlie Munger",
+    "date": "2022-09-29",
+    "section": "Quotes",
+    "explanation": "Charlie Munger's insight about overconfidence, emphasizing that intellectual arrogance often leads to worse outcomes than intellectual humility"
+  },
+  {
+    "id": "2022-09-22-quotes-1",
+    "quote": "Theoretical physicist **Lisa Randall** on looking beyond what we are familiar with:\n\n\"In the history of physics, every time we've looked beyond the scales and energies we were familiar with, we've found things that we wouldn't have thought were there. You look inside the atom and eventually you discover quarks. Who would have thought that? It's hubris to think that the way we see things is everything there is.\"",
+    "intro": "On looking beyond what we are familiar with",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-22-2022",
+    "author": "Lisa Randall",
+    "date": "2022-09-22",
+    "section": "Quotes",
+    "explanation": "Lisa Randall's perspective on discovery and humility, emphasizing that expanding our scope of investigation reveals unexpected phenomena and that assuming we know everything is arrogant"
+  },
+  {
+    "id": "2022-09-22-quotes-2",
+    "quote": "Psychotherapist and author **Charles Richards** on productivity:\n\n\"Don't be fooled by the calendar. There are only as many days in the year as you make use of. One person gets only a week's value out of a year while another gets a full year's value out of a week.\"",
+    "intro": "On productivity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-22-2022",
+    "author": "Charles Richards",
+    "date": "2022-09-22",
+    "section": "Quotes",
+    "explanation": "Charles Richards' insight about time utilization, emphasizing that calendar time doesn't equal productive time and that effective use of time varies dramatically between people"
+  },
+  {
+    "id": "2022-09-15-quotes-1",
+    "quote": "Entrepreneur, author, and photographer **Kevin Kelly** on staying young:\n\n\"The chief prevention against getting old is to remain astonished.\"",
+    "intro": "On staying young",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-15-2022",
+    "author": "Kevin Kelly",
+    "date": "2022-09-15",
+    "section": "Quotes",
+    "explanation": "Kevin Kelly's principle about maintaining youthfulness, emphasizing that wonder and astonishment are the key to staying young regardless of chronological age"
+  },
+  {
+    "id": "2022-09-15-quotes-2",
+    "quote": "Poet and activist **June Jordan** on the pain of truth:\n\n\"As a child I was taught that to tell the truth was often painful. As an adult I have learned that not to tell the truth is more painful, and that the fear of telling the truth -- whatever the truth may be -- that fear is the most painful sensation of a moral life.\"",
+    "intro": "On the pain of truth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-15-2022",
+    "author": "June Jordan",
+    "date": "2022-09-15",
+    "section": "Quotes",
+    "explanation": "June Jordan's insight about truth-telling, emphasizing that while truth can be painful, dishonesty and fear of truth are more painful and damaging to moral integrity"
+  },
+  {
+    "id": "2022-09-08-quotes-1",
+    "quote": "**Madeleine L'Engle**, the award-winning writer and poet who produced more than 60 books during her career, on inspiration:\n\n\"Inspiration usually comes during work, rather than before it.\"",
+    "intro": "On inspiration",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-8-2022",
+    "author": "Madeleine L'Engle",
+    "date": "2022-09-08",
+    "section": "Quotes",
+    "explanation": "Madeleine L'Engle's insight about creative inspiration, emphasizing that inspiration emerges through the process of working rather than preceding it"
+  },
+  {
+    "id": "2022-09-08-quotes-2",
+    "quote": "Psychiatrist **Elisabeth Kübler-Ross** on finding yourself:\n\n\"Learn to get in touch with silence within yourself and know that everything in this life has a purpose. There are no mistakes, no coincidences; all events are blessings given to us to learn from. There is no need to go to India or anywhere else to find peace. You will find that deep place of silence right in your room, your garden or even your bathtub.\"",
+    "intro": "On finding yourself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-8-2022",
+    "author": "Elisabeth Kübler-Ross",
+    "date": "2022-09-08",
+    "section": "Quotes",
+    "explanation": "Elisabeth Kübler-Ross's perspective on inner peace and purpose, emphasizing that silence and meaning can be found anywhere and that all experiences serve a learning purpose"
+  },
+  {
+    "id": "2022-09-01-quotes-1",
+    "quote": "Jesuit priest **Anthony de Mello** encourages us to focus on the message before the messenger:\n\n\"Sinners often speak the truth. And saints have led people astray. Examine what is said, not the one who says it.\"",
+    "intro": "On focusing on the message before the messenger",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-1-2022",
+    "author": "Anthony de Mello",
+    "date": "2022-09-01",
+    "section": "Quotes",
+    "explanation": "Anthony de Mello's principle about evaluating ideas, emphasizing that truth can come from unexpected sources and that we should judge content rather than character"
+  },
+  {
+    "id": "2022-09-01-quotes-2",
+    "quote": "**Reed Hastings**, founder and CEO of Netflix, on the difference between creativity and efficiency:\n\n\"A way to think about it is, innovation requires variation. And in manufacturing--six sigma, all that stuff--you're trying to reduce variation.\n\nThe fundamental manufacturing paradigm is to reduce variation, and the fundamental creative paradigm is to increase it.\"",
+    "intro": "On the difference between creativity and efficiency",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-1-2022",
+    "author": "Reed Hastings",
+    "date": "2022-09-01",
+    "section": "Quotes",
+    "explanation": "Reed Hastings' insight about innovation vs efficiency, emphasizing that creativity requires embracing variation while manufacturing requires reducing it"
+  },
+  {
     "id": "2022-08-25-quotes-1",
     "quote": "**Fyodor Dostoyevsky**, often considered one of the greatest writers in history, explains the importance of habits:\n\n\"It seems, in fact, as though the second half of a person's life is made up of nothing but the habits they accumulated during the first half.\"",
     "intro": "On the importance of habits",
