@@ -1,5 +1,95 @@
 [
   {
+    "id": "2022-04-28-question",
+    "quote": "Am I willing to look foolish today so I can learn something that will make me better tomorrow?",
+    "intro": "On looking foolish to learn",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-28-2022",
+    "author": "James Clear",
+    "date": "2022-04-28",
+    "section": "Questions",
+    "explanation": "A courage question for embracing temporary embarrassment in service of long-term growth, encouraging willingness to appear incompetent while learning new skills"
+  },
+  {
+    "id": "2022-04-21-question",
+    "quote": "What's one decision you can make today that will save you from making ten more decisions in the future? Make the choice that eliminates other choices.",
+    "intro": "On making decisions that eliminate future decisions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-21-2022",
+    "author": "James Clear",
+    "date": "2022-04-21",
+    "section": "Questions",
+    "explanation": "A strategic decision-making question for reducing future cognitive load, encouraging choices that create systems and eliminate repeated decision-making"
+  },
+  {
+    "id": "2022-04-14-question",
+    "quote": "When was the last time you felt a sense of wonder and awe? What can that experience teach you about how to spend your time?",
+    "intro": "On wonder and awe",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-14-2022",
+    "author": "James Clear",
+    "date": "2022-04-14",
+    "section": "Questions",
+    "explanation": "A reflection question for identifying meaningful experiences and aligning time allocation with activities that inspire wonder and awe"
+  },
+  {
+    "id": "2022-04-07-question",
+    "quote": "What is a small, but courageous choice you can make today?",
+    "intro": "On small courageous choices",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-7-2022",
+    "author": "James Clear",
+    "date": "2022-04-07",
+    "section": "Questions",
+    "explanation": "A courage-building question for identifying manageable acts of bravery, encouraging daily practice of stepping outside comfort zones"
+  },
+  {
+    "id": "2022-03-31-question",
+    "quote": "If someone took control of your life tomorrow, what's the first thing they would change?",
+    "intro": "On what someone else would change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-31-2022",
+    "author": "James Clear",
+    "date": "2022-03-31",
+    "section": "Questions",
+    "explanation": "A perspective-shifting question for identifying obvious improvements in one's life, encouraging objective evaluation of current patterns and habits"
+  },
+  {
+    "id": "2022-03-24-question",
+    "quote": "What is one of your natural gifts? How can you spend more time leveraging it?",
+    "intro": "On leveraging natural gifts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-24-2022",
+    "author": "James Clear",
+    "date": "2022-03-24",
+    "section": "Questions",
+    "explanation": "A strengths-focused question for identifying and maximizing natural talents, encouraging investment in areas where one has inherent advantages"
+  },
+  {
+    "id": "2022-03-17-question",
+    "quote": "Nearly everything in life has a useful zone, a desired dose. Ten minutes in the sun can energize you. Ten hours in the sun can burn you. This concept applies to many things: work, relationships, hobbies, exercise, food.\n\nWhat is your desired dose? What do you need right now? A little bit more or a little bit less?",
+    "intro": "On finding your desired dose",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-17-2022",
+    "author": "James Clear",
+    "date": "2022-03-17",
+    "section": "Questions",
+    "explanation": "A moderation question for evaluating optimal levels of various activities, encouraging awareness of when more or less of something would be beneficial"
+  },
+  {
+    "id": "2022-03-10-question",
+    "quote": "Write down all the projects you are working on right now. What is the one thing that, if you had the courage to eliminate it entirely, would make all the others easier?",
+    "intro": "On eliminating projects",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-10-2022",
+    "author": "James Clear",
+    "date": "2022-03-10",
+    "section": "Questions",
+    "explanation": "A prioritization question for identifying projects that drain energy from others, encouraging strategic elimination to improve overall effectiveness"
+  },
+  {
+    "id": "2022-03-03-question",
+    "quote": "Think of something you struggled with in the last year. If you step back and zoom out, what is one lesson you have learned from the experience?",
+    "intro": "On lessons from struggles",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-3-2022",
+    "author": "James Clear",
+    "date": "2022-03-03",
+    "section": "Questions",
+    "explanation": "A reflection question for extracting wisdom from difficult experiences, encouraging perspective-taking and learning from challenges"
+  },
+  {
     "id": "2022-02-24-question",
     "quote": "There is usually a block of time each day when you are at your best--peak energy, peak enthusiasm. Let's say it's 2 hours per day. How do you spend those 2 hours? Who or what gets your best time?",
     "intro": "On spending your best time",

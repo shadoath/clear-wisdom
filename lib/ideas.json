@@ -1,5 +1,275 @@
 [
   {
+    "id": "2022-04-28-ideas-1",
+    "quote": "\"Just because it didn't work doesn't mean it was the wrong choice.\n\nThe world is full of probabilities, not certainties.\n\nFind a game where the probabilities favor you and keep taking shots.\"",
+    "intro": "On probabilities vs certainties",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-28-2022",
+    "author": "James Clear",
+    "date": "2022-04-28",
+    "section": "Ideas",
+    "explanation": "A principle about probabilistic thinking, emphasizing that outcomes don't validate decisions and that success comes from consistently playing games with favorable odds"
+  },
+  {
+    "id": "2022-04-28-ideas-2",
+    "quote": "\"If you know where you want to go in life, people tend to help or get out of the way.\n\nBoth of those are useful.\"",
+    "intro": "On knowing where you want to go",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-28-2022",
+    "author": "James Clear",
+    "date": "2022-04-28",
+    "section": "Ideas",
+    "explanation": "A principle about clarity and direction, emphasizing that having clear goals attracts helpful people and removes obstacles from those who don't align"
+  },
+  {
+    "id": "2022-04-28-ideas-3",
+    "quote": "\"People follow incentives, not advice.\"",
+    "intro": "On incentives vs advice",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-28-2022",
+    "author": "James Clear",
+    "date": "2022-04-28",
+    "section": "Ideas",
+    "explanation": "A principle about behavior change, emphasizing that people's actions are driven by reward systems rather than verbal guidance"
+  },
+  {
+    "id": "2022-04-21-ideas-1",
+    "quote": "\"In school, you are graded on every test--even if it's your weakest subject.\n\nIn life, you can choose the tests you take--even if they always play to your strengths.\n\nMaintain a baseline so your weak areas don't hold you back, but design your life so you are graded on your strengths.\"",
+    "intro": "On choosing your tests",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-21-2022",
+    "author": "James Clear",
+    "date": "2022-04-21",
+    "section": "Ideas",
+    "explanation": "A principle about playing to strengths, emphasizing that life allows strategic selection of challenges while maintaining minimum competency in weak areas"
+  },
+  {
+    "id": "2022-04-21-ideas-2",
+    "quote": "\"One roadblock almost never ruins you.\n\nThere might not be 1000 ways to accomplish something, but there is almost always more than one way.\n\nKnow what you want. Be flexible about how to get there.\"",
+    "intro": "On flexibility in approach",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-21-2022",
+    "author": "James Clear",
+    "date": "2022-04-21",
+    "section": "Ideas",
+    "explanation": "A principle about resilience and adaptability, emphasizing that obstacles are rarely fatal and that flexibility in methods enables goal achievement"
+  },
+  {
+    "id": "2022-04-21-ideas-3",
+    "quote": "\"The gift of a beginner is fresh eyes.\n\nThe longer you're in a field, the harder it is to perceive new truths. Your mind is biased toward refining what you're already doing instead of exploring fresh terrain.\n\nTake your expertise and apply it to something new.\"",
+    "intro": "On the gift of a beginner",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-21-2022",
+    "author": "James Clear",
+    "date": "2022-04-21",
+    "section": "Ideas",
+    "explanation": "A principle about maintaining fresh perspective, emphasizing that expertise can create blind spots and that applying skills to new domains maintains innovation"
+  },
+  {
+    "id": "2022-04-14-ideas-1",
+    "quote": "\"For those who expect everything, there are many curses.\n\nFor those who appreciate everything, there are many blessings.\"",
+    "intro": "On expectations vs appreciation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-14-2022",
+    "author": "James Clear",
+    "date": "2022-04-14",
+    "section": "Ideas",
+    "explanation": "A principle about mindset and gratitude, emphasizing that expectations create disappointment while appreciation creates abundance"
+  },
+  {
+    "id": "2022-04-14-ideas-2",
+    "quote": "\"Money is not the only way to improve life. Instead of widening your margin of profit, widen your margin of leisure. Instead of optimizing for money, optimize for time. Instead of seeking efficiency, seek recovery.\"",
+    "intro": "On optimizing for time vs money",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-14-2022",
+    "author": "James Clear",
+    "date": "2022-04-14",
+    "section": "Ideas",
+    "explanation": "A principle about life optimization, emphasizing that time and recovery are often more valuable than financial maximization"
+  },
+  {
+    "id": "2022-04-14-ideas-3",
+    "quote": "\"Many good opportunities are ruined for the dream of slightly better ones.\n\nWould you have a more successful career if you had taken that other job or moved cities? Possibly. But your actual career will definitely suffer if you don't commit to doing it to the best of your ability.\n\nWould you be 10% happier in a different relationship? Maybe. Maybe not. But you'll definitely be unhappy in the one you have if you spend all day thinking about what else is out there.\n\nThe surefire way to end up worse off is to agonize over unchosen options and fail to make the most of the one you selected. Every minute spent yearning for your unlived lives is a moment you can't invest in the one you actually have.\n\nChoices matter, but so does your level of commitment.\"",
+    "intro": "On commitment vs comparison",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-14-2022",
+    "author": "James Clear",
+    "date": "2022-04-14",
+    "section": "Ideas",
+    "explanation": "A principle about commitment and opportunity cost, emphasizing that comparing to alternatives prevents full investment in current choices and reduces overall satisfaction"
+  },
+  {
+    "id": "2022-04-07-ideas-1",
+    "quote": "A simple reminder from Atomic Habits:\n\n\"Walk slowly, but never backward.\"",
+    "intro": "On walking slowly but never backward",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-7-2022",
+    "author": "James Clear",
+    "date": "2022-04-07",
+    "section": "Ideas",
+    "explanation": "A principle about consistent forward progress, emphasizing that slow but steady advancement is preferable to any backward movement"
+  },
+  {
+    "id": "2022-04-07-ideas-2",
+    "quote": "\"Look around your environment.\n\nRather than seeing items as objects, see them as magnets for your attention. Each object gently pulls a certain amount of your attention toward it.\n\nWhenever you discard something, the tug of that object is released. You get some attention back.\"",
+    "intro": "On objects as attention magnets",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-7-2022",
+    "author": "James Clear",
+    "date": "2022-04-07",
+    "section": "Ideas",
+    "explanation": "A principle about environmental design and attention management, emphasizing that physical objects consume mental energy and that decluttering frees up cognitive resources"
+  },
+  {
+    "id": "2022-04-07-ideas-3",
+    "quote": "\"Powerful combination = Hate being bad at stuff + Willing to look like a beginner.\n\nPeople who hate being bad at stuff are driven to improve. However, if they are unwilling to look like a beginner from time to time, they will avoid new challenges and struggle to reinvent themselves.\n\nMeanwhile, people who are willing to try new things, but lack a thirst to improve will settle for mediocre results.\n\nIt's the willingness to look foolish for a short time--but not for a long time--that leads to jumps in performance.\"",
+    "intro": "On the powerful combination",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-7-2022",
+    "author": "James Clear",
+    "date": "2022-04-07",
+    "section": "Ideas",
+    "explanation": "A principle about growth mindset, emphasizing that the optimal combination is high standards for performance with willingness to temporarily appear incompetent while learning"
+  },
+  {
+    "id": "2022-03-31-ideas-1",
+    "quote": "\"You cannot remove struggle from life, but you can improve your ability to handle challenge.\"",
+    "intro": "On handling challenges",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-31-2022",
+    "author": "James Clear",
+    "date": "2022-03-31",
+    "section": "Ideas",
+    "explanation": "A principle about resilience and acceptance, emphasizing that difficulties are inevitable but that developing better coping skills and resilience is within our control"
+  },
+  {
+    "id": "2022-03-31-ideas-2",
+    "quote": "\"Revising a book before it is published is incredibly useful. The extra polish improves the first impression.\n\nPublishing a second edition a few years after publishing, even if it involves the same revisions, is less useful. The brand has already been established.\n\nRefine at the right time.\"",
+    "intro": "On refining at the right time",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-31-2022",
+    "author": "James Clear",
+    "date": "2022-03-31",
+    "section": "Ideas",
+    "explanation": "A principle about timing and improvement, emphasizing that refinement has maximum impact before initial release when first impressions are formed"
+  },
+  {
+    "id": "2022-03-31-ideas-3",
+    "quote": "\"Two truths that can be at odds:\n\n1) There are no bonus points in life for doing it the hard way.\n2) There is a lot to be gained in life by acting fast and giving your best effort.\n\nDon't let the excuse of searching for a better way prevent you from taking action.\"",
+    "intro": "On two truths that can be at odds",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-31-2022",
+    "author": "James Clear",
+    "date": "2022-03-31",
+    "section": "Ideas",
+    "explanation": "A principle about balancing efficiency and effort, emphasizing that while unnecessary difficulty should be avoided, the search for perfect methods shouldn't prevent taking action with current resources"
+  },
+  {
+    "id": "2022-03-24-ideas-1",
+    "quote": "\"The climb is the fun part.\"",
+    "intro": "On the climb being the fun part",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-24-2022",
+    "author": "James Clear",
+    "date": "2022-03-24",
+    "section": "Ideas",
+    "explanation": "A perspective on the journey vs destination, emphasizing that the process of growth and improvement is often more enjoyable than reaching the final goal"
+  },
+  {
+    "id": "2022-03-24-ideas-2",
+    "quote": "\"Good marketing can sell once, but only a good product can sell twice.\n\nIn the long run, your performance reverts to the value you provide.\"",
+    "intro": "On marketing vs product quality",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-24-2022",
+    "author": "James Clear",
+    "date": "2022-03-24",
+    "section": "Ideas",
+    "explanation": "A principle about sustainable success, emphasizing that marketing can create initial interest but that long-term success depends on actual value and quality delivered"
+  },
+  {
+    "id": "2022-03-24-ideas-3",
+    "quote": "\"Motivation comes and goes. If you want to do something consistently, then don't pick a level of difficulty that requires great motivation.\n\nMake it easy enough and simple enough that you'll do it even when you don't feel very motivated.\"",
+    "intro": "On motivation and consistency",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-24-2022",
+    "author": "James Clear",
+    "date": "2022-03-24",
+    "section": "Ideas",
+    "explanation": "A principle about sustainable habits, emphasizing that consistency requires designing systems that work even during low-motivation periods rather than relying on high motivation"
+  },
+  {
+    "id": "2022-03-17-ideas-1",
+    "quote": "\"Define yourself by your effort, not your suffering.\"",
+    "intro": "On defining yourself by effort",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-17-2022",
+    "author": "James Clear",
+    "date": "2022-03-17",
+    "section": "Ideas",
+    "explanation": "A principle about identity and self-definition, emphasizing that character should be measured by actions taken rather than difficulties endured"
+  },
+  {
+    "id": "2022-03-17-ideas-2",
+    "quote": "\"Marrying well makes everything easier.\"",
+    "intro": "On marrying well",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-17-2022",
+    "author": "James Clear",
+    "date": "2022-03-17",
+    "section": "Ideas",
+    "explanation": "A principle about partnership and life optimization, emphasizing that choosing the right life partner creates positive ripple effects across all areas of life"
+  },
+  {
+    "id": "2022-03-17-ideas-3",
+    "quote": "\"Charity can be a lifestyle, not merely a gift.\n\nRead charitably. Give the author your most favorable interpretation.\n\nListen charitably. Donate your undivided attention.\n\nWork charitably. Be generous with your expertise.\n\nIn this way, you make charity a daily habit.\"",
+    "intro": "On charity as a lifestyle",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-17-2022",
+    "author": "James Clear",
+    "date": "2022-03-17",
+    "section": "Ideas",
+    "explanation": "A principle about generosity and interpretation, emphasizing that charity can be practiced daily through generous interpretation, attention, and sharing of expertise"
+  },
+  {
+    "id": "2022-03-10-ideas-1",
+    "quote": "\"What starts as an excuse can easily become a habit.\n\nDon't let a bad day become a lifestyle.\"",
+    "intro": "On excuses becoming habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-10-2022",
+    "author": "James Clear",
+    "date": "2022-03-10",
+    "section": "Ideas",
+    "explanation": "A principle about pattern formation, emphasizing that temporary justifications for poor behavior can solidify into permanent habits if not addressed"
+  },
+  {
+    "id": "2022-03-10-ideas-2",
+    "quote": "\"Life is a series of seasons, and what works in one season may not work in the next.\n\nWhat season are you in right now? What habits does that season require?\"",
+    "intro": "On life's seasons",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-10-2022",
+    "author": "James Clear",
+    "date": "2022-03-10",
+    "section": "Ideas",
+    "explanation": "A principle about adaptability and context, emphasizing that different life phases require different approaches and that awareness of current season enables appropriate habit selection"
+  },
+  {
+    "id": "2022-03-10-ideas-3",
+    "quote": "\"Awareness is often enough to motivate change.\n\nSimply tracking your food intake will motivate you to alter it. Merely writing down your problems may spark ideas for possible solutions.\n\nThe process starts with seeing reality clearly.\"",
+    "intro": "On awareness motivating change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-10-2022",
+    "author": "James Clear",
+    "date": "2022-03-10",
+    "section": "Ideas",
+    "explanation": "A principle about the power of measurement and documentation, emphasizing that simply becoming aware of current patterns often naturally leads to improvement"
+  },
+  {
+    "id": "2022-03-03-ideas-1",
+    "quote": "\"Prime your environment to make the next action easy.\"",
+    "intro": "On priming your environment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-3-2022",
+    "author": "James Clear",
+    "date": "2022-03-03",
+    "section": "Ideas",
+    "explanation": "A principle about environmental design, emphasizing that arranging surroundings to reduce friction for desired actions increases the likelihood of following through"
+  },
+  {
+    "id": "2022-03-03-ideas-2",
+    "quote": "\"You can't double your intelligence in one hour, but you can use one hour to write something twice as clear. And ideas that are easy to read and easy to understand will make you seem smarter. The better you communicate, the more intelligent you appear.\"",
+    "intro": "On doubling your intelligence",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-3-2022",
+    "author": "James Clear",
+    "date": "2022-03-03",
+    "section": "Ideas",
+    "explanation": "A principle about communication and perceived intelligence, emphasizing that clear communication creates the impression of greater intelligence than complex but unclear expression"
+  },
+  {
+    "id": "2022-03-03-ideas-3",
+    "quote": "\"Your entire life happens inside your body. It's the one home you will always occupy and can never sell.\n\nBut you can renovate it.\n\nIf you can only pick one habit to build, exercise might be the one.\nEverything is downstream from how your body is functioning.\"",
+    "intro": "On your body as your home",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-3-2022",
+    "author": "James Clear",
+    "date": "2022-03-03",
+    "section": "Ideas",
+    "explanation": "A principle about physical health as foundational, emphasizing that the body is the container for all life experiences and that exercise improves everything else"
+  },
+  {
     "id": "2022-02-24-ideas-1",
     "quote": "\"If you'd like to do something bold with your life, you will have to choose to do something bold on a specific day.\n\nThere is no perfect day. There is no right time. For the trajectory to change, there has to be one day when you simply make the choice.\"",
     "intro": "On choosing to do something bold",
