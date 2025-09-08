@@ -2,6 +2,10 @@
 
 A Chrome extension that displays wisdom quotes from James Clear's 3-2-1 newsletter in new tabs.
 
+## Project Structure
+
+All extension files are organized in the `extension/` folder for better compilation and distribution.
+
 ## Features
 
 - **3-2-1 Format**: Displays James Clear's ideas, quotes from others, and reflection questions
@@ -15,7 +19,7 @@ A Chrome extension that displays wisdom quotes from James Clear's 3-2-1 newslett
 1. Download or clone this repository
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable "Developer mode"
-4. Click "Load unpacked" and select the `clear-wisdom` folder
+4. Click "Load unpacked" and select the `extension` folder
 5. Open a new tab to see the extension in action
 
 ## Usage
@@ -52,6 +56,11 @@ Format:
 
 ### To build for Chrome Web Store
 
-`zip -r clear-wisdom.zip . -x ".*" -x "__MACOSX/*" -x "*.DS_Store" -x "*.zip" -x ".git/*" -x "node_modules/*"`
+Navigate to the extension folder and create the zip:
+
+```bash
+cd extension
+zip -r clear-wisdom.zip . -x ".*" -x "__MACOSX/*" -x "*.DS_Store" -x "*.zip" -x ".git/*" -x "node_modules/*"
+```
 
 This project is open source and available under the MIT License.
