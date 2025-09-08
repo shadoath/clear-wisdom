@@ -1,5 +1,85 @@
 [
   {
+    "id": "2022-10-27-quotes-1",
+    "quote": "Priest and novelist **Charles Kingsley** on what makes us happy:\n\n\"We act as though comfort and luxury were the chief requirements of life, when all that we need to make us happy is something to be enthusiastic about.\"",
+    "intro": "On what makes us happy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-27-2022",
+    "author": "Charles Kingsley",
+    "date": "2022-10-27",
+    "section": "Quotes",
+    "explanation": "Charles Kingsley's insight about happiness, emphasizing that enthusiasm and passion are more important for fulfillment than material comfort and luxury"
+  },
+  {
+    "id": "2022-10-27-quotes-2",
+    "quote": "Writer, artist, and podcast host **Debbie Millman** on busyness:\n\n\"Busy is a decision. We do the things we want to do, period. If we say we are too busy, it is just shorthand for the thing being \"not important enough\" or \"not a priority.\" Busy is not a badge. You don't find the time to make things, you make the time to do things.\"",
+    "intro": "On busyness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-27-2022",
+    "author": "Debbie Millman",
+    "date": "2022-10-27",
+    "section": "Quotes",
+    "explanation": "Debbie Millman's perspective on busyness, emphasizing that being busy is a choice and that claiming to be too busy is actually saying something isn't a priority"
+  },
+  {
+    "id": "2022-10-20-quotes-1",
+    "quote": "Writer and former heavyweight boxer, **Ed Latimore**, on outsmarting yourself:\n\n\"Someone with half your IQ is making 10x as you because they aren't smart enough to doubt themselves.\"",
+    "intro": "On outsmarting yourself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-20-2022",
+    "author": "Ed Latimore",
+    "date": "2022-10-20",
+    "section": "Quotes",
+    "explanation": "Ed Latimore's insight about intelligence and doubt, emphasizing that excessive self-doubt can be more limiting than lower intelligence"
+  },
+  {
+    "id": "2022-10-20-quotes-2",
+    "quote": "**Wisława Szymborska**, poet and recipient of the 1996 Nobel Prize in Literature:\n\n\"Any knowledge that doesn't lead to new questions quickly dies out: it fails to maintain the temperature required for sustaining life.\"",
+    "intro": "On staying adaptable",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-20-2022",
+    "author": "Wisława Szymborska",
+    "date": "2022-10-20",
+    "section": "Quotes",
+    "explanation": "Wisława Szymborska's perspective on knowledge and curiosity, emphasizing that knowledge must generate new questions to remain alive and useful"
+  },
+  {
+    "id": "2022-10-13-quotes-1",
+    "quote": "Poet and naturalist **Diane Ackerman** on life:\n\n\"I don't want to get to the end of my life and find that I just lived the length of it. I want to live the width of it as well.\"",
+    "intro": "On life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-13-2022",
+    "author": "Diane Ackerman",
+    "date": "2022-10-13",
+    "section": "Quotes",
+    "explanation": "Diane Ackerman's perspective on life depth, emphasizing that a meaningful life requires both longevity and breadth of experience"
+  },
+  {
+    "id": "2022-10-13-quotes-2",
+    "quote": "Writer **Wes Angelozzi** on acceptance:\n\n\"Go and love someone exactly as they are. And then watch how quickly they transform into the greatest, truest version of themselves. When one feels seen and appreciated in their own essence, one is instantly empowered.\"",
+    "intro": "On acceptance",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-13-2022",
+    "author": "Wes Angelozzi",
+    "date": "2022-10-13",
+    "section": "Quotes",
+    "explanation": "Wes Angelozzi's insight about unconditional love, emphasizing that acceptance and appreciation enable people to become their best selves"
+  },
+  {
+    "id": "2022-10-06-quotes-1",
+    "quote": "Explorer and travel writer **Freya Stark** on aligning your thoughts and actions:\n\n\"There can be no happiness if the things we believe in are different from the things we do.\"",
+    "intro": "On aligning thoughts and actions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-6-2022",
+    "author": "Freya Stark",
+    "date": "2022-10-06",
+    "section": "Quotes",
+    "explanation": "Freya Stark's principle about integrity and happiness, emphasizing that alignment between beliefs and actions is essential for contentment"
+  },
+  {
+    "id": "2022-10-06-quotes-2",
+    "quote": "Entrepreneur and venture capitalist **Paul Graham** on the importance of being at least a little bit contrarian:\n\n\"Let's start with a test: Do you have any opinions that you would be reluctant to express in front of a group of your peers?\n\nIf the answer is no, you might want to stop and think about that. If everything you believe is something you're supposed to believe, could that possibly be a coincidence?\n\nOdds are it isn't. Odds are you just think whatever you're told.\"",
+    "intro": "On being contrarian",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-6-2022",
+    "author": "Paul Graham",
+    "date": "2022-10-06",
+    "section": "Quotes",
+    "explanation": "Paul Graham's test for independent thinking, emphasizing that having opinions that differ from peer consensus indicates genuine thought rather than mere conformity"
+  },
+  {
     "id": "2022-09-29-quotes-1",
     "quote": "Poet and author **Annie Dillard** on the value of a schedule:\n\n\"How we spend our days is, of course, how we spend our lives. What we do with this hour, and that one, is what we are doing. A schedule defends from chaos and whim. It is a net for catching days.\"",
     "intro": "On the value of a schedule",

@@ -1,5 +1,125 @@
 [
   {
+    "id": "2022-10-27-ideas-1",
+    "quote": "\"The observant person finds many teachers.\"",
+    "intro": "On finding teachers",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-27-2022",
+    "author": "James Clear",
+    "date": "2022-10-27",
+    "section": "Ideas",
+    "explanation": "A principle about learning opportunities, emphasizing that observation and awareness reveal teachers and lessons in everyday experiences"
+  },
+  {
+    "id": "2022-10-27-ideas-2",
+    "quote": "\"Criticize to uplift, not to destroy.\"",
+    "intro": "On criticism",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-27-2022",
+    "author": "James Clear",
+    "date": "2022-10-27",
+    "section": "Ideas",
+    "explanation": "A principle about constructive feedback, emphasizing that criticism should aim to improve and elevate rather than tear down"
+  },
+  {
+    "id": "2022-10-27-ideas-3",
+    "quote": "\"Every transaction is paid for at least three times. First, with the money you pay. Second, with the time you spend. Third, with the reputation you create through your behavior.\n\nBeing pleasant, reliable, and easy to work with might cost you a little more time. Perhaps even a bit of extra money. But the long-term returns from a great reputation usually outweigh the cost of a single transaction.\n\nMost of the value in life and in business arises out of good relationships.\"",
+    "intro": "On going a little overboard",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-27-2022",
+    "author": "James Clear",
+    "date": "2022-10-27",
+    "section": "Ideas",
+    "explanation": "A principle about relationship investment, emphasizing that transactions involve money, time, and reputation, and that investing in relationships provides long-term value"
+  },
+  {
+    "id": "2022-10-20-ideas-1",
+    "quote": "\"Stop learning, die young.\n\nKeep learning, stay young.\"",
+    "intro": "On learning and youth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-20-2022",
+    "author": "James Clear",
+    "date": "2022-10-20",
+    "section": "Ideas",
+    "explanation": "A principle about lifelong learning, emphasizing that continuous learning maintains youthfulness while stopping learning leads to premature aging"
+  },
+  {
+    "id": "2022-10-20-ideas-2",
+    "quote": "\"One of the great gifts of sports is learning how to fail in public.\n\nPeople never go to the gym because they're scared of looking stupid, never share their writing because they're scared of judgment, never open their heart because they're scared of rejection.\n\nSports train you to face your fear.\"",
+    "intro": "On failing in public",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-20-2022",
+    "author": "James Clear",
+    "date": "2022-10-20",
+    "section": "Ideas",
+    "explanation": "A principle about courage and growth, emphasizing that sports teach people to overcome fear of public failure and judgment"
+  },
+  {
+    "id": "2022-10-20-ideas-3",
+    "quote": "\"The mind is alive when it is flexible and adaptable. It can be updated, take new form, endure change.\n\nThe mind is dead when it is fixed and immovable. It cannot absorb new ideas or thoughts. It is stiff and brittle.\n\nWhen we lose our ability to adapt, to move with the environment, to tolerate new beliefs and reshape our old ones, our mind is at risk of becoming outdated. The fixed mind becomes a relic.\"",
+    "intro": "On staying adaptable",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-20-2022",
+    "author": "James Clear",
+    "date": "2022-10-20",
+    "section": "Ideas",
+    "explanation": "A principle about mental flexibility, emphasizing that adaptability keeps the mind alive while rigidity leads to obsolescence"
+  },
+  {
+    "id": "2022-10-13-ideas-1",
+    "quote": "\"Two competing truths:\n\n- The more prepared person usually wins.\n- You get credit for action, not preparation.\"",
+    "intro": "On two competing truths",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-13-2022",
+    "author": "James Clear",
+    "date": "2022-10-13",
+    "section": "Ideas",
+    "explanation": "A principle about preparation vs action, emphasizing the tension between the value of preparation and the necessity of taking action"
+  },
+  {
+    "id": "2022-10-13-ideas-2",
+    "quote": "\"What appears to be a rapid shift is often preceded by a gradual process. Our results gradually explode or vanish thanks to the small habits we repeat each day.\n\nWhat radical change are you slowly marching toward? An incremental explosion or an incremental vanishing?\"",
+    "intro": "On gradual processes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-13-2022",
+    "author": "James Clear",
+    "date": "2022-10-13",
+    "section": "Ideas",
+    "explanation": "A principle about compound effects, emphasizing that dramatic results come from gradual daily habits and that we're always moving toward either growth or decline"
+  },
+  {
+    "id": "2022-10-13-ideas-3",
+    "quote": "\"One type of person approaches a situation with the mindset of, \"How can I make this work?\"\n\nAnother type seems to approach each circumstance with the mindset of, \"What are all the reasons this wouldn't work?\"\n\nBoth people will be forced to deal with reality, but the first person will only have to solve problems that actually occur while the second person will often avoid taking action entirely because of the potential problems they have dreamt up before starting.\n\nThere will always be reasons to not do something. Be a problem solver, not a problem adder.\"",
+    "intro": "On problem-solving mindset",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-13-2022",
+    "author": "James Clear",
+    "date": "2022-10-13",
+    "section": "Ideas",
+    "explanation": "A principle about approach and action, emphasizing that focusing on solutions rather than obstacles leads to action while focusing on problems leads to paralysis"
+  },
+  {
+    "id": "2022-10-06-ideas-1",
+    "quote": "\"Simple mindset shifts:\n\n- I'm not hurt, I'm healing.\n\n- I'm not losing, I'm learning.\n\n- I was not rejected, I was redirected.\n\nNegative things happen. Negative mindsets make them harder.\"",
+    "intro": "On simple mindset shifts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-6-2022",
+    "author": "James Clear",
+    "date": "2022-10-06",
+    "section": "Ideas",
+    "explanation": "A principle about reframing experiences, emphasizing that changing perspective on negative events can reduce their psychological impact"
+  },
+  {
+    "id": "2022-10-06-ideas-2",
+    "quote": "\"Over long time frames, simply staying in the game is impressive.\n\n- Health and fitness: Can you stay injury free and not miss workouts?\n\n- Wealth and finance: Can you avoid debt and continue to save?\n\n- Business: Can you maintain cash flow and stay in business?\n\nLongevity is its own form of greatness.\"",
+    "intro": "On staying in the game",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-6-2022",
+    "author": "James Clear",
+    "date": "2022-10-06",
+    "section": "Ideas",
+    "explanation": "A principle about persistence and consistency, emphasizing that maintaining progress over long periods is itself an impressive achievement"
+  },
+  {
+    "id": "2022-10-06-ideas-3",
+    "quote": "\"Balancing success and failure is a tricky thing.\n\nI'd say 8 or 9 times out of 10, you should be succeeding. Build momentum. Accumulate advantages. Feast on the feeling of success and let it feed your desire to do more.\n\nBut 1 or 2 times out of 10, you should be failing. Push yourself and reach beyond your current grasp. Force yourself to try uncomfortable things. Occasionally you will surprise yourself and the rest of the time you will learn.\n\nWin enough to keep progressing. Lose enough to keep learning.\"",
+    "intro": "On balancing success and failure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-6-2022",
+    "author": "James Clear",
+    "date": "2022-10-06",
+    "section": "Ideas",
+    "explanation": "A principle about optimal challenge, emphasizing that success should dominate for momentum while occasional failure provides learning and growth"
+  },
+  {
     "id": "2022-09-29-ideas-1",
     "quote": "\"Keep ignoring feedback and life will keep teaching you the same lesson.\"",
     "intro": "On ignoring feedback",
