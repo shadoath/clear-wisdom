@@ -1,5 +1,125 @@
 [
   {
+    "id": "2023-01-26-ideas-1",
+    "quote": "\"You'll feel better once you get started.\"",
+    "intro": "On healthy self-esteem",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-26-2023",
+    "author": "James Clear",
+    "date": "2023-01-26",
+    "section": "Ideas",
+    "explanation": "A principle about momentum initiation, emphasizing that starting often improves mood and motivation"
+  },
+  {
+    "id": "2023-01-26-ideas-2",
+    "quote": "\"Do one thing per day that compounds.\"",
+    "intro": "On how to build an exercise habit",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-26-2023",
+    "author": "James Clear",
+    "date": "2023-01-26",
+    "section": "Ideas",
+    "explanation": "A principle about compound actions, emphasizing that daily activities with multiplying effects create exponential progress"
+  },
+  {
+    "id": "2023-01-26-ideas-3",
+    "quote": "\"The ability to love yourself improves your ability to be loved.\n\nWe are unlikely to accept a relationship that is worse than the one we have with ourselves, and thus the person who is happy and comfortable with themselves is in a great position.\n\nThe person with healthy self-esteem doesn't have to jump into any relationship because they already have a great one wherever they go.\"",
+    "intro": "On improving by 1%",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-26-2023",
+    "author": "James Clear",
+    "date": "2023-01-26",
+    "section": "Ideas",
+    "explanation": "A principle about self-love and relationships, emphasizing that healthy self-esteem creates better relationship choices and satisfaction"
+  },
+  {
+    "id": "2023-01-19-ideas-1",
+    "quote": "\"The more time you spend complaining about what you deserve, the less time you have to focus on what you can create. Focus on what you can control.\"",
+    "intro": "On focusing on what you can control",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-19-2023",
+    "author": "James Clear",
+    "date": "2023-01-19",
+    "section": "Ideas",
+    "explanation": "A principle about energy allocation, emphasizing that focusing on creation rather than complaint maximizes productive potential"
+  },
+  {
+    "id": "2023-01-19-ideas-2",
+    "quote": "\"If you never question things, your life ends up being limited by other people's imaginations.\n\nTake the time to think and dream, to question and reconsider. It is better to be limited by what you can dream for yourself than by where you fit in someone else's dream.\"",
+    "intro": "On the value of small contributions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-19-2023",
+    "author": "James Clear",
+    "date": "2023-01-19",
+    "section": "Ideas",
+    "explanation": "A principle about independent thinking, emphasizing that questioning assumptions expands possibilities beyond others' limitations"
+  },
+  {
+    "id": "2023-01-19-ideas-3",
+    "quote": "\"The edge is in the inputs.\n\nThe person who consumes from better sources, gets better thoughts. The person who asks better questions, gets better answers. The person who builds better habits, gets better results.\n\nIt's not the outcomes. It's the inputs.\"",
+    "intro": "On daily habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-19-2023",
+    "author": "James Clear",
+    "date": "2023-01-19",
+    "section": "Ideas",
+    "explanation": "A principle about input optimization, emphasizing that improving sources, questions, and habits creates better outcomes"
+  },
+  {
+    "id": "2023-01-12-ideas-1",
+    "quote": "\"The hard way is the fast way.\n\nDo it right the first time and you won't have to do it over the next time.\"",
+    "intro": "On the responsibility of any creator",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-12-2023",
+    "author": "James Clear",
+    "date": "2023-01-12",
+    "section": "Ideas",
+    "explanation": "A principle about quality vs speed, emphasizing that thorough initial work prevents future rework and delays"
+  },
+  {
+    "id": "2023-01-12-ideas-2",
+    "quote": "\"The responsibility of any creator is to do the work, not judge it.\n\nYour job is to fall in love with the process, not grade the outcome.\"",
+    "intro": "On leadership",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-12-2023",
+    "author": "James Clear",
+    "date": "2023-01-12",
+    "section": "Ideas",
+    "explanation": "A principle about creator responsibility, emphasizing that focusing on process rather than outcome judgment improves work quality"
+  },
+  {
+    "id": "2023-01-12-ideas-3",
+    "quote": "\"Leadership begins with your behavior.\n\nWhat's more powerful? A manager or coach or teacher who tells you the right thing to do? Or one who shows you how to live and work by example?\n\nPeople gravitate toward the standard you set, not the standard you request.\"",
+    "intro": "On how to succeed",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-12-2023",
+    "author": "James Clear",
+    "date": "2023-01-12",
+    "section": "Ideas",
+    "explanation": "A principle about leadership influence, emphasizing that behavioral example is more powerful than verbal instruction"
+  },
+  {
+    "id": "2023-01-05-ideas-1",
+    "quote": "\"You have to show up before inspiration will.\"",
+    "intro": "On inspiration",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-5-2023",
+    "author": "James Clear",
+    "date": "2023-01-05",
+    "section": "Ideas",
+    "explanation": "A principle about inspiration timing, emphasizing that consistent presence creates the conditions for inspiration to emerge"
+  },
+  {
+    "id": "2023-01-05-ideas-2",
+    "quote": "\"Just start.\n\nStart slow if you have to. Start small if you have to. Start privately if you have to.\n\nJust start.\"",
+    "intro": "On getting started",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-5-2023",
+    "author": "James Clear",
+    "date": "2023-01-05",
+    "section": "Ideas",
+    "explanation": "A principle about initiation, emphasizing that any form of starting is better than not starting at all"
+  },
+  {
+    "id": "2023-01-05-ideas-3",
+    "quote": "A reminder from Atomic Habits as we start the new year:\n\n\"Every action you take is a vote for the type of person you wish to become. No single instance will transform your beliefs, but as the votes build up, so does the evidence of your new identity.\"",
+    "intro": "On the power of cumulative action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-5-2023",
+    "author": "James Clear",
+    "date": "2023-01-05",
+    "section": "Ideas",
+    "explanation": "A principle from Atomic Habits about identity formation, emphasizing that consistent actions accumulate evidence for desired self-concept"
+  },
+  {
     "id": "2022-12-29-ideas-1",
     "quote": "\"10-year dreams. 5-minute actions.\n\nWhere do I want to be in 10 years?\n\nWhat can I do in the next 5 minutes to contribute to that outcome?\"",
     "intro": "On a simple way to start striving toward your dreams",

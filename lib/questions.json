@@ -1,5 +1,45 @@
 [
   {
+    "id": "2023-01-26-question",
+    "quote": "What can I do today to improve by 1%?",
+    "intro": "On improving by 1%",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-26-2023",
+    "author": "James Clear",
+    "date": "2023-01-26",
+    "section": "Questions",
+    "explanation": "A continuous improvement question for daily optimization, encouraging small incremental progress toward better outcomes"
+  },
+  {
+    "id": "2023-01-19-question",
+    "quote": "Are the results I am expecting aligned with the habits I am following each day?",
+    "intro": "On daily habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-19-2023",
+    "author": "James Clear",
+    "date": "2023-01-19",
+    "section": "Questions",
+    "explanation": "A habit-alignment question for examining consistency between daily actions and desired outcomes"
+  },
+  {
+    "id": "2023-01-12-question",
+    "quote": "Eliminate. Focus. Close yourself to the world and ask, \"What can I create today?\"\n\nRelax. Breathe. Open yourself to the world and ask, \"What can I receive today?\"",
+    "intro": "On how to succeed",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-12-2023",
+    "author": "James Clear",
+    "date": "2023-01-12",
+    "section": "Questions",
+    "explanation": "A balance question for alternating between creation and reception modes, encouraging both focused output and open input"
+  },
+  {
+    "id": "2023-01-05-question",
+    "quote": "Imagine all your responsibilities and obligations vanish overnight.\n\nWhat would you miss doing? What would you choose to add back to your life?\n\nIf you're searching for more time this year, start with a clean slate and choose what to add to your days rather than starting with a full schedule and trying to figure out what to eliminate.",
+    "intro": "On the power of cumulative action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-5-2023",
+    "author": "James Clear",
+    "date": "2023-01-05",
+    "section": "Questions",
+    "explanation": "A time management question for intentional life design, encouraging clean-slate thinking about priorities and commitments"
+  },
+  {
     "id": "2022-12-29-question",
     "quote": "It's one year from now. December 2023. The habit you were hoping to build during the year didn't stick. What is the most likely reason it failed?",
     "intro": "On second chances",

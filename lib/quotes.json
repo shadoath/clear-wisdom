@@ -1,5 +1,85 @@
 [
   {
+    "id": "2023-01-26-quotes-1",
+    "quote": "Philosopher and professor **Marshall McLuhan** on adapting and evolving:\n\n\"Resenting a new technology will not halt its progress.\"",
+    "intro": "On adapting and evolving",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-26-2023",
+    "author": "Marshall McLuhan",
+    "date": "2023-01-26",
+    "section": "Quotes",
+    "explanation": "Marshall McLuhan's insight about technological adaptation, emphasizing that resistance to change doesn't prevent progress"
+  },
+  {
+    "id": "2023-01-26-quotes-2",
+    "quote": "Writer **Sarah Perry** on how to build an exercise habit you actually enjoy (or any habit, really):\n\n\"Unfortunately, most on-ramps to exercise are at an intensity too high for previously-sedentary people to find them pleasurable. If people go to a fitness class, or focus on running a particular distance at a particular speed, they'll likely miss the pleasure zone entirely.\n\nRefocusing on exercising only for one's own individual pleasure, as slowly as one prefers, and only at intensities that are pleasurable, is more likely to motivate repeat and habitual exercising. At that point, the enjoyment of exercise pleasure can build on itself, motivating longer and longer intervals of experiencing the pleasure.\"",
+    "intro": "On how to build an exercise habit",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-26-2023",
+    "author": "Sarah Perry",
+    "date": "2023-01-26",
+    "section": "Quotes",
+    "explanation": "Sarah Perry's principle about habit formation, emphasizing that pleasure-based approaches create sustainable motivation for exercise and other habits"
+  },
+  {
+    "id": "2023-01-19-quotes-1",
+    "quote": "The poet **Mary Oliver** on the value of small contributions:\n\n\"May I be the tiniest nail in the house of the universe, tiny but useful.\"",
+    "intro": "On the value of small contributions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-19-2023",
+    "author": "Mary Oliver",
+    "date": "2023-01-19",
+    "section": "Quotes",
+    "explanation": "Mary Oliver's humble aspiration about contribution, emphasizing that small but useful roles have meaningful value in the larger whole"
+  },
+  {
+    "id": "2023-01-19-quotes-2",
+    "quote": "Author and poet **Maya Angelou** on how libraries changed her life:\n\n\"All information belongs to everybody all the time. It should be available. It should be accessible to the child, to the woman, to the man, to the old person, to the semiliterate, to the presidents of universities, to everyone. It should be open...\n\nInformation helps you to see that you're not alone. That there's somebody in Mississippi and somebody in Tokyo who all have wept, who've all longed and lost, who've all been happy. So the library helps you to see, not only that you are not alone, but that you're not really any different from everyone else. There may be details that are different, but a human being is a human being.\"",
+    "intro": "On how libraries changed her life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-19-2023",
+    "author": "Maya Angelou",
+    "date": "2023-01-19",
+    "section": "Quotes",
+    "explanation": "Maya Angelou's perspective on information accessibility, emphasizing that libraries reveal our shared humanity and universal experiences"
+  },
+  {
+    "id": "2023-01-12-quotes-1",
+    "quote": "Clinical psychologist, **Helen Schucman**, on love:\n\n\"Your task is not to seek for love, but merely to seek and find all the barriers within yourself that you have built against it.\"",
+    "intro": "On love",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-12-2023",
+    "author": "Helen Schucman",
+    "date": "2023-01-12",
+    "section": "Quotes",
+    "explanation": "Helen Schucman's insight about love barriers, emphasizing that removing internal obstacles is more important than seeking external love"
+  },
+  {
+    "id": "2023-01-12-quotes-2",
+    "quote": "**Charles Hayward**, a cabinet maker and editor of The Woodworker magazine, offers some advice on how to succeed in woodworking (and in life):\n\n\"One thing is certain: that, even though the craft is a lifetime's study, the application of a few simple principles will assuredly bring success in woodworking. In the first place, never start a job until you know precisely how you are going to do it. Pass its construction step by step through your mind, so that you may hit upon the snags and mentally smooth them out.\n\nDon't work hurriedly. Your very keenness may prompt you to rush, but to do so is fatal. Curb your desire to see the thing finished, and always concentrate intently upon the particular bit of the job you have in hand.\n\nIn all you do be accurate. No measurement, no cut, no squaring, should be \"near enough.\" It must be right. For often one inaccuracy becomes the seed of others, and reproduces trouble as the work proceeds.\n\nFinally, don't worry about an honest mistake. Ponder the reason for it and so learn from it. Progress at your own speed from simple job to something more difficult, but never force the pace. At the same time, be just as ambitious as your previous work warrants.\"",
+    "intro": "On how to succeed in woodworking (and in life)",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-12-2023",
+    "author": "Charles Hayward",
+    "date": "2023-01-12",
+    "section": "Quotes",
+    "explanation": "Charles Hayward's principles for craftsmanship success, emphasizing planning, patience, accuracy, and learning from mistakes"
+  },
+  {
+    "id": "2023-01-05-quotes-1",
+    "quote": "Author and screenwriter **Ray Bradbury** on the power of cumulative action:\n\n\"Action is hope. At the end of each day, when you've done your work, you lie there and think, Well, I'll be damned, I did this today. It doesn't matter how good it is, or how bad--you did it. At the end of the week you'll have a certain amount of accumulation. At the end of a year, you look back and say, I'll be damned, it's been a good year.\"",
+    "intro": "On the power of cumulative action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-5-2023",
+    "author": "Ray Bradbury",
+    "date": "2023-01-05",
+    "section": "Quotes",
+    "explanation": "Ray Bradbury's insight about action and hope, emphasizing that consistent daily action creates cumulative progress and satisfaction"
+  },
+  {
+    "id": "2023-01-05-quotes-2",
+    "quote": "**Steve Jobs** on the intersection of thinking and doing:\n\n\"My observation is that the doers are the major thinkers. The people that really create the things that change this industry are both the thinker and doer in one person. And if we really go back and we examine, you know, did Leonardo have a guy off to the side that was thinking five years out in the future what he would paint or the technology he would use to paint it? Of course not. Leonardo was the artist, but he also mixed all his own paints. He also was a fairly good chemist. He knew about pigments, knew about human anatomy. And combining all of those skills together, the art and the science, the thinking and the doing, was what resulted in the exceptional result. And there is no difference in our industry. The people that have really made the contributions have been the thinkers and the doers.\"",
+    "intro": "On the intersection of thinking and doing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-5-2023",
+    "author": "Steve Jobs",
+    "date": "2023-01-05",
+    "section": "Quotes",
+    "explanation": "Steve Jobs' principle about integrated thinking and doing, emphasizing that exceptional results come from combining conceptual and practical skills"
+  },
+  {
     "id": "2022-12-29-quotes-1",
     "quote": "Author **Patricia Digh** on the New Year:\n\n\"At the end of each year, I ask myself two questions:\n\n1) What do I want to create in this New Year?\n\nAnd, perhaps even more importantly,\n\n2) What do I want to let go of?\"",
     "intro": "On the New Year",
