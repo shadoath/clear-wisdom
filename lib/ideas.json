@@ -1,5 +1,125 @@
 [
   {
+    "id": "2022-11-24-ideas-1",
+    "quote": "\"Good choices create opportunities. Good habits make the most of them.\"",
+    "intro": "On consistency",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-24-2022",
+    "author": "James Clear",
+    "date": "2022-11-24",
+    "section": "Ideas",
+    "explanation": "A principle about opportunity optimization, emphasizing that good decisions open doors while good habits maximize what's behind those doors"
+  },
+  {
+    "id": "2022-11-24-ideas-2",
+    "quote": "\"Consistency before intensity.\n\nStart small and become the kind of person who shows up every day. Build a new identity.\n\nThen increase the intensity.\"",
+    "intro": "On consistency before intensity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-24-2022",
+    "author": "James Clear",
+    "date": "2022-11-24",
+    "section": "Ideas",
+    "explanation": "A principle about habit formation, emphasizing that establishing identity and consistency is more important than intensity in the beginning"
+  },
+  {
+    "id": "2022-11-24-ideas-3",
+    "quote": "\"Asking what makes someone successful is like asking which ingredient makes a recipe taste good. It's not any single ingredient. It is the combination of many ingredients in the right proportions and in the right order--and the absence of anything that would ruin the mixture.\"",
+    "intro": "On success ingredients",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-24-2022",
+    "author": "James Clear",
+    "date": "2022-11-24",
+    "section": "Ideas",
+    "explanation": "A principle about success complexity, emphasizing that achievement comes from the right combination of factors rather than any single element"
+  },
+  {
+    "id": "2022-11-17-ideas-1",
+    "quote": "\"Power is influence over external events.\n\nPeace is influence over internal events.\"",
+    "intro": "On power vs peace",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-17-2022",
+    "author": "James Clear",
+    "date": "2022-11-17",
+    "section": "Ideas",
+    "explanation": "A principle about influence types, emphasizing that power controls external circumstances while peace controls internal responses"
+  },
+  {
+    "id": "2022-11-17-ideas-2",
+    "quote": "\"Persistence and variety. These are the two primary ways to develop great ideas or to solve important problems.\n\nKeep leaning your head against a topic for a long time. Certainly for weeks, possibly for years. And along the way, try many lines of attack. Continue to generate options, explore paths, and propose silly ideas. Copy and paste concepts from widely different disciplines and see if it gets you anywhere. All the while, continue to refine the best solution you've found thus far.\n\nWhat looks like genius may simply be the byproduct of persistence and variety.\"",
+    "intro": "On two ways to develop great ideas",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-17-2022",
+    "author": "James Clear",
+    "date": "2022-11-17",
+    "section": "Ideas",
+    "explanation": "A principle about idea development, emphasizing that breakthrough thinking comes from sustained focus combined with diverse approaches"
+  },
+  {
+    "id": "2022-11-17-ideas-3",
+    "quote": "An idea from Atomic Habits:\n\n\"When you fall in love with the process rather than the product, you don't have to wait to give yourself permission to be happy. You can be satisfied anytime your system is running.\"",
+    "intro": "On contentment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-17-2022",
+    "author": "James Clear",
+    "date": "2022-11-17",
+    "section": "Ideas",
+    "explanation": "A principle from Atomic Habits about process vs outcome, emphasizing that loving the process enables immediate satisfaction rather than waiting for results"
+  },
+  {
+    "id": "2022-11-10-ideas-1",
+    "quote": "\"One good day does not mean you can coast tomorrow. You never have it fully licked. Making good choices is an endless process. Many areas of life that we value most--our relationships, our fitness, our craft--require a continual commitment.\"",
+    "intro": "On continual commitment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-10-2022",
+    "author": "James Clear",
+    "date": "2022-11-10",
+    "section": "Ideas",
+    "explanation": "A principle about sustained effort, emphasizing that valuable areas of life require ongoing commitment rather than one-time achievements"
+  },
+  {
+    "id": "2022-11-10-ideas-2",
+    "quote": "\"One of the simplest ways to win is to always connect the small things you do to the larger thing you hope to accomplish.\n\nFive minutes can be spent working on something trivial or working on something life-changing. A brief session of work oriented toward a great cause is always time well spent.\n\nMost daily actions evaporate. Some accumulate.\"",
+    "intro": "On a simple way to win",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-10-2022",
+    "author": "James Clear",
+    "date": "2022-11-10",
+    "section": "Ideas",
+    "explanation": "A principle about action alignment, emphasizing that connecting small actions to larger goals makes time more valuable and productive"
+  },
+  {
+    "id": "2022-11-10-ideas-3",
+    "quote": "\"One of the common trappings of success is overproducing.\n\nCompanies make money and rapidly expand their product line. Authors become popular and churn out books at a faster clip.\n\nScale can empower, but it can also dilute. Something is lost when quantity is valued over quality.\n\nYou have to maintain your standards even when all the forces around you seem to be calling for growth. Push back against more, more, more and remain committed to better, better, better.\"",
+    "intro": "On a common trapping of success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-10-2022",
+    "author": "James Clear",
+    "date": "2022-11-10",
+    "section": "Ideas",
+    "explanation": "A principle about quality vs quantity, emphasizing that success can lead to overproduction and that maintaining standards is more important than scaling"
+  },
+  {
+    "id": "2022-11-03-ideas-1",
+    "quote": "\"The ultimate form of preparation is not planning for a specific scenario, but a mindset that can handle uncertainty.\"",
+    "intro": "On preparation mindset",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-3-2022",
+    "author": "James Clear",
+    "date": "2022-11-03",
+    "section": "Ideas",
+    "explanation": "A principle about preparation, emphasizing that mental flexibility and adaptability are more valuable than specific scenario planning"
+  },
+  {
+    "id": "2022-11-03-ideas-2",
+    "quote": "\"In some areas of life, value is unlocked by starting. Even a five-minute workout or a short walk can reset your mood and benefit your body.\n\nIn other areas, value is unlocked by finishing. It does you no good to build a bridge halfway across the river. You need to complete the project to realize the value.\n\nDo you need to optimize for starting or finishing? Are you building a body or building a bridge?\"",
+    "intro": "On starting vs finishing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-3-2022",
+    "author": "James Clear",
+    "date": "2022-11-03",
+    "section": "Ideas",
+    "explanation": "A principle about value creation, emphasizing that some activities provide value through starting while others require completion"
+  },
+  {
+    "id": "2022-11-03-ideas-3",
+    "quote": "\"Your net productivity is the balance of the productive and unproductive forces in your life.\n\nA great deal of time and energy is spent thinking about how to increase effort, but there is a lot to be gained by reducing friction.\n\nA car will travel faster not only if you press the accelerator, but also if you remove the speed bumps.\"",
+    "intro": "On net productivity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-3-2022",
+    "author": "James Clear",
+    "date": "2022-11-03",
+    "section": "Ideas",
+    "explanation": "A principle about productivity optimization, emphasizing that reducing friction can be as effective as increasing effort"
+  },
+  {
     "id": "2022-10-27-ideas-1",
     "quote": "\"The observant person finds many teachers.\"",
     "intro": "On finding teachers",

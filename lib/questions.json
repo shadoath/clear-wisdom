@@ -1,5 +1,45 @@
 [
   {
+    "id": "2022-11-24-question",
+    "quote": "How can I use the negative experiences in my life to drive me? What fuel can I draw from my failures? What lessons can I take from my grief? What insights can I extract from my embarrassments?",
+    "intro": "On shaping the world",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-24-2022",
+    "author": "James Clear",
+    "date": "2022-11-24",
+    "section": "Questions",
+    "explanation": "A resilience question for transforming negative experiences into motivation and wisdom, encouraging extraction of value from difficult life events"
+  },
+  {
+    "id": "2022-11-17-question",
+    "quote": "Do I need to spend more time searching for better information or do I need to spend more time acting on the information I already have? Is the bottleneck strategy or execution?",
+    "intro": "On strategy vs execution",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-17-2022",
+    "author": "James Clear",
+    "date": "2022-11-17",
+    "section": "Questions",
+    "explanation": "A productivity question for identifying whether the constraint is information gathering or action taking, encouraging assessment of current bottlenecks"
+  },
+  {
+    "id": "2022-11-10-question",
+    "quote": "The question is not, \"Will I succeed?\" but rather, \"What should I attempt?\"",
+    "intro": "On what to attempt",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-10-2022",
+    "author": "James Clear",
+    "date": "2022-11-10",
+    "section": "Questions",
+    "explanation": "A goal-setting question for shifting focus from success probability to attempt selection, encouraging consideration of what's worth trying"
+  },
+  {
+    "id": "2022-11-03-question",
+    "quote": "What do I need to accomplish today and how can I have the most fun possible while doing it?",
+    "intro": "On net productivity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-3-2022",
+    "author": "James Clear",
+    "date": "2022-11-03",
+    "section": "Questions",
+    "explanation": "A productivity and enjoyment question for combining accomplishment with pleasure, encouraging optimization of both results and experience"
+  },
+  {
     "id": "2022-10-27-question",
     "quote": "What's something good to \"go a little overboard\" on?\n\nWhat's something you could benefit from caring less about?",
     "intro": "On going overboard vs caring less",
