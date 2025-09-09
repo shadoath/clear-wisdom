@@ -60,6 +60,15 @@ body {
   min-height: 0;
 }
 
+.logo-section {
+  text-align: center;
+}
+
+.logo-section img {
+  width: 64px;
+  height: 60px;
+}
+
 .search-category-filters {
   text-align: center;
   text-align: center;
