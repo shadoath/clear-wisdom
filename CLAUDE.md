@@ -9,6 +9,7 @@ Clear Wisdom is a Chrome extension that displays wisdom quotes from James Clear'
 ## Architecture
 
 ### Core Components
+
 - **newtab.js**: Main logic for new tab functionality, handles mode switching, quote display, and user interactions
 - **src/markdown.js**: Parses markdown formatting in quotes (bold, italic, line breaks)
 - **src/favorites.js**: Manages favorite quotes storage and retrieval
@@ -16,12 +17,15 @@ Clear Wisdom is a Chrome extension that displays wisdom quotes from James Clear'
 - **src/util.js**: Utility functions for random selection, animations, and helpers
 
 ### Data Structure
-Content is stored in three JSON files in `lib/`:
+
+Content is stored in three JSON files in `/extension/lib/`:
+
 - **ideas.json**: James Clear's insights (3 per newsletter)
-- **quotes.json**: Quotes from other authors (2 per newsletter)  
+- **quotes.json**: Quotes from other authors (2 per newsletter)
 - **questions.json**: Reflection questions (1 per newsletter)
 
 Each entry follows this structure:
+
 ```json
 {
   "id": "YYYY-MM-DD-type-N",
@@ -38,18 +42,22 @@ Each entry follows this structure:
 ## Development Commands
 
 ### Installing the Extension
+
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Enable "Developer mode"
 3. Click "Load unpacked" and select the project directory
 4. The extension will replace new tabs with the Clear Wisdom interface
 
 ### Testing Changes
+
 - Reload the extension in `chrome://extensions/` after making code changes
 - Open a new tab to see changes immediately
 - Use Chrome DevTools Console to debug JavaScript issues
 
 ### Adding New Content
+
 When adding new quotes to the JSON files:
+
 - Maintain the existing JSON structure exactly
 - Use the date format: `YYYY-MM-DD`
 - Ensure IDs follow the pattern: `YYYY-MM-DD-type-N`
