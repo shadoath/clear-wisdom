@@ -1,5 +1,475 @@
 [
   {
+    "id": "2024-12-26-question",
+    "quote": "Habits need to be revised from time to time. Which habits have become more important and you need to double down on next year? Which habits are no longer serving you and need to be replaced next year?",
+    "intro": "On making a comeback",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-26-2024",
+    "author": "James Clear",
+    "date": "2024-12-26",
+    "section": "Questions",
+    "explanation": "A habit revision question for year-end reflection, encouraging assessment of which habits to strengthen and which to replace"
+  },
+  {
+    "id": "2024-12-19-question",
+    "quote": "What is one lesson you have learned this year?",
+    "intro": "On how to deal with stress",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-19-2024",
+    "author": "James Clear",
+    "date": "2024-12-19",
+    "section": "Questions",
+    "explanation": "A year-end reflection question for learning assessment, encouraging identification of key lessons learned"
+  },
+  {
+    "id": "2024-12-12-question",
+    "quote": "How does this action feed the next? How does this project make the next project easier?",
+    "intro": "On acting with confidence",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-12-2024",
+    "author": "James Clear",
+    "date": "2024-12-12",
+    "section": "Questions",
+    "explanation": "A momentum and connection question for project planning, encouraging consideration of how current work enables future work"
+  },
+  {
+    "id": "2024-12-05-question",
+    "quote": "The common narrative is that kids learn faster than adults, but if you watch any toddler they spend a large portion of the day attempting things that are on the edge of their ability.\n\nHow much time have you spent on the edge of your ability today?",
+    "intro": "On how to learn faster",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-5-2024",
+    "author": "James Clear",
+    "date": "2024-12-05",
+    "section": "Questions",
+    "explanation": "A learning edge question for growth assessment, encouraging time spent attempting things at the edge of your ability"
+  },
+  {
+    "id": "2024-11-28-question",
+    "quote": "The best way to handle pressure is to apply it.\n\nWhat if you played the game like you were always on offense?",
+    "intro": "On loving your fate",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-28-2024",
+    "author": "James Clear",
+    "date": "2024-11-28",
+    "section": "Questions",
+    "explanation": "A pressure and offense question for mindset shift, encouraging playing from an offensive rather than defensive position"
+  },
+  {
+    "id": "2024-11-21-question",
+    "quote": "We undervalue health if we have not recently experienced illness.\n\nWe undervalue wealth if we have not recently experienced poverty.\n\nWe undervalue kindness if we have not recently experienced cruelty.\n\nWhat might you be undervaluing right now?",
+    "intro": "On the power of limiting your options",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-21-2024",
+    "author": "James Clear",
+    "date": "2024-11-21",
+    "section": "Questions",
+    "explanation": "A value recognition question for gratitude, encouraging identification of what you might be undervaluing due to lack of recent contrast"
+  },
+  {
+    "id": "2024-11-14-question",
+    "quote": "Where has your mind been focused recently? Are you primarily thinking about your past, your present, or your future? How does focusing on a different timeframe change your thoughts?",
+    "intro": "On the importance of unlearning",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-14-2024",
+    "author": "James Clear",
+    "date": "2024-11-14",
+    "section": "Questions",
+    "explanation": "A time focus question for mental awareness, encouraging examination of where your mind focuses and how different timeframes affect thoughts"
+  },
+  {
+    "id": "2024-11-07-question",
+    "quote": "What project are you still working on that has already peaked? Is it time to let it go and begin climbing the next mountain?",
+    "intro": "On growing fast vs. growing slow",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-7-2024",
+    "author": "James Clear",
+    "date": "2024-11-07",
+    "section": "Questions",
+    "explanation": "A project evaluation question for strategic decision making, encouraging assessment of whether to continue or move on from peaked projects"
+  },
+  {
+    "id": "2024-10-31-question",
+    "quote": "Think about someone who has the results you want or a lifestyle you admire. It's easy to want the results. What are the costs and tradeoffs of their lifestyle that you may be overlooking?",
+    "intro": "On impressing others",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-31-2024",
+    "author": "James Clear",
+    "date": "2024-10-31",
+    "section": "Questions",
+    "explanation": "A lifestyle cost analysis question for realistic goal setting, encouraging examination of hidden costs and tradeoffs in admired lifestyles"
+  },
+  {
+    "id": "2024-10-24-question",
+    "quote": "Forget about the outcome and focus on what precedes it.\n\nAm I putting myself in good positions and creating the conditions for success?",
+    "intro": "On the biggest barrier to learning",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-24-2024",
+    "author": "James Clear",
+    "date": "2024-10-24",
+    "section": "Questions",
+    "explanation": "A process-focused question for success preparation, encouraging focus on creating conditions rather than obsessing over outcomes"
+  },
+  {
+    "id": "2024-10-17-question",
+    "quote": "When you woke up this morning, did you expect today to have many joys or many frustrations?",
+    "intro": "On finding games worth winning",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-17-2024",
+    "author": "James Clear",
+    "date": "2024-10-17",
+    "section": "Questions",
+    "explanation": "A morning expectation question for mindset awareness, encouraging reflection on whether you expect joy or frustration each day"
+  },
+  {
+    "id": "2024-10-10-question",
+    "quote": "A thoughtful question from author Morgan Housel: \"What was true a generation ago that no longer is, and who is clinging to that old truth?\"",
+    "intro": "On the power of one minute",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-10-2024",
+    "author": "Morgan Housel",
+    "date": "2024-10-10",
+    "section": "Questions",
+    "explanation": "A generational truth question for perspective awareness, encouraging examination of outdated beliefs and who holds them"
+  },
+  {
+    "id": "2024-10-03-question",
+    "quote": "Ask yourself this question three times and try to refine and improve your answer each time: What do I really want?",
+    "intro": "On the power of going for it",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-3-2024",
+    "author": "James Clear",
+    "date": "2024-10-03",
+    "section": "Questions",
+    "explanation": "A three-iteration desire clarification question for goal setting, encouraging deeper reflection on what you truly want"
+  },
+  {
+    "id": "2024-09-26-question",
+    "quote": "A four-pack on love:\n\n* In what ways is it easy for you to show love?\n* In what ways is it hard for you to show love?\n* In what ways is it easy for you to receive love?\n* In what ways is it hard for you to receive love?",
+    "intro": "On cheat codes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-26-2024",
+    "author": "James Clear",
+    "date": "2024-09-26",
+    "section": "Questions",
+    "explanation": "A four-part love reflection question, encouraging examination of both giving and receiving love in different contexts"
+  },
+  {
+    "id": "2024-09-19-question",
+    "quote": "What weight are you carrying unnecessarily?",
+    "intro": "On the source of inspiration",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-19-2024",
+    "author": "James Clear",
+    "date": "2024-09-19",
+    "section": "Questions",
+    "explanation": "A burden identification question for simplification, encouraging recognition of unnecessary weight you're carrying"
+  },
+  {
+    "id": "2024-09-12-question",
+    "quote": "Exploration is how you discover what works.\n\nPersistence is how you make the most of what already works.\n\nWhat does your situation require? More exploration or more persistence?",
+    "intro": "On the cost of success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-12-2024",
+    "author": "James Clear",
+    "date": "2024-09-12",
+    "section": "Questions",
+    "explanation": "A strategy assessment question for decision making, encouraging evaluation of whether you need more exploration or persistence"
+  },
+  {
+    "id": "2024-09-05-question",
+    "quote": "Many things in life go through phases. It can be like the seasons: spring, summer, fall, winter. Each season has its own set of needs and demands.\n\nThink about something important to you. Maybe it's a project or a job. Perhaps a hobby or even a relationship. What season are you in right now and what does that season require?",
+    "intro": "On self-worth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-5-2024",
+    "author": "James Clear",
+    "date": "2024-09-05",
+    "section": "Questions",
+    "explanation": "A seasonal awareness question for life phases, encouraging recognition of what season you're in and what it requires"
+  },
+  {
+    "id": "2024-08-29-question",
+    "quote": "When are you seized by the thrill of what you are trying to accomplish?",
+    "intro": "On living with lightness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-29-2024",
+    "author": "James Clear",
+    "date": "2024-08-29",
+    "section": "Questions",
+    "explanation": "A thrill identification question for motivation, encouraging recognition of when you feel most excited about your goals"
+  },
+  {
+    "id": "2024-08-22-question",
+    "quote": "What can I do today to practice five minutes of self-care?",
+    "intro": "On thoughts on greatness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-22-2024",
+    "author": "James Clear",
+    "date": "2024-08-22",
+    "section": "Questions",
+    "explanation": "A self-care question for daily practice, encouraging small daily acts of self-care"
+  },
+  {
+    "id": "2024-08-15-question",
+    "quote": "Which activities are the best expression of you? Can you spend five minutes doing one of them today?",
+    "intro": "On how to time travel",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-15-2024",
+    "author": "James Clear",
+    "date": "2024-08-15",
+    "section": "Questions",
+    "explanation": "A self-expression question for daily action, encouraging identification and practice of activities that best express your true self"
+  },
+  {
+    "id": "2024-08-08-question",
+    "quote": "Author and investor Morgan Housel shares a thought-provoking question: \"Whose life do I admire that is secretly miserable?\"",
+    "intro": "On how to find your way in life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-8-2024",
+    "author": "Morgan Housel",
+    "date": "2024-08-08",
+    "section": "Questions",
+    "explanation": "A perspective question about admiration and reality, encouraging examination of whether admired lives are actually fulfilling"
+  },
+  {
+    "id": "2024-08-01-question",
+    "quote": "What conversation will you be proud of yourself for having even if it doesn't end with the outcome you want? Go have that conversation.",
+    "intro": "On being yourself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-1-2024",
+    "author": "James Clear",
+    "date": "2024-08-01",
+    "section": "Questions",
+    "explanation": "A courage question for difficult conversations, encouraging having conversations you'll be proud of regardless of outcome"
+  },
+  {
+    "id": "2024-07-25-question",
+    "quote": "In many cases, the real talent is being obsessed with the thing. What are you willing to focus on so wholeheartedly that you are happy to ignore nearly everything else?",
+    "intro": "On the secret to creativity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-25-2024",
+    "author": "James Clear",
+    "date": "2024-07-25",
+    "section": "Questions",
+    "explanation": "An obsession identification question for talent development, encouraging recognition of what you're willing to focus on exclusively"
+  },
+  {
+    "id": "2024-07-18-question",
+    "quote": "It's important to have boundaries in life, but sometimes you may feel guilty for enforcing them. Aren't I supposed to be generous? Am I unkind if I say no to this?\n\nThe question isn't whether to be flexible or firm, but when to be each one. A good life has a healthy mix of selfish boundaries and unselfish giving. You don't have to be all things at all times. Sometimes you pour for others and sometimes you refill your own cup.\n\nWhat does this moment call for?",
+    "intro": "On the key to great relationships",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-18-2024",
+    "author": "James Clear",
+    "date": "2024-07-18",
+    "section": "Questions",
+    "explanation": "A boundary and giving balance question for moment-to-moment decision making, encouraging assessment of what each situation requires"
+  },
+  {
+    "id": "2024-07-11-question",
+    "quote": "What is in the way of what I want?\n\nCan I come up with at least three different paths around it?",
+    "intro": "On feeling foolish",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-11-2024",
+    "author": "James Clear",
+    "date": "2024-07-11",
+    "section": "Questions",
+    "explanation": "An obstacle navigation question for problem solving, encouraging identification of barriers and multiple alternative paths"
+  },
+  {
+    "id": "2024-07-04-question",
+    "quote": "Instead of asking, \"What would make me feel happy?\" try asking, \"What would make the group excited?\"\n\nMany of the best moments in life happen when the group is having fun. You feed off one another's energy. What can you do to laugh or gasp or scream or smile with others?",
+    "intro": "On the hidden costs of success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-4-2024",
+    "author": "James Clear",
+    "date": "2024-07-04",
+    "section": "Questions",
+    "explanation": "A group excitement question for shared experiences, encouraging focus on collective joy rather than individual happiness"
+  },
+  {
+    "id": "2024-06-27-question",
+    "quote": "A wonderful question from Morgan Housel on measuring your results internally rather than externally:\n\n\"Would I be happy with this result if no one other than me and my family could see it, and I didn't compare the result to the appearance of other people's success?\"",
+    "intro": "On the excuses we live by",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-27-2024",
+    "author": "James Clear",
+    "date": "2024-06-27",
+    "section": "Questions",
+    "explanation": "A Morgan Housel-inspired internal measurement question for authentic satisfaction, encouraging evaluation of results without external validation or comparison"
+  },
+  {
+    "id": "2024-06-20-question",
+    "quote": "How do you want to feel at the end of today? What do you need to do now, so you can feel this way?",
+    "intro": "On mental toughness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-20-2024",
+    "author": "James Clear",
+    "date": "2024-06-20",
+    "section": "Questions",
+    "explanation": "A daily feeling and action alignment question for intentional living, encouraging identification of desired end-of-day feelings and required actions"
+  },
+  {
+    "id": "2024-06-13-question",
+    "quote": "How can I overlap the things I enjoy?\n\nFor example, maybe you want to exercise and spend time with your spouse. What type of exercise sounds fun to do with your spouse?\n\nOr perhaps you'd like to hang out with friends and build your career. How can you find ways to work with people you like being around?\n\nIt doesn't always work, but there are usually a few areas of life you can overlap in an enjoyable way. Look for the overlap.",
+    "intro": "On the shortness of life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-13-2024",
+    "author": "James Clear",
+    "date": "2024-06-13",
+    "section": "Questions",
+    "explanation": "A life overlap question for efficiency and enjoyment, encouraging identification of ways to combine multiple desired activities"
+  },
+  {
+    "id": "2024-06-06-question",
+    "quote": "How should you measure your days? It's easy to measure your days in dollars earned or tasks completed, but there are other units of measurement to consider:\n\n* What would you do today if you wanted to maximize laughter?\n* What would you do today if you wanted to maximize time outside?\n* What would you do today if you wanted to maximize peace of mind?\n\nWhat unit of measurement serves you best right now?",
+    "intro": "On how to stick to a new habit",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-6-2024",
+    "author": "James Clear",
+    "date": "2024-06-06",
+    "section": "Questions",
+    "explanation": "A daily measurement question for life optimization, encouraging evaluation of different ways to measure and optimize daily success"
+  },
+  {
+    "id": "2024-04-25-question",
+    "quote": "What lifestyle do you love 80% of the time?\n\nNo lifestyle is perfect 100% of the time. I love having a few days each year to relax on the beach--but I wouldn't want to do that every day, or even most days.\n\nWhat lifestyle feels ideal for you most of the time? Cultivate that.",
+    "intro": "On how to connect with others",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-25-2024",
+    "author": "James Clear",
+    "date": "2024-04-25",
+    "section": "Questions",
+    "explanation": "A lifestyle optimization question for ideal living, encouraging identification of the lifestyle that feels right 80% of the time"
+  },
+  {
+    "id": "2024-04-18-question",
+    "quote": "There are two ways to grow: by adding or by shedding.\n\nDo you need to add something or do you need to shed something?",
+    "intro": "On two ways to grow",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-18-2024",
+    "author": "James Clear",
+    "date": "2024-04-18",
+    "section": "Questions",
+    "explanation": "A growth direction question for development strategy, encouraging assessment of whether growth requires addition or subtraction"
+  },
+  {
+    "id": "2024-04-11-question",
+    "quote": "Is the situation actually complicated or is it really quite straightforward, but you're making it complicated because it requires a lot of courage to make the straightforward decision?",
+    "intro": "On what top performers do",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-11-2024",
+    "author": "James Clear",
+    "date": "2024-04-11",
+    "section": "Questions",
+    "explanation": "A complexity assessment question for decision clarity, encouraging evaluation of whether situations are truly complex or just require courage"
+  },
+  {
+    "id": "2024-04-04-question",
+    "quote": "What is one commitment you are continuing to do out of inertia, but--if you had the courage to eliminate it--you would immediately benefit from discarding it?",
+    "intro": "On discarding old commitments",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-4-2024",
+    "author": "James Clear",
+    "date": "2024-04-04",
+    "section": "Questions",
+    "explanation": "A commitment evaluation question for inertia breaking, encouraging identification of commitments that could be eliminated for immediate benefit"
+  },
+  {
+    "id": "2024-03-28-question",
+    "quote": "A question from business coach Jeanne Torre:\n\n\"Is that assumed or confirmed?\"",
+    "intro": "On muddy puddles and leaky ceilings",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-28-2024",
+    "author": "James Clear",
+    "date": "2024-03-28",
+    "section": "Questions",
+    "explanation": "A business coach question for assumption verification, encouraging distinction between what is assumed versus what is confirmed"
+  },
+  {
+    "id": "2024-03-21-question",
+    "quote": "Imagine your life as a book. What title would you give to the current chapter, and what is going to be the next?",
+    "intro": "On my advice for writers",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-21-2024",
+    "author": "James Clear",
+    "date": "2024-03-21",
+    "section": "Questions",
+    "explanation": "A life narrative question for chapter identification, encouraging reflection on current life phase and next chapter planning"
+  },
+  {
+    "id": "2024-03-14-question",
+    "quote": "What is something you want, but you haven't asked for?",
+    "intro": "On hard conversations",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-14-2024",
+    "author": "James Clear",
+    "date": "2024-03-14",
+    "section": "Questions",
+    "explanation": "A desire identification question for action encouragement, prompting recognition of unasked wants"
+  },
+  {
+    "id": "2024-03-07-question",
+    "quote": "When have I felt most joyful this year and what steps can I take to recreate those conditions?",
+    "intro": "On creating the conditions for joy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-7-2024",
+    "author": "James Clear",
+    "date": "2024-03-07",
+    "section": "Questions",
+    "explanation": "A joy recreation question for happiness optimization, encouraging identification of joyful moments and how to recreate them"
+  },
+  {
+    "id": "2024-02-29-question",
+    "quote": "Design for relaxation. What is one change I can make to my environment that promotes mental peace and reduces stress?",
+    "intro": "On how to be consistent",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-29-2024",
+    "author": "James Clear",
+    "date": "2024-02-29",
+    "section": "Questions",
+    "explanation": "An environment design question for stress reduction, encouraging identification of one change to promote mental peace"
+  },
+  {
+    "id": "2024-02-22-question",
+    "quote": "What if you stopped looking for new ideas and simply focused on the best idea you have right now?",
+    "intro": "On luxury purchases",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-22-2024",
+    "author": "James Clear",
+    "date": "2024-02-22",
+    "section": "Questions",
+    "explanation": "A focus question for idea execution, encouraging concentration on current best ideas rather than seeking new ones"
+  },
+  {
+    "id": "2024-02-15-question",
+    "quote": "Imagine there is a small version of you and a big version.\n\nWhen you are playing small, your behavior is timid, you feel less than, and you are often surrounded by people and projects that drain you.\n\nWhen you are playing big, your behavior is confident, you feel motivated, and you tend to be investing in people and projects that energize you.\n\nHow can you spend more time playing the big version of yourself this year?",
+    "intro": "On the simple way to have a good day",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-15-2024",
+    "author": "James Clear",
+    "date": "2024-02-15",
+    "section": "Questions",
+    "explanation": "A self-version question for confidence building, encouraging identification of ways to spend more time in the confident, energized version"
+  },
+  {
+    "id": "2024-02-08-question",
+    "quote": "Which responsibilities, relationships, or projects have been weighing heavily on me and can I give myself permission to let one of them go right now?",
+    "intro": "On how to ask for what you want",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-8-2024",
+    "author": "James Clear",
+    "date": "2024-02-08",
+    "section": "Questions",
+    "explanation": "A permission question for burden release, encouraging identification and release of one heavy responsibility, relationship, or project"
+  },
+  {
+    "id": "2024-02-01-question",
+    "quote": "Think about something you have been trying to make progress on recently. What is a completely different line of attack for solving it or a wildly different approach you can explore?",
+    "intro": "On hats, haircuts, and tattoos",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-1-2024",
+    "author": "James Clear",
+    "date": "2024-02-01",
+    "section": "Questions",
+    "explanation": "A problem-solving approach question for innovation, encouraging exploration of completely different methods for current challenges"
+  },
+  {
+    "id": "2024-01-25-question",
+    "quote": "Slow down for a minute. Close your eyes. Scan your body.\n\nWhere are you holding tension right now?\n\nTake a deep breath. Relax.",
+    "intro": "On a recipe for unhappiness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-25-2024",
+    "author": "James Clear",
+    "date": "2024-01-25",
+    "section": "Questions",
+    "explanation": "A mindfulness and body awareness question for stress reduction, encouraging identification and release of physical tension"
+  },
+  {
+    "id": "2024-01-18-question",
+    "quote": "Artist and educator Corita Kent had a set of rules she often shared with her students. One of them read, \"There is no win and no fail. There is only make.\"\n\nWhat are you making today?",
+    "intro": "On endless pursuits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-18-2024",
+    "author": "James Clear",
+    "date": "2024-01-18",
+    "section": "Questions",
+    "explanation": "A creation-focused question inspired by Corita Kent, encouraging focus on making rather than winning or failing"
+  },
+  {
+    "id": "2024-01-11-question",
+    "quote": "Winston Churchill once said, \"It is not enough that we do our best; sometimes we must do what is required.\"\n\nThink about what you are working toward this year. Are you doing what is required or are you looking for a shortcut?",
+    "intro": "On saving money",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-11-2024",
+    "author": "James Clear",
+    "date": "2024-01-11",
+    "section": "Questions",
+    "explanation": "A Churchill-inspired commitment question for goal assessment, encouraging evaluation of whether current efforts meet requirements"
+  },
+  {
+    "id": "2024-01-04-question",
+    "quote": "Who are you trying to become this year? Which actions will reinforce that identity?",
+    "intro": "On starting the new year the right way",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-04-2024",
+    "author": "James Clear",
+    "date": "2024-01-04",
+    "section": "Questions",
+    "explanation": "An identity and action alignment question for new year planning, encouraging connection between desired identity and supporting actions"
+  },
+  {
     "id": "2023-12-28-question",
     "quote": "Who is one person you want to spend more time around next year?",
     "intro": "On masters and amateurs",
