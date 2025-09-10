@@ -1,5 +1,45 @@
 [
   {
+    "id": "2023-05-25-question",
+    "quote": "What are the current habits that are hindering your future progress?",
+    "intro": "On one of the most valuable skills in life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-25-2023",
+    "author": "James Clear",
+    "date": "2023-05-25",
+    "section": "Questions",
+    "explanation": "A habit audit question for progress evaluation, encouraging identification of current behaviors that may be preventing future advancement"
+  },
+  {
+    "id": "2023-05-18-question",
+    "quote": "If I do nothing, what will happen? If I act right now, what will happen?\n\nSometimes you need to let go. Sometimes you need to get going.",
+    "intro": "On the best way to change the world",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-18-2023",
+    "author": "James Clear",
+    "date": "2023-05-18",
+    "section": "Questions",
+    "explanation": "A decision-making question for action evaluation, encouraging assessment of consequences of inaction versus immediate action"
+  },
+  {
+    "id": "2023-05-11-question",
+    "quote": "What's the one action that moves the needle more than 100 other actions? What's the one choice that renders 1000 other choices irrelevant?\n\nMost things are not worth optimizing. Master the big moves and move quickly and peacefully through the other stuff.",
+    "intro": "On making your habits fun",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-11-2023",
+    "author": "James Clear",
+    "date": "2023-05-11",
+    "section": "Questions",
+    "explanation": "A prioritization question for high-leverage action identification, encouraging focus on the most impactful decisions and actions"
+  },
+  {
+    "id": "2023-05-04-question",
+    "quote": "When you're living a good day, what is one habit that tends to be part of that day? Can you find time for that habit today?",
+    "intro": "On the value of leaving things alone",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-4-2023",
+    "author": "James Clear",
+    "date": "2023-05-04",
+    "section": "Questions",
+    "explanation": "A habit identification question for daily optimization, encouraging recognition of positive daily habits and immediate implementation"
+  },
+  {
     "id": "2023-04-27-question",
     "quote": "Apply the Pareto Principle to your relationships. Who are the few people that deliver the majority of happiness in your life? Can you schedule time with one of them today?",
     "intro": "On time assets vs. Time debts",

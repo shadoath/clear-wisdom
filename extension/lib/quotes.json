@@ -1,5 +1,85 @@
 [
   {
+    "id": "2023-05-25-quotes-1",
+    "quote": "Journalist **Flora Rheta Schreiber** on starting before you feel ready:\n\n\"You're never ready for what you have to do. You just do it. That makes you ready.\"",
+    "intro": "On one of the most valuable skills in life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-25-2023",
+    "author": "Flora Rheta Schreiber",
+    "date": "2023-05-25",
+    "section": "Quotes",
+    "explanation": "Flora Rheta Schreiber's insight about readiness, emphasizing that action creates readiness rather than waiting for perfect preparation"
+  },
+  {
+    "id": "2023-05-25-quotes-2",
+    "quote": "Author **Annie Dillard** offers a change of pace from modern life:\n\n\"The most appealing daily schedule I know is that of a turn-of-the-century Danish aristocrat. He got up at four and set out on foot to hunt black grouse, wood grouse, woodcock, and snipe. At eleven he met his friends, who had also been out hunting alone all morning. They converged \"at one of these babbling brooks,\" he wrote.\n\nHe outlined the rest of his schedule. \"Take a quick dip, relax with a schnapps and a sandwich, stretch out, have a smoke, take a nap or just rest, and then sit around and chat until three. Then I hunt some more until sundown, bathe again, put on a white tie and tails to keep up appearances, eat a huge dinner, smoke a cigar and sleep like a log until the sun comes up again to redden the eastern sky. This is living ... Could it be more perfect?\"",
+    "intro": "On starting before you feel ready",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-25-2023",
+    "author": "Annie Dillard",
+    "date": "2023-05-25",
+    "section": "Quotes",
+    "explanation": "Annie Dillard's description of an idealized daily schedule, emphasizing the appeal of a balanced life that combines activity, rest, social connection, and natural rhythms"
+  },
+  {
+    "id": "2023-05-18-quotes-1",
+    "quote": "Author **H. Jackson Brown Jr.** offers some life advice:\n\n\"Learn to listen. Opportunity sometimes knocks very softly.\"",
+    "intro": "On the best way to change the world",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-18-2023",
+    "author": "H. Jackson Brown Jr.",
+    "date": "2023-05-18",
+    "section": "Quotes",
+    "explanation": "H. Jackson Brown Jr.'s advice about listening, emphasizing that opportunities often present themselves subtly and require attentive listening to recognize"
+  },
+  {
+    "id": "2023-05-18-quotes-2",
+    "quote": "An email from **Steve Jobs**, sent to himself, remarking on how much we all need each other:\n\n\"I grow little of the food I eat, and of the little I do grow I did not breed or perfect the seeds.\n\nI do not make any of my own clothing.\n\nI speak a language I did not invent or refine.\n\nI did not discover the mathematics I use.\n\nI am protected by freedoms and laws I did not conceive of or legislate, and do not enforce or adjudicate.\n\nI am moved by music I did not create myself.\n\nWhen I needed medical attention, I was helpless to help myself survive.\n\nI did not invent the transistor, the microprocessor, object oriented programming, or most of the technology I work with.\n\nI love and admire my species, living and dead, and am totally dependent on them for my life and well being.\"",
+    "intro": "On celebrating others' success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-18-2023",
+    "author": "Steve Jobs",
+    "date": "2023-05-18",
+    "section": "Quotes",
+    "explanation": "Steve Jobs' reflection on human interdependence, emphasizing that individual success and well-being depend entirely on the contributions of others throughout history"
+  },
+  {
+    "id": "2023-05-11-quotes-1",
+    "quote": "Physician and YouTuber **Ali Abdaal** shares a useful bit of advice he received from one of his medical school professors:\n\n\"An hour before 9 is worth 2 after 5.\"",
+    "intro": "On making your habits fun",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-11-2023",
+    "author": "Ali Abdaal",
+    "date": "2023-05-11",
+    "section": "Quotes",
+    "explanation": "Ali Abdaal's insight about morning productivity, emphasizing that early morning hours are more valuable and productive than evening hours"
+  },
+  {
+    "id": "2023-05-11-quotes-2",
+    "quote": "Actress and dancer **Joan Crawford** on how to host a good party:\n\n\"The best parties are a wild mixture. Take some corporation presidents, add a bearded painter, a professional jockey, your visiting friends from Brussels, a politician, a hairdresser, and a professor of physics, toss them all together, and try to get them to stop talking long enough to eat!\n\nIt's especially important to have all age groups. I've never noticed any generation gap. All the younger people I know are bright and attractive and have something to say and they dress like human beings. They love to listen, too. They make wonderful guests.\"",
+    "intro": "On how to host a good party",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-11-2023",
+    "author": "Joan Crawford",
+    "date": "2023-05-11",
+    "section": "Quotes",
+    "explanation": "Joan Crawford's advice about party hosting, emphasizing that diverse guest lists and intergenerational mixing create the most engaging and successful gatherings"
+  },
+  {
+    "id": "2023-05-04-quotes-1",
+    "quote": "Jesuit priest and writer **Baltasar Gracian** on the value of leaving things alone:\n\n\"Know how to leave things alone, for if knowing how to refuse is one of life's great lessons, an even greater one is knowing how to say no to yourself, to important people, and in business. There are non-essential activities, months of precious time, and it's worse to take an interest in irrelevant things than to do nothing at all.\"",
+    "intro": "On the value of leaving things alone",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-4-2023",
+    "author": "Baltasar Gracian",
+    "date": "2023-05-04",
+    "section": "Quotes",
+    "explanation": "Baltasar Gracian's wisdom about restraint, emphasizing that knowing when to say no and leave things alone is more valuable than engaging with irrelevant activities"
+  },
+  {
+    "id": "2023-05-04-quotes-2",
+    "quote": "Systems engineer and environmental scientist **Donella Meadows** on nonmaterial needs:\n\n\"People don't need enormous cars; they need admiration and respect. They don't need a constant stream of new clothes; they need to feel that others consider them to be attractive, and they need excitement and variety and beauty. People don't need electronic entertainment; they need something interesting to occupy their minds and emotions. And so forth.\n\nTrying to fill real but nonmaterial needs--for identity, community, self-esteem, challenge, love, joy--with material things is to set up an unquenchable appetite for false solutions to never-satisfied longings. A society that allows itself to admit and articulate its nonmaterial human needs, and to find nonmaterial ways to satisfy them, would require much lower material and energy throughputs and would provide much higher levels of human fulfillment.\"",
+    "intro": "On nonmaterial needs",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-4-2023",
+    "author": "Donella Meadows",
+    "date": "2023-05-04",
+    "section": "Quotes",
+    "explanation": "Donella Meadows' insight about human needs, emphasizing that material consumption often masks deeper nonmaterial needs and that addressing these needs directly leads to greater fulfillment with less consumption"
+  },
+  {
     "id": "2023-04-27-quotes-1",
     "quote": "Actress **Elizabeth Bibesco** on the importance of failure:\n\n\"We learn nothing by being right.\"",
     "intro": "On time assets vs. Time debts",
