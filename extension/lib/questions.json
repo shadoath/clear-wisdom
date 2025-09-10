@@ -1,5 +1,45 @@
 [
   {
+    "id": "2023-02-23-question",
+    "quote": "Is it better to delay getting started by weeks or months so I can be fully prepared? Or is it better to start right now with little to no preparation?",
+    "intro": "On taking action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-23-2023",
+    "author": "James Clear",
+    "date": "2023-02-23",
+    "section": "Questions",
+    "explanation": "A decision-making question about preparation versus action, encouraging evaluation of whether extensive planning or immediate action leads to better outcomes"
+  },
+  {
+    "id": "2023-02-16-question",
+    "quote": "How would my daily schedule change if I did a little more of what I'm great at and a little less of what I'm not great at?",
+    "intro": "On momentum",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-16-2023",
+    "author": "James Clear",
+    "date": "2023-02-16",
+    "section": "Questions",
+    "explanation": "A strengths-focused question for daily optimization, encouraging alignment of time allocation with natural abilities and talents"
+  },
+  {
+    "id": "2023-02-09-question",
+    "quote": "If you could spend 30 minutes today creating whatever you want, what would you create?",
+    "intro": "On craving the result versus the process",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-9-2023",
+    "author": "James Clear",
+    "date": "2023-02-09",
+    "section": "Questions",
+    "explanation": "A creative freedom question for identifying authentic desires, encouraging exploration of what one would choose to create without external constraints"
+  },
+  {
+    "id": "2023-02-02-question",
+    "quote": "What has been the best hour of my week? How can I make it easier to have more hours like that?",
+    "intro": "On the process of life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-2-2023",
+    "author": "James Clear",
+    "date": "2023-02-02",
+    "section": "Questions",
+    "explanation": "A quality-of-life question for identifying peak experiences and creating conditions for more of them, encouraging awareness of what makes time feel most valuable"
+  },
+  {
     "id": "2023-01-12-question",
     "quote": "Eliminate. Focus. Close yourself to the world and ask, \"What can I create today?\"\n\nRelax. Breathe. Open yourself to the world and ask, \"What can I receive today?\"",
     "intro": "On how to succeed",

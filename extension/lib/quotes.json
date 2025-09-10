@@ -1,5 +1,85 @@
 [
   {
+    "id": "2023-02-23-quotes-1",
+    "quote": "**Paulo Coelho** on taking action:\n\n\"One day you will wake up and there won't be any more time to do the things you've always wanted. Do it now.\"",
+    "intro": "On taking action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-23-2023",
+    "author": "Paulo Coelho",
+    "date": "2023-02-23",
+    "section": "Quotes",
+    "explanation": "Paulo Coelho's urgent call to action, emphasizing the importance of seizing opportunities and not delaying important pursuits"
+  },
+  {
+    "id": "2023-02-23-quotes-2",
+    "quote": "**Roger Payne**, biologist, on the power of having your boots on the ground and paying attention:\n\n\"Any observant local knows more than any visiting scientist. Always. No exceptions.\"",
+    "intro": "On creativity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-23-2023",
+    "author": "Roger Payne",
+    "date": "2023-02-23",
+    "section": "Quotes",
+    "explanation": "Roger Payne's insight about local knowledge, emphasizing that sustained observation and presence provide deeper understanding than external expertise"
+  },
+  {
+    "id": "2023-02-16-quotes-1",
+    "quote": "Mountaineer **Alex Lowe** on how to be the best:\n\n\"The best climber in the world is the one who's having the most fun.\"",
+    "intro": "On momentum",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-16-2023",
+    "author": "Alex Lowe",
+    "date": "2023-02-16",
+    "section": "Quotes",
+    "explanation": "Alex Lowe's perspective on excellence, emphasizing that joy and passion are the true measures of mastery rather than external achievement"
+  },
+  {
+    "id": "2023-02-16-quotes-2",
+    "quote": "Poet **Wislawa Szymborska** on the source of inspiration:\n\n\"Inspiration is not the exclusive privilege of poets or artists. There is, there has been, there will always be a certain group of people whom inspiration visits. It's made up of all those who've consciously chosen their calling and do their job with love and imagination. It may include doctors, teachers, gardeners -- I could list a hundred more professions. Their work becomes one continuous adventure as long as they manage to keep discovering new challenges in it. Difficulties and setbacks never quell their curiosity. A swarm of new questions emerges from every problem that they solve. Whatever inspiration is, it's born from a continuous I don't know.\"",
+    "intro": "On how to be the best",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-16-2023",
+    "author": "Wislawa Szymborska",
+    "date": "2023-02-16",
+    "section": "Quotes",
+    "explanation": "Wislawa Szymborska's insight about inspiration, emphasizing that it comes to those who approach their work with love, curiosity, and openness to the unknown"
+  },
+  {
+    "id": "2023-02-09-quotes-1",
+    "quote": "Writer and psychoanalyst **Marion Milner** on seeing clearly:\n\n\"There seemed to be endless obstacles preventing me from living with my eyes open, but as I gradually followed up clue after clue it seemed that the root cause of them all was fear.\"",
+    "intro": "On craving the result versus the process",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-9-2023",
+    "author": "Marion Milner",
+    "date": "2023-02-09",
+    "section": "Quotes",
+    "explanation": "Marion Milner's insight about clarity and fear, emphasizing that fear is the primary obstacle to living with awareness and openness"
+  },
+  {
+    "id": "2023-02-09-quotes-2",
+    "quote": "Engineer, physician, and astronaut **Mae Jemison** on thinking for yourself:\n\n\"Never be limited by other people's limited imaginations. If you adopt their attitudes, then the possibility won't exist because you'll have already shut it out... You can hear other people's wisdom, but you've got to re-evaluate the world for yourself.\"",
+    "intro": "On seeing clearly",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-9-2023",
+    "author": "Mae Jemison",
+    "date": "2023-02-09",
+    "section": "Quotes",
+    "explanation": "Mae Jemison's guidance on independent thinking, emphasizing that adopting others' limitations constrains possibilities and that personal evaluation is essential"
+  },
+  {
+    "id": "2023-02-02-quotes-1",
+    "quote": "Writer **Jeanette Winterson** on the process of life:\n\n\"We live in a society that peddles solutions, whether it's solutions to those extra pounds you're carrying, or to your thinning hair, or to your loss of appetite, loss of love. We are always looking for solutions, but actually what we are engaged in is a process throughout life during which you never get it right. You have to keep being open, you have to keep moving forward. You have to keep finding out who you are and how you are changing, and only that makes life tolerable.\"",
+    "intro": "On the process of life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-2-2023",
+    "author": "Jeanette Winterson",
+    "date": "2023-02-02",
+    "section": "Quotes",
+    "explanation": "Jeanette Winterson's perspective on life as process, emphasizing that continuous openness and self-discovery make life meaningful rather than seeking final solutions"
+  },
+  {
+    "id": "2023-02-02-quotes-2",
+    "quote": "Writer **Lauren Elkin** on the joys of walking:\n\n\"Walking is mapping with your feet. It helps you piece a city together, connecting up neighborhoods that might otherwise have remained discrete entities, different planets bound to each other, sustained yet remote. I like seeing how in fact they blend into one another, I like noticing the boundaries between them. Walking helps me feel at home. There's a small pleasure in seeing how well I've come to know the city through my wanderings on foot, crossing through different neighborhoods of the city, some I used to know quite well, others I may not have seen in a while, like getting reacquainted with someone I once met at a party.\"",
+    "intro": "On joys of walking",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-2-2023",
+    "author": "Lauren Elkin",
+    "date": "2023-02-02",
+    "section": "Quotes",
+    "explanation": "Lauren Elkin's reflection on walking, emphasizing how physical movement creates connection, familiarity, and a sense of belonging to place"
+  },
+  {
     "id": "2023-01-12-quotes-1",
     "quote": "Clinical psychologist, **Helen Schucman**, on love:\n\n\"Your task is not to seek for love, but merely to seek and find all the barriers within yourself that you have built against it.\"",
     "intro": "On love",

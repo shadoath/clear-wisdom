@@ -1,5 +1,125 @@
 [
   {
+    "id": "2023-02-23-ideas-1",
+    "quote": "\"The 2-step process for exceptional results:\n\n(1) Spend a little time each day thinking about the highest leverage activity available to you.\n\n(2) Spend a little time each day working on it.\"",
+    "intro": "On taking action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-23-2023",
+    "author": "James Clear",
+    "date": "2023-02-23",
+    "section": "Ideas",
+    "explanation": "A principle about the two-step process for exceptional results, emphasizing both strategic thinking and consistent action on high-leverage activities"
+  },
+  {
+    "id": "2023-02-23-ideas-2",
+    "quote": "\"With the creative process, the key is to create a lot and edit a lot.\n\nMake more than you need, then remove everything that isn't exceptional.\"",
+    "intro": "On creativity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-23-2023",
+    "author": "James Clear",
+    "date": "2023-02-23",
+    "section": "Ideas",
+    "explanation": "A principle about the creative process, emphasizing that exceptional results come from creating abundantly and then editing ruthlessly"
+  },
+  {
+    "id": "2023-02-23-ideas-3",
+    "quote": "\"What you do on your ordinary days determines what you can achieve on your extraordinary days.\"",
+    "intro": "On the two-step process for exceptional results",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-23-2023",
+    "author": "James Clear",
+    "date": "2023-02-23",
+    "section": "Ideas",
+    "explanation": "A principle about daily preparation, emphasizing that consistent ordinary actions create the foundation for extraordinary achievements"
+  },
+  {
+    "id": "2023-02-16-ideas-1",
+    "quote": "\"Before you throw more time at the problem, throw more focused action at the problem. You don't need more time, you need fewer distractions.\"",
+    "intro": "On momentum",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-16-2023",
+    "author": "James Clear",
+    "date": "2023-02-16",
+    "section": "Ideas",
+    "explanation": "A principle about focused action, emphasizing that concentration and elimination of distractions are more valuable than additional time"
+  },
+  {
+    "id": "2023-02-16-ideas-2",
+    "quote": "\"Patience only works if you do.\n\nDoing the work + patience = results.\n\nPlanning to work + patience = you're just waiting.\"",
+    "intro": "On how to be the best",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-16-2023",
+    "author": "James Clear",
+    "date": "2023-02-16",
+    "section": "Ideas",
+    "explanation": "A principle about patience and action, emphasizing that patience is only effective when combined with consistent work, not just planning"
+  },
+  {
+    "id": "2023-02-16-ideas-3",
+    "quote": "\"Momentum goes both ways.\n\nDon't move, feel sluggish. Start moving, feel like moving a little more.\n\nDon't talk, feel timid. Start chatting, conversation gets a little easier.\n\nDon't ship, feel stuck. Start creating, ideas begin to flow.\"",
+    "intro": "On the source of inspiration",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-16-2023",
+    "author": "James Clear",
+    "date": "2023-02-16",
+    "section": "Ideas",
+    "explanation": "A principle about momentum, emphasizing that both positive and negative momentum are self-reinforcing and that starting creates more starting"
+  },
+  {
+    "id": "2023-02-09-ideas-1",
+    "quote": "\"Double down on what is working best.\"",
+    "intro": "On craving the result versus the process",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-9-2023",
+    "author": "James Clear",
+    "date": "2023-02-09",
+    "section": "Ideas",
+    "explanation": "A principle about optimization, emphasizing that focusing additional effort on what's already working yields better results than spreading effort broadly"
+  },
+  {
+    "id": "2023-02-09-ideas-2",
+    "quote": "\"It doesn't make sense to continue wanting something if you're not willing to do what it takes to get it.\n\nIf you don't want to live the lifestyle, then release yourself from the desire. To crave the result but not the process, is to guarantee disappointment.\"",
+    "intro": "On seeing clearly",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-9-2023",
+    "author": "James Clear",
+    "date": "2023-02-09",
+    "section": "Ideas",
+    "explanation": "A principle about desire and process, emphasizing that wanting results without embracing the required process leads to guaranteed disappointment"
+  },
+  {
+    "id": "2023-02-09-ideas-3",
+    "quote": "\"Finish something. Anything. Stop researching, planning, and preparing to do the work and just do the work. It doesn't matter how good or how bad it is. You don't need to set the world on fire with your first try. You just need to prove to yourself that you have what it takes to produce something. There are no artists, athletes, entrepreneurs, or scientists who became great by half-finishing their work. Stop debating what you should make and just make something.\"",
+    "intro": "On thinking for yourself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-9-2023",
+    "author": "James Clear",
+    "date": "2023-02-09",
+    "section": "Ideas",
+    "explanation": "A principle about completion, emphasizing that finishing work is more important than perfect planning and that greatness comes from completed work, not half-finished projects"
+  },
+  {
+    "id": "2023-02-02-ideas-1",
+    "quote": "\"The trick to viewing feedback as a gift is to be more worried about having blind spots than hearing about them.\"",
+    "intro": "On the process of life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-2-2023",
+    "author": "James Clear",
+    "date": "2023-02-02",
+    "section": "Ideas",
+    "explanation": "A principle about feedback reception, emphasizing that valuing awareness of blind spots makes feedback feel like a gift rather than criticism"
+  },
+  {
+    "id": "2023-02-02-ideas-2",
+    "quote": "\"The world seems to be accustomed to delaying gratification less and less, which means the rewards of delaying gratification grow more and more.\"",
+    "intro": "On joys of walking",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-2-2023",
+    "author": "James Clear",
+    "date": "2023-02-02",
+    "section": "Ideas",
+    "explanation": "A principle about delayed gratification, emphasizing that as society becomes more immediate, the competitive advantage of patience increases"
+  },
+  {
+    "id": "2023-02-02-ideas-3",
+    "quote": "\"The more an idea is tied to your identity, the more you will ignore evidence it is false. To continue to grow and learn, you must be willing to update, expand, and edit your identity.\"",
+    "intro": "On best hour of your week",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-2-2023",
+    "author": "James Clear",
+    "date": "2023-02-02",
+    "section": "Ideas",
+    "explanation": "A principle about identity and learning, emphasizing that rigid identity attachment prevents growth and that flexible identity allows for continuous learning"
+  },
+  {
     "id": "2023-01-12-ideas-1",
     "quote": "\"The hard way is the fast way.\n\nDo it right the first time and you won't have to do it over the next time.\"",
     "intro": "On doing it right the first time",
