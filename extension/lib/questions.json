@@ -1,5 +1,45 @@
 [
   {
+    "id": "2023-10-26-question",
+    "quote": "Think of your childhood. What is one area where your parents did a good job? What is one area where they could have done better?",
+    "intro": "On how to handle errors",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-26-2023",
+    "author": "James Clear",
+    "date": "2023-10-26",
+    "section": "Questions",
+    "explanation": "A parenting reflection question for self-awareness, encouraging balanced evaluation of parental strengths and areas for improvement"
+  },
+  {
+    "id": "2023-10-19-question",
+    "quote": "In your professional life, who do you admire most?\n\nIn your personal life, who do you admire most?",
+    "intro": "On how to solve hard problems",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-19-2023",
+    "author": "James Clear",
+    "date": "2023-10-19",
+    "section": "Questions",
+    "explanation": "A dual admiration question for role model identification, encouraging reflection on professional and personal inspirations"
+  },
+  {
+    "id": "2023-10-12-question",
+    "quote": "Look back ten years and you can probably identify a few blind spots or mistaken beliefs you held at the time. Now, fast forward ten years from today... what are likely to be your current blind spots? What are you not spending enough time thinking about or perhaps even willfully ignoring?",
+    "intro": "On two rules for life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-12-2023",
+    "author": "James Clear",
+    "date": "2023-10-12",
+    "section": "Questions",
+    "explanation": "A blind spot identification question for self-awareness, encouraging recognition of current limitations and ignored areas"
+  },
+  {
+    "id": "2023-10-05-question",
+    "quote": "How can the work you're doing today accumulate and layer on top of what you did yesterday? Find ways to compound your efforts.",
+    "intro": "On regrets",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-5-2023",
+    "author": "James Clear",
+    "date": "2023-10-05",
+    "section": "Questions",
+    "explanation": "A compounding effort question for productivity optimization, encouraging identification of ways to build cumulative value"
+  },
+  {
     "id": "2023-09-28-question",
     "quote": "Imagine you are at the end of your life and you are granted the ability to repeat one day. Which period of your life do you choose to repeat? Which phase of life would you want to go back to? Does that tell you anything about how you should be spending your time today?",
     "intro": "On managing expectations",

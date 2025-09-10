@@ -1,5 +1,85 @@
 [
   {
+    "id": "2023-10-26-quotes-1",
+    "quote": "Author **Haruki Murakami** on the value of reading widely:\n\n\"If you only read the books that everyone else is reading, you can only think what everyone else is thinking.\"",
+    "intro": "On how to handle errors",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-26-2023",
+    "author": "Haruki Murakami",
+    "date": "2023-10-26",
+    "section": "Quotes",
+    "explanation": "Haruki Murakami's insight about reading diversity, emphasizing that reading widely enables independent thinking"
+  },
+  {
+    "id": "2023-10-26-quotes-2",
+    "quote": "Aikido instructor **George Leonard** on the willingness to look foolish:\n\n\"It's possible that one of the reasons you got on the path of mastery was to look good. But to learn something new of any significance, you have to be willing to look foolish...\n\nWhen a Most Valuable Player candidate misjudges a ball and falls on his duff, he does it in the sight of millions. You should be willing to do it before your teacher and a few friends or fellow students. If you're always thinking about appearances, you can never attain the state of concentration that's necessary for effective learning and top performance.\"",
+    "intro": "On eliminating points of failure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-26-2023",
+    "author": "George Leonard",
+    "date": "2023-10-26",
+    "section": "Quotes",
+    "explanation": "George Leonard's perspective on learning and mastery, emphasizing that willingness to look foolish is necessary for deep learning"
+  },
+  {
+    "id": "2023-10-19-quotes-1",
+    "quote": "Philosopher and author **Arthur Schopenhauer** on the importance of reflection and contemplation rather than mere reading and research:\n\n\"You may accumulate a vast amount of knowledge but it will be of far less value to you than a much smaller amount if you have not thought it over for yourself; because only through ordering what you know by comparing every truth with every other truth can you take complete possession of your knowledge and get it into your power.\"",
+    "intro": "On how to solve hard problems",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-19-2023",
+    "author": "Arthur Schopenhauer",
+    "date": "2023-10-19",
+    "section": "Quotes",
+    "explanation": "Arthur Schopenhauer's insight about knowledge integration, emphasizing that reflection and synthesis make knowledge truly useful"
+  },
+  {
+    "id": "2023-10-19-quotes-2",
+    "quote": "Yoga teacher and spiritual leader **Sadhguru** on the miracles of daily life:\n\n\"Every moment there are a million miracles happening around you: a flower blossoming, a bird tweeting, a bee humming, a raindrop falling, a snowflake wafting along the clear evening air. There is magic everywhere. If you learn how to live it, life is nothing short of a daily miracle.\"",
+    "intro": "On the power of reflection",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-19-2023",
+    "author": "Sadhguru",
+    "date": "2023-10-19",
+    "section": "Quotes",
+    "explanation": "Sadhguru's perspective on mindfulness and wonder, emphasizing that awareness of daily miracles transforms life experience"
+  },
+  {
+    "id": "2023-10-12-quotes-1",
+    "quote": "**Laura Ingalls Wilder**\n\n\"The real things haven't changed. It is still best to be honest and truthful; to make the most of what we have; to be happy with simple pleasures; and have courage when things go wrong.\"",
+    "intro": "On two rules for life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-12-2023",
+    "author": "Laura Ingalls Wilder",
+    "date": "2023-10-12",
+    "section": "Quotes",
+    "explanation": "Laura Ingalls Wilder's timeless wisdom about fundamental values, emphasizing that core virtues remain constant across time"
+  },
+  {
+    "id": "2023-10-12-quotes-2",
+    "quote": "**Wendell Berry**\n\n\"When despair for the world grows in me and I wake in the night at the least sound in fear of what my life and my children's lives may be, I go and lie down where the wood drake rests in his beauty on the water, and the great heron feeds I come into the peace of wild things who do not tax their lives with forethought of grief. I come into the presence of still water. And I feel above me the day-blind stars waiting with their light. For a time I rest in the grace of the world, and am free.\"",
+    "intro": "On the power of reputation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-12-2023",
+    "author": "Wendell Berry",
+    "date": "2023-10-12",
+    "section": "Quotes",
+    "explanation": "Wendell Berry's meditation on finding peace in nature, emphasizing that wild places offer respite from human anxiety and worry"
+  },
+  {
+    "id": "2023-10-05-quotes-1",
+    "quote": "Martial artist and actor **Bruce Lee** on pushing yourself:\n\n\"Don't fear failure. Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.\"",
+    "intro": "On regrets",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-5-2023",
+    "author": "Bruce Lee",
+    "date": "2023-10-05",
+    "section": "Quotes",
+    "explanation": "Bruce Lee's perspective on ambition and failure, emphasizing that aiming high and failing is more honorable than aiming low"
+  },
+  {
+    "id": "2023-10-05-quotes-2",
+    "quote": "Computer science professor **Randy Pausch**--who had recently received a terminal pancreatic cancer diagnosis--shares some advice two months before his death:\n\n\"It is not the things we do in life that we regret on our death bed. It is the things we do not. I assure you I've done a lot of really stupid things, and none of them bother me. All the mistakes, and all the dopey things, and all the times I was embarrassed -- they don't matter. What matters is that I can kind of look back and say: Pretty much any time I got the chance to do something cool I tried to grab for it -- and that's where my solace comes from.\"",
+    "intro": "On failing gloriously",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-5-2023",
+    "author": "Randy Pausch",
+    "date": "2023-10-05",
+    "section": "Quotes",
+    "explanation": "Randy Pausch's reflection on regret and opportunity, emphasizing that taking chances and trying cool things provides peace at life's end"
+  },
+  {
     "id": "2023-09-28-quotes-1",
     "quote": "Child development author **Joseph Chilton Pearce** reminds parents (and all leaders) of an important truth:\n\n\"What we are teaches the child far more than what we say, so we must be what we want our children to become.\"",
     "intro": "On managing expectations",
