@@ -1,5 +1,85 @@
 [
   {
+    "id": "2023-07-27-quotes-1",
+    "quote": "Musician **Nick Cave** on love and grief:\n\n\"It seems to me, that if we love, we grieve. That's the deal. That's the pact. Grief and love are forever intertwined. Grief is the terrible reminder of the depths of our love and, like love, grief is non-negotiable.\"",
+    "intro": "On the power of attitude",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-27-2023",
+    "author": "Nick Cave",
+    "date": "2023-07-27",
+    "section": "Quotes",
+    "explanation": "Nick Cave's insight about love and grief, emphasizing that grief is an inevitable consequence of love and a testament to its depth"
+  },
+  {
+    "id": "2023-07-27-quotes-2",
+    "quote": "Physician **Lewis Thomas** on the importance of making mistakes:\n\n\"Mistakes are at the very base of human thought, embedded there, feeding the structure like root nodules. If we were not provided with the knack of being wrong, we could never get anything useful done. We think our way along by choosing between right and wrong alternatives, and the wrong choices have to be made as frequently as the right ones.\n\nWe get along in life this way. We are built to make mistakes, coded for error. We learn, as we say, by \"trial and error.\" Why do we always say that? Why not \"trial and rightness\" or \"trial and triumph\"? The old phrase puts it that way because that is, in real life, the way it is done.\"",
+    "intro": "On the importance of making mistakes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-27-2023",
+    "author": "Lewis Thomas",
+    "date": "2023-07-27",
+    "section": "Quotes",
+    "explanation": "Lewis Thomas' perspective on mistakes and learning, emphasizing that error is fundamental to human thought and progress"
+  },
+  {
+    "id": "2023-07-20-quotes-1",
+    "quote": "Journalist and author **Hunter S Thompson** on designing your life:\n\n\"Beware of looking for goals: look for a way of life. Decide how you want to live and then see what you can do to make a living within that way of life.\"",
+    "intro": "On designing your life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-20-2023",
+    "author": "Hunter S Thompson",
+    "date": "2023-07-20",
+    "section": "Quotes",
+    "explanation": "Hunter S Thompson's advice about life design, emphasizing that lifestyle should drive career choices rather than goals driving lifestyle"
+  },
+  {
+    "id": "2023-07-20-quotes-2",
+    "quote": "Entrepreneur and writer **Nat Eliason** on the importance of challenging yourself to do hard things:\n\n\"The ability to do hard things is perhaps the most useful ability you can foster in yourself or your children. And proof that you are someone who can do them is one of the most useful assets you can have on your life resume.\n\nOur self-image is composed of historical evidence of our abilities. The more hard things you push yourself to do, the more competent you will see yourself to be.\n\nIf you can run marathons or throw double your body weight over your head, the sleep deprivation from a newborn is only a mild irritant. If you can excel at organic chemistry or econometrics, onboarding for a new finance job will be a breeze.\n\nBut if we avoid hard things, anything mildly challenging will seem insurmountable. We'll cry into TikTok over an errant period at the end of a text message. We'll see ourselves as incapable of learning new skills, taking on new careers, and escaping bad situations.\n\nThe proof you can do hard things is one of the most powerful gifts you can give yourself.\"",
+    "intro": "On the value of doing hard things",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-20-2023",
+    "author": "Nat Eliason",
+    "date": "2023-07-20",
+    "section": "Quotes",
+    "explanation": "Nat Eliason's insight about doing hard things, emphasizing that building a track record of overcoming challenges creates confidence and resilience for future difficulties"
+  },
+  {
+    "id": "2023-07-13-quotes-1",
+    "quote": "Poet and novelist **May Sarton** on talent:\n\n\"A talent grows by being used, and withers if it is not used. Closing the gap between expectation and reality can be painful, but it has to be done sooner or later. The fact is that millions of young people would like to write, but what they dream of is the published book, often skipping over the months and years of very hard work necessary to achieve that end...\"",
+    "intro": "On excitement over discipline",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-13-2023",
+    "author": "May Sarton",
+    "date": "2023-07-13",
+    "section": "Quotes",
+    "explanation": "May Sarton's insight about talent development, emphasizing that talent requires use to grow and that many people focus on outcomes while avoiding the necessary work"
+  },
+  {
+    "id": "2023-07-13-quotes-2",
+    "quote": "Professor of philosophy and cognitive science **L.A. Paul** offers a new lens for thinking about important life choices:\n\n\"As we live our lives, we find ourselves confronted with a brute fact about how little we can know about our futures--just when it is most important to us that we do know. For many big life choices, we only learn what we need to know after we've done it, and we change ourselves in the process of doing it. I'll argue that, in the end, the best response to this situation is to choose based on whether we want to discover who we'll become.\"",
+    "intro": "On outliving yourself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-13-2023",
+    "author": "L.A. Paul",
+    "date": "2023-07-13",
+    "section": "Quotes",
+    "explanation": "L.A. Paul's framework for life choices, emphasizing that major decisions should be based on whether we want to discover who we'll become rather than trying to predict outcomes"
+  },
+  {
+    "id": "2023-07-06-quotes-1",
+    "quote": "The **Dhammapada**, a collection of Buddhist scriptures, on the power of your mind:\n\n\"What we are today comes from our thoughts of yesterday, and our present thoughts build our life of tomorrow. Our life is the creation of our mind.\"",
+    "intro": "On discovering passion",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-6-2023",
+    "author": "The Dhammapada",
+    "date": "2023-07-06",
+    "section": "Quotes",
+    "explanation": "The Dhammapada's wisdom about mental power, emphasizing that thoughts create reality and that present thinking shapes future life"
+  },
+  {
+    "id": "2023-07-06-quotes-2",
+    "quote": "Singer and songwriter **David Bowie** on how to produce your best work:\n\n\"If you feel safe in the area that you're working in, you're not working in the right area. Always go a little further into the water than you feel you're capable of being in. Go a little bit out of your depth, and when you don't feel that your feet are quite touching the bottom, you're just about in the right place to do something exciting.\"",
+    "intro": "On the power of your mind",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-6-2023",
+    "author": "David Bowie",
+    "date": "2023-07-06",
+    "section": "Quotes",
+    "explanation": "David Bowie's advice about creative work, emphasizing that the best work comes from operating slightly beyond one's comfort zone and capabilities"
+  },
+  {
     "id": "2023-06-29-quotes-1",
     "quote": "Writer and Aikido teacher **George Leonard** on how to get started:\n\n\"You can't do everything, but you can do one thing, and then another and another. In terms of energy, it's better to make a wrong choice than none at all. You might begin by listing your priorities--for the day, for the week, for the month, for a lifetime. Start modestly. List everything you want to do today or tomorrow. Set priorities by dividing the items into A, B, and C categories. At the least, accomplish the A items. Try the same thing with long-term goals. Priorities do shift, and you can change them at any time, but simply getting them down in black and white adds clarity to your life, and clarity creates energy.\"",
     "intro": "On why small things matter",

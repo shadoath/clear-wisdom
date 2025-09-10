@@ -1,5 +1,45 @@
 [
   {
+    "id": "2023-07-27-question",
+    "quote": "What is the one task that, if completed, will make today a success? What can you do to make it as easy as possible to get started?",
+    "intro": "On the power of attitude",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-27-2023",
+    "author": "James Clear",
+    "date": "2023-07-27",
+    "section": "Questions",
+    "explanation": "A daily success question for task prioritization, encouraging identification of the most important task and strategies to make starting easier"
+  },
+  {
+    "id": "2023-07-20-question",
+    "quote": "In which direction are your habits currently steering your life?",
+    "intro": "On designing your life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-20-2023",
+    "author": "James Clear",
+    "date": "2023-07-20",
+    "section": "Questions",
+    "explanation": "A habit direction question for life evaluation, encouraging assessment of whether current habits are moving life in the desired direction"
+  },
+  {
+    "id": "2023-07-13-question",
+    "quote": "What small step can you take today that will put you on the path toward something wonderful?",
+    "intro": "On excitement over discipline",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-13-2023",
+    "author": "James Clear",
+    "date": "2023-07-13",
+    "section": "Questions",
+    "explanation": "A small step question for progress initiation, encouraging identification of immediate actions that can lead to meaningful outcomes"
+  },
+  {
+    "id": "2023-07-06-question",
+    "quote": "It's easy to find ways to improve when you are genuinely curious about something. Rather than asking yourself, \"How can I be better at this?\" start by asking, \"How can I be more curious about this?\"",
+    "intro": "On discovering passion",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-6-2023",
+    "author": "James Clear",
+    "date": "2023-07-06",
+    "section": "Questions",
+    "explanation": "A curiosity question for improvement, encouraging focus on developing genuine interest rather than just seeking better performance"
+  },
+  {
     "id": "2023-06-29-question",
     "quote": "Think of a time you failed or struggled greatly.\n\nIf you were to view that experience in a more useful way, what story would you tell yourself? What did it teach you? How did it prepare you for what came next?\n\nTurn your failures into lessons.",
     "intro": "On why small things matter",
