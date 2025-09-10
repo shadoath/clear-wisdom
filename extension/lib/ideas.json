@@ -1,5 +1,125 @@
 [
   {
+    "id": "2023-09-28-ideas-1",
+    "quote": "\"Maintain a margin of safety. If your life is designed only to handle the expected challenges, then it will fall apart as soon as something unexpected happens to you. Always be stronger than you need to be. Leave room for the unexpected.\"",
+    "intro": "On managing expectations",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-28-2023",
+    "author": "James Clear",
+    "date": "2023-09-28",
+    "section": "Ideas",
+    "explanation": "A principle about resilience and preparation, emphasizing that building extra capacity helps handle unexpected challenges"
+  },
+  {
+    "id": "2023-09-28-ideas-2",
+    "quote": "\"When you're in the middle of the work, set your expectations high. It's unlikely your performance will exceed the standard you set for yourself. High expectations encourage you to keep reaching and fulfill your potential.\n\nOnce the work is done, release yourself from your expectations. The fastest way to ruin a good outcome is to tell yourself that it's not good enough. Your expectations dictate your happiness more than your results.\n\nExpectations can be helpful as a motivator and unhelpful as a measuring stick. Now that the work is done you can rest easy knowing you tried your best. You've already won.\"",
+    "intro": "On the importance of trial and error",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-28-2023",
+    "author": "James Clear",
+    "date": "2023-09-28",
+    "section": "Ideas",
+    "explanation": "A principle about expectation management, emphasizing that high expectations motivate during work but should be released after completion"
+  },
+  {
+    "id": "2023-09-28-ideas-3",
+    "quote": "\"Many people have a hard time making decisions because they don't know what is important.\n\nWhen you have a clear mission and you are completely sure what is important to you, most decisions become easy. Once you're fully committed, you don't need rules for how to spend your time. It's obvious which decision to make. It's clear what to prioritize.\n\nMany people don't need productivity or time management advice. They need conviction.\"",
+    "intro": "On the importance of trial and error",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-28-2023",
+    "author": "James Clear",
+    "date": "2023-09-28",
+    "section": "Ideas",
+    "explanation": "A principle about decision-making and clarity, emphasizing that clear mission and values make most decisions obvious"
+  },
+  {
+    "id": "2023-09-21-ideas-1",
+    "quote": "\"The person who tells the best story rules their corner of the world.\"",
+    "intro": "On how to have healthy relationships",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-21-2023",
+    "author": "James Clear",
+    "date": "2023-09-21",
+    "section": "Ideas",
+    "explanation": "A principle about influence and storytelling, emphasizing that compelling narratives create leadership and impact"
+  },
+  {
+    "id": "2023-09-21-ideas-2",
+    "quote": "\"Your relationships will rarely be healthier than your self-esteem.\n\nIf the time you spend alone is already enjoyable to some degree--that is, if you have a healthy internal monologue and generally feel good about yourself--then you will have a fairly high bar for the type of relationships you'll enter.\n\nBut if you're unhappy with yourself, then you are more likely to put up with bad relationships because they may occasionally make you feel better than you do alone. If you want a great relationship, the first thing you want is to be comfortable with yourself.\"",
+    "intro": "On optimism vs pessimism",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-21-2023",
+    "author": "James Clear",
+    "date": "2023-09-21",
+    "section": "Ideas",
+    "explanation": "A principle about relationship health, emphasizing that self-esteem sets the standard for the quality of relationships one accepts"
+  },
+  {
+    "id": "2023-09-21-ideas-3",
+    "quote": "\"Optimism early, pessimism in the middle, optimism late.\n\nYour starting position has to be somewhat optimistic or you'll talk yourself out of getting started. Believing in what you are about to do does not guarantee success, but a lack of belief can prevent it.\n\nOnce you've committed, pessimism becomes useful. Question things. Find holes in your plan. Hold yourself to a high standard and try to identify your mistaken beliefs before they become your misplaced actions.\n\nAfter you've spent some time troubleshooting, it's back to optimism again. Nothing will ever be perfect, but you have to act anyway. Progress requires the courage to forge ahead despite the inevitable obstacles.\"",
+    "intro": "On the power of forgiveness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-21-2023",
+    "author": "James Clear",
+    "date": "2023-09-21",
+    "section": "Ideas",
+    "explanation": "A principle about mindset timing, emphasizing that optimism motivates starting, pessimism improves planning, and optimism enables action"
+  },
+  {
+    "id": "2023-09-14-ideas-1",
+    "quote": "\"The odds increase, the more you try.\"",
+    "intro": "On how to do hard things",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-14-2023",
+    "author": "James Clear",
+    "date": "2023-09-14",
+    "section": "Ideas",
+    "explanation": "A principle about persistence and probability, emphasizing that repeated attempts increase the likelihood of success"
+  },
+  {
+    "id": "2023-09-14-ideas-2",
+    "quote": "\"Arguably the most important skill is controlling your attention. This goes beyond merely avoiding distractions. The deeper skill is finding the highest and best use for your time, given what is important to you. More than anything else, controlling your attention is about being able to figure out what you should be working on and identifying what truly moves the needle.\"",
+    "intro": "On being resourceful",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-14-2023",
+    "author": "James Clear",
+    "date": "2023-09-14",
+    "section": "Ideas",
+    "explanation": "A principle about attention management, emphasizing that the key skill is identifying and focusing on what truly matters"
+  },
+  {
+    "id": "2023-09-14-ideas-3",
+    "quote": "\"When you're doing something hard, focus on the fun part.\n\nMany people make a subtle mistake, which is they emphasize how difficult it is to do something. They tell themselves writing is hard or running is hard or math is hard. And so on. The dominant thought in their mind is that this is hard to do.\n\nAnd it is true these things (and many others in life) can be challenging.\n\nMeanwhile, people who thrive in a given area are often emphasizing a completely different aspect of the experience. They are thinking about how it feels good to move their body rather than telling themselves exercise is hard. Or, perhaps, they aren't really thinking much at all. They may slip into a trance during their run, a meditative rhythm.\n\nBut what they are almost certainly not doing is repeating a mental story about how hard it is to do the thing. Their dominant thought is about some element of the experience they enjoy. They are working hard, but with the fun part in mind.\"",
+    "intro": "On the value of simplicity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-14-2023",
+    "author": "James Clear",
+    "date": "2023-09-14",
+    "section": "Ideas",
+    "explanation": "A principle about mindset and enjoyment, emphasizing that focusing on enjoyable aspects rather than difficulty makes hard tasks more sustainable"
+  },
+  {
+    "id": "2023-09-07-ideas-1",
+    "quote": "\"Enough courage to get started + enough sense to focus on something you're naturally suited for + enough persistence to stay in the game long enough to catch a few lucky breaks + a lot of hard work. There's your recipe.\"",
+    "intro": "On having enough",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-7-2023",
+    "author": "James Clear",
+    "date": "2023-09-07",
+    "section": "Ideas",
+    "explanation": "A principle about success ingredients, emphasizing the combination of courage, focus, persistence, and hard work as the recipe for achievement"
+  },
+  {
+    "id": "2023-09-07-ideas-2",
+    "quote": "\"People spend a lot of time talking about other people's bodies, gossiping about other people's relationships, critiquing other people's business, etc.\n\nKeep your eyes on your own paper. Work on your body. Nurture your relationships. Improve your business.\n\nWe all have plenty to improve.\"",
+    "intro": "On the power of books",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-7-2023",
+    "author": "James Clear",
+    "date": "2023-09-07",
+    "section": "Ideas",
+    "explanation": "A principle about focus and self-improvement, emphasizing that energy spent on others' lives is better directed toward personal growth"
+  },
+  {
+    "id": "2023-09-07-ideas-3",
+    "quote": "\"Many people view their habits and routines as obstacles or, at the very least, obligations to get through. Making the morning coffee, driving your kids to the next activity, preparing the next meal--we often see our routines as chores to be completed.\n\nBut these are not moments to be dismissed. They are life. Making coffee can be a peaceful ritual--perhaps even a fulfilling one--if done with care rather than rushed to completion. It's about the amount of attention you devote to these simple moments, and whether you choose to appreciate them or bulldoze through them on the way to the next task.\n\nFind the beauty and joy in your daily rituals and you will find beauty and joy in your daily life. To love your habits is to love your days, and to love your days is to love your life.\"",
+    "intro": "On a recipe for success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-7-2023",
+    "author": "James Clear",
+    "date": "2023-09-07",
+    "section": "Ideas",
+    "explanation": "A principle about mindfulness and appreciation, emphasizing that daily rituals are life itself and should be approached with care and gratitude"
+  },
+  {
     "id": "2023-08-31-ideas-1",
     "quote": "\"Some lessons have to be experienced to be learned.\"",
     "intro": "On being bigger than your problems",
