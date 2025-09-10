@@ -1,5 +1,55 @@
 [
   {
+    "id": "2023-03-30-question",
+    "quote": "Does this habit still serve me or am I blindly following an old routine?",
+    "intro": "On the most important habit",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-30-2023",
+    "author": "James Clear",
+    "date": "2023-03-30",
+    "section": "Questions",
+    "explanation": "A habit evaluation question for conscious routine assessment, encouraging examination of whether current habits still serve their intended purpose"
+  },
+  {
+    "id": "2023-03-23-question",
+    "quote": "Is what I'm about to do today connected to what I'm going to value over the long-term?",
+    "intro": "On kindness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-23-2023",
+    "author": "James Clear",
+    "date": "2023-03-23",
+    "section": "Questions",
+    "explanation": "A long-term alignment question for daily decision-making, encouraging evaluation of whether current actions align with future values"
+  },
+  {
+    "id": "2023-03-16-question",
+    "quote": "What is the highest leverage activity you have ever done? Does that tell you anything about how to better spend your time?",
+    "intro": "On focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-16-2023",
+    "author": "James Clear",
+    "date": "2023-03-16",
+    "section": "Questions",
+    "explanation": "A leverage analysis question for time optimization, encouraging identification of high-impact activities and their characteristics"
+  },
+  {
+    "id": "2023-03-09-question",
+    "quote": "This thing that I am unhappy about... is it actually hard to change or is it simply hard to have the courage to change it?",
+    "intro": "On magical outcomes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-9-2023",
+    "author": "James Clear",
+    "date": "2023-03-09",
+    "section": "Questions",
+    "explanation": "A courage assessment question for change evaluation, encouraging distinction between actual difficulty and fear of taking action"
+  },
+  {
+    "id": "2023-03-02-question",
+    "quote": "Where am I spending energy trying to please someone who actually doesn't care?",
+    "intro": "On a paradox of life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-2-2023",
+    "author": "James Clear",
+    "date": "2023-03-02",
+    "section": "Questions",
+    "explanation": "An energy audit question for relationship evaluation, encouraging identification of wasted effort on people who don't value the attention"
+  },
+  {
     "id": "2023-02-23-question",
     "quote": "Is it better to delay getting started by weeks or months so I can be fully prepared? Or is it better to start right now with little to no preparation?",
     "intro": "On taking action",

@@ -1,5 +1,105 @@
 [
   {
+    "id": "2023-03-30-quotes-1",
+    "quote": "**Ronald Sharp** on how friendship transforms us (or any great relationship, really):\n\n\"It's not about what someone can do for you, it's who and what the two of you become in each other's presence.\"",
+    "intro": "On the most important habit",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-30-2023",
+    "author": "Ronald Sharp",
+    "date": "2023-03-30",
+    "section": "Quotes",
+    "explanation": "Ronald Sharp's insight about friendship, emphasizing that great relationships are about mutual transformation rather than transactional benefit"
+  },
+  {
+    "id": "2023-03-30-quotes-2",
+    "quote": "**Tara Ploughman** with an obvious, but often ignored, insight:\n\n\"Never offer what you'd hate someone for accepting.\"",
+    "intro": "On the difference between ambition and entitlement",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-30-2023",
+    "author": "Tara Ploughman",
+    "date": "2023-03-30",
+    "section": "Quotes",
+    "explanation": "Tara Ploughman's principle about offers and boundaries, emphasizing the importance of only offering what you genuinely want to give"
+  },
+  {
+    "id": "2023-03-23-quotes-1",
+    "quote": "Scientist and systems engineer, **Donella Meadows**, on intellectual humility and learning from others:\n\n\"Remember, always, that everything you know, and everything everyone knows, is only a model. Get your model out there where it can be viewed. Invite others to challenge your assumptions and add their own.\"",
+    "intro": "On kindness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-23-2023",
+    "author": "Donella Meadows",
+    "date": "2023-03-23",
+    "section": "Quotes",
+    "explanation": "Donella Meadows' insight about intellectual humility, emphasizing that all knowledge is provisional and benefits from external challenge and input"
+  },
+  {
+    "id": "2023-03-23-quotes-2",
+    "quote": "Attorney and poet, **Max Ehrmann**, offers some words for life:\n\n\"You are a child of the universe,\nno less than the trees and the stars;\nyou have a right to be here.\nAnd whether or not it is clear to you,\nno doubt the universe is unfolding as it should.\n\nWith all its sham, drudgery, and broken dreams,\nit is still a beautiful world.\nBe cheerful.\nStrive to be happy.\"",
+    "intro": "On intellectual humility",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-23-2023",
+    "author": "Max Ehrmann",
+    "date": "2023-03-23",
+    "section": "Quotes",
+    "explanation": "Max Ehrmann's poetic wisdom about life, emphasizing inherent worth, acceptance of uncertainty, and choosing happiness despite life's challenges"
+  },
+  {
+    "id": "2023-03-16-quotes-1",
+    "quote": "Greek philosopher **Epicurus** on desire and contentment:\n\n\"Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.\"",
+    "intro": "On focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-16-2023",
+    "author": "Epicurus",
+    "date": "2023-03-16",
+    "section": "Quotes",
+    "explanation": "Epicurus' wisdom about contentment, emphasizing gratitude for current blessings and awareness that present possessions were once future desires"
+  },
+  {
+    "id": "2023-03-16-quotes-2",
+    "quote": "Author **Carole Hildebrand** on making better decisions:\n\n\"Most of us have weak decision-making muscles. We do not realize what it means to make a real decision. We fail to recognize the force of change that a truly congruent, committed decision makes.\n\nThe word \"decision\" comes from Latin roots, with de meaning \"down\" or \"away from\" and caedere meaning \"to cut.\" Therefore, a decision means cutting from any other possibility. A true decision means you are committed to achieving a result and cutting yourself off from any other possibility.\n\nCommitted decisions show up in two places: your calendar and your bank account. No matter what you say you value, or even think your priorities are, you have only to look at last year's calendar and bank account to see the decisions you have made about what you truly value.\n\nSee how you have reserved your time. Look at your expenditures. Those are the trails to the decisions you have made.\"",
+    "intro": "On self care",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-16-2023",
+    "author": "Carole Hildebrand",
+    "date": "2023-03-16",
+    "section": "Quotes",
+    "explanation": "Carole Hildebrand's insight about decision-making, emphasizing that true decisions require commitment and are revealed through time and money allocation"
+  },
+  {
+    "id": "2023-03-09-quotes-1",
+    "quote": "**Grace Hopper**, a pioneer in computer programming and a US Navy rear admiral, on being bold:\n\n\"It's easier to ask forgiveness than it is to get permission.\"",
+    "intro": "On magical outcomes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-9-2023",
+    "author": "Grace Hopper",
+    "date": "2023-03-09",
+    "section": "Quotes",
+    "explanation": "Grace Hopper's principle about bold action, emphasizing that taking initiative and seeking forgiveness afterward is often more effective than seeking permission first"
+  },
+  {
+    "id": "2023-03-09-quotes-2",
+    "quote": "Farmer and writer, **Wendell Berry**, on the persistence of rivers:\n\n\"To a river, as to any natural force, an obstruction is merely an opportunity. For the river's nature is to flow; it is not just spatial in dimension, but temporal as well. All things must yield to the impulse of the water in time, if not today then tomorrow or in a thousand years. If its way is obstructed then it goes around the obstruction or under it or over it and, flowing past it, wears it away. Men may dam it and say that they have made a lake, but it will still be a river. It will keep its nature and bide its time, like a caged wild animal alert for the slightest opening. In time it will have its way; the dam like the ancient cliffs will be carried away piecemeal in the currents.\"",
+    "intro": "On being bold",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-9-2023",
+    "author": "Wendell Berry",
+    "date": "2023-03-09",
+    "section": "Quotes",
+    "explanation": "Wendell Berry's metaphor about natural persistence, emphasizing that obstacles become opportunities and that natural forces eventually overcome resistance through patience and persistence"
+  },
+  {
+    "id": "2023-03-02-quotes-1",
+    "quote": "Author **Julia Cameron** on how to find time to write (or do anything, really):\n\n\"The \"if I had time\" lie is a convenient way to ignore the fact that novels require being written and that writing happens a sentence at a time. Sentences can happen in a moment. Enough stolen moments, enough stolen sentences, and a novel is born -- without the luxury of time.\"",
+    "intro": "On a paradox of life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-2-2023",
+    "author": "Julia Cameron",
+    "date": "2023-03-02",
+    "section": "Quotes",
+    "explanation": "Julia Cameron's insight about time and creation, emphasizing that significant work can be accomplished through small, consistent efforts rather than waiting for large blocks of time"
+  },
+  {
+    "id": "2023-03-02-quotes-2",
+    "quote": "**Frank Slootman**, CEO of Snowflake Computing, explains three factors that lead to a high performance culture:\n\n\"Our companies ran at higher velocity, with higher standards and a narrower focus than most. Going faster, maintaining higher standards and with a narrower aperture. Sounds simple? The question is how you go about amping up your organization. How much faster do you run? How much higher are your standards? How hard do you focus? It is a performance 'triad' because they amplify each other. The compound effect can be electrifying.\n\nIt is breathtaking how slow, substandard and unfocused many companies out there get through the day. And think nothing of it. The lack of energy is palatable. There is performance upside everywhere. As a leader, your opportunity is to reset in each of these dimensions. You do it in every single conversation, meeting, and encounter. You look for and exploit every single opportunity to step up the pace, expect a higher quality outcome, and narrow the plane of attack. Then, you relentlessly follow up and prosecute at every turn.\"",
+    "intro": "On how to find time to write",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-2-2023",
+    "author": "Frank Slootman",
+    "date": "2023-03-02",
+    "section": "Quotes",
+    "explanation": "Frank Slootman's framework for high performance culture, emphasizing the amplifying effects of velocity, standards, and focus in organizational excellence"
+  },
+  {
     "id": "2023-02-23-quotes-1",
     "quote": "**Paulo Coelho** on taking action:\n\n\"One day you will wake up and there won't be any more time to do the things you've always wanted. Do it now.\"",
     "intro": "On taking action",
