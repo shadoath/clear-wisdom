@@ -1,5 +1,105 @@
 [
   {
+    "id": "2023-11-30-quotes-1",
+    "quote": "Writer **F. Scott Fitzgerald** on what makes a brilliant mind:\n\n\"The test of a first-rate intellect is the ability to hold two opposing ideas in your head at the same time, and still retain the ability to function.\"",
+    "intro": "On the need for personal responsibility",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-30-2023",
+    "author": "F. Scott Fitzgerald",
+    "date": "2023-11-30",
+    "section": "Quotes",
+    "explanation": "F. Scott Fitzgerald's insight about intellectual sophistication, emphasizing that holding contradictory ideas while maintaining functionality indicates advanced thinking"
+  },
+  {
+    "id": "2023-11-30-quotes-2",
+    "quote": "Psychologist **Mihaly Csikszentmihalyi** on the value of daily surprises:\n\n\"Try to be surprised by something every day. It could be something you see, hear, or read about. Stop to look at the unusual car parked at the curb, taste the new item on the cafeteria menu, actually listen to your colleague at the office. How is this different from other similar cars, dishes or conversations? What is its essence? Don't assume that you already know what these things are all about, or that even if you knew them, they wouldn't matter anyway. Experience this one thing for what it is, not what you think it is. Be open to what the world is telling you. Life is nothing more than a stream of experiences -- the more widely and deeply you swim in it, the richer your life will be.\"",
+    "intro": "On what makes a brilliant mind",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-30-2023",
+    "author": "Mihaly Csikszentmihalyi",
+    "date": "2023-11-30",
+    "section": "Quotes",
+    "explanation": "Mihaly Csikszentmihalyi's guidance on mindful awareness, emphasizing that daily surprise and open attention enrich life experience"
+  },
+  {
+    "id": "2023-11-23-quotes-1",
+    "quote": "Author **Steven Pressfield** on the boundary between work and self:\n\n\"The professional loves her work. She is invested in it wholeheartedly. But she does not forget that the work is not her.\"",
+    "intro": "On the gift of failure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-23-2023",
+    "author": "Steven Pressfield",
+    "date": "2023-11-23",
+    "section": "Quotes",
+    "explanation": "Steven Pressfield's insight about professional identity, emphasizing that loving work while maintaining separation from it creates healthy boundaries"
+  },
+  {
+    "id": "2023-11-23-quotes-2",
+    "quote": "Musician **Nick Cave** on the power of small actions:\n\n\"The everyday human gesture is always a heartbeat away from the miraculous.\n\nRemember that ultimately we make things happen through our actions, way beyond our understanding or intention; that our seemingly small ordinary human acts have untold consequences; that what we do in this world means something; that we are not nothing; and that our most quotidian human actions by their nature burst the seams of our intent and spill meaningfully and radically through time and space, changing everything.\n\nOur deeds, no matter how insignificant they may feel, are replete with meaning, and of vast consequence, and that they constantly impact upon the unfolding story of the world, whether we know it or not.\"",
+    "intro": "On right-sizing your problems",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-23-2023",
+    "author": "Nick Cave",
+    "date": "2023-11-23",
+    "section": "Quotes",
+    "explanation": "Nick Cave's perspective on the significance of ordinary actions, emphasizing that small gestures have profound and far-reaching consequences"
+  },
+  {
+    "id": "2023-11-16-quotes-1",
+    "quote": "Writer and programmer **Simon Sarris** shares the secret to a good morning:\n\n\"The secret to waking up is to wake up way earlier than you have to. When you have 1-2 hours where you can just sit there calmly, drinking coffee, and not be rushed, you feel ten times better. Later on, you can work on being productive in the morning too, if you please.\"",
+    "intro": "On the power of imperfection",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-16-2023",
+    "author": "Simon Sarris",
+    "date": "2023-11-16",
+    "section": "Quotes",
+    "explanation": "Simon Sarris' insight about morning routines, emphasizing that waking early enough to have calm, unrushed time improves the entire day"
+  },
+  {
+    "id": "2023-11-16-quotes-2",
+    "quote": "Author **Karl Ove Knausgard** on being fully immersed in life:\n\n\"What makes life worth living? No child asks itself that question. To children life is self-evident. Life goes without saying: whether it is good or bad makes no difference. This is because children don't see the world, don't observe the world, don't contemplate the world, but are so deeply immersed in the world that they don't distinguish between it and their own selves.\"",
+    "intro": "On the secret to a good morning",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-16-2023",
+    "author": "Karl Ove Knausgard",
+    "date": "2023-11-16",
+    "section": "Quotes",
+    "explanation": "Karl Ove Knausgard's reflection on childhood immersion, emphasizing that children's deep engagement with life comes from not separating themselves from experience"
+  },
+  {
+    "id": "2023-11-09-quotes-1",
+    "quote": "The television series **Mozart in the Jungle** reminds us of the beauty of being an amateur:\n\n\"You say 'amateur' as if it was a dirty word. 'Amateur' comes from the Latin word 'amare', which means to love. To do things for the love of it.\"",
+    "intro": "On the beauty of being an amateur",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-9-2023",
+    "author": "Mozart in the Jungle",
+    "date": "2023-11-09",
+    "section": "Quotes",
+    "explanation": "A reminder about the etymology and value of amateurism, emphasizing that doing things for love rather than professional gain has inherent beauty"
+  },
+  {
+    "id": "2023-11-09-quotes-2",
+    "quote": "Jesuit priest **Anthony de Mello** calls you to find what grips your soul:\n\n\"You must cultivate activities that you love. You must discover work that you do, not for its utility, but for itself, whether it succeeds or not, whether you are praised for it or not, whether you are loved and rewarded for it or not, whether people know about it and are grateful to you for it or not. How many activities can you count in your life that you engage in simply because they delight you and grip your soul? Find them out, cultivate them, for they are your passport to freedom and to love.\"",
+    "intro": "On how to respond to a mistake",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-9-2023",
+    "author": "Anthony de Mello",
+    "date": "2023-11-09",
+    "section": "Quotes",
+    "explanation": "Anthony de Mello's guidance on soul-gripping work, emphasizing that activities done for intrinsic joy rather than external rewards lead to freedom and love"
+  },
+  {
+    "id": "2023-11-02-quotes-1",
+    "quote": "Philosopher **Eric Hoffer** on adaptability:\n\n\"In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists.\"",
+    "intro": "On how to deal with a changing world",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-2-2023",
+    "author": "Eric Hoffer",
+    "date": "2023-11-02",
+    "section": "Quotes",
+    "explanation": "Eric Hoffer's insight about learning vs knowledge, emphasizing that continuous learning beats static knowledge in changing times"
+  },
+  {
+    "id": "2023-11-02-quotes-2",
+    "quote": "Author **William Martin** on the wonders of ordinary life:\n\n\"Do not ask your children\nto strive for extraordinary lives.\nSuch striving may seem admirable,\nbut it is the way of foolishness.\nHelp them instead to find the wonder\nand the marvel of an ordinary life.\nShow them the joy of tasting\ntomatoes, apples and pears.\nShow them how to cry\nwhen pets and people die.\nShow them the infinite pleasure\nin the touch of a hand.\nAnd make the ordinary come alive for them.\nThe extraordinary will take care of itself.\"",
+    "intro": "On the wonders of ordinary life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-2-2023",
+    "author": "William Martin",
+    "date": "2023-11-02",
+    "section": "Quotes",
+    "explanation": "William Martin's wisdom about ordinary life, emphasizing that teaching children to appreciate simple pleasures and experiences creates lasting fulfillment"
+  },
+  {
     "id": "2023-10-26-quotes-1",
     "quote": "Author **Haruki Murakami** on the value of reading widely:\n\n\"If you only read the books that everyone else is reading, you can only think what everyone else is thinking.\"",
     "intro": "On how to handle errors",

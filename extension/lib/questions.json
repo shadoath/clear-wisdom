@@ -1,5 +1,55 @@
 [
   {
+    "id": "2023-11-30-question",
+    "quote": "Challenge yourself to do something out of your normal routine. What is one thing you can do this week that is different than what you do on a normal week?",
+    "intro": "On the need for personal responsibility",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-30-2023",
+    "author": "James Clear",
+    "date": "2023-11-30",
+    "section": "Questions",
+    "explanation": "A routine disruption question for growth stimulation, encouraging identification of one different activity to break normal patterns"
+  },
+  {
+    "id": "2023-11-23-question",
+    "quote": "Half your problems are just your mind making minor things seem like major things.\n\nWhat are you over-emphasizing right now?",
+    "intro": "On the gift of failure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-23-2023",
+    "author": "James Clear",
+    "date": "2023-11-23",
+    "section": "Questions",
+    "explanation": "A perspective adjustment question for problem sizing, encouraging identification of minor issues being treated as major problems"
+  },
+  {
+    "id": "2023-11-16-question",
+    "quote": "It's remarkable how uncomplicated it is most of the time. The hard part is not knowing what to do, but having the resolve to do it. What is one thing you know you should do right now and you just need to step up and do it?",
+    "intro": "On the power of imperfection",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-16-2023",
+    "author": "James Clear",
+    "date": "2023-11-16",
+    "section": "Questions",
+    "explanation": "An action resolution question for immediate execution, encouraging identification of known actions that need immediate follow-through"
+  },
+  {
+    "id": "2023-11-09-question",
+    "quote": "Opportunities in life come through people. Who do you need to connect with to gain access to the opportunities you want?",
+    "intro": "On the beauty of being an amateur",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-9-2023",
+    "author": "James Clear",
+    "date": "2023-11-09",
+    "section": "Questions",
+    "explanation": "A networking question for opportunity access, encouraging identification of key people who can provide desired opportunities"
+  },
+  {
+    "id": "2023-11-02-question",
+    "quote": "Which of your current habits is least aligned with the type of person you hope to become?",
+    "intro": "On how to deal with a changing world",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-2-2023",
+    "author": "James Clear",
+    "date": "2023-11-02",
+    "section": "Questions",
+    "explanation": "A habit alignment question for identity consistency, encouraging identification of behaviors that conflict with desired self-image"
+  },
+  {
     "id": "2023-10-26-question",
     "quote": "Think of your childhood. What is one area where your parents did a good job? What is one area where they could have done better?",
     "intro": "On how to handle errors",

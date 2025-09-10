@@ -1,5 +1,155 @@
 [
   {
+    "id": "2023-11-30-ideas-1",
+    "quote": "\"You are not the cause of everything that happens to you, but you are responsible for how you respond to everything that happens to you.\"",
+    "intro": "On the need for personal responsibility",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-30-2023",
+    "author": "James Clear",
+    "date": "2023-11-30",
+    "section": "Ideas",
+    "explanation": "A principle about responsibility and control, emphasizing that while we can't control what happens, we control our response"
+  },
+  {
+    "id": "2023-11-30-ideas-2",
+    "quote": "\"It is not too late to do what you want to do--if you stop waiting for the time to be right.\"",
+    "intro": "On what makes a brilliant mind",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-30-2023",
+    "author": "James Clear",
+    "date": "2023-11-30",
+    "section": "Ideas",
+    "explanation": "A principle about timing and action, emphasizing that waiting for perfect conditions prevents progress"
+  },
+  {
+    "id": "2023-11-30-ideas-3",
+    "quote": "\"Life is harder when you expect a lot of the world and little of yourself.\n\nLife is easier when you expect a lot of yourself and little of the world.\n\nHigh standards, low expectations.\"",
+    "intro": "On the value of daily surprises",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-30-2023",
+    "author": "James Clear",
+    "date": "2023-11-30",
+    "section": "Ideas",
+    "explanation": "A principle about expectations and standards, emphasizing that high personal standards with low external expectations create easier living"
+  },
+  {
+    "id": "2023-11-23-ideas-1",
+    "quote": "\"Consistency enlarges ability.\"",
+    "intro": "On the gift of failure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-23-2023",
+    "author": "James Clear",
+    "date": "2023-11-23",
+    "section": "Ideas",
+    "explanation": "A principle about consistency and growth, emphasizing that regular practice expands one's capabilities"
+  },
+  {
+    "id": "2023-11-23-ideas-2",
+    "quote": "\"You probably don't want maximum effectiveness.\n\nFor example, the most effective way to make money likely requires a lifestyle you don't want to live. Instead, you want the most effective path that fits your desired lifestyle.\n\nHow do you want to spend your days? Start there, then optimize.\"",
+    "intro": "On right-sizing your problems",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-23-2023",
+    "author": "James Clear",
+    "date": "2023-11-23",
+    "section": "Ideas",
+    "explanation": "A principle about optimization and lifestyle, emphasizing that effectiveness should align with desired way of living"
+  },
+  {
+    "id": "2023-11-23-ideas-3",
+    "quote": "\"One of the most unexpected gifts you can receive is an early loss.\n\n* Missing out on a job you really wanted.\n* Trying a business idea that fails.\n* Suffering a heartbreak.\n\nAn early setback can become the catalyst for a wonderful next chapter--if you channel the emotion effectively.\n\nDisappointment is a hot burning fuel. Let it light your fire to become better.\"",
+    "intro": "On the power of small actions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-23-2023",
+    "author": "James Clear",
+    "date": "2023-11-23",
+    "section": "Ideas",
+    "explanation": "A principle about early setbacks and motivation, emphasizing that disappointment can fuel positive transformation"
+  },
+  {
+    "id": "2023-11-16-ideas-1",
+    "quote": "\"The imperfect project you actually complete is worth more than the perfect project you never finish.\"",
+    "intro": "On the power of imperfection",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-16-2023",
+    "author": "James Clear",
+    "date": "2023-11-16",
+    "section": "Ideas",
+    "explanation": "A principle about completion vs perfection, emphasizing that finished imperfect work is more valuable than unfinished perfect work"
+  },
+  {
+    "id": "2023-11-16-ideas-2",
+    "quote": "\"You won't always get what you strive for, but you will definitely get what you settle for. You won't magically outperform your standards.\"",
+    "intro": "On the secret to a good morning",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-16-2023",
+    "author": "James Clear",
+    "date": "2023-11-16",
+    "section": "Ideas",
+    "explanation": "A principle about standards and outcomes, emphasizing that results align with what one accepts rather than what one aims for"
+  },
+  {
+    "id": "2023-11-16-ideas-3",
+    "quote": "\"Be ruthless about what you ignore. Time, energy, and resources are so precious. You have to be ferocious about cutting your priorities--more than you realize and certainly more than is comfortable.\n\nYou can only deeply commit to a few things. One or two? Maybe three?\n\nEvery pretty good, sorta nice, kinda fun thing you abandon is like shedding a weighted vest that lets you move at top speed. You were so busy focusing on how much you could carry, you never realized you could run this fast.\"",
+    "intro": "On the secret to a good morning",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-16-2023",
+    "author": "James Clear",
+    "date": "2023-11-16",
+    "section": "Ideas",
+    "explanation": "A principle about focus and elimination, emphasizing that removing good but non-essential activities enables exceptional performance"
+  },
+  {
+    "id": "2023-11-09-ideas-1",
+    "quote": "\"Forget about peak performance. Would your results improve if you simply focused on being reliable in the normal moments?\n\nShow up when it's easy to skip. Do the fundamentals and do them well. And so on.\n\nBefore you make it complicated, remember there are always simple improvements waiting to be made.\"",
+    "intro": "On the beauty of being an amateur",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-9-2023",
+    "author": "James Clear",
+    "date": "2023-11-09",
+    "section": "Ideas",
+    "explanation": "A principle about reliability over peak performance, emphasizing that consistent fundamentals often outperform sporadic excellence"
+  },
+  {
+    "id": "2023-11-09-ideas-2",
+    "quote": "\"You have to live with your mistakes, but you don't have to compound them.\n\nTo follow up an error with a foolish reaction is to lose twice. Given the reality of where you are right now, what is the best next action?\n\nA wise response may not erase a dumb mistake, but it can redeem it.\"",
+    "intro": "On how to respond to a mistake",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-9-2023",
+    "author": "James Clear",
+    "date": "2023-11-09",
+    "section": "Ideas",
+    "explanation": "A principle about mistake recovery, emphasizing that wise responses to errors can redeem rather than compound problems"
+  },
+  {
+    "id": "2023-11-09-ideas-3",
+    "quote": "\"At some point, you will have to learn to let go.\n\nThere is an endless list of obligations and expectations, desires and ambitions, and worries and fears that will always be ready to insert themselves between you and the feeling of peace.\n\nIf you never learn to let them go, there will never be enough.\"",
+    "intro": "On finding work that grips your soul",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-9-2023",
+    "author": "James Clear",
+    "date": "2023-11-09",
+    "section": "Ideas",
+    "explanation": "A principle about letting go and peace, emphasizing that releasing endless obligations and expectations is necessary for contentment"
+  },
+  {
+    "id": "2023-11-02-ideas-1",
+    "quote": "\"For each headache you face, ask yourself, \"Is this mostly real or mostly imagined?\"\n\nSolve the real problems, release the imaginary ones.\"",
+    "intro": "On how to deal with a changing world",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-2-2023",
+    "author": "James Clear",
+    "date": "2023-11-02",
+    "section": "Ideas",
+    "explanation": "A principle about problem classification, emphasizing the importance of distinguishing between real and imagined problems"
+  },
+  {
+    "id": "2023-11-02-ideas-2",
+    "quote": "\"Relax. Your rumination, analysis, worry, and need to control the future are robbing you of the current moment. Yes, there is a time for preparation, but continually thinking of the future guarantees you'll never enjoy the present.\"",
+    "intro": "On the wonders of ordinary life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-2-2023",
+    "author": "James Clear",
+    "date": "2023-11-02",
+    "section": "Ideas",
+    "explanation": "A principle about present moment awareness, emphasizing that excessive future focus prevents enjoyment of the present"
+  },
+  {
+    "id": "2023-11-02-ideas-3",
+    "quote": "\"Exerting more effort doesn't help if you're on the wrong trajectory.\n\n- Working harder on the wrong thing just wastes more time.\n- Learning more from a biased source will lead you further from the truth.\n- Doubling down on a toxic relationship only sets you up for more headaches.\n\nBefore you try harder, make sure you are walking a path that leads where you want to go.\"",
+    "intro": "On the wonders of ordinary life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-2-2023",
+    "author": "James Clear",
+    "date": "2023-11-02",
+    "section": "Ideas",
+    "explanation": "A principle about direction vs effort, emphasizing that increased effort on wrong paths leads to worse outcomes"
+  },
+  {
     "id": "2023-10-26-ideas-1",
     "quote": "\"Don't overlook the basics. Don't ignore the foundation. How long can a tree remain standing without roots?\"",
     "intro": "On how to handle errors",
