@@ -1,5 +1,85 @@
 [
   {
+    "id": "2023-04-27-quotes-1",
+    "quote": "Actress **Elizabeth Bibesco** on the importance of failure:\n\n\"We learn nothing by being right.\"",
+    "intro": "On time assets vs. Time debts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-27-2023",
+    "author": "Elizabeth Bibesco",
+    "date": "2023-04-27",
+    "section": "Quotes",
+    "explanation": "Elizabeth Bibesco's insight about learning, emphasizing that failure and being wrong provide opportunities for growth that being right cannot"
+  },
+  {
+    "id": "2023-04-27-quotes-2",
+    "quote": "Author and recovering alcoholic **Sarah Hepola** on slow change:\n\n\"Change is not a bolt of lightning that arrives with a zap. It is a bridge built brick by brick, every day, with sweat and humility and slips. It is hard work, and slow work, but it can be thrilling to watch it take shape.\"",
+    "intro": "On slow change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-27-2023",
+    "author": "Sarah Hepola",
+    "date": "2023-04-27",
+    "section": "Quotes",
+    "explanation": "Sarah Hepola's perspective on change, emphasizing that meaningful transformation is a gradual, daily process requiring persistence and patience"
+  },
+  {
+    "id": "2023-04-20-quotes-1",
+    "quote": "Record producer **Rick Rubin** shares the secret to creating hit records (or making anything great):\n\n\"If you need 10 of something, make 30. Then pick the best.\"",
+    "intro": "On the real reason you fail to stick with habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-20-2023",
+    "author": "Rick Rubin",
+    "date": "2023-04-20",
+    "section": "Quotes",
+    "explanation": "Rick Rubin's principle about quality through quantity, emphasizing that creating more options allows for better selection and higher quality outcomes"
+  },
+  {
+    "id": "2023-04-20-quotes-2",
+    "quote": "Author and naturalist **Henry David Thoreau** on the value of walking in the woods:\n\n\"I come out to these solitudes, where the problem of existence is simplified. I get away a mile or two from the town into the stillness and solitude of nature, with rocks, trees, weeds, snow about me. I enter some glade in the woods, perchance, where a few weeds and dry leaves alone lift themselves above the surface of the snow, and it is as if I had come to an open window. I see out and around myself.\n\n...\n\nThis is what I go out to seek. It is as if I always met in those places some grand, serene, immortal, infinitely encouraging--though invisible--companion, and walked with him.\"",
+    "intro": "On the secret to making anything great",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-20-2023",
+    "author": "Henry David Thoreau",
+    "date": "2023-04-20",
+    "section": "Quotes",
+    "explanation": "Henry David Thoreau's reflection on nature and solitude, emphasizing how natural environments provide clarity, perspective, and spiritual companionship"
+  },
+  {
+    "id": "2023-04-13-quotes-1",
+    "quote": "Writer and psychoanalyst **Marion Milner** on the work required to be happy:\n\n\"Let no one think it is an easy way because it is concerned with moments of happiness rather than with stern duty or high moral endeavour. For what is really easy, as I found, is to blind one's eyes to what one really likes, to drift into accepting one's wants ready-made from other people, and to evade the continual day to day sifting of values.\"",
+    "intro": "On the work required to be happy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-13-2023",
+    "author": "Marion Milner",
+    "date": "2023-04-13",
+    "section": "Quotes",
+    "explanation": "Marion Milner's insight about happiness, emphasizing that true happiness requires active self-awareness and conscious value evaluation rather than passive acceptance of others' desires"
+  },
+  {
+    "id": "2023-04-13-quotes-2",
+    "quote": "**Mike Markkula**, an electrical engineer and investor who worked alongside Steve Jobs and eventually became the first chairman of Apple Computer, shares a few of the company's core principles:\n\n\"The Apple Marketing Philosophy:\n\nEmpathy. We will truly understand their needs better than any other company.\n\nFocus. In order to do a good job of those things we decide to do we must eliminate all of the unimportant opportunities.\n\nImpute. People DO judge a book by its cover. We may have the best product, the highest quality, the most useful software, etc.; if we present them in a slipshod manner, they will be perceived as slipshod; if we present them in a creative, professional manner, we will impute the desired qualities.\"",
+    "intro": "On important lessons that aren't taught in school",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-13-2023",
+    "author": "Mike Markkula",
+    "date": "2023-04-13",
+    "section": "Quotes",
+    "explanation": "Mike Markkula's Apple Marketing Philosophy, emphasizing empathy for customers, focus through elimination, and the importance of presentation in creating perception"
+  },
+  {
+    "id": "2023-04-06-quotes-1",
+    "quote": "**Carl Jung**, the influential psychiatrist, on the value of knowing yourself:\n\n\"The world will ask you who you are, and if you don't know, the world will tell you.\"",
+    "intro": "On one of the most critical skills in life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-6-2023",
+    "author": "Carl Jung",
+    "date": "2023-04-06",
+    "section": "Quotes",
+    "explanation": "Carl Jung's insight about self-knowledge, emphasizing that without clear self-identity, external forces will define who you are"
+  },
+  {
+    "id": "2023-04-06-quotes-2",
+    "quote": "Philosopher and writer **Sir Roger Scruton** on the importance of building beautiful things:\n\n\"There is a deep human need for beauty, and if you ignore that need in architecture, your buildings will not last, since people will never feel at home in them.\"",
+    "intro": "On the value of knowing yourself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-6-2023",
+    "author": "Sir Roger Scruton",
+    "date": "2023-04-06",
+    "section": "Quotes",
+    "explanation": "Sir Roger Scruton's perspective on beauty and architecture, emphasizing that beauty is a fundamental human need that affects how people connect with their environment"
+  },
+  {
     "id": "2023-03-30-quotes-1",
     "quote": "**Ronald Sharp** on how friendship transforms us (or any great relationship, really):\n\n\"It's not about what someone can do for you, it's who and what the two of you become in each other's presence.\"",
     "intro": "On the most important habit",

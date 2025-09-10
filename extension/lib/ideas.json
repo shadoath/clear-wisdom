@@ -1,5 +1,125 @@
 [
   {
+    "id": "2023-04-27-ideas-1",
+    "quote": "\"Whoever has the most fun, wins.\"",
+    "intro": "On time assets vs. Time debts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-27-2023",
+    "author": "James Clear",
+    "date": "2023-04-27",
+    "section": "Ideas",
+    "explanation": "A principle about success and enjoyment, emphasizing that having fun is often the most effective path to winning and achieving goals"
+  },
+  {
+    "id": "2023-04-27-ideas-2",
+    "quote": "\"Water never complains, but always pushes back. Always.\n\nDrop a boulder in front of a stream and the water will simply flow around it, taking whatever opening the landscape will give or--when nothing is offered--patiently building up its resources until it rises to a height where a new gap is found.\n\nPersist like water. When an obstacle is placed in front of you, find your way around or gather your resources until a new opportunity reveals itself.\"",
+    "intro": "On slow change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-27-2023",
+    "author": "James Clear",
+    "date": "2023-04-27",
+    "section": "Ideas",
+    "explanation": "A principle about persistence and adaptation, emphasizing that water-like persistence involves finding alternative paths and patiently building resources when obstacles arise"
+  },
+  {
+    "id": "2023-04-27-ideas-3",
+    "quote": "\"Time assets vs. Time debts.\n\nTime assets are choices that save you time in the future. Think: saying no to a meeting, automating a task, working on something that persists and compounds.\n\nTime debts are choices that must be repaid and cost you time in the future. Think: saying yes to a meeting, doing sloppy work that will need to be revised, etc.\n\nTime assets are an investment. Time debts are an expense.\"",
+    "intro": "On the importance of failure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-27-2023",
+    "author": "James Clear",
+    "date": "2023-04-27",
+    "section": "Ideas",
+    "explanation": "A principle about time management, emphasizing the distinction between choices that create future time savings versus those that create future time costs"
+  },
+  {
+    "id": "2023-04-20-ideas-1",
+    "quote": "\"It's hard to build momentum if you're dividing your attention.\"",
+    "intro": "On the real reason you fail to stick with habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-20-2023",
+    "author": "James Clear",
+    "date": "2023-04-20",
+    "section": "Ideas",
+    "explanation": "A principle about focus and momentum, emphasizing that divided attention prevents the accumulation of momentum necessary for success"
+  },
+  {
+    "id": "2023-04-20-ideas-2",
+    "quote": "\"Many people assume they are bad at writing because it is hard. This is like assuming you are bad at weightlifting because the weight is heavy.\n\nWriting is useful because it is hard. It's the effort that goes into writing a clear sentence that leads to better thinking.\"",
+    "intro": "On the secret to making anything great",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-20-2023",
+    "author": "James Clear",
+    "date": "2023-04-20",
+    "section": "Ideas",
+    "explanation": "A principle about writing and thinking, emphasizing that the difficulty of writing is what makes it valuable for developing clearer thinking"
+  },
+  {
+    "id": "2023-04-20-ideas-3",
+    "quote": "\"On any given day, you may struggle with your habits because you're too busy or too tired or too overwhelmed or hundreds of other reasons. Over the long run, the real reason you fail to stick with habits is that your self-image gets in the way. This is why you can't get too attached to one version of your identity.\n\nProgress requires unlearning. Becoming the best version of yourself requires you to continuously edit your beliefs, and to upgrade and expand your identity.\"",
+    "intro": "On the real reason you fail to stick with habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-20-2023",
+    "author": "James Clear",
+    "date": "2023-04-20",
+    "section": "Ideas",
+    "explanation": "A principle from Atomic Habits about habit failure, emphasizing that self-image conflicts are the primary long-term barrier to habit formation and that progress requires identity evolution"
+  },
+  {
+    "id": "2023-04-13-ideas-1",
+    "quote": "\"You are the average of the 5 habits you repeat most.\"",
+    "intro": "On the work required to be happy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-13-2023",
+    "author": "James Clear",
+    "date": "2023-04-13",
+    "section": "Ideas",
+    "explanation": "A principle about habit influence, emphasizing that the most frequently repeated habits determine one's overall character and outcomes"
+  },
+  {
+    "id": "2023-04-13-ideas-2",
+    "quote": "\"Speed is perpetually undervalued.\n\nAsking that person out today means you get to live more of your life with them and less of your life waiting.\n\nStarting your business today means you begin learning immediately and have more time to figure out what works.\n\nGo fast. The future is never guaranteed and the right time may never come.\"",
+    "intro": "On important lessons that aren't taught in school",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-13-2023",
+    "author": "James Clear",
+    "date": "2023-04-13",
+    "section": "Ideas",
+    "explanation": "A principle about speed and action, emphasizing that taking action quickly provides more time for learning and living, and that waiting for perfect timing often leads to missed opportunities"
+  },
+  {
+    "id": "2023-04-13-ideas-3",
+    "quote": "\"Many people won't attempt something unless they can find an example of someone else who is already doing it. Rely on this type of thinking too much and you'll never do anything interesting.\n\nYour path through life is unique. It is important to extract lessons from the experiences of others, but you can't wait for a perfect example to take action. You are the example.\"",
+    "intro": "On important lessons that aren't taught in school",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-13-2023",
+    "author": "James Clear",
+    "date": "2023-04-13",
+    "section": "Ideas",
+    "explanation": "A principle about originality and action, emphasizing that waiting for perfect examples prevents interesting work and that each person must become their own example"
+  },
+  {
+    "id": "2023-04-06-ideas-1",
+    "quote": "\"Create your life rather than live it.\"",
+    "intro": "On one of the most critical skills in life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-6-2023",
+    "author": "James Clear",
+    "date": "2023-04-06",
+    "section": "Ideas",
+    "explanation": "A principle about life design, emphasizing active creation and intentional living rather than passive acceptance of circumstances"
+  },
+  {
+    "id": "2023-04-06-ideas-2",
+    "quote": "\"One of the most critical skills in life--and yet never taught in school--is choosing where to direct your attention.\n\nAfter graduation, the valedictorian will often get lapped by \"average\" people who better invest their time.\"",
+    "intro": "On the value of knowing yourself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-6-2023",
+    "author": "James Clear",
+    "date": "2023-04-06",
+    "section": "Ideas",
+    "explanation": "A principle about attention management, emphasizing that choosing where to focus attention is more important than academic achievement and that time investment often trumps intelligence"
+  },
+  {
+    "id": "2023-04-06-ideas-3",
+    "quote": "\"Money plays an important role in life, but it can't be the only filter for how you decide to spend your time. Nobody will ever pay you to go on a date with your spouse or take your kids to the park or grab coffee with your parents.\"",
+    "intro": "On the value of knowing yourself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-6-2023",
+    "author": "James Clear",
+    "date": "2023-04-06",
+    "section": "Ideas",
+    "explanation": "A principle about time allocation, emphasizing that money should not be the sole criterion for time decisions and that valuable activities often have no monetary compensation"
+  },
+  {
     "id": "2023-03-30-ideas-1",
     "quote": "\"The most important habit is choosing the right habit to work on.\"",
     "intro": "On the most important habit",
