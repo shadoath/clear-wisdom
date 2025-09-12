@@ -1,5 +1,1115 @@
 [
   {
+    "id": "2025-09-11-ideas-1",
+    "quote": "\"Boredom is a filter. Common ideas come before it. Uncommon ideas come after it. Sit with a project long enough to get bored with it, then sit a little more. The most useful insights bubble up after you get bored.\"",
+    "intro": "On the power of boredom",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-11-2025",
+    "author": "James Clear",
+    "date": "2025-09-11",
+    "section": "Ideas",
+    "explanation": "A principle about boredom and creativity, emphasizing that uncommon ideas emerge after pushing through boredom"
+  },
+  {
+    "id": "2025-09-11-ideas-2",
+    "quote": "\"People often care about belonging more than they care about accuracy. We don't always believe things because they are factually correct. In many cases, we cling to beliefs that make us look good to the people we care about.\"",
+    "intro": "On why being right is not enough",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-11-2025",
+    "author": "James Clear",
+    "date": "2025-09-11",
+    "section": "Ideas",
+    "explanation": "A principle about beliefs and belonging, emphasizing that people often choose beliefs for social reasons over accuracy"
+  },
+  {
+    "id": "2025-09-11-ideas-3",
+    "quote": "\"The only way to develop true confidence is to earn it.\n\n* The confidence that you can bounce back from failure is earned by working through previous failures.\n* The confidence that you can deliver the speech is earned by the previous speeches you have given.\n* The confidence that you can perform on game day is earned by the previous performances in practice.\n\nIn the beginning, you need enough courage to practice even though it may not go very well. And over time, as your skills improve, courage transforms into confidence. Courage first, confidence later.\"",
+    "intro": "On how to develop confidence",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-11-2025",
+    "author": "James Clear",
+    "date": "2025-09-11",
+    "section": "Ideas",
+    "explanation": "A principle about confidence development, emphasizing that true confidence is earned through practice and courage comes first"
+  },
+  {
+    "id": "2025-09-04-ideas-1",
+    "quote": "\"Work hard on what comes easily.\"",
+    "intro": "On taking lots of shots",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-4-2025",
+    "author": "James Clear",
+    "date": "2025-09-04",
+    "section": "Ideas",
+    "explanation": "A principle about effort and natural ability, emphasizing working hard on areas where you have natural aptitude"
+  },
+  {
+    "id": "2025-09-04-ideas-2",
+    "quote": "\"Use the best idea you have right now. Claiming you need to 'learn more' or 'get your ducks in a row' is just a crutch that prevents you from starting. Education is a lifelong pursuit. You will always need to learn more. It's not a reason to wait.\"",
+    "intro": "On the power of concentration",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-4-2025",
+    "author": "James Clear",
+    "date": "2025-09-04",
+    "section": "Ideas",
+    "explanation": "A principle about starting and learning, emphasizing using current best ideas rather than waiting for more education"
+  },
+  {
+    "id": "2025-09-04-ideas-3",
+    "quote": "\"One study looked at artists who started at the bottom and worked their way to successful careers. The researchers identified one factor that was consistent across the group: they performed far more shows than the average artist.\n\nThe same principle holds true in many fields. If you want to rise, you need a lot of shots on goal. Keep showing up. Keep making new material. Eventually, you catch a lucky break.\"",
+    "intro": "On savoring the path to success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-4-2025",
+    "author": "James Clear",
+    "date": "2025-09-04",
+    "section": "Ideas",
+    "explanation": "A principle about success and persistence, emphasizing that successful people take many more shots than average and eventually catch lucky breaks"
+  },
+  {
+    "id": "2025-08-28-ideas-1",
+    "quote": "Something a friend told me recently:\n\n\"Never do anything in the gym today that prevents you from working out tomorrow.\"",
+    "intro": "How our quests shape us",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-28-2025",
+    "author": "James Clear",
+    "date": "2025-08-28",
+    "section": "Ideas",
+    "explanation": "A principle about sustainable exercise, emphasizing not doing anything today that prevents future workouts"
+  },
+  {
+    "id": "2025-08-28-ideas-2",
+    "quote": "Something my four-year-old told me recently:\n\n\"We need to be kind to the future.\"\n\nYou can apply that to your own life and the world at large.",
+    "intro": "Being kind to the future",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-28-2025",
+    "author": "James Clear",
+    "date": "2025-08-28",
+    "section": "Ideas",
+    "explanation": "A principle about future kindness, emphasizing being kind to the future in both personal life and the world at large"
+  },
+  {
+    "id": "2025-08-28-ideas-3",
+    "quote": "Something I'm trying to practice:\n\n\"Don't just tell your spouse that you love them-tell them why you like them. Point out the qualities that make them fun to be around, the parts of their personality that shine, the little moments you genuinely enjoy together. `I love you' matters, but so does `I like spending time with you.'\"",
+    "intro": "How our quests shape us",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-28-2025",
+    "author": "James Clear",
+    "date": "2025-08-28",
+    "section": "Ideas",
+    "explanation": "A principle about expressing appreciation, emphasizing telling partners why you like them, not just that you love them"
+  },
+  {
+    "id": "2025-08-21-ideas-1",
+    "quote": "\"Praise others. It will bring them peace of mind.\n\nDo not expect others to praise you. It will bring you peace of mind.\"",
+    "intro": "On peace of mind",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-21-2025",
+    "author": "James Clear",
+    "date": "2025-08-21",
+    "section": "Ideas",
+    "explanation": "A principle about praise and peace of mind, emphasizing praising others while not expecting praise for yourself"
+  },
+  {
+    "id": "2025-08-21-ideas-2",
+    "quote": "\"We often think that we want an open road and the ability to choose any direction for ourselves. But sometimes, what we need is a tunnel that can reduce our choices and send us in a focused direction.\"",
+    "intro": "On the power of focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-21-2025",
+    "author": "James Clear",
+    "date": "2025-08-21",
+    "section": "Ideas",
+    "explanation": "A principle about choice and focus, emphasizing that sometimes we need constraints to focus rather than unlimited options"
+  },
+  {
+    "id": "2025-08-21-ideas-3",
+    "quote": "\"The person who learns the most in any classroom is the teacher.\n\nIf you really want to learn a topic, then \"teach\" it. Write a book. Teach a class. Build a product. Start a company.\n\nThe act of making something will force you to learn more deeply than reading ever will.\"",
+    "intro": "On how to learn faster",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-21-2025",
+    "author": "James Clear",
+    "date": "2025-08-21",
+    "section": "Ideas",
+    "explanation": "A principle about learning through teaching, emphasizing that teaching forces deeper learning than reading"
+  },
+  {
+    "id": "2025-08-14-ideas-1",
+    "quote": "\"Your success depends on the risks you take.\n\nYour survival depends on the risks you avoid.\"",
+    "intro": "On living a well-rounded life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-14-2025",
+    "author": "James Clear",
+    "date": "2025-08-14",
+    "section": "Ideas",
+    "explanation": "A principle about risk management, emphasizing that success depends on taking risks while survival depends on avoiding them"
+  },
+  {
+    "id": "2025-08-14-ideas-2",
+    "quote": "\"Hype erodes. Quality persists.\"",
+    "intro": "On managing risks",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-14-2025",
+    "author": "James Clear",
+    "date": "2025-08-14",
+    "section": "Ideas",
+    "explanation": "A principle about hype vs quality, emphasizing that hype fades while quality endures"
+  },
+  {
+    "id": "2025-08-14-ideas-3",
+    "quote": "\"Running one mile has more in common with running a marathon than sitting at home.\n\nInvesting $100 has more in common with being a millionaire than being broke.\n\nWriting one sentence has more in common with writing a book than never writing one.\n\nIt always feels small in the beginning and the big goals seem far away. It's easy to talk yourself out of the early attempts because they feel kind of meaningless.\n\nBut every race starts with one step. Every fortune starts with a small deposit. Every book begins as one sentence.\n\nThe real question is not \"What is my current position?\" but rather, \"What is my current trajectory?\" Doing nothing builds nothing. Put yourself on the path to something better. Start small, but make sure you start.\"",
+    "intro": "On enjoying the worst-case scenario",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-14-2025",
+    "author": "James Clear",
+    "date": "2025-08-14",
+    "section": "Ideas",
+    "explanation": "A principle about starting small and trajectory, emphasizing that small actions are closer to big goals than doing nothing"
+  },
+  {
+    "id": "2025-08-07-ideas-1",
+    "quote": "\"You can attract luck simply by telling people what you are working on.\"",
+    "intro": "On true wealth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-7-2025",
+    "author": "James Clear",
+    "date": "2025-08-07",
+    "section": "Ideas",
+    "explanation": "A principle about luck and communication, emphasizing that sharing what you're working on can attract opportunities"
+  },
+  {
+    "id": "2025-08-07-ideas-2",
+    "quote": "\"Working on a problem reduces the fear of it.\n\nIt's hard to fear a problem when you are making progress on it--even if progress is imperfect and slow.\n\nAction relieves anxiety.\"",
+    "intro": "On the antidote to anxiety",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-7-2025",
+    "author": "James Clear",
+    "date": "2025-08-07",
+    "section": "Ideas",
+    "explanation": "A principle about anxiety and action, emphasizing that working on problems reduces fear and action relieves anxiety"
+  },
+  {
+    "id": "2025-08-07-ideas-3",
+    "quote": "\"You are richer than 93 percent of people. Not in money, but in time.\n\nOver 108 billion people have lived throughout history. 93 percent of them are dead.\n\nYou have what every king and queen, every pharaoh and ruler, every CEO and celebrity of the past would give all their wealth and power for:\n\nToday.\"",
+    "intro": "On how to love someone as they change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-7-2025",
+    "author": "James Clear",
+    "date": "2025-08-07",
+    "section": "Ideas",
+    "explanation": "A principle about time and wealth, emphasizing that having today makes you richer than 93% of people who have ever lived"
+  },
+  {
+    "id": "2025-07-31-ideas-1",
+    "quote": "\"Chase your desired lifestyle, not your desired title. People are blinded by status and labels. Once you release the need for a specific title, there is almost always an easier path to living your preferred lifestyle.\"",
+    "intro": "On avoiding frustration",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-31-2025",
+    "author": "James Clear",
+    "date": "2025-07-31",
+    "section": "Ideas",
+    "explanation": "A principle about lifestyle vs titles, emphasizing that focusing on lifestyle rather than specific titles opens easier paths"
+  },
+  {
+    "id": "2025-07-31-ideas-2",
+    "quote": "\"Take great care to avoid mistakes when the decision is hard to reverse.\n\nBut! If you make a mistake that is hard to reverse, there is no sense beating yourself up about it. Your responsibility is to make the best next choice given your current position. You must always make the most of the situation you are in.\n\nNext play mentality.\"",
+    "intro": "On easier paths to a good life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-31-2025",
+    "author": "James Clear",
+    "date": "2025-07-31",
+    "section": "Ideas",
+    "explanation": "A principle about mistakes and recovery, emphasizing avoiding irreversible mistakes but focusing on next best choices when they occur"
+  },
+  {
+    "id": "2025-07-31-ideas-3",
+    "quote": "\"Many frustrations are the result of unspoken expectations. Before you get too annoyed, make sure you are clearly expressing your thoughts.\"",
+    "intro": "On the power of not reading",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-31-2025",
+    "author": "James Clear",
+    "date": "2025-07-31",
+    "section": "Ideas",
+    "explanation": "A principle about communication and frustration, emphasizing that unspoken expectations cause frustration and clear expression helps"
+  },
+  {
+    "id": "2025-07-24-ideas-1",
+    "quote": "\"There are many elements of living a good life, but the first and most foundational is to love yourself and enjoy spending time with yourself.\n\nGo do things on your own so you learn to trust your mind and view it as a welcome companion. If someone declared, \"Tomorrow you must spend the day alone\" the hope is that you would reply, \"That sounds like a good day!\"\n\nThe person who is at ease within finds every other space larger and more enjoyable.\"",
+    "intro": "On enjoying your own company",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-24-2025",
+    "author": "James Clear",
+    "date": "2025-07-24",
+    "section": "Ideas",
+    "explanation": "A principle about self-love and solitude, emphasizing that enjoying your own company is foundational to a good life"
+  },
+  {
+    "id": "2025-07-24-ideas-2",
+    "quote": "\"As far as I can tell, every great advance -- whether in an individual life or the world at large -- has come from dreams and attempts.\n\nDevise more dreams. Make more attempts.\"",
+    "intro": "On what drives change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-24-2025",
+    "author": "James Clear",
+    "date": "2025-07-24",
+    "section": "Ideas",
+    "explanation": "A principle about progress and advancement, emphasizing that great advances come from dreams and attempts"
+  },
+  {
+    "id": "2025-07-24-ideas-3",
+    "quote": "\"A philosophy I heard recently and have found useful:\n\n\"We look for reasons to say yes and only say no when we have to.\"\"",
+    "intro": "On editing your habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-24-2025",
+    "author": "James Clear",
+    "date": "2025-07-24",
+    "section": "Ideas",
+    "explanation": "A philosophy about decision-making, emphasizing looking for reasons to say yes and only saying no when necessary"
+  },
+  {
+    "id": "2025-07-17-ideas-1",
+    "quote": "\"Whenever you are stuck searching for the optimal plan, remember:\n\nGetting started changes everything.\"",
+    "intro": "On practice",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-17-2025",
+    "author": "James Clear",
+    "date": "2025-07-17",
+    "section": "Ideas",
+    "explanation": "A principle about action and planning, emphasizing that getting started changes everything when stuck searching for optimal plans"
+  },
+  {
+    "id": "2025-07-17-ideas-2",
+    "quote": "\"Strangely, life gets harder when you try to make it easy.\n\n* Exercising might be hard, but never moving makes life harder.\n* Mastering your craft is hard, but having no skills is harder.\n* Uncomfortable conversations are hard, but avoiding every conflict is harder.\n\nEasy has a cost.\"",
+    "intro": "On the soap opera of your life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-17-2025",
+    "author": "James Clear",
+    "date": "2025-07-17",
+    "section": "Ideas",
+    "explanation": "A principle about difficulty and ease, emphasizing that trying to make life easy often makes it harder in the long run"
+  },
+  {
+    "id": "2025-07-17-ideas-3",
+    "quote": "\"Be forgiving with your past self. What's done is done. Take the lessons with you and release the guilt.\n\nBe strict with your present self. Win the moment in front of you right now.\n\nBe flexible with your future self. There are many paths to success. You don't need life to be a certain way to live well.\"",
+    "intro": "On the danger of choosing the easy path",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-17-2025",
+    "author": "James Clear",
+    "date": "2025-07-17",
+    "section": "Ideas",
+    "explanation": "A principle about self-relationship across time, emphasizing different approaches to past, present, and future selves"
+  },
+  {
+    "id": "2025-07-10-ideas-1",
+    "quote": "\"Focus on the seeds, not the trees. What seeds are you planting today?\"",
+    "intro": "On daily discomfort",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-10-2025",
+    "author": "James Clear",
+    "date": "2025-07-10",
+    "section": "Ideas",
+    "explanation": "A principle about focus and growth, emphasizing focusing on what you're planting today rather than current results"
+  },
+  {
+    "id": "2025-07-10-ideas-2",
+    "quote": "\"Many of our habits and beliefs are learned from those who raised us. Which family story are you unconsciously repeating and reenacting? How can you rewrite the script to liberate yourself and the next generation?\"",
+    "intro": "On the power of acting early",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-10-2025",
+    "author": "James Clear",
+    "date": "2025-07-10",
+    "section": "Ideas",
+    "explanation": "A principle about family patterns and change, emphasizing identifying and rewriting unconscious family stories"
+  },
+  {
+    "id": "2025-07-10-ideas-3",
+    "quote": "\"Practice the art of small daily discomforts. Modern life is optimized for convenience and comfort. Your food can be delivered straight to your door. Your car seats can be heated. Your favorite show is available at the press of a button.\n\nWe all enjoy convenience and comfort, myself included. But our bodies and souls yearn for challenge. We want to be stretched. A deeper satisfaction awaits after pushing yourself to learn a challenging concept or complete a humbling workout or have an important but difficult conversation.\n\nShould the whole day feel difficult? No, I don't think that's necessary. But a good day -- a meaningful and fulfilling day -- requires small moments of discomfort. Growth demands discomfort. We need something to push against to learn how strong we can become.\"",
+    "intro": "On life's greatest pleasure",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-10-2025",
+    "author": "James Clear",
+    "date": "2025-07-10",
+    "section": "Ideas",
+    "explanation": "A principle about discomfort and growth, emphasizing that small daily discomforts are necessary for meaningful and fulfilling days"
+  },
+  {
+    "id": "2025-07-03-ideas-1",
+    "quote": "\"The fundamentals: Something many people know, but few people practice.\"",
+    "intro": "On becoming hard to copy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-3-2025",
+    "author": "James Clear",
+    "date": "2025-07-03",
+    "section": "Ideas",
+    "explanation": "A principle about fundamentals, emphasizing that fundamentals are known by many but practiced by few"
+  },
+  {
+    "id": "2025-07-03-ideas-2",
+    "quote": "\"When I notice myself worrying about `what other people will think,' I find I'm usually not worried about any single person's opinion.\n\nIf I pick a specific person, I'm rarely concerned about what they will think. What I fear is the collective opinion in my head. It's imaginary.\"",
+    "intro": "On the power of fundamentals",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-3-2025",
+    "author": "James Clear",
+    "date": "2025-07-03",
+    "section": "Ideas",
+    "explanation": "A principle about worry and others' opinions, emphasizing that fear of collective opinion is usually imaginary"
+  },
+  {
+    "id": "2025-07-03-ideas-3",
+    "quote": "\"Three qualities that have nothing to do with talent or intelligence, but can make a dramatic impact on your results:\n\n* Cheerful. You are pleasant to work with and generally raise the level of energy in the room.\n* Accountable. You feel personally responsible for what you want to accomplish. It is not someone else's job. It's your job.\n* Adaptable. You can find alternate paths to success. You don't need things to be a certain way to be happy.\"",
+    "intro": "On three qualities that matter",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-3-2025",
+    "author": "James Clear",
+    "date": "2025-07-03",
+    "section": "Ideas",
+    "explanation": "A principle about impactful qualities, emphasizing three qualities (cheerful, accountable, adaptable) that dramatically impact results"
+  },
+  {
+    "id": "2025-06-26-ideas-1",
+    "quote": "\"Start with the best opportunity available to you. If you make the most of what you have in front of you right now, better opportunities will become available as you go along.\"",
+    "intro": "On the power of relationships",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-26-2025",
+    "author": "James Clear",
+    "date": "2025-06-26",
+    "section": "Ideas",
+    "explanation": "A principle about opportunity and action, emphasizing that making the most of current opportunities leads to better future opportunities"
+  },
+  {
+    "id": "2025-06-26-ideas-2",
+    "quote": "\"Relationships are usually the most important thing.\n\nIf you want to achieve more, there is some relationship that can unlock better results. If you want to make a meaningful contribution, helping others is a great way to do it. If you simply want to be a little happier, life is often more fun when shared with someone.\n\nWhatever you're trying to accomplish, relationships are probably the key to getting there. Take this idea seriously and spend a little time thinking about which relationships you need to build or invest in.\"",
+    "intro": "On practicing mental toughness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-26-2025",
+    "author": "James Clear",
+    "date": "2025-06-26",
+    "section": "Ideas",
+    "explanation": "A principle about relationships and success, emphasizing that relationships are key to achieving goals and should be invested in"
+  },
+  {
+    "id": "2025-06-26-ideas-3",
+    "quote": "\"Mental toughness is often framed as the perseverance that gets you across the finish line:\n\n* Find a way to make it happen\n* Push through the pain\n* Grind it out to the end\n\nBut most days, mental toughness isn't about crossing the finish line. It's about getting to the starting line:\n\n* Show up when no one is watching\n* Keep your eye on the ball\n* Do a little bit every day\n\nMental toughness is not skipping the days that are easy to skip.\"",
+    "intro": "On a little secret of life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-26-2025",
+    "author": "James Clear",
+    "date": "2025-06-26",
+    "section": "Ideas",
+    "explanation": "A principle about mental toughness, emphasizing that it's about showing up consistently rather than just finishing strong"
+  },
+  {
+    "id": "2025-06-19-ideas-1",
+    "quote": "\"A simple rule for life that rarely fails:\n\nOptimize for enthusiasm. Make as many choices as you can that leave you feeling energetic and interested. Pay attention to when you have the urge to pursue or participate in something and do more of it.\"",
+    "intro": "On enthusiasm",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-19-2025",
+    "author": "James Clear",
+    "date": "2025-06-19",
+    "section": "Ideas",
+    "explanation": "A principle about life optimization, emphasizing making choices that leave you feeling energetic and interested"
+  },
+  {
+    "id": "2025-06-19-ideas-2",
+    "quote": "\"There is an enormous difference between working hard on something that is a grind and working hard on something that comes easily to you.\n\nExceptional results almost exclusively happen when you work hard on an area where you have some natural aptitude. Play to your strengths.\"",
+    "intro": "On playing to your strengths",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-19-2025",
+    "author": "James Clear",
+    "date": "2025-06-19",
+    "section": "Ideas",
+    "explanation": "A principle about effort and aptitude, emphasizing that exceptional results come from working hard on areas of natural strength"
+  },
+  {
+    "id": "2025-06-19-ideas-3",
+    "quote": "\"Education teaches you to analyze. Entrepreneurship teaches you to create.\n\nThe educated mindset is great at dissecting and criticizing. What did Shakespeare mean here? What were the major forces of this historical period? What is the limiting reagent in this chemical reaction?\n\nThe entrepreneurial mindset is great at building and improving. Design a better product. Craft a new marketing plan. Stop talking about what's wrong and make something better.\n\nThe trick is to keep learning, but to never lose your ability to build.\"",
+    "intro": "On living one day at a time",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-19-2025",
+    "author": "James Clear",
+    "date": "2025-06-19",
+    "section": "Ideas",
+    "explanation": "A principle about mindsets, contrasting analytical education with creative entrepreneurship and emphasizing maintaining building ability"
+  },
+  {
+    "id": "2025-06-12-ideas-1",
+    "quote": "\"Books are the nearest thing to a time machine humans have ever made.\"",
+    "intro": "On time machines",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-12-2025",
+    "author": "James Clear",
+    "date": "2025-06-12",
+    "section": "Ideas",
+    "explanation": "A principle about books and time travel, emphasizing that books are humanity's closest thing to a time machine"
+  },
+  {
+    "id": "2025-06-12-ideas-2",
+    "quote": "\"Don't let a title become a trap.\n\n* \"I have to be a doctor.\"\n* \"I need to get into that school.\"\n* \"I can't quit this job--it's Google.\"\n\nThere are many ways to live an amazing life. Stop thinking about the status of this particular title and focus on the substance of what you want. You'll often find there are many ways to get similar amounts of joy, purpose, or freedom.\n\nIf you attach your happiness to a single path, you'll become blind to other wonderful opportunities around you. And many of them might be a better fit for you or deliver a similar result with less struggle.\"",
+    "intro": "On principles for high performance",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-12-2025",
+    "author": "James Clear",
+    "date": "2025-06-12",
+    "section": "Ideas",
+    "explanation": "A principle about titles and flexibility, emphasizing not letting specific titles trap you and focusing on substance over status"
+  },
+  {
+    "id": "2025-06-12-ideas-3",
+    "quote": "\"Win the day and go on your way.\n\nThere are always doubts:\n\n* But what if...\n* Will I be able to...\n* Should I be worried about...\n\nLeave it be. Have the best day you can today. Win the moment in front of you right now.\"",
+    "intro": "On the trap of titles",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-12-2025",
+    "author": "James Clear",
+    "date": "2025-06-12",
+    "section": "Ideas",
+    "explanation": "A principle about daily focus, emphasizing winning the current day and moment rather than worrying about future doubts"
+  },
+  {
+    "id": "2025-06-05-ideas-1",
+    "quote": "\"The beginning is mostly luck. The end is mostly choices.\"",
+    "intro": "On finding the best way to do something",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-5-2025",
+    "author": "James Clear",
+    "date": "2025-06-05",
+    "section": "Ideas",
+    "explanation": "A principle about luck and choices, emphasizing that beginnings depend on luck while endings depend on choices"
+  },
+  {
+    "id": "2025-06-05-ideas-2",
+    "quote": "\"There is always more than one way to do something. Write down as many ways as you can think of to achieve your desired outcome. Then, rank them based on how much time they take, how much money they cost, and how effective you expect them to be. Choose the best.\"",
+    "intro": "On how timing shapes communication",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-5-2025",
+    "author": "James Clear",
+    "date": "2025-06-05",
+    "section": "Ideas",
+    "explanation": "A principle about method selection, emphasizing listing multiple approaches and ranking them by time, cost, and effectiveness"
+  },
+  {
+    "id": "2025-06-05-ideas-3",
+    "quote": "\"Today might be the best chance you have to take action.\n\nThe longer you wait, the more deeply embedded you get in your current lifestyle. Your habits solidify. Your beliefs harden. You get comfortable.\n\nIt will never be easy, but it may also never be easier than it is right now.\"",
+    "intro": "On making unreasonable requests",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-5-2025",
+    "author": "James Clear",
+    "date": "2025-06-05",
+    "section": "Ideas",
+    "explanation": "A principle about timing and action, emphasizing that today may be the best chance to act and waiting makes it harder"
+  },
+  {
+    "id": "2025-05-29-ideas-1",
+    "quote": "\"Shortcuts tend to accelerate effort, not replace it. Supplements and cutting edge recovery methods might speed up your progress in the gym, but they don't replace the need to do the workout. In general, the people who benefit most from shortcuts are those who continue to practice the fundamentals consistently.\"",
+    "intro": "On making the most of shortcuts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-29-2025",
+    "author": "James Clear",
+    "date": "2025-05-29",
+    "section": "Ideas",
+    "explanation": "A principle about shortcuts and effort, emphasizing that shortcuts accelerate rather than replace effort and benefit those who practice fundamentals"
+  },
+  {
+    "id": "2025-05-29-ideas-2",
+    "quote": "\"Stress and worry tend to be higher before you act.\n\nWithout action, all you can do is worry.\n\nOnce you begin, fear shrinks as you start to influence the outcome.\"",
+    "intro": "On how to reduce worry",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-29-2025",
+    "author": "James Clear",
+    "date": "2025-05-29",
+    "section": "Ideas",
+    "explanation": "A principle about worry and action, emphasizing that worry is highest before acting and decreases once you begin influencing outcomes"
+  },
+  {
+    "id": "2025-05-29-ideas-3",
+    "quote": "\"To improve, compare little things.\n\n* marketing strategies\n* exercise technique\n* writing tactics\n\nTo be miserable, compare big things.\n\n* career path\n* marriage\n* net worth\n\nComparison is the thief of joy when applied broadly, but the teacher of skills when applied narrowly.\"",
+    "intro": "On the kindness of mastery",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-29-2025",
+    "author": "James Clear",
+    "date": "2025-05-29",
+    "section": "Ideas",
+    "explanation": "A principle about comparison, emphasizing that comparing small things improves skills while comparing big things creates misery"
+  },
+  {
+    "id": "2025-05-22-ideas-1",
+    "quote": "\"Your first task is to find what feels effortless to you.\n\nYour second task is to put maximum effort into it.\"",
+    "intro": "On the simple path to wealth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-22-2025",
+    "author": "James Clear",
+    "date": "2025-05-22",
+    "section": "Ideas",
+    "explanation": "A principle about effort and natural ability, emphasizing finding what feels effortless then putting maximum effort into it"
+  },
+  {
+    "id": "2025-05-22-ideas-2",
+    "quote": "\"Time will multiply whatever you feed it.\n\nGood habits make time your ally. Bad habits make time your enemy.\"",
+    "intro": "On how time works",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-22-2025",
+    "author": "James Clear",
+    "date": "2025-05-22",
+    "section": "Ideas",
+    "explanation": "A principle about time and habits, emphasizing that time multiplies what you feed it and habits determine whether time is ally or enemy"
+  },
+  {
+    "id": "2025-05-22-ideas-3",
+    "quote": "\"Things that keep talented people from fulfilling their potential:\n\n* Trying to please everyone\n* Imitating the desires of others\n* Chasing status without questioning why\n* Playing superhero and trying to do it all alone\n* Dividing attention between too many projects\n\nWhich one is most likely to pull you in?\"",
+    "intro": "On things that hold talented people back",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-22-2025",
+    "author": "James Clear",
+    "date": "2025-05-22",
+    "section": "Ideas",
+    "explanation": "A principle about potential blockers, listing five things that prevent talented people from fulfilling their potential"
+  },
+  {
+    "id": "2025-05-15-ideas-1",
+    "quote": "\"Worrying about the future is like watching a leaf fall and trying to predict where it will land. Stop trying to guess where the wind will blow and get to work.\"",
+    "intro": "On thinking like a scientist",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-15-2025",
+    "author": "James Clear",
+    "date": "2025-05-15",
+    "section": "Ideas",
+    "explanation": "A principle about worry and prediction, emphasizing that worrying about the future is futile and action is more productive"
+  },
+  {
+    "id": "2025-05-15-ideas-2",
+    "quote": "\"Treat failure like a scientist.\n\nEach attempt is an experiment. Each mistake is a clue.\n\nYou're not failing. You're refining.\"",
+    "intro": "On how to stand out from the crowd",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-15-2025",
+    "author": "James Clear",
+    "date": "2025-05-15",
+    "section": "Ideas",
+    "explanation": "A principle about failure and experimentation, emphasizing treating failure as scientific experimentation and refinement"
+  },
+  {
+    "id": "2025-05-15-ideas-3",
+    "quote": "\"One way to stand out is to look for pockets of low competition.\n\nWake up early--less traffic, fewer people.\n\nGo deeper or narrower in your field--less noise, more space.\n\nPeople are drawn to where it is crowded. Look for the quiet spaces inside your areas of interest. Excellence often hides at the edges.\"",
+    "intro": "On what wisdom looks like",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-15-2025",
+    "author": "James Clear",
+    "date": "2025-05-15",
+    "section": "Ideas",
+    "explanation": "A principle about standing out, emphasizing looking for low-competition pockets and quiet spaces where excellence hides"
+  },
+  {
+    "id": "2025-05-08-ideas-1",
+    "quote": "\"The secret to winning is learning how to lose. That is, learning to bounce back from failure and disappointment--undeterred--and continuing to steadily march toward your potential. Your response to failure determines your capacity for success.\"",
+    "intro": "On waiting to judge",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-8-2025",
+    "author": "James Clear",
+    "date": "2025-05-08",
+    "section": "Ideas",
+    "explanation": "A principle about winning and losing, emphasizing that learning to bounce back from failure determines success capacity"
+  },
+  {
+    "id": "2025-05-08-ideas-2",
+    "quote": "\"The Paradox of Freedom: The way to expand your freedom is to narrow your focus.\n\n* Stay focused on saving to achieve financial freedom.\n* Stay focused on training to achieve physical freedom.\n* Stay focused on learning to achieve intellectual freedom.\n\nThe disciplined become the free.\"",
+    "intro": "On the value of teaching",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-8-2025",
+    "author": "James Clear",
+    "date": "2025-05-08",
+    "section": "Ideas",
+    "explanation": "A principle about freedom and focus, emphasizing that narrowing focus expands freedom and discipline leads to freedom"
+  },
+  {
+    "id": "2025-05-08-ideas-3",
+    "quote": "\"The person who learns the most in any classroom is the teacher.\n\nIf you really want to learn a topic, then \"teach\" it. Write a book. Teach a class. Build a product. Start a company.\n\nThe act of making something will force you to learn more deeply than reading ever will.\"",
+    "intro": "On learning how to lose",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-8-2025",
+    "author": "James Clear",
+    "date": "2025-05-08",
+    "section": "Ideas",
+    "explanation": "A principle about teaching and learning, emphasizing that teaching forces deeper learning than reading"
+  },
+  {
+    "id": "2025-05-01-ideas-1",
+    "quote": "\"The more control you have over your attention, the more control you have over your future. And it starts with having enough courage to protect your time.\n\nIt's so easy to say yes. We want to be agreeable, helpful, liked. That's how time disappears and attention becomes fragmented: not in big chunks, but in a thousand small concessions.\n\nWhat you trade your attention for is what your life becomes.\"",
+    "intro": "On making the most of what you have",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-1-2025",
+    "author": "James Clear",
+    "date": "2025-05-01",
+    "section": "Ideas",
+    "explanation": "A principle about attention and time, emphasizing that attention control determines future control and what you trade attention for becomes your life"
+  },
+  {
+    "id": "2025-05-01-ideas-2",
+    "quote": "\"Not everything blooms in spring. Your season might be autumn.\n\nKeep going.\"",
+    "intro": "On how to make a convincing argument",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-1-2025",
+    "author": "James Clear",
+    "date": "2025-05-01",
+    "section": "Ideas",
+    "explanation": "A principle about timing and seasons, emphasizing that everyone has different seasons and timing"
+  },
+  {
+    "id": "2025-05-01-ideas-3",
+    "quote": "\"Someone will start with more money than you. Someone will get into a better school. Someone will inherit connections you need to build from scratch. Someone will get picked before you. In other words, you'll have no problem finding people with a head start.\n\nThat's not the point.\n\nThe point is: when you get your opportunity, you make the most of it.\"",
+    "intro": "On embracing danger",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-1-2025",
+    "author": "James Clear",
+    "date": "2025-05-01",
+    "section": "Ideas",
+    "explanation": "A principle about opportunities and head starts, emphasizing that the point is making the most of your opportunity when it comes"
+  },
+  {
+    "id": "2025-04-24-ideas-1",
+    "quote": "\"You can't make time go faster or success come sooner. The only thing you can control is the next action.\"",
+    "intro": "On how to handle idiots",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-24-2025",
+    "author": "James Clear",
+    "date": "2025-04-24",
+    "section": "Ideas",
+    "explanation": "A principle about control and action, emphasizing that you can only control the next action, not timing or outcomes"
+  },
+  {
+    "id": "2025-04-24-ideas-2",
+    "quote": "\"Reminder: If someone is acting like an idiot, you can just move on and let them be wrong. You do not have a personal obligation to correct people who are committed to being stupid. Sure, sometimes you need to attempt to get on the same page, but usually you can simply reclaim your time and move on to more productive ventures.\"",
+    "intro": "On pushing toward growth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-24-2025",
+    "author": "James Clear",
+    "date": "2025-04-24",
+    "section": "Ideas",
+    "explanation": "A principle about dealing with difficult people, emphasizing that you don't have to correct people committed to being wrong"
+  },
+  {
+    "id": "2025-04-24-ideas-3",
+    "quote": "\"In some areas of life, your reputation is defined by your wins.\n\n* Creative pursuits. One bestseller or hit song can erase the memory of the ones that didn't work.\n* Entrepreneurship. People rarely remember your failed business ideas, only your winning ones.\n\nIn areas like these, your mistakes fade away and the breakthroughs last. But in other areas of life, your reputation is defined by your losses.\n\n* Crime. You can drive safely 364 days a year, but one DUI changes everything.\n* Ethics and morals. One unethical decision can ruin a reputation and destroy trust.\n\nIn areas like these, your mistakes linger and consistency is rewarded.\n\nSome areas of life reward your best day. Others punish your worst day.\nKnow which situation you're in, and you can better decide when to be risky and when to play it safe.\"",
+    "intro": "On two types of choices in life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-24-2025",
+    "author": "James Clear",
+    "date": "2025-04-24",
+    "section": "Ideas",
+    "explanation": "A principle about reputation and risk, distinguishing between areas that reward your best day vs those that punish your worst day"
+  },
+  {
+    "id": "2025-04-17-ideas-1",
+    "quote": "\"Don't let the hope of finding a better way prevent you from starting down the best path you know of right now. This day won't come again.\"",
+    "intro": "On good genes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-17-2025",
+    "author": "James Clear",
+    "date": "2025-04-17",
+    "section": "Ideas",
+    "explanation": "A principle about starting and perfectionism, emphasizing that waiting for the perfect path prevents starting on the best available path"
+  },
+  {
+    "id": "2025-04-17-ideas-2",
+    "quote": "\"The usual story is that people with \"good genes\" are those with incredible athleticism or remarkable intelligence, but sometimes I wonder if the greatest genetic edge goes to the people with whatever genes encourage the desire to compete, the ability to stay focused, and the enjoyment of practice.\"",
+    "intro": "On personal responsibility",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-17-2025",
+    "author": "James Clear",
+    "date": "2025-04-17",
+    "section": "Ideas",
+    "explanation": "A principle about genetic advantages, suggesting that the greatest genetic edge may be psychological traits like desire to compete and enjoy practice"
+  },
+  {
+    "id": "2025-04-17-ideas-3",
+    "quote": "\"Focus on the things you are for, not the things you are against.\n\nMany people spend large chunks of their day thinking about what they hate. They are always telling you about something they dislike: this food, that subject, this political party, that coworker.\n\nYou are more than your frustrations. Build your identity around what you love.\"",
+    "intro": "On how to appreciate your precious time",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-17-2025",
+    "author": "James Clear",
+    "date": "2025-04-17",
+    "section": "Ideas",
+    "explanation": "A principle about identity and focus, emphasizing building identity around what you love rather than what you hate"
+  },
+  {
+    "id": "2025-04-10-ideas-1",
+    "quote": "\"The 2-step process for exceptional results:\n\n1. Spend a little time each day thinking about the highest leverage activity available to you.\n2. Spend a little time each day working on it.\"",
+    "intro": "On two steps for better results",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-10-2025",
+    "author": "James Clear",
+    "date": "2025-04-10",
+    "section": "Ideas",
+    "explanation": "A principle about exceptional results, outlining a two-step process of identifying and working on high-leverage activities"
+  },
+  {
+    "id": "2025-04-10-ideas-2",
+    "quote": "\"The feeling of progress is one of the best feelings of all. This is true even when progress is small.\"",
+    "intro": "On the qualities of a great career",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-10-2025",
+    "author": "James Clear",
+    "date": "2025-04-10",
+    "section": "Ideas",
+    "explanation": "A principle about progress and satisfaction, emphasizing that the feeling of progress is valuable even when progress is small"
+  },
+  {
+    "id": "2025-04-10-ideas-3",
+    "quote": "\"The 4 qualities of a great career:\n\n1. I enjoy it\n2. I'm good at it\n3. I make good money\n4. I'm around fascinating people\n\nAnswer in reverse order:\n\n1. Where are fascinating people?\n2. In what ways can I make money with them?\n3. Which ones am I good at?\n4. Which ones do I enjoy?\"",
+    "intro": "On how to handle good luck",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-10-2025",
+    "author": "James Clear",
+    "date": "2025-04-10",
+    "section": "Ideas",
+    "explanation": "A principle about career planning, outlining four qualities of great careers and a reverse-order approach to finding them"
+  },
+  {
+    "id": "2025-04-03-ideas-1",
+    "quote": "\"Remain playful as your responsibilities increase. It's easy to become serious when people and results depend on you, but nearly everyone's performance improves when they proceed lightly through the world.\"",
+    "intro": "On the joy of losing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-3-2025",
+    "author": "James Clear",
+    "date": "2025-04-03",
+    "section": "Ideas",
+    "explanation": "A principle about playfulness and responsibility, emphasizing that performance improves when you remain playful despite increased responsibilities"
+  },
+  {
+    "id": "2025-04-03-ideas-2",
+    "quote": "\"Although losing is never fun, there is a certain satisfaction that can be found on the other side of losing -- but only when you give your all. To lose with half effort offers no pleasure in the moment and no peace in the long run. But if your ambitions were full and your attempt was genuine, after the sting of losing wears off you'll be left with something resembling contentment. The reward is not always in winning, but in striving.\"",
+    "intro": "On how to set expectations with others",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-3-2025",
+    "author": "James Clear",
+    "date": "2025-04-03",
+    "section": "Ideas",
+    "explanation": "A principle about losing and effort, emphasizing that satisfaction comes from giving your all, not from winning"
+  },
+  {
+    "id": "2025-04-03-ideas-3",
+    "quote": "\"You want two things:\n\n1. Simplicity, simplicity, simplicity. No wasted movement. No wasted effort.\n\n2. Compounding. Every project should have a long runway and feed the others.\"",
+    "intro": "On notes to myself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-3-2025",
+    "author": "James Clear",
+    "date": "2025-04-03",
+    "section": "Ideas",
+    "explanation": "A principle about simplicity and compounding, emphasizing the importance of efficiency and projects that build on each other"
+  },
+  {
+    "id": "2025-03-27-ideas-1",
+    "quote": "\"Take all the energy you spend on...\n\n* worrying about the past\n* worrying about the future\n* worrying about what others think\n* worrying about if you might fail\n\n... and channel that energy into one useful action within your control.\"",
+    "intro": "On the surprising path to success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-27-2025",
+    "author": "James Clear",
+    "date": "2025-03-27",
+    "section": "Ideas",
+    "explanation": "A principle about energy redirection, emphasizing channeling worry energy into useful actions within your control"
+  },
+  {
+    "id": "2025-03-27-ideas-2",
+    "quote": "\"Stories of failure resonate more than stories of success. Few people reach the top, but everyone has failed--including those who eventually succeed. If you're teaching people how to succeed in a given field (or talking about your own success), start with how you failed.\"",
+    "intro": "On the value of downtime",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-27-2025",
+    "author": "James Clear",
+    "date": "2025-03-27",
+    "section": "Ideas",
+    "explanation": "A principle about failure stories, emphasizing that failure stories resonate more because everyone has failed"
+  },
+  {
+    "id": "2025-03-27-ideas-3",
+    "quote": "\"Success is largely the failures you avoid.\n\n* Health is the injuries you don't sustain.\n* Wealth is the purchases you don't make.\n* Happiness is the objects you don't desire.\n* Peace of mind is the arguments you don't engage.\n\nAvoid the bad to protect the good.\"",
+    "intro": "On how parenting changes you",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-27-2025",
+    "author": "James Clear",
+    "date": "2025-03-27",
+    "section": "Ideas",
+    "explanation": "A principle about success through avoidance, emphasizing that success often comes from avoiding bad things rather than pursuing good ones"
+  },
+  {
+    "id": "2025-03-20-ideas-1",
+    "quote": "\"The way to help someone is not to critique what makes them smaller, but to encourage what makes them larger.\"",
+    "intro": "On how to help someone",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-20-2025",
+    "author": "James Clear",
+    "date": "2025-03-20",
+    "section": "Ideas",
+    "explanation": "A principle about helping others, emphasizing encouragement over criticism to help people grow"
+  },
+  {
+    "id": "2025-03-20-ideas-2",
+    "quote": "\"Even bad luck is a source of opportunity--but only if you live each day as if that is true.\"",
+    "intro": "On the value of bad luck",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-20-2025",
+    "author": "James Clear",
+    "date": "2025-03-20",
+    "section": "Ideas",
+    "explanation": "A principle about bad luck and opportunity, emphasizing that bad luck becomes opportunity when you believe it to be true"
+  },
+  {
+    "id": "2025-03-20-ideas-3",
+    "quote": "\"Each year, Steve Jobs would hold an annual meeting with the 100 most important people at Apple.\n\nCrucially, these were not the top 100 executives, but rather the 100 people who were most important to the company that year. Jobs personally chose attendees based on their direct contribution, creativity, vision, and impact within the company, regardless of their official titles or positions.\n\nI always loved the spirit of that practice. Competence over credentials.\"",
+    "intro": "On rewarding competence",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-20-2025",
+    "author": "James Clear",
+    "date": "2025-03-20",
+    "section": "Ideas",
+    "explanation": "A principle about competence over credentials, using Steve Jobs' practice of selecting people based on contribution rather than titles"
+  },
+  {
+    "id": "2025-03-13-ideas-1",
+    "quote": "\"The person who experiences the consequences should make the decision.\"",
+    "intro": "On the secret to youth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-13-2025",
+    "author": "James Clear",
+    "date": "2025-03-13",
+    "section": "Ideas",
+    "explanation": "A principle about decision-making authority, emphasizing that those who experience consequences should make decisions"
+  },
+  {
+    "id": "2025-03-13-ideas-2",
+    "quote": "\"You are as old as the risks you take. In many ways, aging is not the process of growing old, but rather the slow death of becoming overly protective, scared, and worried about losing what you have. Youth is found in the energy of going for it, taking the risk, and trusting that you'll figure it out along the way.\"",
+    "intro": "On how to achieve what you want",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-13-2025",
+    "author": "James Clear",
+    "date": "2025-03-13",
+    "section": "Ideas",
+    "explanation": "A principle about youth and risk-taking, emphasizing that youth is found in taking risks rather than chronological age"
+  },
+  {
+    "id": "2025-03-13-ideas-3",
+    "quote": "\"The Process:\n\n1. Decide what you want to achieve.\n2. Try different ways of achieving it until you find one that works for you.\n3. Do more of what works. Do less of what doesn't.\n4. Don't stop doing it until it stops working.\n5. Repeat.\n\nIt is both this simple and this hard.\"",
+    "intro": "On the challenge of being yourself",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-13-2025",
+    "author": "James Clear",
+    "date": "2025-03-13",
+    "section": "Ideas",
+    "explanation": "A principle about the achievement process, outlining five steps that are simple in concept but hard in execution"
+  },
+  {
+    "id": "2025-03-06-ideas-1",
+    "quote": "\"The quality of your thoughts is determined by the quality of your reading. Spend more time thinking about the inputs.\"",
+    "intro": "On the power of inputs",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-6-2025",
+    "author": "James Clear",
+    "date": "2025-03-06",
+    "section": "Ideas",
+    "explanation": "A principle about reading and thinking, emphasizing that thought quality depends on reading quality"
+  },
+  {
+    "id": "2025-03-06-ideas-2",
+    "quote": "\"To understand others, watch what they reward.\n\nTo understand yourself, watch what you envy.\"",
+    "intro": "On what holds quiet power over you",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-6-2025",
+    "author": "James Clear",
+    "date": "2025-03-06",
+    "section": "Ideas",
+    "explanation": "A principle about understanding others and yourself, emphasizing that rewards reveal others' values and envy reveals your own"
+  },
+  {
+    "id": "2025-03-06-ideas-3",
+    "quote": "\"What you push down doesn't vanish. It festers and wields quiet power over your thoughts and actions.\n\nWhat needs to be addressed that isn't currently being addressed?\"",
+    "intro": "On the one habit that matters most",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-6-2025",
+    "author": "James Clear",
+    "date": "2025-03-06",
+    "section": "Ideas",
+    "explanation": "A principle about addressing problems, emphasizing that ignored issues don't disappear but gain power over you"
+  },
+  {
+    "id": "2025-02-27-ideas-1",
+    "quote": "\"There are two ways to live a longer life:\n\n1) Biologically. Extend the timeline between your birth and your death.\n\n2) Psychologically. Fit more lives into whatever time you are given.\n\nMake each decade rich with experiences and perhaps you can live a handful of lives before you are done.\"",
+    "intro": "On the secret to self-control",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-27-2025",
+    "author": "James Clear",
+    "date": "2025-02-27",
+    "section": "Ideas",
+    "explanation": "A principle about living longer, emphasizing that psychological longevity through rich experiences can create multiple lives in one"
+  },
+  {
+    "id": "2025-02-27-ideas-2",
+    "quote": "\"Think about self-control less as the quality of a person and more as the quality of a place. There are some places and situations that lean toward lower self-control and others that lean toward higher self-control. Self-control is about your context as much as your character. Put yourself in good positions.\"",
+    "intro": "On how to live longer",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-27-2025",
+    "author": "James Clear",
+    "date": "2025-02-27",
+    "section": "Ideas",
+    "explanation": "A principle about self-control, emphasizing that self-control is more about context and positioning than personal character"
+  },
+  {
+    "id": "2025-02-27-ideas-3",
+    "quote": "\"Things that keep people from fulfilling their potential:\n\n* Lacking the courage to try\n* Trying to please everyone\n* Imitating the desires of others\n* Chasing status without questioning why\n* Playing superhero and trying to do it all alone\n* Dividing attention between too many projects\"",
+    "intro": "On what holds people back",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-27-2025",
+    "author": "James Clear",
+    "date": "2025-02-27",
+    "section": "Ideas",
+    "explanation": "A principle about potential blockers, listing six common things that prevent people from fulfilling their potential"
+  },
+  {
+    "id": "2025-02-20-ideas-1",
+    "quote": "\"Spend today interpreting whatever people do in the most generous way. See if you feel better as a result.\"",
+    "intro": "On four questions for life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-20-2025",
+    "author": "James Clear",
+    "date": "2025-02-20",
+    "section": "Ideas",
+    "explanation": "A principle about generous interpretation, emphasizing that interpreting others' actions generously can improve your own well-being"
+  },
+  {
+    "id": "2025-02-20-ideas-2",
+    "quote": "\"Your teaching ability is constrained by your writing ability.\n\nIf you can't write it down, it will be nearly impossible to teach it well.\"",
+    "intro": "On how to learn like a child",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-20-2025",
+    "author": "James Clear",
+    "date": "2025-02-20",
+    "section": "Ideas",
+    "explanation": "A principle about teaching and writing, emphasizing that writing ability constrains teaching ability"
+  },
+  {
+    "id": "2025-02-20-ideas-3",
+    "quote": "\"Four questions that can tell you a lot:\n\n1. When you wake up, do you expect today to have many joys or many frustrations?\n2. When presented with an opportunity, do you have a bias toward action or do you postpone decisions?\n3. When things go well for others, do you enjoy cheering them on or do you hate to hear about their success?\n4. When things go wrong, do you believe it is your responsibility to improve the situation or do you blame others?\"",
+    "intro": "On seeing things in a generous way",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-20-2025",
+    "author": "James Clear",
+    "date": "2025-02-20",
+    "section": "Ideas",
+    "explanation": "A principle about self-assessment, providing four questions that reveal important aspects of mindset and behavior"
+  },
+  {
+    "id": "2025-02-13-ideas-1",
+    "quote": "\"People frequently get what they deserve, but it doesn't feel like it because the unspoken rule is that you only deserve it if you have (1) the courage to attempt it, (2) the guts to ask for it, and (3) the willingness try again when it doesn't work out the first time.\"",
+    "intro": "On getting what you deserve",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-13-2025",
+    "author": "James Clear",
+    "date": "2025-02-13",
+    "section": "Ideas",
+    "explanation": "A principle about deserving and earning, emphasizing that getting what you deserve requires courage, asking, and persistence"
+  },
+  {
+    "id": "2025-02-13-ideas-2",
+    "quote": "\"If you do not bend, you will break.\n\nThe adaptable prevail. Determined, but flexible.\"",
+    "intro": "On the power of flexibility",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-13-2025",
+    "author": "James Clear",
+    "date": "2025-02-13",
+    "section": "Ideas",
+    "explanation": "A principle about adaptability, emphasizing that flexibility is essential for survival and success"
+  },
+  {
+    "id": "2025-02-13-ideas-3",
+    "quote": "\"Whether a decision is good or bad can change based on how you act after the choice is made.\n\nYou can't learn all the lessons beforehand. You learn a lot about what you want in a marriage after getting married. You discover what type of career you enjoy after doing a lot of work. And so it goes in nearly every area of life. In many cases, what you wish you knew ahead of time can only be learned after the decision is made.\n\nSo there is nothing left but to pay attention to what you like, continue to iterate, and commit to making the most of each opportunity. There is no perfect decision. Good decisions are made right after the fact.\"",
+    "intro": "On how good decisions are made",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-13-2025",
+    "author": "James Clear",
+    "date": "2025-02-13",
+    "section": "Ideas",
+    "explanation": "A principle about decision quality, emphasizing that good decisions are made after the fact through iteration and making the most of opportunities"
+  },
+  {
+    "id": "2025-02-06-ideas-1",
+    "quote": "\"When accessing all information is common, paying attention to important information is rare.\"",
+    "intro": "On grief and friendship",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-6-2025",
+    "author": "James Clear",
+    "date": "2025-02-06",
+    "section": "Ideas",
+    "explanation": "A principle about attention and information, emphasizing that in an information-rich world, focused attention becomes rare and valuable"
+  },
+  {
+    "id": "2025-02-06-ideas-2",
+    "quote": "\"On funerals, loss, grief, friendship, and support:\n\nIt's not about knowing what to say. It's about being there when nobody knows what to say. The only thing people need to hear is, \"You are not alone.\" And that doesn't require words. It just requires your presence.\"",
+    "intro": "On the value of reputation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-6-2025",
+    "author": "James Clear",
+    "date": "2025-02-06",
+    "section": "Ideas",
+    "explanation": "A principle about grief support, emphasizing that presence matters more than words when supporting someone through loss"
+  },
+  {
+    "id": "2025-02-06-ideas-3",
+    "quote": "\"The world is big, but industries are small.\n\nAfter a few years, everyone comes to know the quality of your work.\n\nReputation matters.\"",
+    "intro": "On prevailing when you're in a tight spot",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-6-2025",
+    "author": "James Clear",
+    "date": "2025-02-06",
+    "section": "Ideas",
+    "explanation": "A principle about reputation, emphasizing that while the world is large, industries are small and reputation becomes known quickly"
+  },
+  {
+    "id": "2025-01-30-ideas-1",
+    "quote": "\"Beware the student of one teacher. A good idea spirals into dogma when it gets applied to everything and stretched beyond the areas where it is useful. Remain open and embrace a lot of teachers.\"",
+    "intro": "On the danger of a good idea",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-30-2025",
+    "author": "James Clear",
+    "date": "2025-01-30",
+    "section": "Ideas",
+    "explanation": "A principle about learning diversity, emphasizing that following only one teacher can turn good ideas into limiting dogma"
+  },
+  {
+    "id": "2025-01-30-ideas-2",
+    "quote": "\"Your best performances will come when you are working in a way that is a full expression of you. The work becomes a natural display of your personality. This is when you not only get better results, but also love the activity -- because in doing the craft, you feel alive.\"",
+    "intro": "On how to do your best work",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-30-2025",
+    "author": "James Clear",
+    "date": "2025-01-30",
+    "section": "Ideas",
+    "explanation": "A principle about authentic work, emphasizing that best performance comes when work is a full expression of your personality"
+  },
+  {
+    "id": "2025-01-30-ideas-3",
+    "quote": "\"People can sometimes be held hostage by their expectations. They have a dream of something they would like to achieve or a path they intend to follow, but their mindset falls apart when things don't work out how they had hoped.\n\nThe key is to reach for an extremely high bar, but to be adaptable enough to reframe the failures, disappointments, and defeats into fuel for the next thing. Give your best effort, but no matter how it works out, trust that life will be good for you. Focus on how the world is working with you, not against you.\n\nEverything you are given is material for the next move. Everything.\"",
+    "intro": "On a question to inspire action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-30-2025",
+    "author": "James Clear",
+    "date": "2025-01-30",
+    "section": "Ideas",
+    "explanation": "A principle about expectations and adaptability, emphasizing that everything can be reframed as material for the next move"
+  },
+  {
+    "id": "2025-01-23-ideas-1",
+    "quote": "\"Nearly everything awesome takes longer than you think.\n\nGet started and don't worry about the clock.\"",
+    "intro": "On what it takes to be consistent",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-23-2025",
+    "author": "James Clear",
+    "date": "2025-01-23",
+    "section": "Ideas",
+    "explanation": "A principle about time and starting, emphasizing that great things take longer than expected and you should start without worrying about timing"
+  },
+  {
+    "id": "2025-01-23-ideas-2",
+    "quote": "\"In theory, consistency is about being disciplined, determined, and unwavering.\n\nIn practice, consistency is about being adaptable. Don't have much time? Scale it down. Don't have much energy? Do the easy version. Find different ways to show up depending on the circumstances. Let your habits change shape to meet the demands of the day.\n\nAdaptability is the way of consistency.\"",
+    "intro": "On how to make a bad situation worse",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-23-2025",
+    "author": "James Clear",
+    "date": "2025-01-23",
+    "section": "Ideas",
+    "explanation": "A principle about consistency and adaptability, emphasizing that true consistency requires adapting to circumstances rather than rigid discipline"
+  },
+  {
+    "id": "2025-01-23-ideas-3",
+    "quote": "\"A surefire way to make a bad situation worse is to continue replaying it in your mind.\n\nThe damage is done. The only thing that matters now is making the best choice given your current position.\n\nNext play mentality.\"",
+    "intro": "On noticing small joys",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-23-2025",
+    "author": "James Clear",
+    "date": "2025-01-23",
+    "section": "Ideas",
+    "explanation": "A principle about moving forward, emphasizing that replaying bad situations makes them worse and focusing on the next play is key"
+  },
+  {
+    "id": "2025-01-16-ideas-1",
+    "quote": "\"The source of healthy boundaries is self-love and self-respect. When you learn to love yourself, you are less likely to put up with people who don't love you back.\"",
+    "intro": "On magic bullets",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-16-2025",
+    "author": "James Clear",
+    "date": "2025-01-16",
+    "section": "Ideas",
+    "explanation": "A principle about boundaries and self-love, emphasizing that healthy boundaries come from self-love and self-respect"
+  },
+  {
+    "id": "2025-01-16-ideas-2",
+    "quote": "\"Caring about everything is a disaster.\n\nCaring about nothing is also a disaster.\n\nNurture the small pocket of things that truly matter to you.\"",
+    "intro": "On how to handle criticism",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-16-2025",
+    "author": "James Clear",
+    "date": "2025-01-16",
+    "section": "Ideas",
+    "explanation": "A principle about selective caring, emphasizing that the right approach is caring deeply about a small number of important things"
+  },
+  {
+    "id": "2025-01-16-ideas-3",
+    "quote": "\"People who rarely receive criticism often take feedback too personally and miss opportunities to learn.\n\nPeople who frequently receive criticism get used to ignoring what others say and also miss opportunities to learn.\n\nThe thing to focus on is the pattern. If you hear something once, don't let it wreck your mindset. There are many ways to view the world and not everyone will agree with your approach.\n\nBut if you're hearing something repeatedly, think carefully about whether the feedback is right.\"",
+    "intro": "On what to let go of this year",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-16-2025",
+    "author": "James Clear",
+    "date": "2025-01-16",
+    "section": "Ideas",
+    "explanation": "A principle about criticism and patterns, emphasizing that repeated feedback is worth considering while single instances can be ignored"
+  },
+  {
+    "id": "2025-01-09-ideas-1",
+    "quote": "\"At any moment, you are one good choice away from a meaningfully better life.\"",
+    "intro": "On savoring your victories",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-9-2025",
+    "author": "James Clear",
+    "date": "2025-01-09",
+    "section": "Ideas",
+    "explanation": "A principle about choice and improvement, emphasizing that one good choice can meaningfully improve your life"
+  },
+  {
+    "id": "2025-01-09-ideas-2",
+    "quote": "\"Savor the little victories as much as you criticize the little mistakes.\"",
+    "intro": "On being adaptable",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-9-2025",
+    "author": "James Clear",
+    "date": "2025-01-09",
+    "section": "Ideas",
+    "explanation": "A principle about balance in feedback, emphasizing that small victories deserve as much attention as small mistakes"
+  },
+  {
+    "id": "2025-01-09-ideas-3",
+    "quote": "\"If you keep showing up, you'll almost certainly break through -- but probably not in the way you expected or intended. You need enough persistence to keep working and enough flexibility to enjoy success when it comes in a different form than you imagined.\"",
+    "intro": "On doing things cheaper, faster, and better",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-9-2025",
+    "author": "James Clear",
+    "date": "2025-01-09",
+    "section": "Ideas",
+    "explanation": "A principle about persistence and flexibility, emphasizing that success comes through showing up but often in unexpected forms"
+  },
+  {
+    "id": "2025-01-02-ideas-1",
+    "quote": "\"Your habits are often a byproduct of convenience. Humans are wired to seek the path of least resistance, which means the most convenient option is often the one that wins. Make good choices more convenient and bad choices less so. Behavior will improve naturally.\"",
+    "intro": "On the power of quiet moments",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-2-2025",
+    "author": "James Clear",
+    "date": "2025-01-02",
+    "section": "Ideas",
+    "explanation": "A principle about convenience and habits, emphasizing that making good choices convenient and bad choices inconvenient improves behavior naturally"
+  },
+  {
+    "id": "2025-01-02-ideas-2",
+    "quote": "\"Use what you already know. People are so busy searching for a shortcut -- or hoping an easier path will reveal itself -- they let numerous moments slip by when they could get results simply by doing what is right in front of them.\"",
+    "intro": "On how to make good habits easy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-2-2025",
+    "author": "James Clear",
+    "date": "2025-01-02",
+    "section": "Ideas",
+    "explanation": "A principle about using existing knowledge, emphasizing that people miss opportunities by searching for shortcuts instead of using what they already know"
+  },
+  {
+    "id": "2025-01-02-ideas-3",
+    "quote": "\"Writing is the superpower of humankind. It is our truest form of magic.\n\nWriting allows you to conjure up something of value where nothing previously existed. It costs little for you to write down the lessons of your life and yet those few minutes spent writing can be life-altering for the right reader. As I once saw it put: \"there is someone out there with a wound in the exact shape of your words.\"\n\nFurthermore, writing is the foundation of nearly every technology and innovation because we have to record what we know before we can build upon it. And these innovations are passed down from generation to generation, allowing our children to inherit a richer intellectual fortune than what we were born into. The world is richer because we write and nobody is made poorer in the process.\"",
+    "intro": "On starting the year with enthusiasm",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-2-2025",
+    "author": "James Clear",
+    "date": "2025-01-02",
+    "section": "Ideas",
+    "explanation": "A principle about writing as humanity's superpower, emphasizing that writing creates value, helps others, and builds intellectual wealth across generations"
+  },
+  {
     "id": "2024-12-26-ideas-1",
     "quote": "\"You can't make a comeback if you don't start.\"",
     "intro": "On making a comeback",

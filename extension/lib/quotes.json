@@ -1,5 +1,745 @@
 [
   {
+    "id": "2025-09-11-quotes-1",
+    "quote": "**Bill Bernbach**, founder of advertising agency DDB, reminds us that it is not enough to be right — you must also be compelling:\n\n\"A dull truth will not be looked at. An exciting lie will. That is what good, sincere people must understand. They must make their truth exciting and new, or their good works will be born dead.\"",
+    "intro": "On the power of boredom",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-11-2025",
+    "author": "Bill Bernbach",
+    "date": "2025-09-11",
+    "section": "Quotes",
+    "explanation": "Bill Bernbach's insight about truth and presentation, emphasizing that truth must be made exciting and compelling to be effective"
+  },
+  {
+    "id": "2025-09-11-quotes-2",
+    "quote": "Artist, designer, and Catholic nun **Sister Corita Kent** on making the most of right now:\n\n\"Love the moment and the energy of that moment will spread beyond all boundaries.\"",
+    "intro": "On why being right is not enough",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-11-2025",
+    "author": "Sister Corita Kent",
+    "date": "2025-09-11",
+    "section": "Quotes",
+    "explanation": "Sister Corita Kent's perspective on present moment energy, emphasizing that loving the moment spreads energy beyond boundaries"
+  },
+  {
+    "id": "2025-09-04-quotes-1",
+    "quote": "Priest and philosopher **Desiderius Erasmus** reminds us of the power of concentrating on a single target:\n\n\"He who chases two hares catches neither.\"",
+    "intro": "On taking lots of shots",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-4-2025",
+    "author": "Desiderius Erasmus",
+    "date": "2025-09-04",
+    "section": "Quotes",
+    "explanation": "Desiderius Erasmus' principle about focus, emphasizing that trying to pursue multiple targets leads to catching neither"
+  },
+  {
+    "id": "2025-09-04-quotes-2",
+    "quote": "Writer **Harold V. Melchert** reminds us that success is sweeter when you savor the path:\n\n\"Live your life each day as you would climb a mountain. An occasional glance toward the summit keeps the goal in mind, but many beautiful scenes are to be observed from each new vantage point. Climb slowly; steadily, enjoying each passing moment; and the view from the summit will serve as a fitting climax for the journey.\"",
+    "intro": "On the power of concentration",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-4-2025",
+    "author": "Harold V. Melchert",
+    "date": "2025-09-04",
+    "section": "Quotes",
+    "explanation": "Harold V. Melchert's mountain climbing metaphor for life, emphasizing savoring each moment of the journey toward goals"
+  },
+  {
+    "id": "2025-08-28-quotes-1",
+    "quote": "Writer **John Steinbeck** on giving ourselves permission to act, learn, and grow:\n\n\"And now that you don't have to be perfect, you can be good.\"",
+    "intro": "How our quests shape us",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-28-2025",
+    "author": "John Steinbeck",
+    "date": "2025-08-28",
+    "section": "Quotes",
+    "explanation": "John Steinbeck's insight about perfectionism, emphasizing that letting go of perfection allows us to be good"
+  },
+  {
+    "id": "2025-08-28-quotes-2",
+    "quote": "French writer and poet **Rene Daumal** reminds us that it's not about what we achieve, but who we become in the process:\n\n\"You cannot stay on the summit forever; you have to come down again. So why bother in the first place? Just this: What is above knows what is below, but what is below does not know what is above. One climbs, one sees. One descends, one sees no longer, but one has seen. There is an art of conducting oneself in the lower regions by the memory of what one saw higher up. When one can no longer see, one can at least still know.\"",
+    "intro": "Being kind to the future",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-28-2025",
+    "author": "Rene Daumal",
+    "date": "2025-08-28",
+    "section": "Quotes",
+    "explanation": "Rene Daumal's metaphor about climbing and perspective, emphasizing that the value is in what we become through the process"
+  },
+  {
+    "id": "2025-08-21-quotes-1",
+    "quote": "Author and screenwriter **Ray Bradbury** on the difference between critics and creators:\n\n\"Those who don't build must burn.\"",
+    "intro": "On peace of mind",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-21-2025",
+    "author": "Ray Bradbury",
+    "date": "2025-08-21",
+    "section": "Quotes",
+    "explanation": "Ray Bradbury's insight about building vs criticizing, emphasizing that those who don't create must destroy"
+  },
+  {
+    "id": "2025-08-21-quotes-2",
+    "quote": "Philosopher and activist **Simone Weil** on the power of sustained, intense focus:\n\n\"The amount of creative genius in any period is strictly in proportion to the amount of extreme attention.\"",
+    "intro": "On the power of focus",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-21-2025",
+    "author": "Simone Weil",
+    "date": "2025-08-21",
+    "section": "Quotes",
+    "explanation": "Simone Weil's principle about attention and creativity, emphasizing that creative genius is proportional to extreme attention"
+  },
+  {
+    "id": "2025-08-14-quotes-1",
+    "quote": "Entrepreneur **Will Ahmed** on living a well-rounded life:\n\n\"Success is being excited to go to work and being excited to come home.\"",
+    "intro": "On living a well-rounded life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-14-2025",
+    "author": "Will Ahmed",
+    "date": "2025-08-14",
+    "section": "Quotes",
+    "explanation": "Will Ahmed's definition of success, emphasizing excitement about both work and home life"
+  },
+  {
+    "id": "2025-08-14-quotes-2",
+    "quote": "Activist and former First Lady of the United States, **Eleanor Roosevelt**, on the path to growth:\n\n\"You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face. You are able to say to yourself, `I have lived through this horror. I can take the next thing that comes along. ... You must do the thing you think you cannot do.\"",
+    "intro": "On managing risks",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-14-2025",
+    "author": "Eleanor Roosevelt",
+    "date": "2025-08-14",
+    "section": "Quotes",
+    "explanation": "Eleanor Roosevelt's perspective on facing fear, emphasizing that confronting fear builds strength and confidence"
+  },
+  {
+    "id": "2025-08-07-quotes-1",
+    "quote": "Author **Heidi Priebe** on loving someone as they change:\n\n\"To love someone long-term is to attend a thousand funerals of the people they used to be. The people they're too exhausted to be any longer. The people they don't recognize inside themselves anymore. The people they grew out of, the people they never ended up growing into.\n\nWe so badly want the people we love to get their spark back when it burns out; to become speedily found when they are lost.\n\nBut it is not our job to hold anyone accountable to the people they used to be. It is our job to travel with them between each version and to honor what emerges along the way.\"",
+    "intro": "On true wealth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-7-2025",
+    "author": "Heidi Priebe",
+    "date": "2025-08-07",
+    "section": "Quotes",
+    "explanation": "Heidi Priebe's perspective on long-term love, emphasizing accepting people as they change rather than holding them to past versions"
+  },
+  {
+    "id": "2025-08-07-quotes-2",
+    "quote": "Novelist and poet **James Joyce** on the value of our errors and blunders:\n\n\"Mistakes are the portals of discovery.\"",
+    "intro": "On the antidote to anxiety",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-7-2025",
+    "author": "James Joyce",
+    "date": "2025-08-07",
+    "section": "Quotes",
+    "explanation": "James Joyce's insight about mistakes, emphasizing that errors and blunders are gateways to discovery"
+  },
+  {
+    "id": "2025-07-31-quotes-1",
+    "quote": "Animator and cartoonist **Walt Kelly** reminds us that a lot of hard work is wasted:\n\n\"Having lost sight of our objectives, we redoubled our efforts.\"",
+    "intro": "On avoiding frustration",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-31-2025",
+    "author": "Walt Kelly",
+    "date": "2025-07-31",
+    "section": "Quotes",
+    "explanation": "Walt Kelly's insight about wasted effort, emphasizing that redoubling efforts without clear objectives is counterproductive"
+  },
+  {
+    "id": "2025-07-31-quotes-2",
+    "quote": "Philosopher **Arthur Schopenhauer** encourages us to read what is important, not what is popular:\n\n\"The art of not reading is a very important one. It consists in not taking an interest in whatever may be engaging the attention of the general public at any particular time. When some political or ecclesiastical pamphlet, or novel, or poem is making a great commotion, you should remember that he who writes for fools always finds a large public. - A precondition for reading good books is not reading bad ones: for life is short.\"",
+    "intro": "On easier paths to a good life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-31-2025",
+    "author": "Arthur Schopenhauer",
+    "date": "2025-07-31",
+    "section": "Quotes",
+    "explanation": "Arthur Schopenhauer's advice about selective reading, emphasizing the art of not reading popular but unimportant content"
+  },
+  {
+    "id": "2025-07-24-quotes-1",
+    "quote": "Writer and philosopher **Aldous Huxley** on the precursor to change:\n\n\"Change is only possible through movement.\"",
+    "intro": "On enjoying your own company",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-24-2025",
+    "author": "Aldous Huxley",
+    "date": "2025-07-24",
+    "section": "Quotes",
+    "explanation": "Aldous Huxley's principle about change, emphasizing that movement is necessary for any change to occur"
+  },
+  {
+    "id": "2025-07-24-quotes-2",
+    "quote": "Novelist **Anne Lamott** on the power of reading:\n\n\"Writing and reading decrease our sense of isolation. They deepen and widen and expand our sense of life: they feed the soul. When writers make us shake our heads with the exactness of their prose and their truths, and even make us laugh about ourselves or life, our buoyancy is restored. We are given a shot at dancing with, or at least clapping along with, the absurdity of life, instead of being squashed by it over and over again. It's like singing on a boat during a terrible storm at sea. You can't stop the raging storm, but singing can change the hearts and spirits of the people who are together on that ship.\"",
+    "intro": "On what drives change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-24-2025",
+    "author": "Anne Lamott",
+    "date": "2025-07-24",
+    "section": "Quotes",
+    "explanation": "Anne Lamott's perspective on reading and writing, emphasizing how they decrease isolation and restore buoyancy during life's storms"
+  },
+  {
+    "id": "2025-07-17-quotes-1",
+    "quote": "Violinist **Jascha Heifetz** on practice:\n\n\"If I don't practice one day, I know it; two days, the critics know it; three days, the public knows it.\"",
+    "intro": "On practice",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-17-2025",
+    "author": "Jascha Heifetz",
+    "date": "2025-07-17",
+    "section": "Quotes",
+    "explanation": "Jascha Heifetz's insight about practice consistency, emphasizing how quickly skill degradation becomes noticeable"
+  },
+  {
+    "id": "2025-07-17-quotes-2",
+    "quote": "Psychoanalyst **James Hollis** offers a harsh truth of life:\n\n\"After a lifetime of blaming others, it is exceedingly difficult for us to finally acknowledge that the only person who has consistently been in all the scenes of that long-running soap opera we call our life is us, and, as a necessary corollary, that we bear some large responsibility for how the drama is turning out.\"",
+    "intro": "On the soap opera of your life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-17-2025",
+    "author": "James Hollis",
+    "date": "2025-07-17",
+    "section": "Quotes",
+    "explanation": "James Hollis' perspective on personal responsibility, emphasizing that we are the consistent character in our life's drama"
+  },
+  {
+    "id": "2025-07-10-quotes-1",
+    "quote": "Ancient philosopher **Laozi** reminds us of the power of acting early:\n\n\"Deal with the difficult while it is yet easy;\nDeal with the great while it is yet small.\"",
+    "intro": "On daily discomfort",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-10-2025",
+    "author": "Laozi",
+    "date": "2025-07-10",
+    "section": "Quotes",
+    "explanation": "Laozi's wisdom about timing, emphasizing dealing with difficult things while they are still easy and small"
+  },
+  {
+    "id": "2025-07-10-quotes-2",
+    "quote": "Essayist **Charles Lamb** on generosity:\n\n\"The greatest pleasure I know, is to do a good action by stealth, and to have it found out by accident.\"",
+    "intro": "On the power of acting early",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-10-2025",
+    "author": "Charles Lamb",
+    "date": "2025-07-10",
+    "section": "Quotes",
+    "explanation": "Charles Lamb's perspective on generosity, emphasizing the pleasure of doing good deeds secretly and having them discovered accidentally"
+  },
+  {
+    "id": "2025-07-03-quotes-1",
+    "quote": "Author and journalist **Edward St. Aubyn** on friendship:\n\n\"They had drifted apart, as people do when they promise to stay in touch; the ones who are going to stay in touch don't need to promise.\"",
+    "intro": "On becoming hard to copy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-3-2025",
+    "author": "Edward St. Aubyn",
+    "date": "2025-07-03",
+    "section": "Quotes",
+    "explanation": "Edward St. Aubyn's insight about friendship, emphasizing that those who stay in touch don't need to promise to"
+  },
+  {
+    "id": "2025-07-03-quotes-2",
+    "quote": "Engineer **Harrington Emerson** on knowing your principles:\n\n\"As to methods, there may be a million and then some, but principles are few. The person who grasps principles can successfully select their own methods. The person who tries methods, ignoring principles, is sure to have trouble.\"",
+    "intro": "On the power of fundamentals",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-3-2025",
+    "author": "Harrington Emerson",
+    "date": "2025-07-03",
+    "section": "Quotes",
+    "explanation": "Harrington Emerson's principle about methods vs principles, emphasizing that grasping principles allows successful method selection"
+  },
+  {
+    "id": "2025-06-26-quotes-1",
+    "quote": "Jesuit priest **Anthony de Mello** reminds us to focus on the magic in front of us:\n\n\"Think of yourself in a concert hall listening to the strains of the sweetest music when you suddenly remember that you forgot to lock your car. You are anxious about the car, you cannot walk out of the hall and you cannot enjoy the music. There you have a perfect image of life as it is lived by most human beings.\"",
+    "intro": "On the power of relationships",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-26-2025",
+    "author": "Anthony de Mello",
+    "date": "2025-06-26",
+    "section": "Quotes",
+    "explanation": "Anthony de Mello's metaphor about anxiety and presence, emphasizing how worry prevents us from enjoying the present moment"
+  },
+  {
+    "id": "2025-06-26-quotes-2",
+    "quote": "Poet **Ellen Sturgis Hooper** reveals a little secret of life:\n\n\"I slept, and dreamed that life was joy;\n\nI woke, and found that life was service.\n\nI acted and behold, service was joy.\"",
+    "intro": "On practicing mental toughness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-26-2025",
+    "author": "Ellen Sturgis Hooper",
+    "date": "2025-06-26",
+    "section": "Quotes",
+    "explanation": "Ellen Sturgis Hooper's insight about service and joy, emphasizing that acting in service transforms it into joy"
+  },
+  {
+    "id": "2025-06-19-quotes-1",
+    "quote": "Novelist **Robert Louis Stevenson** on living one day at a time:\n\n\"Anyone can carry his burden, however hard, until nightfall. Anyone can do his work, however hard, for one day. Anyone can live sweetly, patiently, lovingly, purely, till the sun goes down. And this is all life really means.\"",
+    "intro": "On enthusiasm",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-19-2025",
+    "author": "Robert Louis Stevenson",
+    "date": "2025-06-19",
+    "section": "Quotes",
+    "explanation": "Robert Louis Stevenson's perspective on daily living, emphasizing that anyone can handle one day at a time"
+  },
+  {
+    "id": "2025-06-19-quotes-2",
+    "quote": "Theologian and philosopher **Saint Augustine** on doing what you can for who you know:\n\n\"Since you cannot do good to all, you are to pay special attention to those who, by the accidents of time, or place, or circumstances, are brought into closer connection with you.\"",
+    "intro": "On playing to your strengths",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-19-2025",
+    "author": "Saint Augustine",
+    "date": "2025-06-19",
+    "section": "Quotes",
+    "explanation": "Saint Augustine's guidance on helping others, emphasizing focusing on those closest to you when you can't help everyone"
+  },
+  {
+    "id": "2025-06-12-quotes-1",
+    "quote": "Engineer and inventor **Colin Chapman** offers a guiding principle for high-performance:\n\n\"Simplify, then add lightness.\"",
+    "intro": "On time machines",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-12-2025",
+    "author": "Colin Chapman",
+    "date": "2025-06-12",
+    "section": "Quotes",
+    "explanation": "Colin Chapman's principle for high performance, emphasizing simplification followed by adding lightness"
+  },
+  {
+    "id": "2025-06-12-quotes-2",
+    "quote": "Author and journalist **Min Jin Lee** on what is important:\n\n\"I heard in a sermon once that the definition of self-control was to choose the important over the urgent.\n\nOften, I've wished that I could've had quicker success, greater financial security, more respect, et cetera, as a writer. For nearly twelve years now since leaving the law, I have often felt ashamed for wanting to be a writer and doubtful of my talents.\n\nWhat helped in these moments was to consider what was important, rather than the urgent feelings of embarrassment and helplessness. What was important is still important now: to learn to write better in order to better complete the vision one holds in one's head and to enjoy the writing, because the work has to be the best part.\"",
+    "intro": "On principles for high performance",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-12-2025",
+    "author": "Min Jin Lee",
+    "date": "2025-06-12",
+    "section": "Quotes",
+    "explanation": "Min Jin Lee's perspective on self-control and writing, emphasizing choosing the important over the urgent and finding joy in the work"
+  },
+  {
+    "id": "2025-06-05-quotes-1",
+    "quote": "Former lawyer and professional poker player **Cate Hall** on asking for things that feel unreasonable:\n\n\"Ask for things. Ask for things that feel unreasonable, to make sure your intuitions about what's reasonable are accurate (of course, try not to be a jerk in the process). If you're only asking for things you get, you're not aiming high enough.\"",
+    "intro": "On finding the best way to do something",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-5-2025",
+    "author": "Cate Hall",
+    "date": "2025-06-05",
+    "section": "Quotes",
+    "explanation": "Cate Hall's advice about asking for things, emphasizing asking for unreasonable things to test your intuitions about what's reasonable"
+  },
+  {
+    "id": "2025-06-05-quotes-2",
+    "quote": "Musician **Nick Cave** on cynicism and hopefulness:\n\n\"Cynicism is not a neutral position -- and although it asks almost nothing of us, it is highly infectious and unbelievably destructive. In my view, it is the most common and easy of evils. I know this because much of my early life was spent holding the world and the people in it in contempt. It was a position both seductive and indulgent...\n\nUnlike cynicism, hopefulness is hard-earned, makes demands upon us, and can often feel like the most indefensible and lonely place on Earth. Hopefulness is not a neutral position either. It is adversarial. It is the warrior emotion that can lay waste to cynicism. Each redemptive or loving act, as small as you like... keeps the devil down in the hole. It says the world and its inhabitants have value and are worth defending. It says the world is worth believing in. In time, we come to find that it is so.\"",
+    "intro": "On how timing shapes communication",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-5-2025",
+    "author": "Nick Cave",
+    "date": "2025-06-05",
+    "section": "Quotes",
+    "explanation": "Nick Cave's perspective on cynicism vs hopefulness, emphasizing that hopefulness is hard-earned and adversarial while cynicism is easy and destructive"
+  },
+  {
+    "id": "2025-05-29-quotes-1",
+    "quote": "Journalist and novelist **Carl Hiaasen** on setting a high standard:\n\n\"Always aspire to act in a way that cancels out someone else's cruel or stupid behavior.\"",
+    "intro": "On making the most of shortcuts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-29-2025",
+    "author": "Carl Hiaasen",
+    "date": "2025-05-29",
+    "section": "Quotes",
+    "explanation": "Carl Hiaasen's principle about counteracting negativity, emphasizing acting to cancel out others' cruel or stupid behavior"
+  },
+  {
+    "id": "2025-05-29-quotes-2",
+    "quote": "Investor **Rick Buhrman** on the kindness of mastering your craft:\n\n\"INTERVIEWER: What is the kindest thing that anyone's ever done for you?\n\nBUHRMAN: ... our oldest son, Theo, who just turned seven, spent the first six months of his life in several NICUs. He was eventually helicoptered to Indianapolis at Riley Hospital for Children. And while we were living in that NICU for almost a half a year we saw a lot of kids who passed away. Most of those kids were not as sick as Theo was.\n\nI don't know exactly why Theo survived, but I know that a major part of how he survived was because for several decades leading up to that moment, numerous nurses, nurse practitioners, respiratory therapists, doctors, surgeons had committed themselves wholeheartedly to mastering their craft. I can give you tons and tons of examples of these people. And I know that in the moment, it wasn't necessarily viewed as kindness.\n\nBut maybe in some sense, the kindest thing that all of us can do is to pursue something radically that in some way is in service to others, because you just don't know how it's going to change the trajectory of human life. And so for all of those medical practitioners, none of whom I'm sure are listening to this, I owe everything to, because they gave me the gift of being Theo's dad.\"",
+    "intro": "On how to reduce worry",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-29-2025",
+    "author": "Rick Buhrman",
+    "date": "2025-05-29",
+    "section": "Quotes",
+    "explanation": "Rick Buhrman's story about mastery as kindness, emphasizing that mastering your craft in service to others can change human life trajectories"
+  },
+  {
+    "id": "2025-05-22-quotes-1",
+    "quote": "Writer and investor **Packy McCormick** on momentum:\n\n\"When momentum is on your side, people focus on your strengths and forgive your weaknesses. When the momentum stops, they scrutinize the whole thing.\"",
+    "intro": "On the simple path to wealth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-22-2025",
+    "author": "Packy McCormick",
+    "date": "2025-05-22",
+    "section": "Quotes",
+    "explanation": "Packy McCormick's insight about momentum, emphasizing that momentum affects how people perceive your strengths and weaknesses"
+  },
+  {
+    "id": "2025-05-22-quotes-2",
+    "quote": "Author **Jeanette Winterson** on going for it:\n\n\"I have noticed that doing the sensible thing is only a good idea when the decision is quite small. For the life-changing things, you must risk it.\"",
+    "intro": "On how time works",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-22-2025",
+    "author": "Jeanette Winterson",
+    "date": "2025-05-22",
+    "section": "Quotes",
+    "explanation": "Jeanette Winterson's perspective on risk, emphasizing that sensible decisions work for small things but life-changing decisions require risk"
+  },
+  {
+    "id": "2025-05-15-quotes-1",
+    "quote": "Writer and philosopher **Michel de Montaigne** reveals what wisdom looks like:\n\n\"The most certain sign of wisdom is cheerfulness.\"",
+    "intro": "On thinking like a scientist",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-15-2025",
+    "author": "Michel de Montaigne",
+    "date": "2025-05-15",
+    "section": "Quotes",
+    "explanation": "Michel de Montaigne's insight about wisdom, emphasizing that cheerfulness is the most certain sign of wisdom"
+  },
+  {
+    "id": "2025-05-15-quotes-2",
+    "quote": "Poet and novelist **Hermann Hesse** on remaining open and receptive to what the world is offering you:\n\n\"When someone is seeking, it happens quite easily that he only sees the thing that he is seeking; that he is unable to find anything, unable to absorb anything, because he is only thinking of the thing he is seeking, because he has a goal, because he is obsessed with his goal. Seeking means: to have a goal; but finding means: to be free, to be receptive, to have no goal...\n\nFor in striving towards your goal, you do not see many things that are under your nose.\"",
+    "intro": "On how to stand out from the crowd",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-15-2025",
+    "author": "Hermann Hesse",
+    "date": "2025-05-15",
+    "section": "Quotes",
+    "explanation": "Hermann Hesse's perspective on seeking vs finding, emphasizing that seeking with goals can blind you to what's right in front of you"
+  },
+  {
+    "id": "2025-05-08-quotes-1",
+    "quote": "Philosopher and spiritual teacher **Jiddu Krishnamurti** on pausing before we judge everything:\n\n\"The ability to observe without evaluating is the highest form of intelligence.\"",
+    "intro": "On waiting to judge",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-8-2025",
+    "author": "Jiddu Krishnamurti",
+    "date": "2025-05-08",
+    "section": "Quotes",
+    "explanation": "Jiddu Krishnamurti's insight about observation, emphasizing that observing without evaluating is the highest form of intelligence"
+  },
+  {
+    "id": "2025-05-08-quotes-2",
+    "quote": "Writer and scholar **C.S. Lewis** reminds us that what looks best is when we stop worrying about looking good and start focusing on doing our best:\n\n\"The sword glitters not because the swordsman set out to make it glitter but because he is fighting for his life and therefore moving it very quickly.\"",
+    "intro": "On the value of teaching",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-8-2025",
+    "author": "C.S. Lewis",
+    "date": "2025-05-08",
+    "section": "Quotes",
+    "explanation": "C.S. Lewis' metaphor about excellence, emphasizing that true excellence comes from fighting for your life, not trying to look good"
+  },
+  {
+    "id": "2025-05-01-quotes-1",
+    "quote": "Writer and computer scientist **Gurwinder Bhogal** on how to make a convincing argument:\n\n\"We assume that the more arguments we give, the better our case. In reality, our weakest arguments dilute the strongest. Generally, you'll only be as convincing as your worst point, so instead of making as many arguments as you can, make only the best.\"",
+    "intro": "On making the most of what you have",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-1-2025",
+    "author": "Gurwinder Bhogal",
+    "date": "2025-05-01",
+    "section": "Quotes",
+    "explanation": "Gurwinder Bhogal's insight about arguments, emphasizing that weak arguments dilute strong ones and you're only as convincing as your worst point"
+  },
+  {
+    "id": "2025-05-01-quotes-2",
+    "quote": "The painter **Vincent van Gogh** on fear and risk:\n\n\"Fishermen know that the sea is dangerous and the storm fearsome, but they have never found these dangers sufficient reason for remaining ashore. They leave that wisdom to those to whom it appeals. When the storm comes -- when night falls -- what's worse: the danger or the fear of danger? Give me reality, the danger itself.\"",
+    "intro": "On how to make a convincing argument",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-1-2025",
+    "author": "Vincent van Gogh",
+    "date": "2025-05-01",
+    "section": "Quotes",
+    "explanation": "Vincent van Gogh's perspective on fear and danger, emphasizing that facing real danger is better than living in fear of it"
+  },
+  {
+    "id": "2025-04-24-quotes-1",
+    "quote": "An old Latin proverb, \"Initium est dimidium facti\", reminds us of the timeless importance of simply beginning the task at hand:\n\n\"Once you've started, you're halfway there.\"",
+    "intro": "On how to handle idiots",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-24-2025",
+    "author": "Horace",
+    "date": "2025-04-24",
+    "section": "Quotes",
+    "explanation": "Horace's Latin proverb about beginning, emphasizing that starting a task is half the work"
+  },
+  {
+    "id": "2025-04-24-quotes-2",
+    "quote": "Talk show host and television producer **Oprah Winfrey** on emphasizing gratitude:\n\n\"The more you praise and celebrate your life, the more there is in life to celebrate. When you concentrate on what you have, you'll always end up having more.\"",
+    "intro": "On pushing toward growth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-24-2025",
+    "author": "Oprah Winfrey",
+    "date": "2025-04-24",
+    "section": "Quotes",
+    "explanation": "Oprah Winfrey's perspective on gratitude, emphasizing that celebrating what you have leads to having more"
+  },
+  {
+    "id": "2025-04-17-quotes-1",
+    "quote": "Novelist **Robert Louis Stevenson** on personal responsibility:\n\n\"Sooner or later we all sit down to a banquet of consequences.\"",
+    "intro": "On good genes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-17-2025",
+    "author": "Robert Louis Stevenson",
+    "date": "2025-04-17",
+    "section": "Quotes",
+    "explanation": "Robert Louis Stevenson's metaphor about consequences, emphasizing that we all eventually face the results of our actions"
+  },
+  {
+    "id": "2025-04-17-quotes-2",
+    "quote": "Entrepreneur and online creator **Rob Manuel** on appreciating the opportunity you have right now:\n\n\"I'm 37. Instead of regretting that I can't wake up age 18 again, I pretend to myself that I'm 90 and I've woken up age 37 again, and that I get to magically, wonderfully have the next 50 years again.\"",
+    "intro": "On personal responsibility",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-17-2025",
+    "author": "Rob Manuel",
+    "date": "2025-04-17",
+    "section": "Quotes",
+    "explanation": "Rob Manuel's perspective on appreciating current age, using a mental exercise to value the time you have now"
+  },
+  {
+    "id": "2025-04-10-quotes-1",
+    "quote": "Novelist **Marilynne Robinson** on how to handle good luck:\n\n\"I can only make sense of my unaccountable good fortune by assuming that it means I am under special obligation to make good use of it.\"",
+    "intro": "On two steps for better results",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-10-2025",
+    "author": "Marilynne Robinson",
+    "date": "2025-04-10",
+    "section": "Quotes",
+    "explanation": "Marilynne Robinson's perspective on good fortune, emphasizing that good luck creates an obligation to use it well"
+  },
+  {
+    "id": "2025-04-10-quotes-2",
+    "quote": "Author **Ben Short** reminds us why the hard work is worth it:\n\n\"... looking at the work done and the work still to do, most people would have written the whole thing off as too much sweat for too little gain. But I didn't want an easy life. I wanted a beautiful one.\"",
+    "intro": "On the qualities of a great career",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-10-2025",
+    "author": "Ben Short",
+    "date": "2025-04-10",
+    "section": "Quotes",
+    "explanation": "Ben Short's perspective on hard work, emphasizing choosing a beautiful life over an easy one"
+  },
+  {
+    "id": "2025-04-03-quotes-1",
+    "quote": "Writer **Jacob Falkovich** on how to respond to a mistake:\n\n\"If you think you're running 10 minutes late, text to say you'll be 15 minutes late. That way the other person gets one disappointment and one pleasant surprise. Most people do the opposite: they say they're 5 minutes late when it's 10 and end up annoying the other and looking like total fools.\"",
+    "intro": "On the joy of losing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-3-2025",
+    "author": "Jacob Falkovich",
+    "date": "2025-04-03",
+    "section": "Quotes",
+    "explanation": "Jacob Falkovich's strategy for managing expectations, emphasizing under-promising and over-delivering on timing"
+  },
+  {
+    "id": "2025-04-03-quotes-2",
+    "quote": "A programmer and writer who goes by **Loopy**, on the difference between preparing to do it and actually doing it:\n\n\"Things that aren't doing the thing:\n\n* Preparing to do the thing isn't doing the thing.\n* Scheduling time to do the thing isn't doing the thing.\n* Making a to-do list for the thing isn't doing the thing.\n* Telling people you're going to do the thing isn't doing the thing.\n* Messaging friends who may or may not be doing the thing isn't doing the thing.\n* Writing a banger tweet about how you're going to do the thing isn't doing the thing.\n* Hating on yourself for not doing the thing isn't doing the thing.\n* Hating on other people who have done the thing isn't doing the thing.\n* Hating on the obstacles in the way of doing the thing isn't doing the thing.\n* Fantasizing about all of the adoration you'll receive once you do the thing isn't doing the thing.\n* Reading about how to do the thing isn't doing the thing.\n* Reading about how other people did the thing isn't doing the thing.\n* Reading this essay isn't doing the thing.\n\nThe only thing that is doing the thing is doing the thing.\"",
+    "intro": "On how to set expectations with others",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-3-2025",
+    "author": "Loopy",
+    "date": "2025-04-03",
+    "section": "Quotes",
+    "explanation": "Loopy's comprehensive list about action vs preparation, emphasizing that only doing the thing is actually doing the thing"
+  },
+  {
+    "id": "2025-03-27-quotes-1",
+    "quote": "Banker and archaeologist **John Lubbock** on the value of downtime:\n\n\"Rest is not idleness, and to lie sometimes on the grass under trees on a summer's day, listening to the murmur of the water, or watching the clouds float across the sky, is by no means a waste of time.\"",
+    "intro": "On the surprising path to success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-27-2025",
+    "author": "John Lubbock",
+    "date": "2025-03-27",
+    "section": "Quotes",
+    "explanation": "John Lubbock's perspective on rest, emphasizing that rest and contemplation are not idleness but valuable uses of time"
+  },
+  {
+    "id": "2025-03-27-quotes-2",
+    "quote": "English teacher **Elizabeth Stone** on how becoming a parent changes you:\n\n\"It is to decide forever to have your heart go walking around outside your body.\"",
+    "intro": "On the value of downtime",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-27-2025",
+    "author": "Elizabeth Stone",
+    "date": "2025-03-27",
+    "section": "Quotes",
+    "explanation": "Elizabeth Stone's metaphor about parenthood, emphasizing that becoming a parent means your heart exists outside your body"
+  },
+  {
+    "id": "2025-03-20-quotes-1",
+    "quote": "Writer and pilot **Richard Bach** on how our beliefs shape our reality:\n\n\"Argue for your limitations and, sure enough, they're yours.\"",
+    "intro": "On how to help someone",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-20-2025",
+    "author": "Richard Bach",
+    "date": "2025-03-20",
+    "section": "Quotes",
+    "explanation": "Richard Bach's insight about limitations, emphasizing that arguing for your limitations makes them real"
+  },
+  {
+    "id": "2025-03-20-quotes-2",
+    "quote": "Poet and novelist **Hermann Hesse** offers some perspective:\n\n\"Learn what is to be taken seriously and laugh at the rest.\"",
+    "intro": "On the value of bad luck",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-20-2025",
+    "author": "Hermann Hesse",
+    "date": "2025-03-20",
+    "section": "Quotes",
+    "explanation": "Hermann Hesse's guidance on perspective, emphasizing the importance of distinguishing what deserves serious attention"
+  },
+  {
+    "id": "2025-03-13-quotes-1",
+    "quote": "Toymaker, inventor, and author **Roger von Oech** on wide open thinking:\n\n\"The amount a person uses their imagination is inversely proportional to the amount of punishment they will receive for using it.\"",
+    "intro": "On the secret to youth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-13-2025",
+    "author": "Roger von Oech",
+    "date": "2025-03-13",
+    "section": "Quotes",
+    "explanation": "Roger von Oech's insight about imagination, emphasizing that imagination use decreases as punishment for using it increases"
+  },
+  {
+    "id": "2025-03-13-quotes-2",
+    "quote": "Novelist and screenwriter **Ian McEwan** on the challenge of being yourself:\n\n\"Everyone nodded, nobody agreed.\"",
+    "intro": "On how to achieve what you want",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-13-2025",
+    "author": "Ian McEwan",
+    "date": "2025-03-13",
+    "section": "Quotes",
+    "explanation": "Ian McEwan's observation about agreement, emphasizing the difference between outward compliance and genuine agreement"
+  },
+  {
+    "id": "2025-03-06-quotes-1",
+    "quote": "Social media consultant **Charles Miller** on balance:\n\n\"Spend a handful of hours a day going fast. Crush a gym session. Do deep work on a project you care about. Spend the rest of the day going slow. Take walks. Read books. Get a long dinner with friends. Either way, avoid the anxious middle where you never truly relax or truly move forward.\"",
+    "intro": "On the power of inputs",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-6-2025",
+    "author": "Charles Miller",
+    "date": "2025-03-06",
+    "section": "Quotes",
+    "explanation": "Charles Miller's approach to balance, emphasizing alternating between intense focus and slow relaxation while avoiding the anxious middle"
+  },
+  {
+    "id": "2025-03-06-quotes-2",
+    "quote": "Architect and furniture designer **Eileen Gray** on thinking for yourself:\n\n\"To create, one must first question everything. Never adopt someone else's conclusion without putting it to the test of your own reasoning and imagination.\"",
+    "intro": "On what holds quiet power over you",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-6-2025",
+    "author": "Eileen Gray",
+    "date": "2025-03-06",
+    "section": "Quotes",
+    "explanation": "Eileen Gray's principle about independent thinking, emphasizing questioning everything and testing conclusions with your own reasoning"
+  },
+  {
+    "id": "2025-02-27-quotes-1",
+    "quote": "Zoologist and primatologist **Jane Goodall** on making a difference:\n\n\"The greatest danger to our future is apathy. We can't all save the world in a dramatic way, but we can each make our small difference, and together those small differences add up. Every single person makes an impact on the planet every single day. The question is: What kind of impact do you want to make?\"",
+    "intro": "On the secret to self-control",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-27-2025",
+    "author": "Jane Goodall",
+    "date": "2025-02-27",
+    "section": "Quotes",
+    "explanation": "Jane Goodall's perspective on individual impact, emphasizing that small differences add up and everyone makes daily impact"
+  },
+  {
+    "id": "2025-02-27-quotes-2",
+    "quote": "Poet and novelist **Hermann Hesse** on what we all can do:\n\n\"To hold our tongues when everyone is gossiping, to smile without hostility at people and institutions, to compensate for the shortage of love in the world with more love in small, private matters; to be more faithful in our work, to show greater patience, to forgo the cheap revenge obtainable from mockery and criticism: all these are things we can do.\"",
+    "intro": "On how to live longer",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-27-2025",
+    "author": "Hermann Hesse",
+    "date": "2025-02-27",
+    "section": "Quotes",
+    "explanation": "Hermann Hesse's list of positive actions, emphasizing small, private ways to contribute love and goodness to the world"
+  },
+  {
+    "id": "2025-02-20-quotes-1",
+    "quote": "Novelist **Toni Morrison** on invention:\n\n\"If there's a book that you want to read, but it hasn't been written yet, then you must write it. The same is true of any endeavor: if the solution you seek doesn't exist, create it.\"",
+    "intro": "On four questions for life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-20-2025",
+    "author": "Toni Morrison",
+    "date": "2025-02-20",
+    "section": "Quotes",
+    "explanation": "Toni Morrison's principle about creation, emphasizing that if what you want doesn't exist, you must create it"
+  },
+  {
+    "id": "2025-02-20-quotes-2",
+    "quote": "Psychiatrist **Thomas Szasz** on what is required to learn:\n\n\"Every act of conscious learning requires the willingness to suffer an injury to one's self-esteem. That is why young children, before they are aware of their own self-importance, learn so easily; and why older persons, especially if vain or important, cannot learn at all.\"",
+    "intro": "On how to learn like a child",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-20-2025",
+    "author": "Thomas Szasz",
+    "date": "2025-02-20",
+    "section": "Quotes",
+    "explanation": "Thomas Szasz's insight about learning and self-esteem, emphasizing that learning requires willingness to have self-esteem injured"
+  },
+  {
+    "id": "2025-02-13-quotes-1",
+    "quote": "Writer and programmer **Simon Sarris** on the value of effort:\n\n\"If you make lists of lofty goals, it can be easy to leave them to accumulate, as happens sometimes, into a mountain of to-do's and notes and half-forgotten plans. Dreaming alone is seductive, even a little sweet, since it lacks the pain of trying. So it feels proper to prize attempts more than dreams. You should have ideals, but you cannot only love an idealized future, you must cultivate a love of effort, too. If you really want something, then the soul must make demands of the body.\"",
+    "intro": "On getting what you deserve",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-13-2025",
+    "author": "Simon Sarris",
+    "date": "2025-02-13",
+    "section": "Quotes",
+    "explanation": "Simon Sarris' perspective on effort vs dreams, emphasizing that you must cultivate love of effort, not just idealized futures"
+  },
+  {
+    "id": "2025-02-13-quotes-2",
+    "quote": "**Henry David Thoreau** on being effective, not merely efficient:\n\n\"It is not enough to be industrious; so are the ants. What are you industrious about?\"",
+    "intro": "On the power of flexibility",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-13-2025",
+    "author": "Henry David Thoreau",
+    "date": "2025-02-13",
+    "section": "Quotes",
+    "explanation": "Henry David Thoreau's question about purpose, emphasizing that being busy isn't enough - what you're busy about matters"
+  },
+  {
+    "id": "2025-02-06-quotes-1",
+    "quote": "Author and abolitionist **Harriet Beecher Stowe** on perseverance:\n\n\"When you get into a tight place, and everything goes against you till it seems as if you couldn't hold on a minute longer, never give up then, for that's just the place and time that the tide'll turn.\"",
+    "intro": "On grief and friendship",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-6-2025",
+    "author": "Harriet Beecher Stowe",
+    "date": "2025-02-06",
+    "section": "Quotes",
+    "explanation": "Harriet Beecher Stowe's encouragement about perseverance, emphasizing that the darkest moments are often when the tide turns"
+  },
+  {
+    "id": "2025-02-06-quotes-2",
+    "quote": "Author and poet **Maya Angelou** on persistence:\n\n\"My wish for you is that you continue. Continue to be who you are, to astonish a mean world with your acts of kindness. The effect you have on others' lives is the highest expression of your own.\"",
+    "intro": "On the value of reputation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-6-2025",
+    "author": "Maya Angelou",
+    "date": "2025-02-06",
+    "section": "Quotes",
+    "explanation": "Maya Angelou's wish for persistence, emphasizing that continuing to be yourself and showing kindness is the highest expression of your life"
+  },
+  {
+    "id": "2025-01-30-quotes-1",
+    "quote": "Physician and educator **Maria Montessori** on leading others:\n\n\"The greatest sign of success for a teacher is to be able to say, \"The children are now working as if I did not exist.\" But this holds true for leadership in general--give people space and they flourish.\"",
+    "intro": "On the danger of a good idea",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-30-2025",
+    "author": "Maria Montessori",
+    "date": "2025-01-30",
+    "section": "Quotes",
+    "explanation": "Maria Montessori's insight about leadership success, emphasizing that giving people space allows them to flourish independently"
+  },
+  {
+    "id": "2025-01-30-quotes-2",
+    "quote": "Physicist and chemist **Marie Curie** on the connection between fear and knowledge:\n\n\"Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.\"",
+    "intro": "On how to do your best work",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-30-2025",
+    "author": "Marie Curie",
+    "date": "2025-01-30",
+    "section": "Quotes",
+    "explanation": "Marie Curie's perspective on fear and understanding, emphasizing that understanding reduces fear"
+  },
+  {
+    "id": "2025-01-23-quotes-1",
+    "quote": "Singer, songwriter, and actress **Dolly Parton** on gratitude:\n\n\"I make a point to appreciate all the little things in my life, because I learned early that if you don't, you get disappointed a lot. If you do, you might be pleasantly surprised quite often.\n\nI go out and smell the air after a good, hard rain. I re-read passages from my favorite books. I hold the little treasures that somebody special gave me. By keeping my eyes open for unexpected joys, I find the world gives back more than we sometimes think.\"",
+    "intro": "On what it takes to be consistent",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-23-2025",
+    "author": "Dolly Parton",
+    "date": "2025-01-23",
+    "section": "Quotes",
+    "explanation": "Dolly Parton's approach to gratitude, emphasizing that appreciating little things leads to pleasant surprises and unexpected joys"
+  },
+  {
+    "id": "2025-01-23-quotes-2",
+    "quote": "Software engineer **Marissa Mayer**, who was an early employee at Google and eventually became CEO of Yahoo, on how she grew throughout her career:\n\n\"I always did something I was a little not ready to do. I think that's how you grow -- when there's that moment of, `Wow, I'm really not sure I can do this,' and you push through.\"",
+    "intro": "On how to make a bad situation worse",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-23-2025",
+    "author": "Marissa Mayer",
+    "date": "2025-01-23",
+    "section": "Quotes",
+    "explanation": "Marissa Mayer's growth strategy, emphasizing that growth comes from doing things you're not quite ready for"
+  },
+  {
+    "id": "2025-01-16-quotes-1",
+    "quote": "Mathematician and NASA scientist **Katherine Johnson**, who played a key role in sending the first astronauts to space, on what it took to accomplish the mission:\n\n\"There were no textbooks, so we had to write them.\"",
+    "intro": "On magic bullets",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-16-2025",
+    "author": "Katherine Johnson",
+    "date": "2025-01-16",
+    "section": "Quotes",
+    "explanation": "Katherine Johnson's insight about pioneering work, emphasizing that sometimes you must create the resources you need"
+  },
+  {
+    "id": "2025-01-16-quotes-2",
+    "quote": "Animal behavior scientist **Temple Grandin** on progress:\n\n\"People are always looking for the single magic bullet that will completely change everything. There is no single magic bullet. Progress is about bridging the gap between what we observe and what we can imagine -- one careful step at a time.\"",
+    "intro": "On how to handle criticism",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-16-2025",
+    "author": "Temple Grandin",
+    "date": "2025-01-16",
+    "section": "Quotes",
+    "explanation": "Temple Grandin's perspective on progress, emphasizing that there are no magic bullets and progress comes through careful steps"
+  },
+  {
+    "id": "2025-01-09-quotes-1",
+    "quote": "Philosopher and writer **Friedrich Nietzsche** on enjoying the process:\n\n\"The end of a melody is not its goal.\"",
+    "intro": "On savoring your victories",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-9-2025",
+    "author": "Friedrich Nietzsche",
+    "date": "2025-01-09",
+    "section": "Quotes",
+    "explanation": "Friedrich Nietzsche's insight about process and goals, emphasizing that the journey is as important as the destination"
+  },
+  {
+    "id": "2025-01-09-quotes-2",
+    "quote": "Computer scientist and electrical engineer **Lynn Conway** on making the future a reality:\n\n\"If you want to change the future, start living as if you're already there.\"",
+    "intro": "On being adaptable",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-9-2025",
+    "author": "Lynn Conway",
+    "date": "2025-01-09",
+    "section": "Quotes",
+    "explanation": "Lynn Conway's principle about future change, emphasizing that living as if you're already in the desired future helps create it"
+  },
+  {
+    "id": "2025-01-02-quotes-1",
+    "quote": "Writer **Susan Sontag** on finding the courage to change this year:\n\n\"I must change my life so that I can live it, not wait for it.\"",
+    "intro": "On the power of quiet moments",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-2-2025",
+    "author": "Susan Sontag",
+    "date": "2025-01-02",
+    "section": "Quotes",
+    "explanation": "Susan Sontag's perspective on life change, emphasizing that you must change your life to live it rather than waiting for it to change"
+  },
+  {
+    "id": "2025-01-02-quotes-2",
+    "quote": "**Charles Hayward**, a cabinet maker and editor of The Woodworker magazine, on starting the year with enthusiasm:\n\n\"There is a dynamic quality about enthusiasm which nothing can resist. You can see it in the street orator, whose whole heart is in his argument, swaying a crowd. You can feel it in the work of any artist--painter, writer, musician, or whatever he be--if he has put himself into the thing he has wrought in, felt it enough, suffered it enough. And the beginning of the year is a good time, it seems to me, to set about enkindling our enthusiasm afresh. For life is a dead thing without it. Make it woodwork, if our tastes lie in that direction; make it stamp collecting; make it anything in the wide world so long as it is alive and vital.\"",
+    "intro": "On how to make good habits easy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-2-2025",
+    "author": "Charles Hayward",
+    "date": "2025-01-02",
+    "section": "Quotes",
+    "explanation": "Charles Hayward's perspective on enthusiasm, emphasizing that enthusiasm is dynamic, irresistible, and essential for a vital life"
+  },
+  {
     "id": "2024-12-26-quotes-1",
     "quote": "Investor and businessman **Charlie Munger** on the importance of finding what fascinates you:\n\n\"In my whole life I've never been good at something I wasn't very interested in. It just doesn't work. There's no substitute for strong interest.\"",
     "intro": "On making a comeback",

@@ -1,5 +1,375 @@
 [
   {
+    "id": "2025-09-11-question",
+    "quote": "A question from **Christopher Celeste**, \"If I were to ask you to name what you love most in life, how long would it take to name yourself?\"",
+    "intro": "On the power of boredom",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-11-2025",
+    "author": "Christopher Celeste",
+    "date": "2025-09-11",
+    "section": "Questions",
+    "explanation": "Christopher Celeste's self-love question for self-reflection, encouraging consideration of how quickly you would name yourself as what you love most"
+  },
+  {
+    "id": "2025-09-04-question",
+    "quote": "Who are you afraid of disappointing and how would your choices change if you released that fear?",
+    "intro": "On taking lots of shots",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-4-2025",
+    "author": "James Clear",
+    "date": "2025-09-04",
+    "section": "Questions",
+    "explanation": "A fear of disappointment question for choice liberation, encouraging identification of whose disappointment you fear and how choices would change"
+  },
+  {
+    "id": "2025-08-28-question",
+    "quote": "Many of the good things in life are downstream from being helpful and useful to others. What can you do today to be useful to someone else?",
+    "intro": "How our quests shape us",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-28-2025",
+    "author": "James Clear",
+    "date": "2025-08-28",
+    "section": "Questions",
+    "explanation": "A usefulness question for daily contribution, encouraging identification of ways to be helpful and useful to others"
+  },
+  {
+    "id": "2025-08-21-question",
+    "quote": "What looks like consistency and commitment can sometimes be fear in disguise. Are you sticking with it because it still serves you or because it's what you already know?",
+    "intro": "On peace of mind",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-21-2025",
+    "author": "James Clear",
+    "date": "2025-08-21",
+    "section": "Questions",
+    "explanation": "A consistency vs fear question for self-reflection, encouraging examination of whether commitment is serving or constraining"
+  },
+  {
+    "id": "2025-08-14-question",
+    "quote": "Let's say the worst-case scenario actually occurs. There are obviously things you won't like about it. But what aspects of that scenario are you excited about?",
+    "intro": "On living a well-rounded life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-14-2025",
+    "author": "James Clear",
+    "date": "2025-08-14",
+    "section": "Questions",
+    "explanation": "A worst-case scenario question for positive reframing, encouraging identification of exciting aspects even in difficult situations"
+  },
+  {
+    "id": "2025-08-07-question",
+    "quote": "Which belief once protected you, but now confines you?",
+    "intro": "On true wealth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-7-2025",
+    "author": "James Clear",
+    "date": "2025-08-07",
+    "section": "Questions",
+    "explanation": "A belief evolution question for growth, encouraging identification of beliefs that once served but now limit"
+  },
+  {
+    "id": "2025-07-31-question",
+    "quote": "It is common to think about what you would like to accomplish. It is less common to think about what must be discarded to make space for your new endeavors. The time must come from somewhere. What do you need to give up to make space for what you would like to achieve?",
+    "intro": "On avoiding frustration",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-31-2025",
+    "author": "James Clear",
+    "date": "2025-07-31",
+    "section": "Questions",
+    "explanation": "A space-making question for goal achievement, encouraging identification of what must be discarded to make room for new endeavors"
+  },
+  {
+    "id": "2025-07-24-question",
+    "quote": "If your partner or close friend could change one habit of yours, what would they choose -- and why might they be right?",
+    "intro": "On enjoying your own company",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-24-2025",
+    "author": "James Clear",
+    "date": "2025-07-24",
+    "section": "Questions",
+    "explanation": "A habit change question for external perspective, encouraging consideration of what close others would change about your habits"
+  },
+  {
+    "id": "2025-07-17-question",
+    "quote": "Life is always progressing to the next stage. As you enter a new season, habits that previously served you well may need to be refreshed or adjusted. Which one of your current habits have you outgrown and is in need of a change?",
+    "intro": "On practice",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-17-2025",
+    "author": "James Clear",
+    "date": "2025-07-17",
+    "section": "Questions",
+    "explanation": "A habit evolution question for life stage transitions, encouraging identification of habits that have been outgrown"
+  },
+  {
+    "id": "2025-07-10-question",
+    "quote": "What unfinished task is still hogging your mental real estate and needs to be let go?",
+    "intro": "On daily discomfort",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-10-2025",
+    "author": "James Clear",
+    "date": "2025-07-10",
+    "section": "Questions",
+    "explanation": "A mental load question for task release, encouraging identification of unfinished tasks that are consuming mental energy"
+  },
+  {
+    "id": "2025-07-03-question",
+    "quote": "What aspect of your work is hardest to copy? How can you amplify it?",
+    "intro": "On becoming hard to copy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-3-2025",
+    "author": "James Clear",
+    "date": "2025-07-03",
+    "section": "Questions",
+    "explanation": "A competitive advantage question for work differentiation, encouraging identification and amplification of hard-to-copy aspects"
+  },
+  {
+    "id": "2025-06-26-question",
+    "quote": "There's a difference between feeling tired and feeling empty. One probably needs sleep. The other may need purpose.\n\nAre you low on rest or low on meaning?",
+    "intro": "On the power of relationships",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-26-2025",
+    "author": "James Clear",
+    "date": "2025-06-26",
+    "section": "Questions",
+    "explanation": "A rest vs meaning assessment question for self-diagnosis, encouraging identification of whether you need physical rest or purposeful meaning"
+  },
+  {
+    "id": "2025-06-19-question",
+    "quote": "Your environment whispers suggestions all day long--eat this, click that, sit here. Look around you right now. What small change could you make to your surroundings that would steer you toward good habits and away from distractions?",
+    "intro": "On enthusiasm",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-19-2025",
+    "author": "James Clear",
+    "date": "2025-06-19",
+    "section": "Questions",
+    "explanation": "An environment design question for habit optimization, encouraging identification of small changes to surroundings that promote good habits"
+  },
+  {
+    "id": "2025-06-12-question",
+    "quote": "Each person carries an invisible backpack full of unfinished tasks. These things can weigh on you, especially the ones that you feel like you should do but know you probably won't make time for.\n\nThere are two ways to lighten the load: finish the task or let it go. Give yourself permission to stop worrying about the things you're never going to do.\n\nWhat's weighing down your backpack that needs to be released?",
+    "intro": "On time machines",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-12-2025",
+    "author": "James Clear",
+    "date": "2025-06-12",
+    "section": "Questions",
+    "explanation": "A task release question for mental load reduction, encouraging identification of unfinished tasks that should be let go"
+  },
+  {
+    "id": "2025-06-05-question",
+    "quote": "Timing influences communication.\n\nTalk about potential mistakes before they happen and people start looking for ways to prevent them.\n\nTalk about actual mistakes after they happen and people start looking for reasons to defend their actions.\n\nWhat do we need to be talking about now, so we can learn the lessons before we need them?",
+    "intro": "On finding the best way to do something",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-5-2025",
+    "author": "James Clear",
+    "date": "2025-06-05",
+    "section": "Questions",
+    "explanation": "A proactive communication question for learning preparation, encouraging discussion of potential mistakes before they happen"
+  },
+  {
+    "id": "2025-05-29-question",
+    "quote": "I'm usually asleep from 5am to 6am, but when I wake up early I tend to enjoy it. Start the day slow. Watch the sunrise. Get a few things done before everyone else wakes up.\n\nMeanwhile, I am often awake from 10pm to 11pm and I find that I tend to use the time poorly. Passively watching TV or scrolling on a screen. Late night snacking. Overthinking things that are unimportant.\n\nTrading the last hour of the night for the first hour in the morning would be a pretty high value trade for me.\n\nWhich hours of your day tend to return the most value and which ones tend to return the least?",
+    "intro": "On making the most of shortcuts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-29-2025",
+    "author": "James Clear",
+    "date": "2025-05-29",
+    "section": "Questions",
+    "explanation": "A time value assessment question for daily optimization, encouraging identification of which hours return most vs least value"
+  },
+  {
+    "id": "2025-05-22-question",
+    "quote": "A question inspired by The Simple Path to Wealth:\n\nWhich single expense in your life delivers the least happiness per dollar and which delivers the most happiness per dollar?",
+    "intro": "On the simple path to wealth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-22-2025",
+    "author": "James Clear",
+    "date": "2025-05-22",
+    "section": "Questions",
+    "explanation": "A happiness-per-dollar analysis question for spending optimization, encouraging evaluation of which expenses provide most vs least happiness per dollar"
+  },
+  {
+    "id": "2025-05-15-question",
+    "quote": "The cost of convenience is vitality. You can have a lot of things done for you in the modern world -- and many of them are great time savers! -- but the feeling of being alive comes from being fully engaged in the right task, not free from all tasks.\n\nSure, you can automate and delegate all sorts of things, but the more interesting question is, \"What fills you with so much liveliness that you want to do the work yourself?\"",
+    "intro": "On thinking like a scientist",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-15-2025",
+    "author": "James Clear",
+    "date": "2025-05-15",
+    "section": "Questions",
+    "explanation": "A vitality and engagement question for work selection, encouraging identification of what fills you with liveliness and makes you want to do the work yourself"
+  },
+  {
+    "id": "2025-05-08-question",
+    "quote": "A question from The Strategy Deck by Seth Godin:\n\n\"Better waves make better surfers. Are you on the right beach?\"",
+    "intro": "On waiting to judge",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-8-2025",
+    "author": "Seth Godin",
+    "date": "2025-05-08",
+    "section": "Questions",
+    "explanation": "Seth Godin's environment assessment question for opportunity evaluation, encouraging consideration of whether you're in the right environment for success"
+  },
+  {
+    "id": "2025-05-01-question",
+    "quote": "Look at all the good around you. Of all the lives you could have lived, how wonderful and special is it that you get to live this one?",
+    "intro": "On making the most of what you have",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-1-2025",
+    "author": "James Clear",
+    "date": "2025-05-01",
+    "section": "Questions",
+    "explanation": "A gratitude and perspective question for life appreciation, encouraging recognition of the wonder and specialness of your current life"
+  },
+  {
+    "id": "2025-04-24-question",
+    "quote": "Which relationships in your life push you toward growth, and which reinforce stagnation?",
+    "intro": "On how to handle idiots",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-24-2025",
+    "author": "James Clear",
+    "date": "2025-04-24",
+    "section": "Questions",
+    "explanation": "A relationship assessment question for growth evaluation, encouraging identification of relationships that promote vs hinder growth"
+  },
+  {
+    "id": "2025-04-17-question",
+    "quote": "What is something you deeply believe but rarely live out?",
+    "intro": "On good genes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-17-2025",
+    "author": "James Clear",
+    "date": "2025-04-17",
+    "section": "Questions",
+    "explanation": "A belief-action gap question for self-awareness, encouraging identification of beliefs that aren't reflected in actions"
+  },
+  {
+    "id": "2025-04-10-question",
+    "quote": "What hard lesson keeps repeating itself in your life because you refuse to learn it?",
+    "intro": "On two steps for better results",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-10-2025",
+    "author": "James Clear",
+    "date": "2025-04-10",
+    "section": "Questions",
+    "explanation": "A lesson repetition question for pattern recognition, encouraging identification of recurring lessons that haven't been learned"
+  },
+  {
+    "id": "2025-04-03-question",
+    "quote": "If a competent CEO got to run your life for a day, what is the first thing they would eliminate?",
+    "intro": "On the joy of losing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-3-2025",
+    "author": "James Clear",
+    "date": "2025-04-03",
+    "section": "Questions",
+    "explanation": "A CEO perspective question for efficiency assessment, encouraging identification of what a competent leader would eliminate from your life"
+  },
+  {
+    "id": "2025-03-27-question",
+    "quote": "Who do you secretly envy--and what does that reveal about what you truly value?",
+    "intro": "On the surprising path to success",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-27-2025",
+    "author": "James Clear",
+    "date": "2025-03-27",
+    "section": "Questions",
+    "explanation": "An envy analysis question for value discovery, encouraging examination of who you envy to understand what you truly value"
+  },
+  {
+    "id": "2025-03-20-question",
+    "quote": "Which distractions in your life have become disguised as priorities?",
+    "intro": "On how to help someone",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-20-2025",
+    "author": "James Clear",
+    "date": "2025-03-20",
+    "section": "Questions",
+    "explanation": "A priority assessment question for focus clarity, encouraging identification of distractions masquerading as priorities"
+  },
+  {
+    "id": "2025-03-13-question",
+    "quote": "Is your default setting to defend your limitations or expand your possibilities?",
+    "intro": "On the secret to youth",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-13-2025",
+    "author": "James Clear",
+    "date": "2025-03-13",
+    "section": "Questions",
+    "explanation": "A mindset assessment question for growth orientation, encouraging evaluation of whether you default to defending limitations or expanding possibilities"
+  },
+  {
+    "id": "2025-03-06-question",
+    "quote": "What single habit, if implemented consistently for the rest of this year, would transform your life the most?",
+    "intro": "On the power of inputs",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-6-2025",
+    "author": "James Clear",
+    "date": "2025-03-06",
+    "section": "Questions",
+    "explanation": "A habit prioritization question for life transformation, encouraging identification of the single most impactful habit to implement"
+  },
+  {
+    "id": "2025-02-27-question",
+    "quote": "You get to pick a new career based on one factor: Your job is to do the activity that most frequently puts you into a flow state.\n\nFlow state = you feel fully immersed in your work, you're in \"the zone,\" time flies by without you realizing it, etc.\n\nWhat do you choose?",
+    "intro": "On the secret to self-control",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-27-2025",
+    "author": "James Clear",
+    "date": "2025-02-27",
+    "section": "Questions",
+    "explanation": "A flow state career question for passion identification, encouraging selection of work that most frequently creates flow states"
+  },
+  {
+    "id": "2025-02-20-question",
+    "quote": "A question from entrepreneur Nathan Barry on patience:\n\n\"When does it benefit me to be patient and when does it not?\"",
+    "intro": "On four questions for life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-20-2025",
+    "author": "Nathan Barry",
+    "date": "2025-02-20",
+    "section": "Questions",
+    "explanation": "A patience assessment question for strategic decision making, encouraging evaluation of when patience is beneficial vs harmful"
+  },
+  {
+    "id": "2025-02-13-question",
+    "quote": "Instead of running from parts of your life and compensating elsewhere, what if you began to restore what is broken?",
+    "intro": "On getting what you deserve",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-13-2025",
+    "author": "James Clear",
+    "date": "2025-02-13",
+    "section": "Questions",
+    "explanation": "A restoration question for problem-solving approach, encouraging direct repair rather than avoidance and compensation"
+  },
+  {
+    "id": "2025-02-06-question",
+    "quote": "It's hard to get a great outcome when your resources -- time, money, attention -- are spread thin. Are you concentrating your energies on a small set of targets?",
+    "intro": "On grief and friendship",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-6-2025",
+    "author": "James Clear",
+    "date": "2025-02-06",
+    "section": "Questions",
+    "explanation": "A focus concentration question for resource optimization, encouraging assessment of whether resources are concentrated on key targets"
+  },
+  {
+    "id": "2025-01-30-question",
+    "quote": "A question from Nick Cammarata to inspire action:\n\n\"If I had 10x the agency I have, what would I do?\"",
+    "intro": "On the danger of a good idea",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-30-2025",
+    "author": "Nick Cammarata",
+    "date": "2025-01-30",
+    "section": "Questions",
+    "explanation": "An agency expansion question for action inspiration, encouraging consideration of what you would do with significantly more power or control"
+  },
+  {
+    "id": "2025-01-23-question",
+    "quote": "What is one topic you are so fascinated by that you could teach a class about it?",
+    "intro": "On what it takes to be consistent",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-23-2025",
+    "author": "James Clear",
+    "date": "2025-01-23",
+    "section": "Questions",
+    "explanation": "A fascination identification question for expertise recognition, encouraging identification of topics you're passionate enough about to teach"
+  },
+  {
+    "id": "2025-01-16-question",
+    "quote": "What do I need to let go of this year to create space for what I really want?",
+    "intro": "On magic bullets",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-16-2025",
+    "author": "James Clear",
+    "date": "2025-01-16",
+    "section": "Questions",
+    "explanation": "A letting go question for space creation, encouraging identification of what to release to make room for what you truly want"
+  },
+  {
+    "id": "2025-01-09-question",
+    "quote": "Cheaper, faster, or better?\n\n* If I wanted to cut the price in half, what would I do?\n* If I wanted to cut the time in half, what would I do?\n* If I wanted twice the quality, what would I do?",
+    "intro": "On savoring your victories",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-9-2025",
+    "author": "James Clear",
+    "date": "2025-01-09",
+    "section": "Questions",
+    "explanation": "A three-part optimization question for improvement strategy, encouraging consideration of how to achieve cheaper, faster, or better results"
+  },
+  {
+    "id": "2025-01-02-question",
+    "quote": "Bad things are always happening loudly: the injury, the flat tire, the mistake that gets you criticized. Everybody talks about the moments that make things a hassle.\n\nGood things are always happening quietly: the completed workout, the healthy meal, the ten minutes of writing. Nobody talks about the little moments that add up.\n\nWhat good things have you done quietly today?",
+    "intro": "On the power of quiet moments",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-2-2025",
+    "author": "James Clear",
+    "date": "2025-01-02",
+    "section": "Questions",
+    "explanation": "A quiet good deeds question for positive recognition, encouraging acknowledgment of small positive actions that often go unnoticed"
+  },
+  {
     "id": "2024-12-26-question",
     "quote": "Habits need to be revised from time to time. Which habits have become more important and you need to double down on next year? Which habits are no longer serving you and need to be replaced next year?",
     "intro": "On making a comeback",
