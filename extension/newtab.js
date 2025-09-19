@@ -751,8 +751,12 @@ function displayContent(contentData) {
     }, 100)
   }
 
-  // Display author only for Quotes section (compact version)
-  if (contentData.section === 'Quotes' && contentData.author?.trim()) {
+  // Display author only for Quotes section (compact version), but hide if author is James Clear
+  if (
+    contentData.section === 'Quotes' &&
+    contentData.author?.trim() &&
+    contentData.author !== 'James Clear'
+  ) {
     authorAttribution.html(`— ${contentData.author}`)
     authorAttribution.show()
   } else {
