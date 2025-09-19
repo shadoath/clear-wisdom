@@ -400,11 +400,21 @@ function displaySearchResults(results) {
     // Highlight search terms in preview text
     const highlightedPreview = highlightSearchTerms(previewText, searchTerm)
 
+    // Format newsletter date as YYYY-MM-DD
+    const formattedDate = item.date?.trim() || ''
+
     resultsHtml += `
       <div class="search-result-item" data-index="${index}" data-item-id="${
       item.id || ''
     }" data-item-section="${item.section || ''}">
-        <div class="search-result-category">${category}</div>
+        <div class="search-result-header">
+          <div class="search-result-category">${category}</div>
+          ${
+            formattedDate
+              ? `<div class="search-result-date">${formattedDate}</div>`
+              : ''
+          }
+        </div>
         <div class="search-result-content">
           <div class="search-result-intro">${item.intro || ''}</div>
           <div class="search-result-preview">${highlightedPreview}</div>
@@ -568,7 +578,6 @@ function clearContentDisplay() {
 
 function newTab() {
   // Initialize DOM element references
-  search = $('#search-wisdom-quotes')
   refresh = $('#refresh')
   // Removed old mode switching element references
 

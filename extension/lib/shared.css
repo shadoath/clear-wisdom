@@ -33,9 +33,13 @@
 
   /* Typography */
   --font-family: 'minion-pro', serif;
+  --font-size-xxs: 10px;
+  --font-size-xs: 11px;
   --font-size-small: 13px;
   --font-size-base: 14px;
+  --font-size-md: 15px;
   --font-size-medium: 16px;
+  --font-size-lg: 17px;
   --font-size-large: 18px;
   --font-size-xl: 20px;
   --font-size-xxl: 26px;
@@ -219,14 +223,26 @@ table {
 .font-family {
   font-family: var(--font-family);
 }
+.font-size-xxs {
+  font-size: var(--font-size-xxs);
+}
+.font-size-xs {
+  font-size: var(--font-size-xs);
+}
 .font-size-small {
   font-size: var(--font-size-small);
 }
 .font-size-base {
   font-size: var(--font-size-base);
 }
+.font-size-md {
+  font-size: var(--font-size-md);
+}
 .font-size-medium {
   font-size: var(--font-size-medium);
+}
+.font-size-lg {
+  font-size: var(--font-size-lg);
 }
 .font-size-large {
   font-size: var(--font-size-large);
