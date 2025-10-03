@@ -24,6 +24,8 @@ Content is stored in three JSON files in `/extension/lib/`:
 - **quotes.json**: Quotes from other authors (2 per newsletter)
 - **questions.json**: Reflection questions (1 per newsletter)
 
+New items are always added to the start of the JSON file.
+
 Each entry follows this structure:
 
 ```json
