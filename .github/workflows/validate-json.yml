@@ -1,0 +1,45 @@
+name: Validate JSON Files
+
+on:
+  push:
+    paths:
+      - 'extension/lib/ideas.json'
+      - 'extension/lib/quotes.json'
+      - 'extension/lib/questions.json'
+  pull_request:
+    paths:
+      - 'extension/lib/ideas.json'
+      - 'extension/lib/quotes.json'
+      - 'extension/lib/questions.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate ideas.json
+        run: |
+          if ! jq empty extension/lib/ideas.json 2>/dev/null; then
+            echo "❌ ideas.json is not valid JSON"
+            exit 1
+          fi
+          echo "✅ ideas.json is valid"
+
+      - name: Validate quotes.json
+        run: |
+          if ! jq empty extension/lib/quotes.json 2>/dev/null; then
+            echo "❌ quotes.json is not valid JSON"
+            exit 1
+          fi
+          echo "✅ quotes.json is valid"
+
+      - name: Validate questions.json
+        run: |
+          if ! jq empty extension/lib/questions.json 2>/dev/null; then
+            echo "❌ questions.json is not valid JSON"
+            exit 1
+          fi
+          echo "✅ questions.json is valid"
