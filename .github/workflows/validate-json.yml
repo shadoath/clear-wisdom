@@ -11,6 +11,7 @@ on:
       - 'extension/lib/ideas.json'
       - 'extension/lib/quotes.json'
       - 'extension/lib/questions.json'
+  workflow_dispatch:
 
 jobs:
   validate:
