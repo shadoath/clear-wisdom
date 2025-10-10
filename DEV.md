@@ -22,14 +22,16 @@ All extension files are organized in the `extension/` folder for better compilat
 Review all the readme files and the json files.
 I need you to extract more content for the JSON files Use the following command to read each URL I give you:
 
-`lynx -dump -nolist -nostatus -trim_blank_lines -width=10000 https://jamesclear.com/3-2-1/*` And complete the url with each newsletter link. Then extract into each JSON file. 
+`lynx -dump -nolist -nostatus -trim_blank_lines -width=10000 https://jamesclear.com/3-2-1/*` And complete the url with each newsletter link. Then extract into each JSON file.
 
-I will give you multiple links to extract content from.
+It will be in the format of https://jamesclear.com/3-2-1/{month}-{d}-{yyyy} where month is the full month name in lowercase, d is the day without leading zero, and yyyy is the 4-digit year
+Example: https://jamesclear.com/3-2-1/october-9-2025
+
 Write all the content into the ideas.json/quotes.json/questions.json files.
+ALWAYS ADD TO THE TOP OF THE FILE, DO NOT REPLACE THE EXISTING CONTENT.
 Keep conversation responses concise, focused on the task at hand.
 when writing content, follow the format of the existing content.
 When given multiple links, read all content, then write the content into the JSON files instead of doing each one at a time.
-
 
 ### To build for Chrome Web Store
 
