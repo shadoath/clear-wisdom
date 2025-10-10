@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Clear Wisdom - Gems of wisdom from James Clear's newsletter",
   "short_name": "ClearWisdom",
-  "version": "2025.10.04",
+  "version": "2025.10.09",
   "description": "Revisit the wisdom of James Clear daily in a new tab",
   "chrome_url_overrides": {
     "newtab": "newtab.html"
