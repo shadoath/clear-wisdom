@@ -1,6 +1,6 @@
 # Clear Wisdom
 
-A Chrome extension that displays wisdom quotes from James Clear's 3-2-1 newsletter in new tabs.
+A [Chrome extension](https://chromewebstore.google.com/detail/clear-wisdom-gems-of-wisd/jijfmgoijddfmlcdghopbkdpelbpmjdm?authuser=0&hl=en) that displays wisdom quotes from James Clear's 3-2-1 newsletter in new tabs.
 
 ## Project Structure
 
