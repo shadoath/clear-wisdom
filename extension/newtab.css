@@ -186,7 +186,7 @@ body.search-mode .year-filter {
 
 .page-footer {
   position: absolute;
-  bottom: 5px;
+  bottom: 12px;
   left: var(--spacing-xl);
   right: var(--spacing-xl);
   color: #222222;
@@ -347,7 +347,7 @@ body.search-mode .favorites-button {
 }
 
 .search-input-top::placeholder {
-  color: var(--text-secondary);
+  color: var(--text-muted);
 }
 
 /* Close button inside search container */
@@ -689,8 +689,8 @@ body.search-mode .search-container-top.active .search-close-btn {
 }
 
 .action-favorite img {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
 }
 
 .action-favorite.liked img.heart-light {
