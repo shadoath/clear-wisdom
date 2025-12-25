@@ -32,6 +32,9 @@ let viewCountsById = new Map()
 let activeYearFilter = 'all'
 let availableYears = []
 
+// Overlay mode: 'none' | 'search' | 'favorites'
+let overlayMode = 'none'
+
 // Debounced search function
 let searchTimeout = null
 
@@ -88,8 +91,12 @@ $(() => {
         loadSearchSignals(() => {
           const searchContainer = $('#search-container-top')
           const searchText = $('#search-wisdom-quotes').val().trim()
-          if (searchContainer.hasClass('active') && searchText.length >= 3) {
-            search_for(searchText)
+          if (searchContainer.hasClass('active')) {
+            if (overlayMode === 'favorites') {
+              renderFavoritesList(searchText)
+            } else if (searchText.length >= 3) {
+              search_for(searchText)
+            }
           }
         })
       }
@@ -200,13 +207,24 @@ function updateCountVisibility() {
   chrome.storage.sync.get(['hideCount'], (result) => {
     if (result.hideCount) {
       $('#count').hide()
+      $('#count-label').hide()
     } else {
       $('#count').show()
+      $('#count-label').show()
     }
   })
 }
 
 function loadClickListeners() {
+  // Favorites view button
+  $('#favorites-view').click(() => {
+    if (overlayMode === 'favorites') {
+      closeSearchAndRestore()
+      return
+    }
+    enterFavoritesMode()
+  })
+
   // Search icon click handler
   $('#search-icon').click(() => {
     const searchContainer = $('#search-container-top')
@@ -219,6 +237,8 @@ function loadClickListeners() {
       // Show search container and focus input
       searchContainer.addClass('active')
       $('body').addClass('search-mode')
+      overlayMode = 'search'
+      setSearchPlaceholder()
       // Use setTimeout to ensure the transition completes before focusing
       setTimeout(() => {
         searchInput.focus()
@@ -241,9 +261,17 @@ function loadClickListeners() {
       $('#search-container-top').hasClass('active') &&
       searchText.length >= 3
     ) {
-      search_for(searchText)
+      if (overlayMode === 'favorites') {
+        renderFavoritesList(searchText)
+      } else {
+        search_for(searchText)
+      }
     } else if ($('#search-container-top').hasClass('active')) {
-      refreshDisplay()
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        refreshDisplay()
+      }
     }
   })
 
@@ -258,14 +286,26 @@ function loadClickListeners() {
     if (search_text.length >= 3) {
       // Debounce search for better performance
       searchTimeout = setTimeout(() => {
-        search_for(search_text)
+        if (overlayMode === 'favorites') {
+          renderFavoritesList(search_text)
+        } else {
+          search_for(search_text)
+        }
       }, 300)
     } else if (search_text.length === 0) {
       // If search is cleared, restore the current display
-      refreshDisplay()
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        refreshDisplay()
+      }
     } else if (search_text.length === 1 || search_text.length === 2) {
       // Show helpful message for 1-2 characters
-      showSearchHint(search_text.length)
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        showSearchHint(search_text.length)
+      }
     }
   })
 
@@ -275,7 +315,11 @@ function loadClickListeners() {
       // Enter key
       const search_text = $('#search-wisdom-quotes').val().trim()
       if (search_text.length > 0) {
-        search_for(search_text)
+        if (overlayMode === 'favorites') {
+          renderFavoritesList(search_text)
+        } else {
+          search_for(search_text)
+        }
       }
     }
   })
@@ -287,6 +331,8 @@ function loadClickListeners() {
       e.preventDefault()
       $('#search-container-top').addClass('active')
       $('body').addClass('search-mode')
+      overlayMode = 'search'
+      setSearchPlaceholder()
       $('#search-wisdom-quotes').focus()
     }
 
@@ -298,7 +344,11 @@ function loadClickListeners() {
         if (current.length > 0) {
           // First Esc clears query but stays in full-page search mode.
           searchInput.val('')
-          refreshDisplay()
+          if (overlayMode === 'favorites') {
+            renderFavoritesList('')
+          } else {
+            refreshDisplay()
+          }
         } else {
           // Second Esc exits search mode.
           closeSearchAndRestore()
@@ -351,9 +401,17 @@ function loadClickListeners() {
     // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim()
     if (searchText.length >= 3) {
-      search_for(searchText)
+      if (overlayMode === 'favorites') {
+        renderFavoritesList(searchText)
+      } else {
+        search_for(searchText)
+      }
     } else {
-      refreshDisplay()
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        refreshDisplay()
+      }
     }
   })
 
@@ -365,9 +423,17 @@ function loadClickListeners() {
     // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim()
     if (searchText.length >= 3) {
-      search_for(searchText)
+      if (overlayMode === 'favorites') {
+        renderFavoritesList(searchText)
+      } else {
+        search_for(searchText)
+      }
     } else {
-      refreshDisplay()
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        refreshDisplay()
+      }
     }
   })
 
@@ -379,9 +445,17 @@ function loadClickListeners() {
     // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim()
     if (searchText.length >= 3) {
-      search_for(searchText)
+      if (overlayMode === 'favorites') {
+        renderFavoritesList(searchText)
+      } else {
+        search_for(searchText)
+      }
     } else {
-      refreshDisplay()
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        refreshDisplay()
+      }
     }
   })
 }
@@ -391,7 +465,28 @@ function closeSearchAndRestore() {
   $('body').removeClass('search-mode')
   $('#search-wisdom-quotes').val('')
   window.currentSearchResults = null
+  overlayMode = 'none'
+  setSearchPlaceholder()
   refreshDisplay()
+}
+
+function enterFavoritesMode() {
+  // Ensure favorites are up to date before rendering
+  loadSearchSignals(() => {
+    overlayMode = 'favorites'
+    $('#search-container-top').addClass('active')
+    $('body').addClass('search-mode')
+
+    // Make it obvious the search bar is now filtering favorites
+    $('#search-wisdom-quotes').attr('placeholder', 'Search favorites')
+    $('#search-wisdom-quotes').val('')
+    populateYearFilterOptions()
+
+    renderFavoritesList('')
+    setTimeout(() => {
+      $('#search-wisdom-quotes').focus()
+    }, 50)
+  })
 }
 
 function initializeMiniSearch() {
@@ -616,6 +711,8 @@ function displaySearchResults(results) {
         $('#search-container-top').removeClass('active')
         $('body').removeClass('search-mode')
         $('#search-wisdom-quotes').val('')
+        overlayMode = 'none'
+        setSearchPlaceholder()
         return
       }
     }
@@ -628,10 +725,178 @@ function displaySearchResults(results) {
         $('#search-container-top').removeClass('active')
         $('body').removeClass('search-mode')
         $('#search-wisdom-quotes').val('')
+        overlayMode = 'none'
+        setSearchPlaceholder()
         return
       }
     }
   })
+}
+
+function displayFavoritesResults(results, queryText) {
+  // Clear current display
+  clearContentDisplay()
+
+  // Hide elements that aren't needed for list view
+  explanationBox.hide()
+  authorAttribution.hide()
+  newsletterLink.hide()
+
+  const q = (queryText || '').trim()
+  if (q.length >= 3) {
+    introHeading.html(
+      `Favorites: ${results.length} match${
+        results.length === 1 ? '' : 'es'
+      } for "${q}"`
+    )
+  } else {
+    introHeading.html(`Favorites (${results.length})`)
+  }
+
+  if (results.length === 0) {
+    mainContent.html(
+      `<div class="search-hint"><p>No favorites found with the current filters.</p></div>`
+    )
+    window.currentSearchResults = []
+    return
+  }
+
+  let resultsHtml = '<div class="search-results">'
+  results.forEach((item, index) => {
+    const category = getCategoryLabel(item)
+    const previewText = getSearchPreviewText(item, q)
+    const highlightedPreview =
+      q.length >= 3 ? highlightSearchTerms(previewText, q) : previewText
+    const formattedDate = item.date?.trim() || ''
+
+    resultsHtml += `
+      <div class="search-result-item" data-index="${index}" data-item-id="${
+      item.id || ''
+    }" data-item-section="${item.section || ''}">
+        <div class="search-result-header">
+          <div class="search-result-category">${category}</div>
+          ${
+            formattedDate
+              ? `<div class="search-result-date">${formattedDate}</div>`
+              : ''
+          }
+        </div>
+        <div class="search-result-content">
+          <div class="search-result-intro">${item.intro || ''}</div>
+          <div class="search-result-preview">${highlightedPreview}</div>
+        </div>
+      </div>
+    `
+  })
+  resultsHtml += '</div>'
+  mainContent.html(resultsHtml)
+
+  window.currentSearchResults = results
+
+  $('.search-result-item').click(function (e) {
+    e.stopPropagation()
+
+    const index = Number.parseInt($(this).data('index'))
+    const itemId = $(this).data('item-id')
+
+    const selected = window.currentSearchResults?.[index]
+    const fullItem = findItemById(selected?.id || itemId) || selected
+    if (!fullItem?.id) return
+
+    displayContent(fullItem)
+    // Exit favorites overlay without triggering a random refresh
+    $('#search-container-top').removeClass('active')
+    $('body').removeClass('search-mode')
+    $('#search-wisdom-quotes').val('')
+    window.currentSearchResults = null
+    overlayMode = 'none'
+    setSearchPlaceholder()
+  })
+}
+
+function renderFavoritesList(queryText) {
+  const q = (queryText || '').trim()
+
+  // Ensure year dropdown stays in sync with available years
+  populateYearFilterOptions()
+
+  const allFavItems = [...ideas, ...quotes, ...questions].filter((item) =>
+    favoriteIds.has(item.id)
+  )
+
+  if (allFavItems.length === 0) {
+    clearContentDisplay()
+    explanationBox.hide()
+    authorAttribution.hide()
+    newsletterLink.hide()
+    introHeading.html('Favorites')
+    mainContent.html(
+      `<div class="search-hint"><p>You haven’t favorited anything yet.</p></div>`
+    )
+    window.currentSearchResults = []
+    return
+  }
+
+  const passesCategory = (item) => {
+    if (item.section === 'Ideas') return activeFilters.ideas
+    if (item.section === 'Quotes') return activeFilters.quotes
+    if (item.section === 'Questions') return activeFilters.questions
+    return true
+  }
+  const passesYear = (item) => {
+    if (!activeYearFilter || activeYearFilter === 'all') return true
+    return String(item.date || '').startsWith(activeYearFilter)
+  }
+
+  if (q.length >= 3) {
+    if (!miniSearch) initializeMiniSearch()
+    if (!miniSearch) {
+      displaySearchError('Favorites search failed to initialize.')
+      return
+    }
+
+    const raw = miniSearch.search(q, { limit: 200 })
+    const docs = raw
+      .filter((r) => favoriteIds.has(r.id))
+      .map((r) => {
+        const doc = searchDocsById.get(r.id)
+        if (!doc) return null
+        return { ...doc, _score: r.score || 0, _isFavorite: true }
+      })
+      .filter(Boolean)
+      .filter(passesCategory)
+      .filter(passesYear)
+
+    docs.sort((a, b) => {
+      if ((b._score || 0) !== (a._score || 0))
+        return (b._score || 0) - (a._score || 0)
+      return String(b.date || '').localeCompare(String(a.date || ''))
+    })
+
+    displayFavoritesResults(docs, q)
+    return
+  }
+
+  // No query: show all favorites, newest first
+  const docs = allFavItems
+    .filter(passesCategory)
+    .filter(passesYear)
+    .map((item) => {
+      return {
+        id: item.id,
+        quote: item.quote ? markdownToPlainText(item.quote) : '',
+        intro: item.intro || '',
+        explanation: item.explanation || '',
+        author: item.author || '',
+        date: item.date || '',
+        section: item.section || '',
+        _isFavorite: true,
+        _score: 0,
+      }
+    })
+
+  docs.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')))
+  displayFavoritesResults(docs, '')
 }
 
 function getCategoryLabel(item) {
@@ -813,12 +1078,20 @@ function refreshDisplay() {
   const searchContainer = $('#search-container-top')
   const searchText = $('#search-wisdom-quotes').val().trim()
   if (searchContainer.hasClass('active')) {
-    if (searchText.length >= 3) {
-      search_for(searchText)
-    } else if (searchText.length === 0) {
-      showSearchHint(0)
+    if (overlayMode === 'favorites') {
+      if (searchText.length >= 3) {
+        renderFavoritesList(searchText)
+      } else {
+        renderFavoritesList('')
+      }
     } else {
-      showSearchHint(searchText.length)
+      if (searchText.length >= 3) {
+        search_for(searchText)
+      } else if (searchText.length === 0) {
+        showSearchHint(0)
+      } else {
+        showSearchHint(searchText.length)
+      }
     }
     return
   }
@@ -853,6 +1126,11 @@ function refreshDisplay() {
 // Removed setCurrently function - no longer needed
 
 function setSearchPlaceholder() {
+  if (overlayMode === 'favorites') {
+    $('#search-wisdom-quotes').attr('placeholder', 'Search favorites')
+    return
+  }
+
   // Build placeholder text based on active filters
   const activeCategories = []
   if (activeFilters.ideas) activeCategories.push('ideas')

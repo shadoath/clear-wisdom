@@ -35,6 +35,11 @@
       <img src="./images/refresh.png" alt="refresh button" />
     </div>
 
+    <!-- Favorites button positioned near top right -->
+    <div id="favorites-view" class="favorites-button" title="View favorites">
+      <img src="./images/heart-solid.svg" alt="favorites" />
+    </div>
+
     <div id="text-container" class="page-container">
 
 
@@ -103,14 +108,17 @@
     <!-- Footer -->
     <div id="footer" class="page-footer">
       <div id="current-options" class="footer-left">
-        <div
-          id="count"
-          class="action-counter"
-          title="Number of times viewed"
-        ></div>
-        <div id="favorite" class="action-favorite">
-          <img class="heart-light" src="./images/heart-light.svg" alt="" />
-          <img class="heart-solid" src="./images/heart-solid.svg" alt="" />
+        <div class="footer-metric">
+          <div id="count" class="action-counter" title="View count"></div>
+          <div id="count-label" class="action-counter-label">view(s)</div>
+        </div>
+
+        <div class="footer-metric">
+          <div id="favorite" class="action-favorite">
+            <img class="heart-light" src="./images/heart-light.svg" alt="" />
+            <img class="heart-solid" src="./images/heart-solid.svg" alt="" />
+          </div>
+          <div id="favorite-label" class="action-favorite-label">favorite</div>
         </div>
       </div>
       
