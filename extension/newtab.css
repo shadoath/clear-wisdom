@@ -23,6 +23,72 @@ body {
   overflow: auto;
 }
 
+/* Full-page search mode */
+body.search-mode {
+  justify-content: flex-start;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+body.search-mode .page-container {
+  max-width: 900px;
+  max-height: 100vh;
+  justify-content: flex-start;
+  padding-top: 120px;
+}
+
+body.search-mode .logo-section {
+  display: none;
+}
+
+body.search-mode .page-footer {
+  display: none;
+}
+
+body.search-mode .content-section {
+  margin-top: 0;
+  gap: var(--spacing-lg);
+}
+
+body.search-mode .content-body {
+  max-height: 70vh;
+}
+
+body.search-mode .search-container-top {
+  left: 50%;
+  top: var(--spacing-xl);
+  transform: translateX(-50%);
+  border-radius: var(--radius-lg);
+}
+
+body.search-mode .search-icon-top-left {
+  width: 40px;
+  height: 40px;
+}
+
+body.search-mode .search-container-top.active .search-input-wrapper {
+  width: 520px;
+  opacity: 1;
+  padding: 0 var(--spacing-md);
+}
+
+body.search-mode .search-input-top {
+  font-size: var(--font-size-large);
+  padding: var(--spacing-md) var(--spacing-lg);
+}
+
+body.search-mode .search-category-filters {
+  position: sticky;
+  top: 90px;
+  z-index: 20;
+  padding-bottom: var(--spacing-md);
+  background: linear-gradient(
+    to bottom,
+    var(--bg-primary) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
 /* Layout Classes */
 .page-container {
   position: relative;
@@ -622,6 +688,25 @@ body {
   font-style: italic;
 }
 
+.search-results-section-title {
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  letter-spacing: 0.6pt;
+  text-transform: uppercase;
+  color: var(--text-light);
+  margin: var(--spacing-xl) 0 var(--spacing-md) 0;
+  text-align: left;
+  opacity: 0.85;
+}
+
+.search-result-favorite {
+  margin-top: var(--spacing-md);
+  font-size: var(--font-size-small);
+  color: var(--primary-color);
+  text-align: left;
+  opacity: 0.9;
+}
+
 .search-result-date {
   font-family: var(--font-family);
   font-size: var(--font-size-md);
@@ -883,6 +968,10 @@ body {
 
   .search-container-top.active .search-input-wrapper {
     width: 200px;
+  }
+
+  body.search-mode .search-container-top.active .search-input-wrapper {
+    width: 320px;
   }
 
   .content-highlight {
