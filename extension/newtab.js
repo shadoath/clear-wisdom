@@ -326,6 +326,9 @@ function loadClickListeners() {
 function initializeMiniSearch() {
   if (typeof window.MiniSearch !== 'function') {
     console.error('MiniSearch not available')
+    displaySearchError(
+      'Search failed to initialize. Please reload the tab (MiniSearch missing).'
+    )
     return
   }
 
@@ -380,6 +383,9 @@ function search_for(search_text) {
 
   if (!miniSearch) {
     console.error('MiniSearch not initialized')
+    displaySearchError(
+      'Search failed to initialize. Please reload the tab (index missing).'
+    )
     return
   }
 
@@ -429,6 +435,15 @@ function search_for(search_text) {
     // No results found
     displayNoResults(search_text)
   }
+}
+
+function displaySearchError(message) {
+  clearContentDisplay()
+  explanationBox.hide()
+  authorAttribution.hide()
+  newsletterLink.hide()
+  introHeading.html('Search unavailable')
+  mainContent.html(`<div class="search-hint"><p>${message}</p></div>`)
 }
 
 function displaySearchResults(results) {
@@ -517,7 +532,8 @@ function displaySearchResults(results) {
       const selectedItem = window.currentSearchResults[index]
 
       if (selectedItem?.id) {
-        displayContent(selectedItem)
+        const fullItem = findItemById(selectedItem.id) || selectedItem
+        displayContent(fullItem)
         $('#search-container-top').removeClass('active')
         $('body').removeClass('search-mode')
         $('#search-wisdom-quotes').val('')
