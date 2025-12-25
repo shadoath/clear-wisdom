@@ -3,7 +3,7 @@
   "name": "Clear Wisdom - Gems of wisdom from James Clear's newsletter",
   "short_name": "ClearWisdom",
   "version": "2025.12.25",
-  "description": "Revisit the wisdom of James Clear daily in a new tab",
+  "description": "Transform every new tab into a moment of wisdom from James Clear's acclaimed 3-2-1 newsletter. 300+ insights and growing!",
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
