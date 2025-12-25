@@ -3,7 +3,7 @@
     <title>New Clear Wisdom</title>
     <link rel="stylesheet" href="newtab.css" />
     <script type="text/javascript" src="/lib/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript" src="/lib/fuse.min.js"></script>
+    <script type="text/javascript" src="/lib/minisearch.min.js"></script>
   </head>
   <body>
     <!-- Search icon and input container in top left -->
@@ -19,11 +19,25 @@
           autocomplete="off"
         />
       </div>
+      <button
+        id="search-close"
+        class="search-close-btn"
+        type="button"
+        aria-label="Close search"
+        title="Close search"
+      >
+        <img src="./images/close.svg" alt="search" />
+      </button>
     </div>
 
     <!-- Refresh button positioned at top right -->
     <div id="refresh" class="refresh-button">
       <img src="./images/refresh.png" alt="refresh button" />
+    </div>
+
+    <!-- Favorites button positioned near top right -->
+    <div id="favorites-view" class="favorites-button" title="View favorites">
+      <img src="./images/heart-solid.svg" alt="favorites" />
     </div>
 
     <div id="text-container" class="page-container">
@@ -81,6 +95,12 @@
               Questions
             </button>
           </div>
+          <div class="year-filter">
+            <label class="year-filter-label" for="filter-year">Year</label>
+            <select id="filter-year" class="year-filter-select">
+              <option value="all">All years</option>
+            </select>
+          </div>
         </div>
       </div>
     </div>
@@ -88,14 +108,17 @@
     <!-- Footer -->
     <div id="footer" class="page-footer">
       <div id="current-options" class="footer-left">
-        <div
-          id="count"
-          class="action-counter"
-          title="Number of times viewed"
-        ></div>
-        <div id="favorite" class="action-favorite">
-          <img class="heart-light" src="./images/heart-light.svg" alt="" />
-          <img class="heart-solid" src="./images/heart-solid.svg" alt="" />
+        <div class="footer-metric">
+          <div id="count" class="action-counter" title="View count"></div>
+          <div id="count-label" class="action-counter-label">view(s)</div>
+        </div>
+
+        <div class="footer-metric">
+          <div id="favorite" class="action-favorite">
+            <img class="heart-light" src="./images/heart-light.svg" alt="" />
+            <img class="heart-solid" src="./images/heart-solid.svg" alt="" />
+          </div>
+          <div id="favorite-label" class="action-favorite-label">favorite</div>
         </div>
       </div>
       

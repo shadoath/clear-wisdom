@@ -20,8 +20,20 @@ let activeFilters = {
   questions: true,
 }
 
-// Fuse.js search instance
-let fuseInstance = null
+// MiniSearch instance (loaded from /lib/minisearch.min.js)
+let miniSearch = null
+let searchDocsById = new Map()
+
+// Search personalization state (loaded from chrome.storage)
+let favoriteIds = new Set()
+let viewCountsById = new Map()
+
+// Year filter state for search mode
+let activeYearFilter = 'all'
+let availableYears = []
+
+// Overlay mode: 'none' | 'search' | 'favorites'
+let overlayMode = 'none'
 
 // Debounced search function
 let searchTimeout = null
@@ -40,25 +52,31 @@ import { getRandomFromArray, fadeIn, log, matchRuleShort } from './src/util.js'
 import { parseMarkdown, markdownToPlainText } from './src/markdown.js'
 
 $(() => {
-  // Load all three files
-  $.getJSON('/lib/ideas.json', (json) => {
-    $(json).each((layer, value) => {
-      ideas.push(value)
-    })
-  })
-  $.getJSON('/lib/quotes.json', (json) => {
-    $(json).each((layer, value) => {
-      quotes.push(value)
-    })
-  })
-  $.getJSON('/lib/questions.json', (json) => {
-    $(json).each((layer, value) => {
-      questions.push(value)
-    })
-    // Initialize after all files are loaded
-    initializeFuseSearch()
-    newTab()
-  })
+  // Load all three files (wait for all before indexing, so search covers everything)
+  const ideasReq = $.getJSON('/lib/ideas.json')
+  const quotesReq = $.getJSON('/lib/quotes.json')
+  const questionsReq = $.getJSON('/lib/questions.json')
+
+  $.when(ideasReq, quotesReq, questionsReq).done(
+    (ideasRes, quotesRes, questionsRes) => {
+      const ideasJson = ideasRes?.[0] || []
+      const quotesJson = quotesRes?.[0] || []
+      const questionsJson = questionsRes?.[0] || []
+
+      $(ideasJson).each((layer, value) => ideas.push(value))
+      $(quotesJson).each((layer, value) => quotes.push(value))
+      $(questionsJson).each((layer, value) => questions.push(value))
+
+      availableYears = deriveAvailableYears([...ideas, ...quotes, ...questions])
+      populateYearFilterOptions()
+
+      // Initialize after all files are loaded
+      loadSearchSignals(() => {
+        initializeMiniSearch()
+      })
+      newTab()
+    }
+  )
   loadClickListeners()
 
   // Listen for storage changes to update count visibility
@@ -66,8 +84,59 @@ $(() => {
     if (namespace === 'sync' && changes.hideCount) {
       updateCountVisibility()
     }
+    // Keep favorites-first ranking up to date when favorites change.
+    if (namespace === 'sync') {
+      const changedKeys = Object.keys(changes || {})
+      if (changedKeys.some((k) => k.includes('_fav_'))) {
+        loadSearchSignals(() => {
+          const searchContainer = $('#search-container-top')
+          const searchText = $('#search-wisdom-quotes').val().trim()
+          if (searchContainer.hasClass('active')) {
+            if (overlayMode === 'favorites') {
+              renderFavoritesList(searchText)
+            } else if (searchText.length >= 3) {
+              search_for(searchText)
+            }
+          }
+        })
+      }
+    }
   })
 })
+
+function loadSearchSignals(done) {
+  // Load favorites + view counts once at startup, for ranking.
+  chrome.storage.sync.get(null, (all) => {
+    favoriteIds = new Set()
+    viewCountsById = new Map()
+
+    for (const [key, value] of Object.entries(all || {})) {
+      if (key.includes('_fav_') && typeof value === 'string') {
+        try {
+          const obj = JSON.parse(value)
+          for (const [id, liked] of Object.entries(obj)) {
+            if (liked) favoriteIds.add(id)
+          }
+        } catch (_) {
+          // ignore malformed
+        }
+      }
+      if (key.includes('_count_') && typeof value === 'string') {
+        try {
+          const obj = JSON.parse(value)
+          for (const [id, count] of Object.entries(obj)) {
+            const num = Number.parseInt(count, 10)
+            if (!Number.isNaN(num)) viewCountsById.set(id, num)
+          }
+        } catch (_) {
+          // ignore malformed
+        }
+      }
+    }
+
+    done?.()
+  })
+}
 
 // Load category filters from storage
 function loadCategoryFilters() {
@@ -86,6 +155,19 @@ function saveCategoryFilters() {
   chrome.storage.sync.set({ categoryFilters: activeFilters })
 }
 
+function loadYearFilter() {
+  chrome.storage.sync.get(['searchYearFilter'], (result) => {
+    if (result.searchYearFilter) {
+      activeYearFilter = result.searchYearFilter
+    }
+    populateYearFilterOptions()
+  })
+}
+
+function saveYearFilter() {
+  chrome.storage.sync.set({ searchYearFilter: activeYearFilter })
+}
+
 // Update filter button UI to match current state
 function updateFilterButtons() {
   $('#filter-ideas').toggleClass('active', activeFilters.ideas)
@@ -93,18 +175,56 @@ function updateFilterButtons() {
   $('#filter-questions').toggleClass('active', activeFilters.questions)
 }
 
+function deriveAvailableYears(items) {
+  const years = new Set()
+  for (const item of items || []) {
+    const date = (item?.date || '').trim()
+    if (date.length >= 4) years.add(date.slice(0, 4))
+  }
+  return Array.from(years).sort((a, b) => String(b).localeCompare(String(a)))
+}
+
+function populateYearFilterOptions() {
+  const select = $('#filter-year')
+  if (select.length === 0) return
+
+  const years = availableYears || []
+  let html = '<option value="all">All years</option>'
+  for (const y of years) {
+    html += `<option value="${y}">${y}</option>`
+  }
+  select.html(html)
+
+  // Keep current selection if possible
+  const hasCurrent =
+    activeYearFilter === 'all' || years.includes(activeYearFilter)
+  if (!hasCurrent) activeYearFilter = 'all'
+  select.val(activeYearFilter)
+}
+
 // Update count visibility based on hideCount setting
 function updateCountVisibility() {
   chrome.storage.sync.get(['hideCount'], (result) => {
     if (result.hideCount) {
       $('#count').hide()
+      $('#count-label').hide()
     } else {
       $('#count').show()
+      $('#count-label').show()
     }
   })
 }
 
 function loadClickListeners() {
+  // Favorites view button
+  $('#favorites-view').click(() => {
+    if (overlayMode === 'favorites') {
+      closeSearchAndRestore()
+      return
+    }
+    enterFavoritesMode()
+  })
+
   // Search icon click handler
   $('#search-icon').click(() => {
     const searchContainer = $('#search-container-top')
@@ -112,13 +232,13 @@ function loadClickListeners() {
 
     if (searchContainer.hasClass('active')) {
       // If search is already active, hide it
-      searchContainer.removeClass('active')
-      searchInput.val('')
-      // Clear any search results and restore normal display
-      refreshDisplay()
+      closeSearchAndRestore()
     } else {
       // Show search container and focus input
       searchContainer.addClass('active')
+      $('body').addClass('search-mode')
+      overlayMode = 'search'
+      setSearchPlaceholder()
       // Use setTimeout to ensure the transition completes before focusing
       setTimeout(() => {
         searchInput.focus()
@@ -126,19 +246,31 @@ function loadClickListeners() {
     }
   })
 
-  // Close search when clicking outside
-  $(document).click((e) => {
-    const searchContainer = $('#search-container-top')
+  // Close button inside search
+  $('#search-close').click((e) => {
+    e.stopPropagation()
+    closeSearchAndRestore()
+  })
 
+  // Year filter change handler (search mode)
+  $('#filter-year').change(() => {
+    activeYearFilter = String($('#filter-year').val() || 'all')
+    saveYearFilter()
+    const searchText = $('#search-wisdom-quotes').val().trim()
     if (
-      !searchContainer.is(e.target) &&
-      searchContainer.has(e.target).length === 0
+      $('#search-container-top').hasClass('active') &&
+      searchText.length >= 3
     ) {
-      searchContainer.removeClass('active')
-      $('#search-wisdom-quotes').val('')
-      // Only refresh display if we were showing search results
-      if (window.currentSearchResults) {
-        // refreshDisplay()
+      if (overlayMode === 'favorites') {
+        renderFavoritesList(searchText)
+      } else {
+        search_for(searchText)
+      }
+    } else if ($('#search-container-top').hasClass('active')) {
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        refreshDisplay()
       }
     }
   })
@@ -154,14 +286,26 @@ function loadClickListeners() {
     if (search_text.length >= 3) {
       // Debounce search for better performance
       searchTimeout = setTimeout(() => {
-        search_for(search_text)
+        if (overlayMode === 'favorites') {
+          renderFavoritesList(search_text)
+        } else {
+          search_for(search_text)
+        }
       }, 300)
     } else if (search_text.length === 0) {
       // If search is cleared, restore the current display
-      refreshDisplay()
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        refreshDisplay()
+      }
     } else if (search_text.length === 1 || search_text.length === 2) {
       // Show helpful message for 1-2 characters
-      showSearchHint(search_text.length)
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        showSearchHint(search_text.length)
+      }
     }
   })
 
@@ -171,19 +315,44 @@ function loadClickListeners() {
       // Enter key
       const search_text = $('#search-wisdom-quotes').val().trim()
       if (search_text.length > 0) {
-        search_for(search_text)
+        if (overlayMode === 'favorites') {
+          renderFavoritesList(search_text)
+        } else {
+          search_for(search_text)
+        }
       }
     }
   })
 
   // Handle Escape key to close search and arrow keys for navigation
   $(document).keydown((e) => {
+    // Slash focuses search (unless you are already typing in an input)
+    if (e.key === '/' && !isTypingInInput(e)) {
+      e.preventDefault()
+      $('#search-container-top').addClass('active')
+      $('body').addClass('search-mode')
+      overlayMode = 'search'
+      setSearchPlaceholder()
+      $('#search-wisdom-quotes').focus()
+    }
+
     if (e.key === 'Escape') {
       const searchContainer = $('#search-container-top')
       if (searchContainer.hasClass('active')) {
-        searchContainer.removeClass('active')
-        $('#search-wisdom-quotes').val('')
-        refreshDisplay()
+        const searchInput = $('#search-wisdom-quotes')
+        const current = searchInput.val().trim()
+        if (current.length > 0) {
+          // First Esc clears query but stays in full-page search mode.
+          searchInput.val('')
+          if (overlayMode === 'favorites') {
+            renderFavoritesList('')
+          } else {
+            refreshDisplay()
+          }
+        } else {
+          // Second Esc exits search mode.
+          closeSearchAndRestore()
+        }
       }
     }
 
@@ -229,14 +398,20 @@ function loadClickListeners() {
     $('#filter-ideas').toggleClass('active', activeFilters.ideas)
     saveCategoryFilters() // Save state to storage
     setSearchPlaceholder() // Update placeholder based on new filter state
-    // Reinitialize Fuse.js with new filter state
-    fuseInstance = null
     // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim()
     if (searchText.length >= 3) {
-      search_for(searchText)
+      if (overlayMode === 'favorites') {
+        renderFavoritesList(searchText)
+      } else {
+        search_for(searchText)
+      }
     } else {
-      refreshDisplay()
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        refreshDisplay()
+      }
     }
   })
 
@@ -245,14 +420,20 @@ function loadClickListeners() {
     $('#filter-quotes').toggleClass('active', activeFilters.quotes)
     saveCategoryFilters() // Save state to storage
     setSearchPlaceholder() // Update placeholder based on new filter state
-    // Reinitialize Fuse.js with new filter state
-    fuseInstance = null
     // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim()
     if (searchText.length >= 3) {
-      search_for(searchText)
+      if (overlayMode === 'favorites') {
+        renderFavoritesList(searchText)
+      } else {
+        search_for(searchText)
+      }
     } else {
-      refreshDisplay()
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        refreshDisplay()
+      }
     }
   })
 
@@ -261,57 +442,93 @@ function loadClickListeners() {
     $('#filter-questions').toggleClass('active', activeFilters.questions)
     saveCategoryFilters() // Save state to storage
     setSearchPlaceholder() // Update placeholder based on new filter state
-    // Reinitialize Fuse.js with new filter state
-    fuseInstance = null
     // Re-run search if there's active search text, otherwise refresh display
     const searchText = $('#search-wisdom-quotes').val().trim()
     if (searchText.length >= 3) {
-      search_for(searchText)
+      if (overlayMode === 'favorites') {
+        renderFavoritesList(searchText)
+      } else {
+        search_for(searchText)
+      }
     } else {
-      refreshDisplay()
+      if (overlayMode === 'favorites') {
+        renderFavoritesList('')
+      } else {
+        refreshDisplay()
+      }
     }
   })
 }
 
-function initializeFuseSearch() {
-  // Build content array based on active filters
-  const allContent = []
-  if (activeFilters.ideas) allContent.push(...ideas)
-  if (activeFilters.quotes) allContent.push(...quotes)
-  if (activeFilters.questions) allContent.push(...questions)
+function closeSearchAndRestore() {
+  $('#search-container-top').removeClass('active')
+  $('body').removeClass('search-mode')
+  $('#search-wisdom-quotes').val('')
+  window.currentSearchResults = null
+  overlayMode = 'none'
+  setSearchPlaceholder()
+  refreshDisplay()
+}
 
-  // Create a clean version of content for search (with markdown stripped from quotes)
-  const searchContent = allContent.map((item) => {
-    const cleanItem = { ...item }
-    if (cleanItem.quote) {
-      // Strip markdown from quote content for better search
-      cleanItem.quote = markdownToPlainText(cleanItem.quote)
-    }
-    return cleanItem
+function enterFavoritesMode() {
+  // Ensure favorites are up to date before rendering
+  loadSearchSignals(() => {
+    overlayMode = 'favorites'
+    $('#search-container-top').addClass('active')
+    $('body').addClass('search-mode')
+
+    // Make it obvious the search bar is now filtering favorites
+    $('#search-wisdom-quotes').attr('placeholder', 'Search favorites')
+    $('#search-wisdom-quotes').val('')
+    populateYearFilterOptions()
+
+    renderFavoritesList('')
+    setTimeout(() => {
+      $('#search-wisdom-quotes').focus()
+    }, 50)
   })
+}
 
-  // Configure Fuse.js options for better search
-  // https://www.fusejs.io/api/options.html#fuzzy-matching-options
-  const fuseOptions = {
-    keys: [
-      { name: 'quote', weight: 0.8 },
-      { name: 'author', weight: 0.6 },
-      { name: 'intro', weight: 0.4 },
-      { name: 'date', weight: 0.2 },
-      { name: 'explanation', weight: 0.1 },
-    ],
-    threshold: 0.2,
-    minMatchCharLength: 3,
-    includeScore: true,
-    includeMatches: true,
-    shouldSort: true,
-    findAllMatches: true,
-    ignoreLocation: true,
-    ignoreDiacritics: true,
+function initializeMiniSearch() {
+  if (typeof window.MiniSearch !== 'function') {
+    console.error('MiniSearch not available')
+    displaySearchError(
+      'Search failed to initialize. Please reload the tab (MiniSearch missing).'
+    )
+    return
   }
 
-  // Initialize Fuse.js instance with clean content
-  fuseInstance = new Fuse(searchContent, fuseOptions)
+  const allItems = [...ideas, ...quotes, ...questions]
+
+  const docs = allItems.map((item) => {
+    return {
+      id: item.id,
+      quote: item.quote ? markdownToPlainText(item.quote) : '',
+      intro: item.intro || '',
+      explanation: item.explanation || '',
+      author: item.author || '',
+      date: item.date || '',
+      section: item.section || '',
+    }
+  })
+
+  searchDocsById = new Map()
+  for (const d of docs) searchDocsById.set(d.id, d)
+
+  miniSearch = new window.MiniSearch({
+    idField: 'id',
+    fields: ['quote', 'intro', 'explanation', 'author', 'section', 'date'],
+    storeFields: [
+      'id',
+      'section',
+      'date',
+      'intro',
+      'quote',
+      'author',
+      'explanation',
+    ],
+  })
+  miniSearch.addAll(docs)
 }
 
 function hasActiveFilters() {
@@ -326,28 +543,64 @@ function search_for(search_text) {
     return
   }
 
-  // Initialize Fuse.js if not already done
-  if (!fuseInstance) {
-    initializeFuseSearch()
+  if (!miniSearch) {
+    initializeMiniSearch()
   }
 
-  if (!fuseInstance) {
-    console.error('Fuse.js not initialized')
+  if (!miniSearch) {
+    console.error('MiniSearch not initialized')
+    displaySearchError(
+      'Search failed to initialize. Please reload the tab (index missing).'
+    )
     return
   }
 
-  // Perform fuzzy search
-  const searchResults = fuseInstance.search(search_text, {
-    limit: 20, // Limit results for better performance
+  // Search index (returns [{ id, score, storedFields }...])
+  const rawResults = miniSearch.search(search_text, { limit: 80 })
+
+  const mapped = rawResults
+    .map((r) => {
+      const doc = searchDocsById.get(r.id)
+      if (!doc) return null
+      return {
+        ...doc,
+        _score: r.score || 0,
+        _isFavorite: favoriteIds.has(doc.id),
+        _viewCount: viewCountsById.get(doc.id) || 0,
+      }
+    })
+    .filter(Boolean)
+
+  // Apply category filters
+  const filtered = mapped.filter((item) => {
+    if (item.section === 'Ideas') return activeFilters.ideas
+    if (item.section === 'Quotes') return activeFilters.quotes
+    if (item.section === 'Questions') return activeFilters.questions
+    return true
   })
 
-  // Extract the actual items from Fuse.js results and add match info
-  const result = searchResults.map((item) => {
-    const resultItem = { ...item.item }
-    resultItem._fuseMatches = item.matches // Store match information
-    resultItem._fuseScore = item.score // Store relevance score
-    return resultItem
-  })
+  // Apply year filter (search mode only)
+  const yearFiltered =
+    activeYearFilter && activeYearFilter !== 'all'
+      ? filtered.filter((item) =>
+          String(item.date || '').startsWith(activeYearFilter)
+        )
+      : filtered
+
+  // Favorites-first ranking, then textual relevance, then recency.
+  const favorites = yearFiltered.filter((x) => x._isFavorite)
+  const nonFavorites = yearFiltered.filter((x) => !x._isFavorite)
+
+  const byScoreThenDate = (a, b) => {
+    if (b._score !== a._score) return b._score - a._score
+    if (b.date !== a.date) return String(b.date).localeCompare(String(a.date))
+    return 0
+  }
+
+  favorites.sort(byScoreThenDate)
+  nonFavorites.sort(byScoreThenDate)
+
+  const result = [...favorites, ...nonFavorites].slice(0, 50)
 
   if (result.length > 0) {
     // Display search results
@@ -356,6 +609,15 @@ function search_for(search_text) {
     // No results found
     displayNoResults(search_text)
   }
+}
+
+function displaySearchError(message) {
+  clearContentDisplay()
+  explanationBox.hide()
+  authorAttribution.hide()
+  newsletterLink.hide()
+  introHeading.html('Search unavailable')
+  mainContent.html(`<div class="search-hint"><p>${message}</p></div>`)
 }
 
 function displaySearchResults(results) {
@@ -379,23 +641,22 @@ function displaySearchResults(results) {
   // Display all results in a list format with category labels
   let resultsHtml = '<div class="search-results">'
 
-  results.forEach((item, index) => {
-    const category = getCategoryLabel(item)
-    const previewText = getPreviewText(item)
-    const searchTerm = $('#search-wisdom-quotes').val().trim()
+  const favoritesCount = results.filter((r) => r._isFavorite).length
+  if (favoritesCount > 0) {
+    resultsHtml += `<div class="search-results-section-title">Favorites</div>`
+  }
 
-    // Debug: Show where matches occurred and relevance score
-    let matchInfo = ''
-    if (item._fuseMatches) {
-      const matchFields = item._fuseMatches.map((match) => match.key).join(', ')
-      const score = item._fuseScore ? (1 - item._fuseScore).toFixed(2) : 'N/A'
-      matchInfo = `
-        <div class="search-match-info">
-          <span class="match-fields">Matched in: ${matchFields}</span>
-          <span class="relevance-score">Relevance: ${score}</span>
-        </div>
-      `
+  results.forEach((item, index) => {
+    if (favoritesCount > 0 && index === favoritesCount) {
+      resultsHtml += `<div class="search-results-section-title">All results</div>`
     }
+    const category = getCategoryLabel(item)
+    const searchTerm = $('#search-wisdom-quotes').val().trim()
+    const previewText = getSearchPreviewText(item, searchTerm)
+
+    const favoriteBadge = item._isFavorite
+      ? `<div class="search-result-favorite">★ Favorite</div>`
+      : ''
 
     // Highlight search terms in preview text
     const highlightedPreview = highlightSearchTerms(previewText, searchTerm)
@@ -418,7 +679,7 @@ function displaySearchResults(results) {
         <div class="search-result-content">
           <div class="search-result-intro">${item.intro || ''}</div>
           <div class="search-result-preview">${highlightedPreview}</div>
-          ${matchInfo}
+          ${favoriteBadge}
         </div>
       </div>
     `
@@ -445,9 +706,13 @@ function displaySearchResults(results) {
       const selectedItem = window.currentSearchResults[index]
 
       if (selectedItem?.id) {
-        displayContent(selectedItem)
+        const fullItem = findItemById(selectedItem.id) || selectedItem
+        displayContent(fullItem)
         $('#search-container-top').removeClass('active')
+        $('body').removeClass('search-mode')
         $('#search-wisdom-quotes').val('')
+        overlayMode = 'none'
+        setSearchPlaceholder()
         return
       }
     }
@@ -458,11 +723,180 @@ function displaySearchResults(results) {
       if (foundItem) {
         displayContent(foundItem)
         $('#search-container-top').removeClass('active')
+        $('body').removeClass('search-mode')
         $('#search-wisdom-quotes').val('')
+        overlayMode = 'none'
+        setSearchPlaceholder()
         return
       }
     }
   })
+}
+
+function displayFavoritesResults(results, queryText) {
+  // Clear current display
+  clearContentDisplay()
+
+  // Hide elements that aren't needed for list view
+  explanationBox.hide()
+  authorAttribution.hide()
+  newsletterLink.hide()
+
+  const q = (queryText || '').trim()
+  if (q.length >= 3) {
+    introHeading.html(
+      `Favorites: ${results.length} match${
+        results.length === 1 ? '' : 'es'
+      } for "${q}"`
+    )
+  } else {
+    introHeading.html(`Favorites (${results.length})`)
+  }
+
+  if (results.length === 0) {
+    mainContent.html(
+      `<div class="search-hint"><p>No favorites found with the current filters.</p></div>`
+    )
+    window.currentSearchResults = []
+    return
+  }
+
+  let resultsHtml = '<div class="search-results">'
+  results.forEach((item, index) => {
+    const category = getCategoryLabel(item)
+    const previewText = getSearchPreviewText(item, q)
+    const highlightedPreview =
+      q.length >= 3 ? highlightSearchTerms(previewText, q) : previewText
+    const formattedDate = item.date?.trim() || ''
+
+    resultsHtml += `
+      <div class="search-result-item" data-index="${index}" data-item-id="${
+      item.id || ''
+    }" data-item-section="${item.section || ''}">
+        <div class="search-result-header">
+          <div class="search-result-category">${category}</div>
+          ${
+            formattedDate
+              ? `<div class="search-result-date">${formattedDate}</div>`
+              : ''
+          }
+        </div>
+        <div class="search-result-content">
+          <div class="search-result-intro">${item.intro || ''}</div>
+          <div class="search-result-preview">${highlightedPreview}</div>
+        </div>
+      </div>
+    `
+  })
+  resultsHtml += '</div>'
+  mainContent.html(resultsHtml)
+
+  window.currentSearchResults = results
+
+  $('.search-result-item').click(function (e) {
+    e.stopPropagation()
+
+    const index = Number.parseInt($(this).data('index'))
+    const itemId = $(this).data('item-id')
+
+    const selected = window.currentSearchResults?.[index]
+    const fullItem = findItemById(selected?.id || itemId) || selected
+    if (!fullItem?.id) return
+
+    displayContent(fullItem)
+    // Exit favorites overlay without triggering a random refresh
+    $('#search-container-top').removeClass('active')
+    $('body').removeClass('search-mode')
+    $('#search-wisdom-quotes').val('')
+    window.currentSearchResults = null
+    overlayMode = 'none'
+    setSearchPlaceholder()
+  })
+}
+
+function renderFavoritesList(queryText) {
+  const q = (queryText || '').trim()
+
+  // Ensure year dropdown stays in sync with available years
+  populateYearFilterOptions()
+
+  const allFavItems = [...ideas, ...quotes, ...questions].filter((item) =>
+    favoriteIds.has(item.id)
+  )
+
+  if (allFavItems.length === 0) {
+    clearContentDisplay()
+    explanationBox.hide()
+    authorAttribution.hide()
+    newsletterLink.hide()
+    introHeading.html('Favorites')
+    mainContent.html(
+      `<div class="search-hint"><p>You haven’t favorited anything yet.</p></div>`
+    )
+    window.currentSearchResults = []
+    return
+  }
+
+  const passesCategory = (item) => {
+    if (item.section === 'Ideas') return activeFilters.ideas
+    if (item.section === 'Quotes') return activeFilters.quotes
+    if (item.section === 'Questions') return activeFilters.questions
+    return true
+  }
+  const passesYear = (item) => {
+    if (!activeYearFilter || activeYearFilter === 'all') return true
+    return String(item.date || '').startsWith(activeYearFilter)
+  }
+
+  if (q.length >= 3) {
+    if (!miniSearch) initializeMiniSearch()
+    if (!miniSearch) {
+      displaySearchError('Favorites search failed to initialize.')
+      return
+    }
+
+    const raw = miniSearch.search(q, { limit: 200 })
+    const docs = raw
+      .filter((r) => favoriteIds.has(r.id))
+      .map((r) => {
+        const doc = searchDocsById.get(r.id)
+        if (!doc) return null
+        return { ...doc, _score: r.score || 0, _isFavorite: true }
+      })
+      .filter(Boolean)
+      .filter(passesCategory)
+      .filter(passesYear)
+
+    docs.sort((a, b) => {
+      if ((b._score || 0) !== (a._score || 0))
+        return (b._score || 0) - (a._score || 0)
+      return String(b.date || '').localeCompare(String(a.date || ''))
+    })
+
+    displayFavoritesResults(docs, q)
+    return
+  }
+
+  // No query: show all favorites, newest first
+  const docs = allFavItems
+    .filter(passesCategory)
+    .filter(passesYear)
+    .map((item) => {
+      return {
+        id: item.id,
+        quote: item.quote ? markdownToPlainText(item.quote) : '',
+        intro: item.intro || '',
+        explanation: item.explanation || '',
+        author: item.author || '',
+        date: item.date || '',
+        section: item.section || '',
+        _isFavorite: true,
+        _score: 0,
+      }
+    })
+
+  docs.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')))
+  displayFavoritesResults(docs, '')
 }
 
 function getCategoryLabel(item) {
@@ -487,6 +921,25 @@ function getPreviewText(item) {
   return item.intro || 'No preview available'
 }
 
+function getSearchPreviewText(item, searchTerm) {
+  const haystack =
+    item.quote?.trim() || item.explanation?.trim() || item.intro?.trim() || ''
+  if (!haystack) return 'No preview available'
+
+  const q = (searchTerm || '').trim().toLowerCase()
+  if (!q) return getPreviewText(item)
+
+  const idx = haystack.toLowerCase().indexOf(q)
+  if (idx === -1) return getPreviewText(item)
+
+  const windowSize = 140
+  const start = Math.max(0, idx - Math.floor(windowSize / 3))
+  const end = Math.min(haystack.length, start + windowSize)
+  const prefix = start > 0 ? '…' : ''
+  const suffix = end < haystack.length ? '…' : ''
+  return `${prefix}${haystack.substring(start, end)}${suffix}`
+}
+
 function highlightSearchTerms(text, searchTerm) {
   if (!searchTerm || !text) return text
 
@@ -504,7 +957,7 @@ function highlightFuzzyMatches(text, searchTerm, matches) {
   if (!searchTerm || !text || !matches) return text
 
   // For now, just use the regular highlighting
-  // In the future, we could use the Fuse.js match information to highlight fuzzy matches
+  // In the future, we could use index match info to highlight fuzzy matches
   return highlightSearchTerms(text, searchTerm)
 }
 
@@ -599,11 +1052,19 @@ function newTab() {
 
     // Load category filters from storage
     loadCategoryFilters()
+    loadYearFilter()
 
     fadeIn(refresh)
     refreshDisplay()
 
-    refresh.click(refreshDisplay)
+    refresh.click(() => {
+      // If the user is in search mode, refresh should close search first.
+      if ($('#search-container-top').hasClass('active')) {
+        closeSearchAndRestore()
+      } else {
+        refreshDisplay()
+      }
+    })
   })
 }
 
@@ -612,6 +1073,28 @@ function newTab() {
  */
 function refreshDisplay() {
   log('refreshDisplay')
+
+  // In full-page search mode, refresh drives search UI (not random content).
+  const searchContainer = $('#search-container-top')
+  const searchText = $('#search-wisdom-quotes').val().trim()
+  if (searchContainer.hasClass('active')) {
+    if (overlayMode === 'favorites') {
+      if (searchText.length >= 3) {
+        renderFavoritesList(searchText)
+      } else {
+        renderFavoritesList('')
+      }
+    } else {
+      if (searchText.length >= 3) {
+        search_for(searchText)
+      } else if (searchText.length === 0) {
+        showSearchHint(0)
+      } else {
+        showSearchHint(searchText.length)
+      }
+    }
+    return
+  }
 
   // Build content array based on active filters
   const allContent = []
@@ -643,6 +1126,11 @@ function refreshDisplay() {
 // Removed setCurrently function - no longer needed
 
 function setSearchPlaceholder() {
+  if (overlayMode === 'favorites') {
+    $('#search-wisdom-quotes').attr('placeholder', 'Search favorites')
+    return
+  }
+
   // Build placeholder text based on active filters
   const activeCategories = []
   if (activeFilters.ideas) activeCategories.push('ideas')
@@ -832,7 +1320,7 @@ function showSearchHint(charCount) {
   mainContent.html(`
     <div class="search-hint">
       <p>Please type at least 3 characters to search through wisdom content.</p>
-      <p class="search-progress">${charCount}/3 characters</p>
+      <p class="search-progress">${Math.min(charCount, 3)}/3 characters</p>
       <div class="search-suggestions">
         <p>Try searching for:</p>
         <div class="suggestion-tags">${suggestionsHtml}</div>
@@ -849,4 +1337,11 @@ function showSearchHint(charCount) {
     $('#search-wisdom-quotes').val(suggestion)
     search_for(suggestion)
   })
+}
+
+function isTypingInInput(e) {
+  const target = e?.target
+  if (!target) return false
+  const tag = (target.tagName || '').toLowerCase()
+  return tag === 'input' || tag === 'textarea' || target.isContentEditable
 }

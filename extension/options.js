@@ -21,10 +21,21 @@ $(() => {
   })
   $('#clear-favorites').click(() => {
     if (confirm('Are you sure you want to clear your favorites?')) {
-      chrome.storage.sync.remove('ideas_fav_i')
-      chrome.storage.sync.remove('quotes_fav_q')
-      chrome.storage.sync.remove('questions_fav_q')
-      $('.notice-text').html('Favorites cleared!')
+      chrome.storage.sync.get(null, (all) => {
+        const keysToRemove = Object.keys(all || {}).filter(
+          (k) =>
+            k.startsWith('ideas_fav_') ||
+            k.startsWith('quotes_fav_') ||
+            k.startsWith('questions_fav_')
+        )
+        if (keysToRemove.length === 0) {
+          $('.notice-text').html('No favorites to clear.')
+          return
+        }
+        chrome.storage.sync.remove(keysToRemove, () => {
+          $('.notice-text').html('Favorites cleared!')
+        })
+      })
     }
   })
   $('#clear-count').click(() => {
@@ -33,10 +44,21 @@ $(() => {
         'Are you sure you want to clear the count of times you have seen each quote?'
       )
     ) {
-      chrome.storage.sync.remove('ideas_count_i')
-      chrome.storage.sync.remove('quotes_count_q')
-      chrome.storage.sync.remove('questions_count_q')
-      $('.notice-text').html('Counts cleared!')
+      chrome.storage.sync.get(null, (all) => {
+        const keysToRemove = Object.keys(all || {}).filter(
+          (k) =>
+            k.startsWith('ideas_count_') ||
+            k.startsWith('quotes_count_') ||
+            k.startsWith('questions_count_')
+        )
+        if (keysToRemove.length === 0) {
+          $('.notice-text').html('No counts to clear.')
+          return
+        }
+        chrome.storage.sync.remove(keysToRemove, () => {
+          $('.notice-text').html('Counts cleared!')
+        })
+      })
     }
   })
 })
