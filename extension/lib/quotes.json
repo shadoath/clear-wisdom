@@ -1,5 +1,65 @@
 [
   {
+    "id": "2025-12-18-quotes-1",
+    "quote": "\"Well begun is half done.\"",
+    "intro": "On getting started",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-18-2025",
+    "author": "Horace",
+    "date": "2025-12-18",
+    "section": "Quotes",
+    "explanation": "The Roman poet Horace on how starting well carries you halfway to the finish"
+  },
+  {
+    "id": "2025-12-18-quotes-2",
+    "quote": "\"Arrange whatever pieces come your way.\"",
+    "intro": "On working with what you have",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-18-2025",
+    "author": "Virginia Woolf",
+    "date": "2025-12-18",
+    "section": "Quotes",
+    "explanation": "Virginia Woolf on agency as making something workable from whatever arrives"
+  },
+  {
+    "id": "2025-12-11-quotes-1",
+    "quote": "\"What are you still carrying that isn't yours and is weighing you down?\"",
+    "intro": "On letting go of burdens that aren't yours",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-11-2025",
+    "author": "Rita Wilkins",
+    "date": "2025-12-11",
+    "section": "Quotes",
+    "explanation": "Interior designer Rita Wilkins with a question about releasing what you were never meant to hold"
+  },
+  {
+    "id": "2025-12-11-quotes-2",
+    "quote": "\"Do not merely think that you are going to become great; think that you are great now. Do not think that you will begin to act in a great way at some future time; begin now. Do not think that you will act in a great way when you reach a different environment; act in a great way where you are now. Do not think that you will begin to act in a great way when you begin to deal with great things; begin to deal in a great way with small things.\"",
+    "intro": "On being great today",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-11-2025",
+    "author": "Wallace Wattles",
+    "date": "2025-12-11",
+    "section": "Quotes",
+    "explanation": "Wallace Wattles' reminder that greatness is practiced now—through small actions, right where you are"
+  },
+  {
+    "id": "2025-12-04-quotes-1",
+    "quote": "\"Habits are either the best or the worst things in the world; they either carry us to heaven or hurl us to hell. Form only those that will prove an honor to you.\"",
+    "intro": "On habits and their consequences",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-4-2025",
+    "author": "Philip Dormer Stanhope",
+    "date": "2025-12-04",
+    "section": "Quotes",
+    "explanation": "The 4th Earl of Chesterfield on how habits shape your trajectory—for better or worse"
+  },
+  {
+    "id": "2025-12-04-quotes-2",
+    "quote": "\"Love isn't saying, I love you, but calling to say, did you eat?\"",
+    "intro": "On what love looks like",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-4-2025",
+    "author": "Marlon James",
+    "date": "2025-12-04",
+    "section": "Quotes",
+    "explanation": "Writer Marlon James on love as practical care and attention"
+  },
+  {
     "id": "2025-11-27-quotes-1",
     "quote": "\"An object in possession seldom retains the same charm that it had in pursuit.\"",
     "intro": "On the nature of desire and fulfillment",
