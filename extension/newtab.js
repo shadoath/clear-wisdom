@@ -28,6 +28,10 @@ let searchDocsById = new Map()
 let favoriteIds = new Set()
 let viewCountsById = new Map()
 
+// Year filter state for search mode
+let activeYearFilter = 'all'
+let availableYears = []
+
 // Debounced search function
 let searchTimeout = null
 
@@ -45,27 +49,31 @@ import { getRandomFromArray, fadeIn, log, matchRuleShort } from './src/util.js'
 import { parseMarkdown, markdownToPlainText } from './src/markdown.js'
 
 $(() => {
-  // Load all three files
-  $.getJSON('/lib/ideas.json', (json) => {
-    $(json).each((layer, value) => {
-      ideas.push(value)
-    })
-  })
-  $.getJSON('/lib/quotes.json', (json) => {
-    $(json).each((layer, value) => {
-      quotes.push(value)
-    })
-  })
-  $.getJSON('/lib/questions.json', (json) => {
-    $(json).each((layer, value) => {
-      questions.push(value)
-    })
-    // Initialize after all files are loaded
-    loadSearchSignals(() => {
-      initializeMiniSearch()
-    })
-    newTab()
-  })
+  // Load all three files (wait for all before indexing, so search covers everything)
+  const ideasReq = $.getJSON('/lib/ideas.json')
+  const quotesReq = $.getJSON('/lib/quotes.json')
+  const questionsReq = $.getJSON('/lib/questions.json')
+
+  $.when(ideasReq, quotesReq, questionsReq).done(
+    (ideasRes, quotesRes, questionsRes) => {
+      const ideasJson = ideasRes?.[0] || []
+      const quotesJson = quotesRes?.[0] || []
+      const questionsJson = questionsRes?.[0] || []
+
+      $(ideasJson).each((layer, value) => ideas.push(value))
+      $(quotesJson).each((layer, value) => quotes.push(value))
+      $(questionsJson).each((layer, value) => questions.push(value))
+
+      availableYears = deriveAvailableYears([...ideas, ...quotes, ...questions])
+      populateYearFilterOptions()
+
+      // Initialize after all files are loaded
+      loadSearchSignals(() => {
+        initializeMiniSearch()
+      })
+      newTab()
+    }
+  )
   loadClickListeners()
 
   // Listen for storage changes to update count visibility
@@ -140,11 +148,51 @@ function saveCategoryFilters() {
   chrome.storage.sync.set({ categoryFilters: activeFilters })
 }
 
+function loadYearFilter() {
+  chrome.storage.sync.get(['searchYearFilter'], (result) => {
+    if (result.searchYearFilter) {
+      activeYearFilter = result.searchYearFilter
+    }
+    populateYearFilterOptions()
+  })
+}
+
+function saveYearFilter() {
+  chrome.storage.sync.set({ searchYearFilter: activeYearFilter })
+}
+
 // Update filter button UI to match current state
 function updateFilterButtons() {
   $('#filter-ideas').toggleClass('active', activeFilters.ideas)
   $('#filter-quotes').toggleClass('active', activeFilters.quotes)
   $('#filter-questions').toggleClass('active', activeFilters.questions)
+}
+
+function deriveAvailableYears(items) {
+  const years = new Set()
+  for (const item of items || []) {
+    const date = (item?.date || '').trim()
+    if (date.length >= 4) years.add(date.slice(0, 4))
+  }
+  return Array.from(years).sort((a, b) => String(b).localeCompare(String(a)))
+}
+
+function populateYearFilterOptions() {
+  const select = $('#filter-year')
+  if (select.length === 0) return
+
+  const years = availableYears || []
+  let html = '<option value="all">All years</option>'
+  for (const y of years) {
+    html += `<option value="${y}">${y}</option>`
+  }
+  select.html(html)
+
+  // Keep current selection if possible
+  const hasCurrent =
+    activeYearFilter === 'all' || years.includes(activeYearFilter)
+  if (!hasCurrent) activeYearFilter = 'all'
+  select.val(activeYearFilter)
 }
 
 // Update count visibility based on hideCount setting
@@ -166,11 +214,7 @@ function loadClickListeners() {
 
     if (searchContainer.hasClass('active')) {
       // If search is already active, hide it
-      searchContainer.removeClass('active')
-      $('body').removeClass('search-mode')
-      searchInput.val('')
-      // Clear any search results and restore normal display
-      refreshDisplay()
+      closeSearchAndRestore()
     } else {
       // Show search container and focus input
       searchContainer.addClass('active')
@@ -179,6 +223,27 @@ function loadClickListeners() {
       setTimeout(() => {
         searchInput.focus()
       }, 150)
+    }
+  })
+
+  // Close button inside search
+  $('#search-close').click((e) => {
+    e.stopPropagation()
+    closeSearchAndRestore()
+  })
+
+  // Year filter change handler (search mode)
+  $('#filter-year').change(() => {
+    activeYearFilter = String($('#filter-year').val() || 'all')
+    saveYearFilter()
+    const searchText = $('#search-wisdom-quotes').val().trim()
+    if (
+      $('#search-container-top').hasClass('active') &&
+      searchText.length >= 3
+    ) {
+      search_for(searchText)
+    } else if ($('#search-container-top').hasClass('active')) {
+      refreshDisplay()
     }
   })
 
@@ -236,9 +301,7 @@ function loadClickListeners() {
           refreshDisplay()
         } else {
           // Second Esc exits search mode.
-          searchContainer.removeClass('active')
-          $('body').removeClass('search-mode')
-          refreshDisplay()
+          closeSearchAndRestore()
         }
       }
     }
@@ -321,6 +384,14 @@ function loadClickListeners() {
       refreshDisplay()
     }
   })
+}
+
+function closeSearchAndRestore() {
+  $('#search-container-top').removeClass('active')
+  $('body').removeClass('search-mode')
+  $('#search-wisdom-quotes').val('')
+  window.currentSearchResults = null
+  refreshDisplay()
 }
 
 function initializeMiniSearch() {
@@ -413,9 +484,17 @@ function search_for(search_text) {
     return true
   })
 
+  // Apply year filter (search mode only)
+  const yearFiltered =
+    activeYearFilter && activeYearFilter !== 'all'
+      ? filtered.filter((item) =>
+          String(item.date || '').startsWith(activeYearFilter)
+        )
+      : filtered
+
   // Favorites-first ranking, then textual relevance, then recency.
-  const favorites = filtered.filter((x) => x._isFavorite)
-  const nonFavorites = filtered.filter((x) => !x._isFavorite)
+  const favorites = yearFiltered.filter((x) => x._isFavorite)
+  const nonFavorites = yearFiltered.filter((x) => !x._isFavorite)
 
   const byScoreThenDate = (a, b) => {
     if (b._score !== a._score) return b._score - a._score
@@ -579,10 +658,7 @@ function getPreviewText(item) {
 
 function getSearchPreviewText(item, searchTerm) {
   const haystack =
-    item.quote?.trim() ||
-    item.explanation?.trim() ||
-    item.intro?.trim() ||
-    ''
+    item.quote?.trim() || item.explanation?.trim() || item.intro?.trim() || ''
   if (!haystack) return 'No preview available'
 
   const q = (searchTerm || '').trim().toLowerCase()
@@ -711,11 +787,19 @@ function newTab() {
 
     // Load category filters from storage
     loadCategoryFilters()
+    loadYearFilter()
 
     fadeIn(refresh)
     refreshDisplay()
 
-    refresh.click(refreshDisplay)
+    refresh.click(() => {
+      // If the user is in search mode, refresh should close search first.
+      if ($('#search-container-top').hasClass('active')) {
+        closeSearchAndRestore()
+      } else {
+        refreshDisplay()
+      }
+    })
   })
 }
 

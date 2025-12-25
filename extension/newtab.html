@@ -19,6 +19,15 @@
           autocomplete="off"
         />
       </div>
+      <button
+        id="search-close"
+        class="search-close-btn"
+        type="button"
+        aria-label="Close search"
+        title="Close search"
+      >
+        <img src="./images/close.svg" alt="search" />
+      </button>
     </div>
 
     <!-- Refresh button positioned at top right -->
@@ -80,6 +89,12 @@
             >
               Questions
             </button>
+          </div>
+          <div class="year-filter">
+            <label class="year-filter-label" for="filter-year">Year</label>
+            <select id="filter-year" class="year-filter-select">
+              <option value="all">All years</option>
+            </select>
           </div>
         </div>
       </div>
