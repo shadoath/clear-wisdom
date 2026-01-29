@@ -3,14 +3,14 @@ name: Validate JSON Files
 on:
   push:
     paths:
-      - 'extension/lib/ideas.json'
-      - 'extension/lib/quotes.json'
-      - 'extension/lib/questions.json'
+      - "extension/lib/**/ideas.json"
+      - "extension/lib/**/quotes.json"
+      - "extension/lib/**/questions.json"
   pull_request:
     paths:
-      - 'extension/lib/ideas.json'
-      - 'extension/lib/quotes.json'
-      - 'extension/lib/questions.json'
+      - "extension/lib/**/ideas.json"
+      - "extension/lib/**/quotes.json"
+      - "extension/lib/**/questions.json"
   workflow_dispatch:
 
 jobs:
@@ -21,26 +21,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Validate ideas.json
+      - name: Validate JSON files
         run: |
-          if ! jq empty extension/lib/ideas.json 2>/dev/null; then
-            echo "❌ ideas.json is not valid JSON"
-            exit 1
-          fi
-          echo "✅ ideas.json is valid"
-
-      - name: Validate quotes.json
-        run: |
-          if ! jq empty extension/lib/quotes.json 2>/dev/null; then
-            echo "❌ quotes.json is not valid JSON"
-            exit 1
-          fi
-          echo "✅ quotes.json is valid"
-
-      - name: Validate questions.json
-        run: |
-          if ! jq empty extension/lib/questions.json 2>/dev/null; then
-            echo "❌ questions.json is not valid JSON"
-            exit 1
-          fi
-          echo "✅ questions.json is valid"
+          shopt -s nullglob
+          files=(extension/lib/*/*.json)
+          for file in "${files[@]}"; do
+            if ! jq empty "$file" 2>/dev/null; then
+              echo "❌ $file is not valid JSON"
+              exit 1
+            fi
+            echo "✅ $file is valid"
+          done
