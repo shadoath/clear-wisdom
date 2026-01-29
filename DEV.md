@@ -4,6 +4,12 @@ All extension files are organized in the `extension/` folder for better compilat
 
 ## Content Structure
 
+Content is stored by year under `extension/lib/{year}/`:
+
+- `extension/lib/{year}/ideas.json`
+- `extension/lib/{year}/quotes.json`
+- `extension/lib/{year}/questions.json`
+
 ```js
   {
     "id": "2019-08-08-ideas-1",
@@ -13,7 +19,7 @@ All extension files are organized in the `extension/` folder for better compilat
     "author": "...",
     "date": "...",
     "section": "...",
-    "explanation": "..."
+    "explanation": "..." // AI generated explanation to be thoughtful and add a new layer of depth to the content
   }
 ```
 
@@ -27,7 +33,7 @@ I need you to extract more content for the JSON files Use the following command 
 It will be in the format of https://jamesclear.com/3-2-1/{month}-{d}-{yyyy} where month is the full month name in lowercase, d is the day without leading zero, and yyyy is the 4-digit year
 Example: https://jamesclear.com/3-2-1/october-9-2025
 
-Write all the content into the ideas.json/quotes.json/questions.json files.
+Write all the content into the `ideas.json`/`quotes.json`/`questions.json` files for the correct year folder.
 ALWAYS ADD TO THE TOP OF THE FILE, DO NOT REPLACE THE EXISTING CONTENT.
 Keep conversation responses concise, focused on the task at hand.
 when writing content, follow the format of the existing content.

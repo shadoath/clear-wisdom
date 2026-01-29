@@ -29,6 +29,7 @@ let favoriteIds = new Set()
 let viewCountsById = new Map()
 
 // Year filter state for search mode
+const DATA_YEARS = [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
 let activeYearFilter = 'all'
 let availableYears = []
 
@@ -52,31 +53,54 @@ import { getRandomFromArray, fadeIn, log, matchRuleShort } from './src/util.js'
 import { parseMarkdown, markdownToPlainText } from './src/markdown.js'
 
 $(() => {
-  // Load all three files (wait for all before indexing, so search covers everything)
-  const ideasReq = $.getJSON('/lib/ideas.json')
-  const quotesReq = $.getJSON('/lib/quotes.json')
-  const questionsReq = $.getJSON('/lib/questions.json')
+  // Load all files (wait for all before indexing, so search covers everything)
+  const years = DATA_YEARS
+  const requests = []
 
-  $.when(ideasReq, quotesReq, questionsReq).done(
-    (ideasRes, quotesRes, questionsRes) => {
-      const ideasJson = ideasRes?.[0] || []
-      const quotesJson = quotesRes?.[0] || []
-      const questionsJson = questionsRes?.[0] || []
+  for (const year of years) {
+    requests.push({
+      type: 'ideas',
+      req: $.getJSON(`/lib/${year}/ideas.json`),
+    })
+    requests.push({
+      type: 'quotes',
+      req: $.getJSON(`/lib/${year}/quotes.json`),
+    })
+    requests.push({
+      type: 'questions',
+      req: $.getJSON(`/lib/${year}/questions.json`),
+    })
+  }
 
-      $(ideasJson).each((layer, value) => ideas.push(value))
-      $(quotesJson).each((layer, value) => quotes.push(value))
-      $(questionsJson).each((layer, value) => questions.push(value))
+  $.when(...requests.map((request) => request.req)).done((...responses) => {
+    responses.forEach((response, index) => {
+      const json = response?.[0] || []
+      const type = requests[index]?.type
 
-      availableYears = deriveAvailableYears([...ideas, ...quotes, ...questions])
-      populateYearFilterOptions()
+      if (type === 'ideas') {
+        $(json).each((layer, value) => ideas.push(value))
+        return
+      }
 
-      // Initialize after all files are loaded
-      loadSearchSignals(() => {
-        initializeMiniSearch()
-      })
-      newTab()
-    }
-  )
+      if (type === 'quotes') {
+        $(json).each((layer, value) => quotes.push(value))
+        return
+      }
+
+      if (type === 'questions') {
+        $(json).each((layer, value) => questions.push(value))
+      }
+    })
+
+    availableYears = DATA_YEARS.map((year) => String(year))
+    populateYearFilterOptions()
+
+    // Initialize after all files are loaded
+    loadSearchSignals(() => {
+      initializeMiniSearch()
+    })
+    newTab()
+  })
   loadClickListeners()
 
   // Listen for storage changes to update count visibility
@@ -158,7 +182,7 @@ function saveCategoryFilters() {
 function loadYearFilter() {
   chrome.storage.sync.get(['searchYearFilter'], (result) => {
     if (result.searchYearFilter) {
-      activeYearFilter = result.searchYearFilter
+      activeYearFilter = String(result.searchYearFilter)
     }
     populateYearFilterOptions()
   })
@@ -173,15 +197,6 @@ function updateFilterButtons() {
   $('#filter-ideas').toggleClass('active', activeFilters.ideas)
   $('#filter-quotes').toggleClass('active', activeFilters.quotes)
   $('#filter-questions').toggleClass('active', activeFilters.questions)
-}
-
-function deriveAvailableYears(items) {
-  const years = new Set()
-  for (const item of items || []) {
-    const date = (item?.date || '').trim()
-    if (date.length >= 4) years.add(date.slice(0, 4))
-  }
-  return Array.from(years).sort((a, b) => String(b).localeCompare(String(a)))
 }
 
 function populateYearFilterOptions() {
@@ -387,7 +402,7 @@ function loadClickListeners() {
       is_favoriting(
         category,
         currentContentId,
-        !$('#favorite').hasClass('liked')
+        !$('#favorite').hasClass('liked'),
       )
     }
   })
@@ -493,7 +508,7 @@ function initializeMiniSearch() {
   if (typeof window.MiniSearch !== 'function') {
     console.error('MiniSearch not available')
     displaySearchError(
-      'Search failed to initialize. Please reload the tab (MiniSearch missing).'
+      'Search failed to initialize. Please reload the tab (MiniSearch missing).',
     )
     return
   }
@@ -550,7 +565,7 @@ function search_for(search_text) {
   if (!miniSearch) {
     console.error('MiniSearch not initialized')
     displaySearchError(
-      'Search failed to initialize. Please reload the tab (index missing).'
+      'Search failed to initialize. Please reload the tab (index missing).',
     )
     return
   }
@@ -583,7 +598,7 @@ function search_for(search_text) {
   const yearFiltered =
     activeYearFilter && activeYearFilter !== 'all'
       ? filtered.filter((item) =>
-          String(item.date || '').startsWith(activeYearFilter)
+          String(item.date || '').startsWith(activeYearFilter),
         )
       : filtered
 
@@ -632,10 +647,10 @@ function displaySearchResults(results) {
   // Show search results header
   introHeading.html(
     `Found ${results.length} result${results.length > 1 ? 's' : ''} for "${$(
-      '#search-wisdom-quotes'
+      '#search-wisdom-quotes',
     )
       .val()
-      .trim()}"`
+      .trim()}"`,
   )
 
   // Display all results in a list format with category labels
@@ -666,8 +681,8 @@ function displaySearchResults(results) {
 
     resultsHtml += `
       <div class="search-result-item" data-index="${index}" data-item-id="${
-      item.id || ''
-    }" data-item-section="${item.section || ''}">
+        item.id || ''
+      }" data-item-section="${item.section || ''}">
         <div class="search-result-header">
           <div class="search-result-category">${category}</div>
           ${
@@ -747,7 +762,7 @@ function displayFavoritesResults(results, queryText) {
     introHeading.html(
       `Favorites: ${results.length} match${
         results.length === 1 ? '' : 'es'
-      } for "${q}"`
+      } for "${q}"`,
     )
   } else {
     introHeading.html(`Favorites (${results.length})`)
@@ -755,7 +770,7 @@ function displayFavoritesResults(results, queryText) {
 
   if (results.length === 0) {
     mainContent.html(
-      `<div class="search-hint"><p>No favorites found with the current filters.</p></div>`
+      `<div class="search-hint"><p>No favorites found with the current filters.</p></div>`,
     )
     window.currentSearchResults = []
     return
@@ -771,8 +786,8 @@ function displayFavoritesResults(results, queryText) {
 
     resultsHtml += `
       <div class="search-result-item" data-index="${index}" data-item-id="${
-      item.id || ''
-    }" data-item-section="${item.section || ''}">
+        item.id || ''
+      }" data-item-section="${item.section || ''}">
         <div class="search-result-header">
           <div class="search-result-category">${category}</div>
           ${
@@ -821,7 +836,7 @@ function renderFavoritesList(queryText) {
   populateYearFilterOptions()
 
   const allFavItems = [...ideas, ...quotes, ...questions].filter((item) =>
-    favoriteIds.has(item.id)
+    favoriteIds.has(item.id),
   )
 
   if (allFavItems.length === 0) {
@@ -831,7 +846,7 @@ function renderFavoritesList(queryText) {
     newsletterLink.hide()
     introHeading.html('Favorites')
     mainContent.html(
-      `<div class="search-hint"><p>You haven’t favorited anything yet.</p></div>`
+      `<div class="search-hint"><p>You haven’t favorited anything yet.</p></div>`,
     )
     window.currentSearchResults = []
     return
@@ -946,7 +961,7 @@ function highlightSearchTerms(text, searchTerm) {
   // Create a case-insensitive regex to match search terms
   const regex = new RegExp(
     `(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`,
-    'gi'
+    'gi',
   )
 
   // Replace matches with highlighted version
@@ -1161,7 +1176,7 @@ function displayContent(contentData) {
   mainContent.attr('data-content-id', contentData.id)
   mainContent.attr(
     'data-content-category',
-    contentData.section?.toLowerCase() || 'ideas'
+    contentData.section?.toLowerCase() || 'ideas',
   )
 
   // Show elements that might have been hidden during search
@@ -1225,7 +1240,7 @@ function displayContent(contentData) {
     // Make date link to newsletter if newsletter link exists
     if (contentData.newsletter_link?.trim()) {
       dateDisplay.html(
-        `<a href="${contentData.newsletter_link}" target="_blank" class="newsletter-link-inline">${formattedDate}</a>`
+        `<a href="${contentData.newsletter_link}" target="_blank" class="newsletter-link-inline">${formattedDate}</a>`,
       )
     } else {
       dateDisplay.html(formattedDate)

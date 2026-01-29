@@ -18,13 +18,13 @@ Clear Wisdom is a Chrome extension that displays wisdom quotes from James Clear'
 
 ### Data Structure
 
-Content is stored in three JSON files in `/extension/lib/`:
+Content is stored by year in three JSON files under `/extension/lib/{year}/`:
 
 - **ideas.json**: James Clear's insights (3 per newsletter)
 - **quotes.json**: Quotes from other authors (2 per newsletter)
 - **questions.json**: Reflection questions (1 per newsletter)
 
-New items are always added to the start of the JSON file.
+New items are always added to the start of the JSON file for the correct year.
 
 Each entry follows this structure:
 
@@ -37,7 +37,7 @@ Each entry follows this structure:
   "author": "Author name",
   "date": "YYYY-MM-DD",
   "section": "Ideas|Quotes|Questions",
-  "explanation": "Optional context"
+  "explanation": "Optional context" // AI generated explanation to be thoughtful and add a new layer of depth to the content
 }
 ```
 
