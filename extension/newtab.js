@@ -1340,6 +1340,10 @@ function displayContent(contentData) {
   // Determine category from content section for favorites and viewed tracking
   const category = contentData.section?.toLowerCase() || 'ideas'
   viewed(category, contentData.id)
+  // Prefer in-memory favorite state for instant UI updates (search results).
+  if (contentData.id) {
+    $('#favorite').toggleClass('liked', favoriteIds.has(contentData.id))
+  }
   check_favorite(category, contentData.id)
 }
 
