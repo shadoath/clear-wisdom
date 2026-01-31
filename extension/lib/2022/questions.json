@@ -1,0 +1,522 @@
+[
+  {
+    "id": "2022-12-29-question",
+    "quote": "It's one year from now. December 2023. The habit you were hoping to build during the year didn't stick. What is the most likely reason it failed?",
+    "intro": "On second chances",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-29-2022",
+    "author": "James Clear",
+    "date": "2022-12-29",
+    "section": "Questions",
+    "explanation": "A habit-building question for anticipating failure points, encouraging proactive identification of potential obstacles to success"
+  },
+  {
+    "id": "2022-12-22-question",
+    "quote": "How can I improve the energy of the situations I am involved in today?\n\nYou may not control the outcome, but you can influence it.",
+    "intro": "On the importance of ambition",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-22-2022",
+    "author": "James Clear",
+    "date": "2022-12-22",
+    "section": "Questions",
+    "explanation": "An influence question for improving situational dynamics, encouraging focus on energy contribution rather than outcome control"
+  },
+  {
+    "id": "2022-12-15-question",
+    "quote": "What is your relationship with self-discipline?\n\nWhat is your relationship with self-forgiveness?",
+    "intro": "On creating change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-15-2022",
+    "author": "James Clear",
+    "date": "2022-12-15",
+    "section": "Questions",
+    "explanation": "A self-awareness question for examining personal dynamics, encouraging reflection on the balance between discipline and compassion"
+  },
+  {
+    "id": "2022-12-08-question",
+    "quote": "\"When was a time in the past you successfully adapted and made a change?\n\nWhat is a change you would benefit from making right now?\"",
+    "intro": "On the value of darkness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-8-2022",
+    "author": "James Clear",
+    "date": "2022-12-08",
+    "section": "Questions",
+    "explanation": "A change management question for leveraging past success, encouraging identification of adaptation patterns and current opportunities"
+  },
+  {
+    "id": "2022-12-01-question",
+    "quote": "There is one month left in the year. Most people are ready to coast to the finish line, but one good month can make the whole year feel like a success.\n\nWhat can you do in the next 30 days to build momentum and finish the year on a high note?",
+    "intro": "On certainty",
+    "newsletter_link": "https://jamesclear.com/3-2-1/december-1-2022",
+    "author": "James Clear",
+    "date": "2022-12-01",
+    "section": "Questions",
+    "explanation": "A momentum question for year-end optimization, encouraging identification of actions that can transform the entire year's perception"
+  },
+  {
+    "id": "2022-11-24-question",
+    "quote": "How can I use the negative experiences in my life to drive me? What fuel can I draw from my failures? What lessons can I take from my grief? What insights can I extract from my embarrassments?",
+    "intro": "On shaping the world",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-24-2022",
+    "author": "James Clear",
+    "date": "2022-11-24",
+    "section": "Questions",
+    "explanation": "A resilience question for transforming negative experiences into motivation and wisdom, encouraging extraction of value from difficult life events"
+  },
+  {
+    "id": "2022-11-17-question",
+    "quote": "Do I need to spend more time searching for better information or do I need to spend more time acting on the information I already have? Is the bottleneck strategy or execution?",
+    "intro": "On strategy vs execution",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-17-2022",
+    "author": "James Clear",
+    "date": "2022-11-17",
+    "section": "Questions",
+    "explanation": "A productivity question for identifying whether the constraint is information gathering or action taking, encouraging assessment of current bottlenecks"
+  },
+  {
+    "id": "2022-11-10-question",
+    "quote": "The question is not, \"Will I succeed?\" but rather, \"What should I attempt?\"",
+    "intro": "On what to attempt",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-10-2022",
+    "author": "James Clear",
+    "date": "2022-11-10",
+    "section": "Questions",
+    "explanation": "A goal-setting question for shifting focus from success probability to attempt selection, encouraging consideration of what's worth trying"
+  },
+  {
+    "id": "2022-11-03-question",
+    "quote": "What do I need to accomplish today and how can I have the most fun possible while doing it?",
+    "intro": "On net productivity",
+    "newsletter_link": "https://jamesclear.com/3-2-1/november-3-2022",
+    "author": "James Clear",
+    "date": "2022-11-03",
+    "section": "Questions",
+    "explanation": "A productivity and enjoyment question for combining accomplishment with pleasure, encouraging optimization of both results and experience"
+  },
+  {
+    "id": "2022-10-27-question",
+    "quote": "What's something good to \"go a little overboard\" on?\n\nWhat's something you could benefit from caring less about?",
+    "intro": "On going overboard vs caring less",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-27-2022",
+    "author": "James Clear",
+    "date": "2022-10-27",
+    "section": "Questions",
+    "explanation": "A balance question for identifying areas where excess effort is beneficial versus areas where reduced concern would improve well-being"
+  },
+  {
+    "id": "2022-10-20-question",
+    "quote": "Without altering the facts of the situation I am facing and without ignoring the reality of what must be done, what is the most useful and empowering story I can tell myself about what is happening and what I need to do next?",
+    "intro": "On choosing more empowering self-talk",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-20-2022",
+    "author": "James Clear",
+    "date": "2022-10-20",
+    "section": "Questions",
+    "explanation": "A reframing question for creating constructive narratives about current challenges while maintaining honesty about facts and requirements"
+  },
+  {
+    "id": "2022-10-13-question",
+    "quote": "A (slightly modified) question from writer Nat Eliason on your consumption habits:\n\n\"What percentage of the media you consume on a daily basis was created in the last year? What percentage of the best and most useful information was created in the last year?\"",
+    "intro": "On media consumption habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-13-2022",
+    "author": "Nat Eliason",
+    "date": "2022-10-13",
+    "section": "Questions",
+    "explanation": "Nat Eliason's question about information diet, encouraging examination of whether current media consumption prioritizes recent content over timeless wisdom"
+  },
+  {
+    "id": "2022-10-06-question",
+    "quote": "A simple question to recalibrate the current situation:\n\n\"Aside from my thoughts, am I okay?\"",
+    "intro": "On recalibrating the current situation",
+    "newsletter_link": "https://jamesclear.com/3-2-1/october-6-2022",
+    "author": "James Clear",
+    "date": "2022-10-06",
+    "section": "Questions",
+    "explanation": "A grounding question for separating mental distress from physical reality, encouraging assessment of actual circumstances versus mental interpretation"
+  },
+  {
+    "id": "2022-09-29-question",
+    "quote": "The benefits that arise from a good relationship--whether it be in marriage, friendship, business, or otherwise--are often produced over a long time span.\n\nIs it more important to win this battle or to maintain this relationship?",
+    "intro": "On winning battles vs maintaining relationships",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-29-2022",
+    "author": "James Clear",
+    "date": "2022-09-29",
+    "section": "Questions",
+    "explanation": "A relationship strategy question for evaluating short-term victories against long-term relationship value, encouraging consideration of whether winning conflicts serves or damages important connections"
+  },
+  {
+    "id": "2022-09-22-question",
+    "quote": "What is one previous habit I'd like to reclaim?\n\nWhat is one current habit I'd like to let go?",
+    "intro": "On reclaiming and letting go habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-22-2022",
+    "author": "James Clear",
+    "date": "2022-09-22",
+    "section": "Questions",
+    "explanation": "A habit audit question for identifying both positive habits to restore and negative habits to eliminate, encouraging conscious evaluation of current behavioral patterns"
+  },
+  {
+    "id": "2022-09-15-question",
+    "quote": "What is one step I can take today to help create the outcomes I want in life?",
+    "intro": "On creating desired outcomes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-15-2022",
+    "author": "James Clear",
+    "date": "2022-09-15",
+    "section": "Questions",
+    "explanation": "A goal-oriented action question for identifying immediate steps toward long-term objectives, encouraging daily progress toward desired life outcomes"
+  },
+  {
+    "id": "2022-09-08-question",
+    "quote": "Would you rather be right or be happy?",
+    "intro": "On being right vs being happy",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-8-2022",
+    "author": "James Clear",
+    "date": "2022-09-08",
+    "section": "Questions",
+    "explanation": "A values clarification question for examining the trade-off between correctness and contentment, encouraging reflection on what truly matters in life"
+  },
+  {
+    "id": "2022-09-01-question",
+    "quote": "Sometimes it benefits us to be passive: to allow life to come to us and unfold without force.\n\nOther times it benefits us to be aggressive: to bend the world to our will and actively shape the life we want.\n\nAre you being too passive or too aggressive right now?",
+    "intro": "On being passive vs aggressive",
+    "newsletter_link": "https://jamesclear.com/3-2-1/september-1-2022",
+    "author": "James Clear",
+    "date": "2022-09-01",
+    "section": "Questions",
+    "explanation": "A balance question for evaluating current approach to life, encouraging assessment of whether to be more receptive or more assertive in current circumstances"
+  },
+  {
+    "id": "2022-08-25-question",
+    "quote": "Is taking things so seriously improving my performance? How can today feel like play?",
+    "intro": "On taking things seriously vs play",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-25-2022",
+    "author": "James Clear",
+    "date": "2022-08-25",
+    "section": "Questions",
+    "explanation": "A performance and mindset question for examining the relationship between seriousness and effectiveness, encouraging exploration of how playfulness might enhance rather than hinder performance"
+  },
+  {
+    "id": "2022-08-18-question",
+    "quote": "Here's a simple question to ask before jumping into \"all the work\" you have to do:\n\nWhat will happen if I don't do this?\n\nIt's remarkable how many things can be eliminated from your to-do list.",
+    "intro": "On eliminating tasks",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-18-2022",
+    "author": "James Clear",
+    "date": "2022-08-18",
+    "section": "Questions",
+    "explanation": "A productivity question for task prioritization, encouraging examination of which tasks are truly necessary and which can be eliminated to focus on what matters most"
+  },
+  {
+    "id": "2022-08-11-question",
+    "quote": "What career would you realistically pursue if you wanted the most money?\nWhat career would you realistically pursue if you wanted the biggest impact?\nWhat career would you realistically pursue if you wanted to have the most fun?\nWhat career offers the best mix?",
+    "intro": "On career choices",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-11-2022",
+    "author": "James Clear",
+    "date": "2022-08-11",
+    "section": "Questions",
+    "explanation": "A career exploration question for examining different motivations and finding alignment between financial goals, impact, enjoyment, and overall fulfillment"
+  },
+  {
+    "id": "2022-08-04-question",
+    "quote": "Instead of asking yourself, \"What should I do first?\"\n\nTry asking, \"What should I neglect first?\"\n\nTrim, edit, cull. Make space for better performance.",
+    "intro": "On editing your life",
+    "newsletter_link": "https://jamesclear.com/3-2-1/august-4-2022",
+    "author": "James Clear",
+    "date": "2022-08-04",
+    "section": "Questions",
+    "explanation": "A prioritization question for focusing on elimination rather than addition, encouraging identification of what to remove to create space for better performance"
+  },
+  {
+    "id": "2022-07-28-question",
+    "quote": "Who is someone you love spending time with, but you haven't seen recently? Can you reach out to them today?",
+    "intro": "On reaching out to loved ones",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-28-2022",
+    "author": "James Clear",
+    "date": "2022-07-28",
+    "section": "Questions",
+    "explanation": "A relationship maintenance question for identifying and reconnecting with important people, encouraging proactive effort to maintain meaningful connections"
+  },
+  {
+    "id": "2022-07-21-question",
+    "quote": "A question from computer programmer Simon Sarris:\n\n\"If you have a ten year plan, what's stopping you from doing it in two?\"",
+    "intro": "On ten year plans",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-21-2022",
+    "author": "Simon Sarris",
+    "date": "2022-07-21",
+    "section": "Questions",
+    "explanation": "Simon Sarris' challenge about timeline compression, encouraging examination of whether long-term goals could be achieved faster with more aggressive action"
+  },
+  {
+    "id": "2022-07-14-question",
+    "quote": "What type of work brings you the most happiness?\n\nWhat type of work brings you the most meaning?\n\nAre they the same or different?",
+    "intro": "On happiness vs meaning in work",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-14-2022",
+    "author": "James Clear",
+    "date": "2022-07-14",
+    "section": "Questions",
+    "explanation": "A career reflection question for examining the relationship between happiness and meaning in work, encouraging awareness of what drives fulfillment"
+  },
+  {
+    "id": "2022-07-07-question",
+    "quote": "What action can you take today that will contribute to something you will be proud of in 10 years?",
+    "intro": "On actions for future pride",
+    "newsletter_link": "https://jamesclear.com/3-2-1/july-7-2022",
+    "author": "James Clear",
+    "date": "2022-07-07",
+    "section": "Questions",
+    "explanation": "A long-term thinking question for identifying daily actions that build toward meaningful long-term achievements, encouraging present-moment decisions aligned with future values"
+  },
+  {
+    "id": "2022-06-30-question",
+    "quote": "Is this project pulling me in or am I pushing it forward? Is this relationship pulling me in or am I pushing it forward?\n\nSome of my best outcomes arise when I double down on the things that are naturally pulling me in.",
+    "intro": "On projects and relationships pulling vs pushing",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-30-2022",
+    "author": "James Clear",
+    "date": "2022-06-30",
+    "section": "Questions",
+    "explanation": "A flow state question for identifying natural momentum, encouraging focus on activities and relationships that provide intrinsic motivation rather than requiring constant effort"
+  },
+  {
+    "id": "2022-06-23-question",
+    "quote": "Think of the best coach, teacher, or leader you ever had. What can you learn from them?\n\nThink of the worst coach, teacher, or leader you ever had. What can you learn from them?",
+    "intro": "On learning from best and worst leaders",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-23-2022",
+    "author": "James Clear",
+    "date": "2022-06-23",
+    "section": "Questions",
+    "explanation": "A reflection question for extracting wisdom from both positive and negative leadership experiences, encouraging learning from all types of interactions"
+  },
+  {
+    "id": "2022-06-16-question",
+    "quote": "Who (or what) do you need to forgive, so you can move on and live well?",
+    "intro": "On forgiveness",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-16-2022",
+    "author": "James Clear",
+    "date": "2022-06-16",
+    "section": "Questions",
+    "explanation": "A healing question for identifying sources of resentment and bitterness, encouraging forgiveness as a path to personal freedom and well-being"
+  },
+  {
+    "id": "2022-06-09-question",
+    "quote": "The generalist becomes more powerful when they develop a specialty where they can apply their broad insight.\n\nThe specialist becomes more powerful when they develop a broader surface area of knowledge to connect with their expertise.\n\nWhich side are you favoring right now? Would you benefit from a broader area to apply your already honed skills? Or do you need deeper skills to unlock your general knowledge?",
+    "intro": "On generalists vs specialists",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-9-2022",
+    "author": "James Clear",
+    "date": "2022-06-09",
+    "section": "Questions",
+    "explanation": "A strategic development question for identifying whether to broaden or deepen expertise, encouraging self-assessment of current knowledge profile and growth direction"
+  },
+  {
+    "id": "2022-06-02-question",
+    "quote": "Sometimes we are too hard on ourselves and criticize our mistakes to an unhelpful degree. Sometimes we are too easy on ourselves and let excuses run our lives.\n\nWhich way are you leaning right now? How can you pull yourself back to center?",
+    "intro": "On self-criticism vs self-compassion",
+    "newsletter_link": "https://jamesclear.com/3-2-1/june-2-2022",
+    "author": "James Clear",
+    "date": "2022-06-02",
+    "section": "Questions",
+    "explanation": "A self-awareness question for finding balance between accountability and self-compassion, encouraging honest assessment of current tendencies and course correction"
+  },
+  {
+    "id": "2022-05-26-question",
+    "quote": "How, specifically, do you want your life to be better at this time next year?",
+    "intro": "On specific life improvements",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-26-2022",
+    "author": "James Clear",
+    "date": "2022-05-26",
+    "section": "Questions",
+    "explanation": "A goal-setting question for creating specific, measurable improvements, encouraging concrete vision of desired changes rather than vague aspirations"
+  },
+  {
+    "id": "2022-05-19-question",
+    "quote": "What is an area you'd like to improve over the next decade?\n\nHow are you working toward that outcome today?\n\nThink long-term. Act short-term.",
+    "intro": "On long-term thinking with short-term action",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-19-2022",
+    "author": "James Clear",
+    "date": "2022-05-19",
+    "section": "Questions",
+    "explanation": "A strategic planning question for connecting long-term vision with daily actions, encouraging both big-picture thinking and immediate implementation"
+  },
+  {
+    "id": "2022-05-12-question",
+    "quote": "Before you ask, \"What should I do today?\"\n\nAsk yourself, \"What should I remove today?\"\n\nCreate the space you need to succeed.",
+    "intro": "On removing before adding",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-12-2022",
+    "author": "James Clear",
+    "date": "2022-05-12",
+    "section": "Questions",
+    "explanation": "A prioritization question for focusing on elimination over addition, encouraging creation of space and clarity before taking on new tasks"
+  },
+  {
+    "id": "2022-05-05-question",
+    "quote": "How can I accomplish my goals as fast as possible at a high quality?",
+    "intro": "On fast, high-quality goal accomplishment",
+    "newsletter_link": "https://jamesclear.com/3-2-1/may-5-2022",
+    "author": "James Clear",
+    "date": "2022-05-05",
+    "section": "Questions",
+    "explanation": "A strategic question for optimizing both speed and quality in goal achievement, encouraging efficient approaches without compromising standards"
+  },
+  {
+    "id": "2022-04-28-question",
+    "quote": "Am I willing to look foolish today so I can learn something that will make me better tomorrow?",
+    "intro": "On looking foolish to learn",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-28-2022",
+    "author": "James Clear",
+    "date": "2022-04-28",
+    "section": "Questions",
+    "explanation": "A courage question for embracing temporary embarrassment in service of long-term growth, encouraging willingness to appear incompetent while learning new skills"
+  },
+  {
+    "id": "2022-04-21-question",
+    "quote": "What's one decision you can make today that will save you from making ten more decisions in the future? Make the choice that eliminates other choices.",
+    "intro": "On making decisions that eliminate future decisions",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-21-2022",
+    "author": "James Clear",
+    "date": "2022-04-21",
+    "section": "Questions",
+    "explanation": "A strategic decision-making question for reducing future cognitive load, encouraging choices that create systems and eliminate repeated decision-making"
+  },
+  {
+    "id": "2022-04-14-question",
+    "quote": "When was the last time you felt a sense of wonder and awe? What can that experience teach you about how to spend your time?",
+    "intro": "On wonder and awe",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-14-2022",
+    "author": "James Clear",
+    "date": "2022-04-14",
+    "section": "Questions",
+    "explanation": "A reflection question for identifying meaningful experiences and aligning time allocation with activities that inspire wonder and awe"
+  },
+  {
+    "id": "2022-04-07-question",
+    "quote": "What is a small, but courageous choice you can make today?",
+    "intro": "On small courageous choices",
+    "newsletter_link": "https://jamesclear.com/3-2-1/april-7-2022",
+    "author": "James Clear",
+    "date": "2022-04-07",
+    "section": "Questions",
+    "explanation": "A courage-building question for identifying manageable acts of bravery, encouraging daily practice of stepping outside comfort zones"
+  },
+  {
+    "id": "2022-03-31-question",
+    "quote": "If someone took control of your life tomorrow, what's the first thing they would change?",
+    "intro": "On what someone else would change",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-31-2022",
+    "author": "James Clear",
+    "date": "2022-03-31",
+    "section": "Questions",
+    "explanation": "A perspective-shifting question for identifying obvious improvements in one's life, encouraging objective evaluation of current patterns and habits"
+  },
+  {
+    "id": "2022-03-24-question",
+    "quote": "What is one of your natural gifts? How can you spend more time leveraging it?",
+    "intro": "On leveraging natural gifts",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-24-2022",
+    "author": "James Clear",
+    "date": "2022-03-24",
+    "section": "Questions",
+    "explanation": "A strengths-focused question for identifying and maximizing natural talents, encouraging investment in areas where one has inherent advantages"
+  },
+  {
+    "id": "2022-03-17-question",
+    "quote": "Nearly everything in life has a useful zone, a desired dose. Ten minutes in the sun can energize you. Ten hours in the sun can burn you. This concept applies to many things: work, relationships, hobbies, exercise, food.\n\nWhat is your desired dose? What do you need right now? A little bit more or a little bit less?",
+    "intro": "On finding your desired dose",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-17-2022",
+    "author": "James Clear",
+    "date": "2022-03-17",
+    "section": "Questions",
+    "explanation": "A moderation question for evaluating optimal levels of various activities, encouraging awareness of when more or less of something would be beneficial"
+  },
+  {
+    "id": "2022-03-10-question",
+    "quote": "Write down all the projects you are working on right now. What is the one thing that, if you had the courage to eliminate it entirely, would make all the others easier?",
+    "intro": "On eliminating projects",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-10-2022",
+    "author": "James Clear",
+    "date": "2022-03-10",
+    "section": "Questions",
+    "explanation": "A prioritization question for identifying projects that drain energy from others, encouraging strategic elimination to improve overall effectiveness"
+  },
+  {
+    "id": "2022-03-03-question",
+    "quote": "Think of something you struggled with in the last year. If you step back and zoom out, what is one lesson you have learned from the experience?",
+    "intro": "On lessons from struggles",
+    "newsletter_link": "https://jamesclear.com/3-2-1/march-3-2022",
+    "author": "James Clear",
+    "date": "2022-03-03",
+    "section": "Questions",
+    "explanation": "A reflection question for extracting wisdom from difficult experiences, encouraging perspective-taking and learning from challenges"
+  },
+  {
+    "id": "2022-02-24-question",
+    "quote": "There is usually a block of time each day when you are at your best--peak energy, peak enthusiasm. Let's say it's 2 hours per day. How do you spend those 2 hours? Who or what gets your best time?",
+    "intro": "On spending your best time",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-24-2022",
+    "author": "James Clear",
+    "date": "2022-02-24",
+    "section": "Questions",
+    "explanation": "A question for evaluating how peak energy and enthusiasm are allocated, encouraging awareness of whether the most important activities receive the best time and attention"
+  },
+  {
+    "id": "2022-02-17-question",
+    "quote": "What is something wonderful about your life that you rarely appreciate as much as you should?",
+    "intro": "On appreciating wonderful things",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-17-2022",
+    "author": "James Clear",
+    "date": "2022-02-17",
+    "section": "Questions",
+    "explanation": "A gratitude question for identifying positive aspects of life that may be taken for granted, encouraging deeper appreciation for existing blessings"
+  },
+  {
+    "id": "2022-02-10-question",
+    "quote": "Entrepreneur and investor Sam Altman says some of the best advice he ever received was, \"If you can't figure out what kind of work you like, pay attention to what's easy to concentrate on and gives you energy vs. what makes you tune out and feel tired.\"\n\nWhat is easy for you to concentrate on?",
+    "intro": "On what's easy to concentrate on",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-10-2022",
+    "author": "Sam Altman",
+    "date": "2022-02-10",
+    "section": "Questions",
+    "explanation": "Sam Altman's guidance for identifying fulfilling work, emphasizing that natural concentration and energy levels can reveal what work aligns with personal strengths and interests"
+  },
+  {
+    "id": "2022-02-03-question",
+    "quote": "A question from Barrett Brooks on choosing your heroes:\n\n\"Here's the thing about your heroes: You have to know about them to look up to them. The candidate pool is 100% limited by your exposure. That's why so many kids look up to athletes, I think. They haven't been exposed to enough other people to look up to them.\n\nHere's how I think about that: Who haven't I been exposed to that would inspire me if I knew they existed or knew the details of their lives? And how could I learn about those people?\"",
+    "intro": "On choosing your heroes",
+    "newsletter_link": "https://jamesclear.com/3-2-1/february-3-2022",
+    "author": "Barrett Brooks",
+    "date": "2022-02-03",
+    "section": "Questions",
+    "explanation": "Barrett Brooks' framework for expanding role model selection, emphasizing that hero choices are limited by exposure and encouraging exploration of inspiring people from diverse fields"
+  },
+  {
+    "id": "2022-01-27-question",
+    "quote": "What is the most enjoyable five-minute stretch of your day? And how could you lengthen it to ten minutes?",
+    "intro": "On extending enjoyable moments",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-27-2022",
+    "author": "James Clear",
+    "date": "2022-01-27",
+    "section": "Questions",
+    "explanation": "A question for identifying and expanding positive moments in daily life, encouraging awareness of what brings joy and how to create more of it"
+  },
+  {
+    "id": "2022-01-20-question",
+    "quote": "A question from writer and programmer Simon Sarris:\n\nIf you know what you want, why are you waiting?",
+    "intro": "On why we wait",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-20-2022",
+    "author": "Simon Sarris",
+    "date": "2022-01-20",
+    "section": "Questions",
+    "explanation": "Simon Sarris' direct question about procrastination and action, challenging the gap between knowing what we want and taking steps to achieve it"
+  },
+  {
+    "id": "2022-01-13-question",
+    "quote": "How can I make the next 60 seconds as perfect and as present as possible?",
+    "intro": "On making the next 60 seconds perfect",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-13-2022",
+    "author": "James Clear",
+    "date": "2022-01-13",
+    "section": "Questions",
+    "explanation": "A mindfulness question for focusing on the present moment, encouraging immediate presence and quality in the next minute of experience"
+  },
+  {
+    "id": "2022-01-06-question",
+    "quote": "Habits need to be revised from time to time.\n\nWhich habits do you need to double down on this year? Which habits are no longer serving you and need to be replaced this year?",
+    "intro": "On revising habits",
+    "newsletter_link": "https://jamesclear.com/3-2-1/january-6-2022",
+    "author": "James Clear",
+    "date": "2022-01-06",
+    "section": "Questions",
+    "explanation": "A habit evaluation question for the new year, encouraging assessment of which habits to strengthen and which to replace for better outcomes"
+  }
+]
