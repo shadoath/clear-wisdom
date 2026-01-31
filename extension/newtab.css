@@ -101,15 +101,6 @@ body.search-mode .year-filter {
   display: flex;
 }
 
-.year-filter-label {
-  font-family: var(--font-family);
-  font-size: var(--font-size-small);
-  color: var(--text-light);
-  letter-spacing: 0.4pt;
-  text-transform: uppercase;
-  opacity: 0.9;
-}
-
 .year-filter-select {
   background: var(--bg-filter);
   border: 2px solid var(--border-light);
@@ -168,7 +159,8 @@ body.search-mode .year-filter {
   margin: var(--spacing-xl) auto;
   flex: 1;
   min-height: 0;
-  transition: opacity var(--transition-medium),
+  transition:
+    opacity var(--transition-medium),
     transform var(--transition-medium);
 }
 
@@ -535,7 +527,8 @@ body.search-mode .search-container-top.active .search-close-btn {
 }
 
 .content-body.scrollable {
-  box-shadow: 0 2px 8px var(--shadow-light),
+  box-shadow:
+    0 2px 8px var(--shadow-light),
     inset 0 -10px 20px -10px rgba(0, 0, 0, 0.1);
 }
 

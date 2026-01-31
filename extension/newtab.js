@@ -1208,6 +1208,25 @@ function setSearchPlaceholder() {
   $('#search-wisdom-quotes').attr('placeholder', placeholder)
 }
 
+function shouldShowAuthorAttribution(contentData) {
+  if (contentData.section !== 'Quotes') return false
+  if (!contentData.author?.trim()) return false
+
+  const authorName = contentData.author.trim()
+  if (authorName.toLowerCase() === 'james clear') return true
+
+  if (!contentData.quote?.trim()) return true
+
+  const plainTextQuote = markdownToPlainText(contentData.quote)
+  const escapedAuthor = authorName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const authorPattern = new RegExp(
+    `(?:^|\\s|—|–|-)${escapedAuthor}(?:\\s|$)`,
+    'i',
+  )
+
+  return !authorPattern.test(plainTextQuote)
+}
+
 function displayContent(contentData) {
   log('displayContent')
 
@@ -1308,12 +1327,8 @@ function displayContent(contentData) {
   applyExplanationVisibility()
   finishInitialRender()
 
-  // Display author only for Quotes section (compact version), but hide if author is James Clear
-  if (
-    contentData.section === 'Quotes' &&
-    contentData.author?.trim() &&
-    contentData.author !== 'James Clear'
-  ) {
+  // Display author attribution based on main content and author rules
+  if (shouldShowAuthorAttribution(contentData)) {
     authorAttribution.html(`— ${contentData.author}`)
     authorAttribution.show()
   } else {
