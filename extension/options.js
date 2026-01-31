@@ -1,4 +1,4 @@
-const boolean_buttons = ['hideCount']
+const boolean_buttons = ['hideCount', 'hideExplanation']
 $(() => {
   $.each(boolean_buttons, (i, boolean_button) => {
     window[boolean_button] = false

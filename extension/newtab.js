@@ -46,6 +46,7 @@ let explanationBox
 let mainContent
 let authorAttribution
 let newsletterLink
+let hideExplanation = false
 
 import { viewed } from './src/viewed.js'
 import { check_favorite, is_favoriting } from './src/favorites.js'
@@ -107,6 +108,10 @@ $(() => {
   chrome.storage.onChanged.addListener((changes, namespace) => {
     if (namespace === 'sync' && changes.hideCount) {
       updateCountVisibility()
+    }
+    if (namespace === 'sync' && changes.hideExplanation) {
+      hideExplanation = changes.hideExplanation.newValue || false
+      applyExplanationVisibility()
     }
     // Keep favorites-first ranking up to date when favorites change.
     if (namespace === 'sync') {
@@ -228,6 +233,15 @@ function updateCountVisibility() {
       $('#count-label').show()
     }
   })
+}
+
+function applyExplanationVisibility() {
+  if (!explanationBox) return
+  if (hideExplanation) {
+    explanationBox.hide()
+  } else {
+    explanationBox.show()
+  }
 }
 
 function loadClickListeners() {
@@ -1058,12 +1072,14 @@ function newTab() {
   newsletterLink = $('#newsletter-link')
 
   // Load saved preferences and category filters
-  chrome.storage.sync.get(['default', 'hideCount'], (result) => {
+  chrome.storage.sync.get(['default', 'hideCount', 'hideExplanation'], (result) => {
     // Note: default preference is no longer used since we use category filters
 
     setSearchPlaceholder()
     hideCount = result.hideCount || false
     updateCountVisibility()
+    hideExplanation = result.hideExplanation || false
+    applyExplanationVisibility()
 
     // Load category filters from storage
     loadCategoryFilters()
@@ -1130,7 +1146,9 @@ function refreshDisplay() {
   // Fade in content elements (author will be shown/hidden by displayContent)
   fadeIn(introHeading)
   fadeIn(dateDisplay)
-  fadeIn(explanationBox)
+  if (!hideExplanation) {
+    fadeIn(explanationBox)
+  }
   fadeIn(mainContent)
 }
 
@@ -1180,7 +1198,7 @@ function displayContent(contentData) {
   )
 
   // Show elements that might have been hidden during search
-  explanationBox.show()
+  applyExplanationVisibility()
   authorAttribution.show()
   newsletterLink.show()
 
