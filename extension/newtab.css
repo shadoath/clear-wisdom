@@ -168,6 +168,13 @@ body.search-mode .year-filter {
   margin: var(--spacing-xl) auto;
   flex: 1;
   min-height: 0;
+  transition: opacity var(--transition-medium),
+    transform var(--transition-medium);
+}
+
+body.loading .content-section {
+  opacity: 0;
+  transform: translateY(6px);
 }
 
 .logo-section {

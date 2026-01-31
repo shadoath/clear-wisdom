@@ -35,6 +35,7 @@ let availableYears = []
 
 // Overlay mode: 'none' | 'search' | 'favorites'
 let overlayMode = 'none'
+let hasCompletedInitialRender = false
 
 // Debounced search function
 let searchTimeout = null
@@ -176,6 +177,7 @@ function loadCategoryFilters() {
     // Update UI to reflect loaded state
     updateFilterButtons()
     setSearchPlaceholder() // Update placeholder based on loaded filter state
+    $('#search-category-filters').show()
   })
 }
 
@@ -237,11 +239,18 @@ function updateCountVisibility() {
 
 function applyExplanationVisibility() {
   if (!explanationBox) return
-  if (hideExplanation) {
+  const hasExplanation = explanationBox.text().trim().length > 0
+  if (hideExplanation || !hasExplanation) {
     explanationBox.hide()
   } else {
     explanationBox.show()
   }
+}
+
+function finishInitialRender() {
+  if (hasCompletedInitialRender) return
+  hasCompletedInitialRender = true
+  $('body').removeClass('loading')
 }
 
 function loadClickListeners() {
@@ -647,6 +656,8 @@ function displaySearchError(message) {
   newsletterLink.hide()
   introHeading.html('Search unavailable')
   mainContent.html(`<div class="search-hint"><p>${message}</p></div>`)
+  mainContent.show()
+  finishInitialRender()
 }
 
 function displaySearchResults(results) {
@@ -717,6 +728,8 @@ function displaySearchResults(results) {
   resultsHtml += '</div>'
 
   mainContent.html(resultsHtml)
+  mainContent.show()
+  finishInitialRender()
 
   // Store results in a global variable for click handlers to access
   window.currentSearchResults = results
@@ -786,6 +799,8 @@ function displayFavoritesResults(results, queryText) {
     mainContent.html(
       `<div class="search-hint"><p>No favorites found with the current filters.</p></div>`,
     )
+    mainContent.show()
+    finishInitialRender()
     window.currentSearchResults = []
     return
   }
@@ -819,6 +834,8 @@ function displayFavoritesResults(results, queryText) {
   })
   resultsHtml += '</div>'
   mainContent.html(resultsHtml)
+  mainContent.show()
+  finishInitialRender()
 
   window.currentSearchResults = results
 
@@ -862,6 +879,8 @@ function renderFavoritesList(queryText) {
     mainContent.html(
       `<div class="search-hint"><p>You haven’t favorited anything yet.</p></div>`,
     )
+    mainContent.show()
+    finishInitialRender()
     window.currentSearchResults = []
     return
   }
@@ -1039,6 +1058,8 @@ function displayNoFiltersMessage() {
       <p>Please enable at least one category filter to search.</p>
     </div>
   `)
+  mainContent.show()
+  finishInitialRender()
 }
 
 function displayNoResults(searchText) {
@@ -1047,13 +1068,17 @@ function displayNoResults(searchText) {
 
   introHeading.html(`No matches found for "${searchText}"`)
   mainContent.html('Try adjusting your search terms or browse all content.')
+  mainContent.show()
+  finishInitialRender()
 }
 
 function clearContentDisplay() {
   introHeading.html('')
   dateDisplay.html('')
   explanationBox.html('')
+  explanationBox.hide()
   mainContent.html('')
+  mainContent.hide()
   authorAttribution.html('')
   newsletterLink.html('')
 }
@@ -1070,6 +1095,13 @@ function newTab() {
   mainContent = $('#main-content')
   authorAttribution = $('#author-attribution')
   newsletterLink = $('#newsletter-link')
+  mainContent.hide()
+  explanationBox.hide()
+  // Avoid flash before hideCount is loaded
+  $('#count').hide()
+  $('#count-label').hide()
+  // Avoid flash before category filters are loaded
+  $('#search-category-filters').hide()
 
   // Load saved preferences and category filters
   chrome.storage.sync.get(['default', 'hideCount', 'hideExplanation'], (result) => {
@@ -1142,14 +1174,6 @@ function refreshDisplay() {
       displayContent(getRandomFromArray(allQuotes))
     }
   }
-
-  // Fade in content elements (author will be shown/hidden by displayContent)
-  fadeIn(introHeading)
-  fadeIn(dateDisplay)
-  if (!hideExplanation) {
-    fadeIn(explanationBox)
-  }
-  fadeIn(mainContent)
 }
 
 // Removed getQuotesBySection function - now using active filters directly
@@ -1198,7 +1222,6 @@ function displayContent(contentData) {
   )
 
   // Show elements that might have been hidden during search
-  applyExplanationVisibility()
   authorAttribution.show()
   newsletterLink.show()
 
@@ -1274,12 +1297,16 @@ function displayContent(contentData) {
   if (contentData.quote?.trim()) {
     const formattedContent = parseMarkdown(contentData.quote)
     mainContent.html(formattedContent)
+    mainContent.show()
 
     // Check if content is scrollable after rendering
     setTimeout(() => {
       checkContentScrollable()
     }, 100)
   }
+
+  applyExplanationVisibility()
+  finishInitialRender()
 
   // Display author only for Quotes section (compact version), but hide if author is James Clear
   if (
@@ -1360,6 +1387,8 @@ function showSearchHint(charCount) {
       </div>
     </div>
   `)
+  mainContent.show()
+  finishInitialRender()
 
   // Add click handlers to suggestions
   $('.search-suggestion').click(function (e) {
