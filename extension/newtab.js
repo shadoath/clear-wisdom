@@ -695,7 +695,7 @@ function displaySearchResults(results) {
     const previewText = getSearchPreviewText(item, searchTerm)
 
     const favoriteBadge = item._isFavorite
-      ? `<div class="search-result-favorite">★ Favorite</div>`
+      ? `<div class="search-result-favorite">❤️ Favorite</div>`
       : ''
 
     // Highlight search terms in preview text
@@ -1104,9 +1104,7 @@ function newTab() {
   $('#search-category-filters').hide()
 
   // Load saved preferences and category filters
-  chrome.storage.sync.get(['default', 'hideCount', 'hideExplanation'], (result) => {
-    // Note: default preference is no longer used since we use category filters
-
+  chrome.storage.sync.get(['hideCount', 'hideExplanation'], (result) => {
     setSearchPlaceholder()
     hideCount = result.hideCount || false
     updateCountVisibility()
