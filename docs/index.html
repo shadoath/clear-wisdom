@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Clear Wisdom — James Clear's 3-2-1 Newsletter in Every New Tab</title>
+    <meta
+      name="description"
+      content="Transform every new tab into a moment of wisdom. Clear Wisdom delivers 300+ insights, quotes, and reflection questions from James Clear's acclaimed 3-2-1 newsletter — free Chrome extension."
+    />
+    <meta
+      name="keywords"
+      content="James Clear, 3-2-1 newsletter, wisdom quotes, Chrome extension, new tab extension, atomic habits, personal growth, reflection questions, daily wisdom"
+    />
+    <meta name="author" content="Skylar Bolton" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="https://shadoath.github.io/clear-wisdom/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://shadoath.github.io/clear-wisdom/" />
+    <meta
+      property="og:title"
+      content="Clear Wisdom — James Clear's 3-2-1 Newsletter in Every New Tab"
+    />
+    <meta
+      property="og:description"
+      content="Transform every new tab into a moment of wisdom. 300+ insights, quotes, and reflection questions from James Clear's 3-2-1 newsletter. Free Chrome extension."
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/shadoath/clear-wisdom/main/extension/images/logo.png"
+    />
+    <meta property="og:site_name" content="Clear Wisdom" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Clear Wisdom — James Clear's 3-2-1 Newsletter in Every New Tab"
+    />
+    <meta
+      name="twitter:description"
+      content="Transform every new tab into a moment of wisdom. 300+ insights from James Clear's 3-2-1 newsletter. Free Chrome extension."
+    />
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/shadoath/clear-wisdom/main/extension/images/logo.png"
+    />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Clear Wisdom",
+        "applicationCategory": "BrowserApplication",
+        "applicationSubCategory": "Productivity",
+        "operatingSystem": "Chrome",
+        "description": "Transform every new tab into a moment of wisdom from James Clear's acclaimed 3-2-1 newsletter. 300+ insights, quotes, and reflection questions.",
+        "url": "https://shadoath.github.io/clear-wisdom/",
+        "downloadUrl": "https://chromewebstore.google.com/detail/clear-wisdom-gems-of-wisd/jijfmgoijddfmlcdghopbkdpelbpmjdm",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "creator": {
+          "@type": "Person",
+          "name": "Skylar Bolton",
+          "url": "https://github.com/shadoath"
+        },
+        "featureList": [
+          "Ideas from James Clear's 3-2-1 newsletter",
+          "Quotes from world-class thinkers",
+          "Reflection questions for personal growth",
+          "Full-text search across all content",
+          "Favorites system",
+          "300+ entries and growing"
+        ]
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Site navigation">
+      <div class="nav-inner">
+        <a href="/" class="nav-brand" aria-label="Clear Wisdom home">
+          <img
+            src="https://raw.githubusercontent.com/shadoath/clear-wisdom/main/extension/images/logo.png"
+            alt="Clear Wisdom logo"
+            width="36"
+            height="34"
+          />
+          <span>Clear Wisdom</span>
+        </a>
+        <a
+          href="https://chromewebstore.google.com/detail/clear-wisdom-gems-of-wisd/jijfmgoijddfmlcdghopbkdpelbpmjdm"
+          class="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Add Clear Wisdom to Chrome for free"
+        >
+          Add to Chrome &mdash; Free
+        </a>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-badge">Free Chrome Extension</div>
+          <h1>A moment of wisdom,<br />every new tab.</h1>
+          <p class="hero-sub">
+            Turn your most-opened browser page into a daily habit of reflection.
+            Clear Wisdom delivers insights, quotes, and questions from James
+            Clear's acclaimed <strong>3-2-1 newsletter</strong> &mdash; 300+
+            entries and counting.
+          </p>
+          <div class="hero-ctas">
+            <a
+              href="https://chromewebstore.google.com/detail/clear-wisdom-gems-of-wisd/jijfmgoijddfmlcdghopbkdpelbpmjdm"
+              class="btn btn-primary btn-large"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Add to Chrome &mdash; It's Free
+            </a>
+            <a
+              href="https://jamesclear.com/3-2-1"
+              class="btn btn-outline btn-large"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              About the Newsletter
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-mockup" aria-hidden="true">
+          <div class="mockup-window">
+            <div class="mockup-bar">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="mockup-url">New Tab</span>
+            </div>
+            <div class="mockup-content">
+              <div class="mockup-logo">
+                <img
+                  src="https://raw.githubusercontent.com/shadoath/clear-wisdom/main/extension/images/logo.png"
+                  alt=""
+                  width="48"
+                  height="45"
+                />
+              </div>
+              <div class="mockup-meta">Dec 25, 2025 &middot; Ideas</div>
+              <div class="mockup-heading">On knowing what not to do</div>
+              <div class="mockup-quote">
+                <p>"The amateur does not know what to do.</p>
+                <p>The master knows what <em>not</em> to do."</p>
+              </div>
+              <div class="mockup-explanation">
+                Mastery often looks like subtraction: removing distractions,
+                constraints, and unnecessary work.
+              </div>
+              <div class="mockup-author">&mdash; James Clear</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Stats bar -->
+    <section class="proof-bar" aria-label="Extension stats">
+      <div class="proof-inner">
+        <div class="proof-item">
+          <strong>300+</strong>
+          <span>Insights &amp; growing</span>
+        </div>
+        <div class="proof-divider" aria-hidden="true"></div>
+        <div class="proof-item">
+          <strong>6+</strong>
+          <span>Years of newsletters</span>
+        </div>
+        <div class="proof-divider" aria-hidden="true"></div>
+        <div class="proof-item">
+          <strong>3</strong>
+          <span>Content modes</span>
+        </div>
+        <div class="proof-divider" aria-hidden="true"></div>
+        <div class="proof-item">
+          <strong>Free</strong>
+          <span>Always &amp; forever</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features" aria-labelledby="features-title">
+      <div class="section-inner">
+        <h2 id="features-title">Everything you need for daily wisdom</h2>
+        <p class="section-sub">
+          Each new tab surfaces one carefully chosen piece of content from James
+          Clear's 3-2-1 newsletter archives, spanning 2019 to today.
+        </p>
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3>Ideas</h3>
+            <p>
+              Three original ideas per newsletter from James Clear &mdash;
+              practical insights on habits, decision-making, creativity, and
+              continuous improvement.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Quotes</h3>
+            <p>
+              Two quotes per newsletter from the world's greatest thinkers
+              &mdash; Marcus Aurelius, Lao Tzu, Seneca &mdash; hand-selected by
+              James Clear.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            </div>
+            <h3>Questions</h3>
+            <p>
+              One reflection question per newsletter designed to spark
+              meaningful introspection and prompt you to think more deeply about
+              your life.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3>Search</h3>
+            <p>
+              Full-text search across all 300+ entries. Find that quote you
+              half-remember, or explore every insight on a topic that matters to
+              you.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <h3>Favorites</h3>
+            <p>
+              Heart the insights that resonate most. Your favorites are saved
+              locally and accessible anytime &mdash; revisit the wisdom that
+              stays with you.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Private &amp; Offline</h3>
+            <p>
+              No account. No tracking. No external requests. All content is
+              bundled with the extension &mdash; your new tab loads instantly,
+              even offline.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content Preview -->
+    <section class="preview" id="preview" aria-labelledby="preview-title">
+      <div class="section-inner">
+        <h2 id="preview-title">A taste of the archive</h2>
+        <p class="section-sub">
+          Real content from the extension &mdash; one of three types you might
+          find on any given tab.
+        </p>
+
+        <div class="preview-tabs" role="tablist" aria-label="Content type examples">
+          <button
+            class="tab-btn active"
+            role="tab"
+            aria-selected="true"
+            aria-controls="tab-ideas"
+            data-tab="ideas"
+          >
+            Ideas
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            aria-controls="tab-quotes"
+            data-tab="quotes"
+          >
+            Quotes
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            aria-controls="tab-questions"
+            data-tab="questions"
+          >
+            Questions
+          </button>
+        </div>
+
+        <div class="tab-panels">
+          <div id="tab-ideas" class="tab-panel active" role="tabpanel">
+            <div class="sample-card">
+              <div class="sample-tag">Ideas</div>
+              <div class="sample-intro">On wandering and focusing</div>
+              <blockquote class="sample-quote">
+                "To learn, wander. To achieve, focus."
+              </blockquote>
+              <p class="sample-explanation">
+                A reminder that exploration fuels learning, but focus is what
+                turns effort into results.
+              </p>
+              <div class="sample-attribution">&mdash; James Clear</div>
+            </div>
+          </div>
+          <div id="tab-quotes" class="tab-panel" role="tabpanel" hidden>
+            <div class="sample-card">
+              <div class="sample-tag">Quotes</div>
+              <div class="sample-intro">On respect and self-alignment</div>
+              <blockquote class="sample-quote">
+                "When you are content to be simply yourself and don't compare or
+                compete, everybody will respect you."
+              </blockquote>
+              <p class="sample-explanation">
+                From the Tao Te Ching &mdash; a closer translation: "Because he
+                doesn't compare himself with others, no one can compare with
+                him."
+              </p>
+              <div class="sample-attribution">&mdash; Lao Tzu</div>
+            </div>
+          </div>
+          <div id="tab-questions" class="tab-panel" role="tabpanel" hidden>
+            <div class="sample-card">
+              <div class="sample-tag">Questions</div>
+              <div class="sample-intro">On moving from complaint to action</div>
+              <blockquote class="sample-quote">
+                "If you weren't allowed to complain about this thing anymore,
+                what action would you have to take?"
+              </blockquote>
+              <p class="sample-explanation">
+                A prompt to turn whatever you're experiencing into something you
+                can learn from.
+              </p>
+              <div class="sample-attribution">&mdash; James Clear</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="how-it-works" id="install" aria-labelledby="how-title">
+      <div class="section-inner">
+        <h2 id="how-title">Up and running in 30 seconds</h2>
+        <ol class="steps">
+          <li class="step">
+            <div class="step-num" aria-hidden="true">1</div>
+            <div class="step-text">
+              <h3>Add to Chrome</h3>
+              <p>
+                Click "Add to Chrome" on the Chrome Web Store and confirm the
+                install. Takes about 10 seconds.
+              </p>
+            </div>
+          </li>
+          <li class="step">
+            <div class="step-num" aria-hidden="true">2</div>
+            <div class="step-text">
+              <h3>Open a new tab</h3>
+              <p>
+                Your new tab is immediately replaced with a piece of wisdom from
+                the archive. No setup required.
+              </p>
+            </div>
+          </li>
+          <li class="step">
+            <div class="step-num" aria-hidden="true">3</div>
+            <div class="step-text">
+              <h3>Let it compound</h3>
+              <p>
+                One insight per tab. It doesn't feel like much until you look
+                back at what you've absorbed over months.
+              </p>
+            </div>
+          </li>
+        </ol>
+        <div class="how-cta">
+          <a
+            href="https://chromewebstore.google.com/detail/clear-wisdom-gems-of-wisd/jijfmgoijddfmlcdghopbkdpelbpmjdm"
+            class="btn btn-primary btn-large"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Add to Chrome &mdash; Free
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta-section" aria-labelledby="cta-title">
+      <div class="section-inner cta-inner">
+        <img
+          src="https://raw.githubusercontent.com/shadoath/clear-wisdom/main/extension/images/logo.png"
+          alt="Clear Wisdom"
+          width="72"
+          height="68"
+          class="cta-logo"
+        />
+        <h2 id="cta-title">Make every new tab count.</h2>
+        <p>
+          Free. Private. No account needed. Works offline after install.
+        </p>
+        <a
+          href="https://chromewebstore.google.com/detail/clear-wisdom-gems-of-wisd/jijfmgoijddfmlcdghopbkdpelbpmjdm"
+          class="btn btn-primary btn-large"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Add to Chrome &mdash; It's Free
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <p>
+          Content from
+          <a
+            href="https://jamesclear.com/3-2-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            >James Clear's 3-2-1 Newsletter</a
+          >. Built by
+          <a
+            href="https://github.com/shadoath"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Shadoath</a
+          >.
+        </p>
+        <nav class="footer-links" aria-label="Footer links">
+          <a
+            href="https://github.com/shadoath/clear-wisdom"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          <a
+            href="https://chromewebstore.google.com/detail/clear-wisdom-gems-of-wisd/jijfmgoijddfmlcdghopbkdpelbpmjdm"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Chrome Web Store</a
+          >
+          <a
+            href="https://jamesclear.com/3-2-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            >3-2-1 Newsletter</a
+          >
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      const tabBtns = document.querySelectorAll('.tab-btn');
+      const tabPanels = document.querySelectorAll('.tab-panel');
+
+      tabBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const target = btn.dataset.tab;
+
+          tabBtns.forEach((b) => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+          });
+          tabPanels.forEach((p) => {
+            p.classList.remove('active');
+            p.hidden = true;
+          });
+
+          btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
+          const panel = document.getElementById('tab-' + target);
+          panel.classList.add('active');
+          panel.hidden = false;
+        });
+      });
+    </script>
+  </body>
+</html>
