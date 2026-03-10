@@ -93,3 +93,7 @@ After editing any file, click the reload icon in `chrome://extensions/` and open
 
 All content is sourced from [James Clear's 3-2-1 Newsletter](https://jamesclear.com/3-2-1).
 Built by [Shadoath](https://github.com/shadoath).
+
+---
+
+A [Whiteboard Works](https://whiteboardworks.com) project.
